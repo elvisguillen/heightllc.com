@@ -6,19 +6,6 @@ media_folder: "/static/files/"
 public_folder: "/files/"
 
 collections:
-  - name: "news"
-    label: "News"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "blog"}
-      - {label: "Path", name: "path", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Attachment", name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
-      - {label: "Related Post", name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "blog", searchFields: [name, path, title], valueField: path}] }
   - name: "pages"
     label: "Pages"
     files:
@@ -34,6 +21,21 @@ collections:
         - {label: CTA Title, name: cta-title, widget: "string"}
         - {label: CTA Copy, name: cta-copy, widget: "string"}
         - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
+
+  - name: "news"
+    label: "News"
+    folder: "src/pages/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "blog"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Attachment", name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
+      - {label: "Related Post", name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "blog", searchFields: [name, path, title], valueField: path}] }
+
 
     # folder: "src/pages/about" 
     # create: false
