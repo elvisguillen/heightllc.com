@@ -16,12 +16,70 @@ collections:
         - {label: Title, name: title, widget: "string"}
         - {label: Type, name: type, widget: "hidden", default: home}
         - {label: Page, name: page, widget: "hidden", default: "/"}
+        - {label: "Content Type", name: "contentType", widget: "hidden", default: "page"}
         - {label: First Heading, name: heading-1, widget: "markdown"}
         - {label: Second Heading, name: heading-2, widget: "markdown"}
         - {label: Third Heading, name: heading-3, widget: "markdown"}
         - {label: CTA Title, name: cta-title, widget: "string"}
         - {label: CTA Copy, name: cta-copy, widget: "string"}
         - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
+
+      # - file: "src/pages/home"
+      #   label: "Expertise"
+      #   name: "expertise"
+      #   fields:
+      #   - {label: Title, name: title, widget: "string"}
+      #   - {label: Type, name: type, widget: "hidden", default: home}
+      #   - {label: Page, name: page, widget: "hidden", default: "/"}
+      #   - {label: "Content Type", name: "contentType", widget: "hidden", default: "page"}
+      #   - {label: First Heading, name: heading-1, widget: "markdown"}
+      #   - {label: Second Heading, name: heading-2, widget: "markdown"}
+      #   - {label: Third Heading, name: heading-3, widget: "markdown"}
+      #   - {label: CTA Title, name: cta-title, widget: "string"}
+      #   - {label: CTA Copy, name: cta-copy, widget: "string"}
+      #   - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
+
+      # - file: "src/pages/home"
+      #   label: "The Team"
+      #   name: "the-team"
+      #   fields:
+      #   - {label: Title, name: title, widget: "string"}
+      #   - {label: Type, name: type, widget: "hidden", default: home}
+      #   - {label: Page, name: page, widget: "hidden", default: "/"}
+      #   - {label: First Heading, name: heading-1, widget: "markdown"}
+      #   - {label: Second Heading, name: heading-2, widget: "markdown"}
+      #   - {label: Third Heading, name: heading-3, widget: "markdown"}
+      #   - {label: CTA Title, name: cta-title, widget: "string"}
+      #   - {label: CTA Copy, name: cta-copy, widget: "string"}
+      #   - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
+
+      # - file: "src/pages/home"
+      #   label: "News"
+      #   name: "news"
+      #   fields:
+      #   - {label: Title, name: title, widget: "string"}
+      #   - {label: Type, name: type, widget: "hidden", default: home}
+      #   - {label: Page, name: page, widget: "hidden", default: "/"}
+      #   - {label: First Heading, name: heading-1, widget: "markdown"}
+      #   - {label: Second Heading, name: heading-2, widget: "markdown"}
+      #   - {label: Third Heading, name: heading-3, widget: "markdown"}
+      #   - {label: CTA Title, name: cta-title, widget: "string"}
+      #   - {label: CTA Copy, name: cta-copy, widget: "string"}
+      #   - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
+
+      # - file: "src/pages/home"
+      #   label: "Contact"
+      #   name: "home"
+      #   fields:
+      #   - {label: Title, name: title, widget: "string"}
+      #   - {label: Type, name: type, widget: "hidden", default: home}
+      #   - {label: Page, name: page, widget: "hidden", default: "/"}
+      #   - {label: First Heading, name: heading-1, widget: "markdown"}
+      #   - {label: Second Heading, name: heading-2, widget: "markdown"}
+      #   - {label: Third Heading, name: heading-3, widget: "markdown"}
+      #   - {label: CTA Title, name: cta-title, widget: "string"}
+      #   - {label: CTA Copy, name: cta-copy, widget: "string"}
+      #   - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
 
   - name: "news"
     label: "News"
