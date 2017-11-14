@@ -37,12 +37,13 @@ collections:
       - {label: "Attachment", name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
       - {label: "Related Post", name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "blog", searchFields: [name, path, title], valueField: path}] }
 
-
-    # folder: "src/pages/about" 
-    # create: false
-    # slug: "{{slug}}"
-    # fields:
-    #   - {label: "Content Type", name: "contentType", widget: "hidden", default: "about"}
-    #   - {label: "Path", name: "path", widget: "hidden", default: "/about"}
-    #   - {label: "Title", name: "title", widget: "string"}
-    #   - {label: "Body", name: "body", widget: "markdown"}
+  - name: "about"
+    label: "About"  
+    folder: "src/pages/about" 
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "about"}
+      - {label: "Path", name: "path", widget: "hidden", default: "/about"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
