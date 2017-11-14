@@ -3,12 +3,12 @@ contentType: page
 title: Home
 type: home
 path: /
-heading-1:
-heading-2:
-heading-3:
-cta-title:
-cta-copy:
-cta-link:
+heading-1: test
+heading-2: test
+heading-3: test
+cta-title: test
+cta-copy: test
+cta-link: test
 ---
 This is a placeholder page.
 
