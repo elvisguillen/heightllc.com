@@ -1,7 +1,7 @@
 ---
-contentType: about
-path: /about
-title: About Me
+contentType: page
+path: /
+title: Home
 ---
 This is a placeholder page.
 
