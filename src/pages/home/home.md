@@ -2,7 +2,7 @@
 contentType: page
 title: Home
 type: home
-page: /
+path: /
 heading-1:
 heading-2:
 heading-3:
