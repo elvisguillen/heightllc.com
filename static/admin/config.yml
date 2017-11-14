@@ -9,7 +9,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/home"
+      - file: "src/pages/home/home.md"
         label: "Home Page"
         name: "home"
         slug: "{{slug}}"
