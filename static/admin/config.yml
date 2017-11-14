@@ -9,11 +9,10 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/home"
+      - folder: "src/pages/home"
         label: "Home Page"
         name: "home"
         fields:
-        - {label: "Content Type", name: "contentType", widget: "hidden", default: "page"}
         - {label: Title, name: title, widget: "string"}
         - {label: Type, name: type, widget: "hidden", default: home}
         - {label: Page, name: page, widget: "hidden", default: "/"}
