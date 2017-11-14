@@ -12,6 +12,7 @@ collections:
       - file: "src/pages/home"
         label: "Home Page"
         name: "home"
+        slug: "{{slug}}"
         fields:
         - {label: Title, name: title, widget: "string"}
         - {label: Type, name: type, widget: "hidden", default: home}
