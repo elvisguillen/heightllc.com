@@ -9,7 +9,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - folder: "src/pages/home"
+      - file: "src/pages/home"
         label: "Home Page"
         name: "home"
         fields:
