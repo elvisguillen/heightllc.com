@@ -10,11 +10,12 @@ collections:
     label: "Pages"
     files:
       - folder: "src/pages/home"
-      - label: "Home Page"
-      - name: "home"
-      - fields:
+        label: "Home Page"
+        name: "home"
+        fields:
         - {label: Title, name: title, widget: "string"}
-        - {label: "Path", name: "path", widget: "hidden", default: "/"}
+        - {label: Type, name: type, widget: "hidden", default: home}
+        - {label: Page, name: page, widget: "hidden", default: "/"}
         - {label: First Heading, name: heading-1, widget: "markdown"}
         - {label: Second Heading, name: heading-2, widget: "markdown"}
         - {label: Third Heading, name: heading-3, widget: "markdown"}
