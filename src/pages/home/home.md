@@ -1,5 +1,5 @@
 ---
-contentType: page
+contentType: home
 title: Home
 type: home
 heading1: |-
