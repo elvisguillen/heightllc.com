@@ -2,7 +2,7 @@
 contentType: page
 title: Home
 type: home
-heading-1: |-
+heading1: |-
   Elius et
 
   prorundicid to
@@ -10,7 +10,7 @@ heading-1: |-
   es moditio ratintet 
 
   ipsum molupta ssimillec.
-heading-2: |-
+heading2: |-
   Elius et
 
   prorundicid to 
@@ -18,7 +18,7 @@ heading-2: |-
   es moditio ratintet 
 
   ipsum molupta ssimillec.
-heading-3: |-
+heading3: |-
   Elius et
 
   prorundicid to 
