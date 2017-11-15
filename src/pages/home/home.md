@@ -1,8 +1,9 @@
 ---
 contentType: page
+path: /
 title: Home
 type: home
-heading-1: >-
+heading1: >-
   Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
   daikon amaranth tatsoi tomatillo melon azuki bean garlic.
 
@@ -20,8 +21,8 @@ heading-1: >-
   water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.
   Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper
   artichoke.
-heading-2: test
-heading-3: test
+heading2: test
+heading3: test
 cta-title: test
 cta-copy: test
 cta-link: /about
