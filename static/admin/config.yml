@@ -24,14 +24,13 @@ collections:
         - {label: CTA Title, name: cta-title, widget: "string"}
         - {label: CTA Copy, name: cta-copy, widget: "string"}
         - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
-
       - file: "src/pages/expertise/expertise.md"
         label: "Expertise"
         name: "expertise"
         fields:
         - {label: Title, name: title, widget: "string"}
         - {label: Type, name: type, widget: "hidden", default: home}
-        - {label: Page, name: page, widget: "hidden", default: "/"}
+        - {label: Page, name: page, widget: "hidden", default: "/expertise"}
         - {label: "Content Type", name: "contentType", widget: "hidden", default: "page"}
         - {label: First Heading, name: heading-1, widget: "markdown"}
         - {label: Second Heading, name: heading-2, widget: "markdown"}
@@ -39,14 +38,13 @@ collections:
         - {label: CTA Title, name: cta-title, widget: "string"}
         - {label: CTA Copy, name: cta-copy, widget: "string"}
         - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
-
       - file: "src/pages/the-team/the-team.md"
         label: "The Team"
         name: "the-team"
         fields:
         - {label: Title, name: title, widget: "string"}
         - {label: Type, name: type, widget: "hidden", default: home}
-        - {label: Page, name: page, widget: "hidden", default: "/"}
+        - {label: Page, name: page, widget: "hidden", default: "/the-team"}
         - {label: First Heading, name: heading-1, widget: "markdown"}
         - {label: Second Heading, name: heading-2, widget: "markdown"}
         - {label: Third Heading, name: heading-3, widget: "markdown"}
@@ -74,7 +72,7 @@ collections:
         fields:
         - {label: Title, name: title, widget: "string"}
         - {label: Type, name: type, widget: "hidden", default: home}
-        - {label: Page, name: page, widget: "hidden", default: "/"}
+        - {label: Page, name: page, widget: "hidden", default: "/contact"}
         - {label: First Heading, name: heading-1, widget: "markdown"}
         - {label: Second Heading, name: heading-2, widget: "markdown"}
         - {label: Third Heading, name: heading-3, widget: "markdown"}
