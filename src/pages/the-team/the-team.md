@@ -1,6 +1,5 @@
 ---
-contentType: page
-title: Home
+title: The Team
 type: home
 heading-1: >-
   Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
