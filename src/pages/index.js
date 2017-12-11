@@ -9,16 +9,13 @@ import Press_Release from '../components/press-release.js'
 import Height_Feed from '../components/height-feed'
 import FeedContent from '../components/FeedContent'
 import heightScroll from '../components/height-scroll'
+import {WOW} from 'wowjs/dist/wow.js'
 
 import team1 from '../images/team_stefanie.png'
 
 import './home.scss'
 
 import logocolor from '../images/logo-color.png'
-
-
-import AOS from 'aos/dist/aos.js'
-
 
 // const scrollWindow = () => (
 //   elmnt = document.getElementById('home-page');
@@ -30,7 +27,7 @@ import AOS from 'aos/dist/aos.js'
 export default class IndexPage extends Component {
 
   componentDidMount() {
-    new AOS.init()
+    new WOW().init();
   }
   // constructor(props) {
   //   super(props)

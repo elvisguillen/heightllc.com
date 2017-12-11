@@ -5,8 +5,6 @@ import graphql from 'graphql'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Typography from 'typography'
-
-// import {WOW} from 'wowjs/dist/wow.js'
 import { slide as Menu } from 'react-burger-menu'
 
 
@@ -41,8 +39,6 @@ const typography = new Typography({
 })
 
 typography.injectStyles()
-
-// new WOW().init();
 
 const TemplateWrapper = ({ children, data }) => {
   let user
