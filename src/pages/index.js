@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 import graphql from 'graphql'
 import { fadeInLeft, fadeInRight } from 'react-animations'
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax'
-import AOS from 'aos/dist/aos.js'
 import Cloud from '../components/parallax/clouds.js'
 import Press_Release from '../components/press-release.js'
 import Height_Feed from '../components/height-feed'
@@ -17,9 +16,9 @@ import './home.scss'
 
 import logocolor from '../images/logo-color.png'
 
-if(typeof window == "undefined"){
-  new AOS.init()
-}
+
+import AOS from 'aos/dist/aos.js'
+
 
 // const scrollWindow = () => (
 //   elmnt = document.getElementById('home-page');
@@ -29,6 +28,10 @@ if(typeof window == "undefined"){
 // )
 
 export default class IndexPage extends Component {
+
+  componentDidMount() {
+    new AOS.init()
+  }
   // constructor(props) {
   //   super(props)
   //   this.state = false
