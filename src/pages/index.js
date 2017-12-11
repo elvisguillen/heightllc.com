@@ -17,7 +17,7 @@ import './home.scss'
 
 import logocolor from '../images/logo-color.png'
 
-new AOS.init()
+// new AOS.init()
 
 // const scrollWindow = () => (
 //   elmnt = document.getElementById('home-page');
