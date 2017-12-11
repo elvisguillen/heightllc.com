@@ -43,18 +43,159 @@
 // bootswatch theme overrides
 @import "node_modules/bootswatch/dist/cosmo/bootswatch";
 
+// Animate.css Animation Library
+// @import "node_modules/animate.css/animate";
+
+
+//FONTS//
+
+@font-face {
+	font-family: 'MuseoSans';
+	src: url('../fonts/MuseoSans-100.eot?#iefix') format('embedded-opentype'),  url('../fonts/MuseoSans-100.otf')  format('opentype'),
+		   url('../fonts/MuseoSans-100.woff') format('woff'), url('../fonts/MuseoSans-100.ttf')  format('truetype'), url('../fonts/MuseoSans-100.svg#MuseoSans-100') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  
+  @font-face {
+	font-family: 'BebasNeueBook';
+	src: url('../fonts/BebasNeueBook.eot?#iefix') format('embedded-opentype'),  url('../fonts/BebasNeueBook.otf')  format('opentype'),
+		   url('../fonts/BebasNeueBook.woff') format('woff'), url('../fonts/BebasNeueBook.ttf')  format('truetype'), url('../fonts/BebasNeueBook.svg#BebasNeueBook') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+/* -- VARIABLES -- */
+
+/* BRAND COLORS */
+
+$blue: #2e3f8d;
+$dark-blue: #262559;
+$teal: #31aadf;
+$gray: #e7e7e8;
+$text-purple: #9493b0;
+$copy-color: #819298;
+
+/* FONTS */
+
+$bebas: 'BebasNeueBook';
+$museo: 'MuseoSans';
+
+
 body {
   margin-top: 80px;
+  overflow-x: hidden;
 }
 
 img {
   max-width: 100%;
 }
 
-.navbar-nav {
-  flex-direction: row!important;
+.site-layout {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+a {
+	transition: all 0.5s;
+	&:hover {
+		color: $teal!important;
+		text-decoration: none;
+	}
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column!important;
+  order: 1;
+  z-index: 2;
 
   & > * {
     padding-left: 10px; 
   }
 }
+
+.content {
+	display: flex;
+	flex-direction: column;
+	order: 0;
+	flex-grow: 3;
+}
+
+.wow { visibility: hidden; }
+
+
+p {
+	font-size: 20px;
+	color: $copy-color;
+	line-height: 39px;
+	font-weight: 200;
+}
+
+header.bebas {
+	font-family: $bebas;
+	font-size: 16px;
+	color: white;
+	border-bottom: 1px solid white;
+	letter-spacing: 4px;
+	padding: 20px 0px;
+	margin-bottom: 20px;
+}
+
+.date {
+	@extend header.bebas;
+	font-size: 18px;
+	color: $teal!important;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: $blue;
+	padding: 50px;
+	.footerlinks {
+		list-style: none;
+		margin: 0 auto;
+
+		li {
+			float: left;
+			border-right: 1px solid $text-purple;
+			padding: 0px 10px;
+			height: 20px;
+		
+			a {
+				color: $text-purple;
+				float: left;
+				font-family: 'BebasNeueBook';
+				font-size: 16px;
+				letter-spacing: 4px;
+				margin-bottom: 15px;
+
+				&:hover {
+					color: white!important;
+				}
+
+			}
+
+			&:last-of-type {
+				border-right: 0px;
+			}
+		}
+	}
+
+	.copyright {
+		float: none;
+		width: 100%;
+		text-align: center;
+
+		p {
+			font-size: 15px;
+			color: white;
+		}
+	}
+}
+

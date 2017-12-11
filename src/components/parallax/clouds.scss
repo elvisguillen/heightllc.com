@@ -1,0 +1,52 @@
+// PARALLAX //
+
+.parallax-outer {
+	position: absolute;
+
+	&.par-cloud1 {
+		top: 700px;
+		width: 430px;
+		left: 0px;
+	}
+
+	&.par-cloud2 {
+		top: 1200px;
+		width: 890px;
+		margin-left: 50%;
+		left: -440px;
+	}
+
+	&.par-cloud3 {
+		top: 1600px;
+		width: 380px;
+		margin-left: 50%;
+		left: -190px;
+	}
+
+	&.par-cloud4 {
+		top: 1900px;
+		width: 890px;
+		right: 0px;
+	}
+
+	&.par-moon {
+		top: 1280px;
+		width: 245px;
+        margin-left: 50%;
+        left: -120px;
+	}
+
+	&.par-bridge {
+		width: 100%;
+		top: 2050px;
+		z-index: 1;
+		
+	}
+
+	&.par-monument {
+		width: 40px;
+		top: 2200px;
+		z-index: 0;
+		left: 63%;
+	}
+}
