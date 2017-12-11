@@ -195,6 +195,17 @@ section.cta {
 	padding-bottom: 1000px!important;
 }
 
+.monument-height {
+	z-index: 2;
+    position: absolute!important;
+    top: 2328px;
+}
+
+.height-number-fixed {
+	position: absolute;
+    top: 2318px;
+}
+
 .circular-heading {
 	width: 80%!important;
     height: 1000px;

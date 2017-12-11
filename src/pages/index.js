@@ -27,7 +27,10 @@ import logocolor from '../images/logo-color.png'
 export default class IndexPage extends Component {
   constructor(props) {
     super(props)
-    this.state = {heightPosition: 3119}
+    this.state = {
+      heightPosition: 3119,
+      isFixed: false
+    }
     this.handleScroll = this.handleScroll.bind(this)
   }
 
@@ -44,6 +47,15 @@ export default class IndexPage extends Component {
     const scrollBottom = 3119 - scrollTop * 1.2
     const heightFeet = Math.round(scrollBottom)
     this.setState({ heightPosition: heightFeet })
+    
+    const monumentHeight = scrollTop > 2140;
+    
+    if (monumentHeight) {
+      this.setState({ isFixed: true })
+      console.log('STICKY YO')
+    } else {
+      this.setState({ isFixed: false })
+    }
   }
   
   // constructor(props) {
@@ -68,7 +80,7 @@ export default class IndexPage extends Component {
       
       <section className="topbar">
       </section>
-      <p className='height-position'>{this.state.heightPosition}'</p>
+      <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}>{this.state.heightPosition}'</p>
       <section id='top-scroll' className="top">
         <Container>
             <Col className="heading first-heading text-left" md={{size: 8, offset: 0}}>
@@ -123,6 +135,11 @@ export default class IndexPage extends Component {
             </Fade>
           </Col>
 
+
+          <Col className="monument-height" md={{size: 8, offset: 0}}>
+            <h4>Height of The Washington Monument</h4>
+          </Col>
+          
             <Col className="heading circular-heading text-right">
               <div className='branding-color'>
                 <img className="logo-color" src={logocolor} />
