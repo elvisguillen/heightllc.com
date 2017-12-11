@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import graphql from 'graphql'
 import { fadeInLeft, fadeInRight } from 'react-animations'
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax'
-// import AOS from 'aos/dist/aos.js'
+import AOS from 'aos/dist/aos.js'
 import Cloud from '../components/parallax/clouds.js'
 import Press_Release from '../components/press-release.js'
 import Height_Feed from '../components/height-feed'
@@ -17,7 +17,9 @@ import './home.scss'
 
 import logocolor from '../images/logo-color.png'
 
-// new AOS.init()
+if(typeof window == "undefined"){
+  new AOS.init()
+}
 
 // const scrollWindow = () => (
 //   elmnt = document.getElementById('home-page');
