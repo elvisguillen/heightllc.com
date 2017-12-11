@@ -9,6 +9,19 @@
 
 }
 
+.height-position {
+	font-family: $bebas;
+	font-size: 18px;
+	color: $text-purple;
+	padding-left: 30px;
+	letter-spacing: 2px;
+	width: 73px;
+	position: fixed;
+	top: 180px;
+	z-index: 10;
+	border-bottom: 1px solid $text-purple;
+}
+
 .react-reveal {
 	opacity: 0;
 	z-index: 2;
@@ -24,7 +37,7 @@
 section.top {
 	background-color: $blue;
 	height: auto;
-	padding: 40px;
+	padding: 0px 128px;
 
 	h1 {
 		color: white;
@@ -53,7 +66,7 @@ section.top {
 	}
 
 	.heading {
-		padding: 200px 0px 200px 0px;
+		padding: 191px 0px 200px 0px;
 	}
 
 	.branding-color {
@@ -68,7 +81,7 @@ section.height-press-releases {
 	height: auto;
 
 	.height-press-featured {
-		padding: 0px 60px;
+		padding: 0px 41px;
 
 		.height-featured-image {
 			cursor: pointer;

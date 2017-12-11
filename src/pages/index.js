@@ -25,10 +25,27 @@ import logocolor from '../images/logo-color.png'
 // )
 
 export default class IndexPage extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {heightPosition: 3119}
+    this.handleScroll = this.handleScroll.bind(this)
+  }
 
   componentDidMount() {
-
+    document.addEventListener('scroll', this.handleScroll)
   }
+  
+  componentWillUnmount() {
+    document.removeEventListener('scroll', this.handleScroll)
+  }
+
+  handleScroll() {
+    const scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    const scrollBottom = 3119 - scrollTop * 1.2
+    const heightFeet = Math.round(scrollBottom)
+    this.setState({ heightPosition: heightFeet })
+  }
+  
   // constructor(props) {
   //   super(props)
   //   this.state = false
@@ -44,12 +61,14 @@ export default class IndexPage extends Component {
   // }
   
   render() {
+
     return(
+      
       <div id='home-page'>
       
       <section className="topbar">
-        <heightScroll></heightScroll>
       </section>
+      <p className='height-position'>{this.state.heightPosition}'</p>
       <section id='top-scroll' className="top">
         <Container>
             <Col className="heading first-heading text-left" md={{size: 8, offset: 0}}>
