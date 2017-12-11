@@ -11,6 +11,7 @@
 
 .react-reveal {
 	opacity: 0;
+	z-index: 2;
 }
 
 .wrapper {
@@ -143,8 +144,8 @@ section.cta {
 					color: $dark-blue;
 				}
 
-				&:last-of-type {
-					border-bottom: 0px;
+				&.last-type {
+					border-bottom: 0px!important;
 				}
 			}
 			
@@ -154,7 +155,7 @@ section.cta {
 			font-family: $museo;
 			font-size: 24px;
 			margin-left: 1.666rem;
-			
+			color: $teal;
 		}
 	}
 

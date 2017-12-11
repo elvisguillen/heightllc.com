@@ -70,11 +70,11 @@ const TemplateWrapper = ({ children, data }) => {
               <img src={logo} />
             </Col>
             <Col md={{ size: 4, offset: 5 }}>
-              <a data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true" className='menu-item' href='#'>Expertise</a>
-              <a data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true" className='menu-item' href='#'>Our Services</a>
-              <a data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true" className='menu-item' href='#'>The Team</a>
-              <a data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true" className='menu-item' href='#'>News</a>
-              <a data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true" className='menu-item' href='#'>Contact</a>
+              <a className='menu-item' href='#'>Our Services</a>
+              <a className='menu-item' href='#'>Expertise</a>
+              <a className='menu-item' href='#'>The Team</a>
+              <a className='menu-item' href='#'>News</a>
+              <a className='menu-item' href='#'>Contact</a>
             </Col>
           </Row>
           </Container>

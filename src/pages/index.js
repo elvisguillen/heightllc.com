@@ -53,19 +53,19 @@ export default class IndexPage extends Component {
       <section id='top-scroll' className="top">
         <Container>
             <Col className="heading first-heading text-left" md={{size: 8, offset: 0}}>
-              <Fade right delay={100}>
+              <Fade right>
                 <h4>Heading</h4>
               </Fade>
-              <Fade right delay={150}>
+              <Fade right delay={50}>
                 <h1>Elius et</h1>
               </Fade>
-              <Fade right delay={200}>
+              <Fade right delay={100}>
                 <h1>prorundicid to</h1>
               </Fade>
-              <Fade right delay={250}>
+              <Fade right delay={150}>
                 <h1>es moditio ratintet</h1>
               </Fade>
-              <Fade right delay={300}>
+              <Fade right delay={200}>
                 <h1>ipsum molupta ssimillec.</h1>
               </Fade>
             </Col>
@@ -86,19 +86,29 @@ export default class IndexPage extends Component {
                 <h1>ipsum molupta ssimillec.</h1>
             </Fade>
           </Col>
-          <Col className="heading third-heading text-left" md={{size: 8, offset: 0}} data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-out-quad" data-aos-duration="600" data-aos-once="true">
+          <Col className="heading third-heading text-left" md={{size: 8, offset: 0}}>
+            <Fade right>
               <h4>Heading</h4>
-              <h1 data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">Elius et</h1>
-              <h1 data-aos="fade-left" data-aos-delay="300" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">prorundicid to</h1>
-              <h1 data-aos="fade-left" data-aos-delay="400" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">es moditio ratintet</h1>
-              <h1 data-aos="fade-left" data-aos-delay="500" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">ipsum molupta ssimillec.</h1>
+            </Fade>
+            <Fade right delay={50}>
+              <h1>Elius et</h1>
+            </Fade>
+            <Fade right delay={100}>
+              <h1>prorundicid to</h1>
+            </Fade>
+            <Fade right delay={150}>
+              <h1>es moditio ratintet</h1>
+            </Fade>
+            <Fade right delay={200}>
+              <h1>ipsum molupta ssimillec.</h1>
+            </Fade>
           </Col>
-  
-          <Col className="heading circular-heading text-right"   data-aos="fade" data-aos-offset="200" data-aos-easing="ease-in-out-quad" data-aos-duration="600" data-aos-once="true">
-            <div className='branding-color'>
-              <img className="logo-color" src={logocolor} />
-            </div>
-          </Col>
+
+            <Col className="heading circular-heading text-right">
+              <div className='branding-color'>
+                <img className="logo-color" src={logocolor} />
+              </div>
+            </Col>
         </Container>
       </section>
   
@@ -107,27 +117,40 @@ export default class IndexPage extends Component {
           <Row>
             <Col className='cta-left' md={{size: 4}}>
               <ul className="cta-links">
-                <li data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">
-                  <a href='#'>Research</a>
-                </li>
-                <li data-aos="fade-left" data-aos-delay="300" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">
-                  <a href='#'>Investment Banking</a>
-                </li>
-                <li data-aos="fade-left" data-aos-delay="400" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">
-                  <a href='#'>Sales + Trading</a>
-                </li>
-                <li data-aos="fade-left" data-aos-delay="500" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">
-                  <a href='#'>Advisory</a>
-                </li>
+                  <Fade left>
+                    <li>
+                      <a href='#'>Research</a>
+                    </li>
+                  </Fade>
+                  <Fade left delay={50}>
+                    <li>
+                        <a href='#'>Investment Banking</a>  
+                    </li>
+                  </Fade>
+                
+                  <Fade left delay={100}>
+                    <li>
+                      <a href='#'>Sales + Trading</a>
+                    </li>
+                  </Fade>
+
+                  <Fade left delay={150}>
+                    <li className='last-type'>
+                      <a href='#'>Advisory</a> 
+                    </li>
+                  </Fade>
               </ul>
-  
-              <a data-aos="fade-left" data-aos-delay="600" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true" className='cta-link' href='#'>Expertise ></a>
+              <Fade left delay={200}>
+                <a className='cta-link'>Expertise ></a>
+              </Fade>
             </Col>
             <Col className='cta-right' md={{size: 8}}>
-              <div data-aos="fade" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">
-                <h1>Insights, Elevated.</h1>  
-                <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt est, custrumque alibero modi aliquas nusa dunt sunt eossitas et repudi eossitas et repudi ipsandam nis modis alit, to eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, dolor acid ut vel mi hendrerit eu sapien.</p>
-              </div>
+              <Fade right>
+                
+                  <h1>Insights, Elevated.</h1>  
+                  <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt est, custrumque alibero modi aliquas nusa dunt sunt eossitas et repudi eossitas et repudi ipsandam nis modis alit, to eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, dolor acid ut vel mi hendrerit eu sapien.</p>
+              
+              </Fade>
             </Col>
           </Row>
         </Container>
