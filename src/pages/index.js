@@ -9,7 +9,7 @@ import Press_Release from '../components/press-release.js'
 import Height_Feed from '../components/height-feed'
 import FeedContent from '../components/FeedContent'
 import heightScroll from '../components/height-scroll'
-import {WOW} from 'wowjs/dist/wow.js'
+import Fade from 'react-reveal/Fade'; 
 
 import team1 from '../images/team_stefanie.png'
 
@@ -27,7 +27,7 @@ import logocolor from '../images/logo-color.png'
 export default class IndexPage extends Component {
 
   componentDidMount() {
-    new WOW().init();
+
   }
   // constructor(props) {
   //   super(props)
@@ -52,13 +52,25 @@ export default class IndexPage extends Component {
       </section>
       <section id='top-scroll' className="top">
         <Container>
-          <Col className="heading first-heading text-left" md={{size: 8, offset: 0}} data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-out-quad" data-aos-duration="600" data-aos-once="true">
-              <h4>Heading</h4>
-              <h1 data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">Elius et</h1>
-              <h1 data-aos="fade-left" data-aos-delay="300" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">prorundicid to</h1>
-              <h1 data-aos="fade-left" data-aos-delay="400" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">es moditio ratintet</h1>
-              <h1 data-aos="fade-left" data-aos-delay="500" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">ipsum molupta ssimillec.</h1>
-          </Col>
+            <Fade right>
+            <Col className="heading first-heading text-left" md={{size: 8, offset: 0}}>
+              <Fade right delay={300}>
+                <h4>Heading</h4>
+              </Fade>
+              <Fade right delay={350}>
+                <h1>Elius et</h1>
+              </Fade>
+              <Fade right delay={400}>
+                <h1>prorundicid to</h1>
+              </Fade>
+              <Fade right delay={450}>
+                <h1>es moditio ratintet</h1>
+              </Fade>
+              <Fade right delay={500}>
+                <h1>ipsum molupta ssimillec.</h1>
+              </Fade>
+            </Col>
+          </Fade>
           <Col className="heading second-heading text-right" md={{size: 8, offset: 4}} data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="600" data-aos-once="true">
               <h4>Heading</h4>
               <h1 data-aos="fade-right" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">Elius et</h1>
