@@ -52,31 +52,39 @@ export default class IndexPage extends Component {
       </section>
       <section id='top-scroll' className="top">
         <Container>
-            <Fade right>
             <Col className="heading first-heading text-left" md={{size: 8, offset: 0}}>
-              <Fade right delay={300}>
+              <Fade right delay={100}>
                 <h4>Heading</h4>
               </Fade>
-              <Fade right delay={350}>
+              <Fade right delay={150}>
                 <h1>Elius et</h1>
               </Fade>
-              <Fade right delay={400}>
+              <Fade right delay={200}>
                 <h1>prorundicid to</h1>
               </Fade>
-              <Fade right delay={450}>
+              <Fade right delay={250}>
                 <h1>es moditio ratintet</h1>
               </Fade>
-              <Fade right delay={500}>
+              <Fade right delay={300}>
                 <h1>ipsum molupta ssimillec.</h1>
               </Fade>
             </Col>
-          </Fade>
-          <Col className="heading second-heading text-right" md={{size: 8, offset: 4}} data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="600" data-aos-once="true">
-              <h4>Heading</h4>
-              <h1 data-aos="fade-right" data-aos-delay="200" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">Elius et</h1>
-              <h1 data-aos="fade-right" data-aos-delay="300" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">prorundicid to</h1>
-              <h1 data-aos="fade-right" data-aos-delay="400" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">es moditio ratintet</h1>
-              <h1 data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-out-quart" data-aos-duration="800" data-aos-once="true">ipsum molupta ssimillec.</h1>
+          <Col className="heading second-heading text-right" md={{size: 8, offset: 4}}>
+            <Fade left>
+                <h4>Heading</h4>
+            </Fade>
+            <Fade left delay={50}>
+                <h1>Elius et</h1>
+            </Fade>
+            <Fade left delay={150}>
+                <h1>prorundicid to</h1>
+            </Fade>
+            <Fade left delay={200}>
+                <h1>es moditio ratintet</h1>
+            </Fade>
+            <Fade left delay={250}>
+                <h1>ipsum molupta ssimillec.</h1>
+            </Fade>
           </Col>
           <Col className="heading third-heading text-left" md={{size: 8, offset: 0}} data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-out-quad" data-aos-duration="600" data-aos-once="true">
               <h4>Heading</h4>
