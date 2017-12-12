@@ -48,7 +48,7 @@ export default class IndexPage extends Component {
     const heightFeet = Math.round(scrollBottom)
     this.setState({ heightPosition: heightFeet })
     
-    const monumentHeight = scrollTop > 2140;
+    const monumentHeight = scrollTop > 2137;
     
     if (monumentHeight) {
       this.setState({ isFixed: true })
