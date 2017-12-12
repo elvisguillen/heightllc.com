@@ -80,6 +80,13 @@ export default class IndexPage extends Component {
       
       <section className="topbar">
       </section>
+      <div className='height-feet-labels'>
+
+        <p className='first-number'>3119'</p>
+        <p className='second-number'>2328'</p>
+        <p className='third-number'>1539'</p>
+        <p className='fourth-number'>555'</p>
+      </div>
       <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}>{this.state.heightPosition}'</p>
       <section id='top-scroll' className="top">
         <Container>
