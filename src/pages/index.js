@@ -11,7 +11,7 @@ import FeedContent from '../components/FeedContent'
 import heightScroll from '../components/height-scroll'
 import Fade from 'react-reveal/Fade'
 
-import Scrollify from '@hugeinc/scrollify'
+// import Scrollify from '@hugeinc/scrollify'
 
 import team1 from '../images/team_stefanie.png'
 
