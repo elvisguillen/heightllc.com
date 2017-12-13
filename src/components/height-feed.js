@@ -56,13 +56,18 @@ export default class Height_Feed extends Component {
       
                   <Col className='feed-right' md={{size: 8}}>
                   <CSSTransitionGroup
-                    transitionName="example"
-                    transitionAppear={true}
-                    transitionAppearTimeout={500}
-                    transitionEnter={true}
-                    transitionEnterTimeout={500}
-                    transitionLeave={true}
-                    transitionLeaveTimeout={500}>
+                    transitionName="background"
+                    transitionName="background"
+                    transitionEnterTimeout={1000}
+                    transitionLeaveTimeout={1000}>
+
+                    {/* // transitionAppear={true}
+                    // transitionAppearTimeout={500}
+                    // transitionEnter={true}
+                    // transitionEnterTimeout={500}
+                    // transitionLeave={true}
+                    // transitionLeaveTimeout={500} */}
+                    
                     {this.renderActiveTabContent()}
                   </CSSTransitionGroup>
                   </Col>

@@ -9,7 +9,9 @@ import Press_Release from '../components/press-release.js'
 import Height_Feed from '../components/height-feed'
 import FeedContent from '../components/FeedContent'
 import heightScroll from '../components/height-scroll'
-import Fade from 'react-reveal/Fade'; 
+import Fade from 'react-reveal/Fade'
+
+import Scrollify from '@hugeinc/scrollify'
 
 import team1 from '../images/team_stefanie.png'
 
@@ -74,6 +76,20 @@ export default class IndexPage extends Component {
   
   render() {
 
+    // const firstHeader = 
+    // new Scrollify('#firstHeading')
+    //   .addScene({
+    //     start: 0.2,         // start when the element reaches 20% of the viewport (also possible: '20%', or '200px', e.g.)
+    //     duration: '300px',  // do something for 300 pixels (also possible: '30%', or 0.3, e.g.)
+    //     effects: [{
+    //       fn: Scrollify.fx.stick,
+    //       options: {
+    //         from: 1.0,
+    //         to: 1.2
+    //       }
+    //     }]
+    //   });
+
     return(
       
       <div id='home-page'>
@@ -90,7 +106,7 @@ export default class IndexPage extends Component {
       <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}>{this.state.heightPosition}'</p>
       <section id='top-scroll' className="top">
         <Container>
-            <Col className="heading first-heading text-left" md={{size: 8, offset: 0}}>
+            <Col id='firstHeading' className="heading first-heading text-left" md={{size: 8, offset: 0}}>
               <Fade right>
                 <h4>Heading</h4>
               </Fade>
