@@ -1,25 +1,73 @@
 @import '../layouts/index.scss';
 
 .topbar {
-	height: 100px;
+	height: 73px;
 	width: 100%;
 	background-color: $blue;
 	position: absolute;
-	z-index: 3000;
+	z-index: 3;
 
 }
 
 .height-position {
 	font-family: $bebas;
 	font-size: 18px;
-	color: $text-purple;
-	padding-left: 30px;
+	text-align: right;
+	color: rgba(255,255,255,0.5);
 	letter-spacing: 2px;
-	width: 73px;
 	position: fixed;
-	top: 180px;
+	top: 116px;
 	z-index: 10;
-	border-bottom: 1px solid $text-purple;
+	margin-bottom: 20px;
+	span {
+		border-bottom: 1px solid $text-purple;
+		width: 73px;
+		padding-left: 30px;	
+		padding: 20px 0px;
+		display: block;
+		&:last-of-type {
+			border-bottom: 0px;
+		}
+	}
+}
+
+.scroll-jack-active {
+	opacity: 1!important;
+	h4 {
+		animation-delay: 0ms;
+		animation-name: spokeslideinRight;
+		animation-timing-function: ease-in-out;
+		animation-duration: 1000ms;
+		animation-fill-mode: forwards;
+	}
+
+	h1 {
+		@for $i from 1 through 4 {
+			&:nth-child(#{$i}) {
+			  animation-delay: 50ms * $i;
+			  animation-name: spokeslideinRight;
+			  animation-timing-function: ease-in-out;
+			  animation-duration: 1000ms;
+			  animation-fill-mode: forwards;
+			}
+		}
+	}
+	
+}
+
+.scroll-jack-inactive {
+	h1, h4 {
+		animation-delay: 0ms;
+		animation-name: spokeLeave;
+		animation-timing-function: ease-in-out;
+		animation-duration: 500ms;
+		animation-fill-mode: forwards;
+	}
+
+}
+
+.point-up {
+	transform: rotate(-180deg);	
 }
 
 .height-feet-labels {
@@ -67,15 +115,35 @@
 	min-height: 100vh;	
 }
 
+.scroll-icon {
+	width: 73px;
+	bottom: 73px;
+	left: 50%;
+	margin-left: -36px;
+	position: fixed;
+	z-index: 3;
+	transition: all 1000ms ease-in-out;
+	animation: 1200ms ease-in-out 0s infinite normal both running spokeScrollBounce;
+
+	&:hover {
+		animation-play-state: paused;
+	}
+
+	&.hidden {
+		opacity: 0;
+		transition: all 1000ms ease-in-out;
+	}
+}
+
 section.top {
 	background-color: $blue;
-	height: auto;
+	height: 2874px;
 	padding: 0px 128px;
 
 	h1 {
 		color: white;
 		line-height: 25px;
-		font-size: 44px;
+		font-size: 50px;
 		
 
 		&.cascading-text {
@@ -99,12 +167,29 @@ section.top {
 	}
 
 	.heading {
-		padding: 191px 0px 200px 0px;
+		padding: 146px 0px 200px 0px;
+		position: fixed!important;
+		top: 0!important;
+		
+		&.second-heading {
+			right: 180px;
+			opacity: 0;
+			transition: all 500ms ease-in-out;
+		}
+
+		&.third-heading {
+			opacity: 0;
+			transition: all 500ms ease-in-out;
+		}
+
+		h4, h1 {
+			opacity: 0;
+		}
 	}
 
 	.branding-color {
-		width: 300px;
-		margin: 120px 160px 0px 0px;
+		width: 295px;
+		margin: 354px 160px 0px 0px;
 		float: right;
 	}
 }
@@ -114,7 +199,7 @@ section.height-press-releases {
 	height: auto;
 
 	.height-press-featured {
-		padding: 0px 41px;
+		padding: 0px 75px;
 
 		.height-featured-image {
 			cursor: pointer;
@@ -124,31 +209,47 @@ section.height-press-releases {
 			width: 75px;
 			position: absolute;
 			top: 0px;
-			left: 60px;
+			left: 75px;
 		}
 		p {
-			font-size: 17px;
-			line-height: auto;
+			font-size: 16px;
+			line-height: 28px!important;
 		}
 	}
 
 	.height-press-executive {
-		padding: 0px 60px;
+		padding: 0px 75px;
 	}
 
 	header {
 		color: #2e3f8d;
 		border-color: #2e3f8d;
 	}
+
 	.executive-featured-image {
+		height: 253px;
+		margin-bottom: 30px;
+		overflow: hidden;
+
 		span {
 			font-family: 'MuseoSans';
 			font-size: 50px;
 			color: white;
 			display: block;
 			position: absolute;
-			top: 140px;
-			padding: 60px;
+			top: 120px;
+			padding: 30px 60px;
+
+			&.exec-subtitle {
+				font-size: 18px;
+				font-family: "BebasNeueBook";
+				letter-spacing: 4px;
+				margin-bottom: 30px;
+				position: absolute;
+				text-transform: uppercase;
+				top: 90px;
+				margin-left: 5px;
+			}
 		}
 	}
 
@@ -172,23 +273,24 @@ section.cta {
 	width: 100%;
 	position: relative;
 	padding: 120px 0px;
-	z-index: 2;
+	z-index: 4;
 
 	.cta-left {
 		.cta-links {
 			list-style: none;
+			margin-left: 0px; 
+			padding-left: 61px;
 			
 			li {
+				font-family: $bebas;
+				font-size: 18px;
+				letter-spacing: 4px;
+				color: $dark-blue;
+
 				padding: 25px 0px;
-				border-bottom: 1px solid $dark-blue;
+				border-bottom: 1px solid $copy-color;
 				margin: 0px;
 
-				a {
-					font-family: $bebas;
-					font-size: 18px;
-					letter-spacing: 4px;
-					color: $dark-blue;
-				}
 
 				&.last-type {
 					border-bottom: 0px!important;
@@ -200,8 +302,13 @@ section.cta {
 		.cta-link {
 			font-family: $museo;
 			font-size: 24px;
-			margin-left: 1.666rem;
-			color: $teal;
+			margin-left: 61px;
+			color: $teal!important;
+			transition: all 500ms ease-in-out;
+
+			&:hover {
+				color: $blue!important;
+			}
 		}
 	}
 
@@ -235,12 +342,14 @@ section.cta {
 }
 
 .height-number-fixed {
-	display: none;
+	position: absolute;
+	top: 2318px!important;
 }
 
 .circular-heading {
 	width: 80%!important;
-    height: 1000px;
+	height: 1000px;
+	width: 1000px!important;
     background-color: white;
     padding: 0px;
     margin: 0;
@@ -251,12 +360,30 @@ section.cta {
     position: absolute!important;
     right: 0px;
 	margin-top: -420px;
-	z-index: 2;
+	z-index: 3;
+	bottom: 0px;
+	top: 2840px;
 	border-right: 75px solid $teal;
 }
 
 @keyframes spokeslideinRight {
-	0% {opacity: 0; margin-left: 60px;}
-	100% {opacity: 1; margin-left: 0px;}
+	0% {opacity: 0; transform: translateX(100%)}
+	100% {opacity: 1; transform: translateX(0%)}
+}
+
+@keyframes spokeslideinLeft {
+	0% {opacity: 0; transform: translateX(-100%)}
+	100% {opacity: 1; transform: translateX(0%)}
+}
+
+@keyframes spokeLeave{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@keyframes spokeScrollBounce{
+	0% {transform: translateY(0%)}
+	50% {transform: translateY(15%)}
+	100% {transform: translateY(0%)}
 }
 

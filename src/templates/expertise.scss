@@ -1,0 +1,101 @@
+@import "../layouts/index.scss";
+
+// .navbar {
+//     z-index: 2!important;
+// }
+
+// .navbar-blue {
+//     height: 50%!important;
+// }
+
+// .navbar-teal {
+//     height: 50%!important;
+// }
+
+.page-header {
+    background-color: $blue;
+    height: 436px;
+    width: 100%;
+    padding: 146px 0px;
+    color: white;
+    z-index: 2;
+    overflow: hidden;
+    h1 {
+        font-size: 50px;
+    }
+
+    .bebas {
+        text-decoration: none;
+        border: 0px;
+        margin: 0px;
+    }
+
+    .page-circular-header {
+        width: 565px!important;
+        height: 640px;
+        background-color: white;
+        padding: 0px;
+        margin: 0;
+        border-top-left-radius: 800px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        position: absolute!important;
+        margin-top: -215px;
+        z-index: 3;
+        top: 436px;
+        right: 0px;
+        border-right: 72px solid $teal;
+
+        img {
+            width: 50px;
+            margin-left: 330px;
+            margin-top: 142px;
+        }
+    }
+}
+
+.page-content {
+    padding: 60px;
+    z-index: 4;
+    position: relative;
+
+    .page-sidebar {
+        padding: 75px;
+
+        header {
+            color: $blue;
+            border-bottom: 1px solid $copy-color;
+        }
+
+        h3 {
+            color: $teal;
+        }
+
+        .phone-numbers {
+            p {
+                font-size: 16px;
+                color: $blue;
+                margin-bottom: 0px;
+                span {
+                    color: $copy-color;
+                }
+            }
+        }
+    }
+
+    .page-copy {
+        padding: 60px;
+
+        h1 {
+            color: $teal;
+        }
+
+        ul {
+            list-style: none;
+            font-family: $museo;
+            font-size: 24px;
+            color: $blue;
+        }
+    }
+}

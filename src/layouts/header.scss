@@ -3,6 +3,7 @@
 .navbar {
 	width: 75px;
 	padding: 0px;
+	z-index: 3;
 
 	.navbar-blue {
 		background-color: $dark-blue;
@@ -34,18 +35,6 @@
 	}
 }
 
-.menu-item {
-	font-family: 'MuseoSans';
-	font-size: 44px;
-	color: white;
-	transition: all 0.5s;
-	display: block;
-
-	&:hover {
-		color: #33abdf;
-		text-decoration: none;
-	}
-}
 
 .social-icons {
 	position: fixed;
@@ -56,17 +45,37 @@
 	right: 16px;
 	
 	img {
+		opacity: .5;
 		margin-bottom: 20px;
+		transition: all 200ms ease-in-out;
+
+		&:hover {
+			opacity: 1;
+		}
 	}
+
 }
 
 .skip-icon {
 	position: fixed;
 	width: 38px;
-	top: 230px;
+	top: 205px;
 	margin-left: -3px;
 	z-index: 100;
 	right: 18px;
+
+	img {
+		transition: all 300ms ease-in;
+	}
+
+	.skip-label {
+		font-family: $bebas;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 2px;
+		text-align: center;
+		margin-top: -20px;
+	}
 }
 
 /* Burger Menu */
@@ -77,12 +86,14 @@
 	width: 38px;
 	height: 38px;
 	right: 18px;
-	top: 170px;
+	top: 146px;
 	z-index: 100!important;
   }
 	
  .branding {
-	 width: 250px;
+	 img {
+	 	width: 295px!important;
+	 }
  }
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
@@ -102,13 +113,45 @@
   
   /* General sidebar styles */
   .bm-menu {
-	background: #262559;
-	padding: 2.5em 1.5em 0;
-	font-size: 1.15em;
+		background: #262559;
+		padding: 2.5em 1.5em 0;
+		font-size: 1.15em;
+	
+		.menu-item {
+			font-family: 'MuseoSans';
+			font-size: 50px;
+			color: white;
+			transition: all 0.5s;
+			display: block;
+
+			&:hover {
+				color: $teal;
+				text-decoration: none;
+			}
+		}
+
+		.sub-menu-item {
+			font-family: 'MuseoSans';
+			font-size: 24px;
+			color: white;
+			margin-bottom: 10px;
+			display: inline-block;
+
+			&:hover {
+				color: $teal;
+			}
+		}
+
+		h4 {
+			font-family: $bebas;
+			font-size: 18px;
+			letter-spacing: 4px;
+			margin-bottom: 10px;
+		}
 	}
 	
 	.bm-menu-wrap {
-		z-index: 4!important;
+		z-index: 5!important;
 	}
   
   /* Morph shape necessary with bubble or elastic */
@@ -119,7 +162,7 @@
   /* Wrapper for item list */
   .bm-item-list {
 	color: #b8b7ad;
-	padding: 6em;
+	padding: 98px;
 	text-align: right;
   }
   

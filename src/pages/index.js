@@ -11,27 +11,24 @@ import FeedContent from '../components/FeedContent'
 import heightScroll from '../components/height-scroll'
 import Fade from 'react-reveal/Fade'
 
-// import Scrollify from '@hugeinc/scrollify'
 
 import team1 from '../images/team_stefanie.png'
 
 import './home.scss'
 
 import logocolor from '../images/logo-color.png'
-
-// const scrollWindow = () => (
-//   elmnt = document.getElementById('home-page');
-//   x = elmnt.scrollLeft;
-//   y = elmnt.scrollTop;
-//   console.log(y)
-// )
+import icon_skip from '../images/icon_skip.png'
+import icon_scroll from '../images/icon_scroll.png'
 
 export default class IndexPage extends Component {
   constructor(props) {
     super(props)
     this.state = {
       heightPosition: 3119,
-      isFixed: false
+      isFixed: false,
+      firstFixed: true,
+      secondFixed: false,
+      thirdFixed: false
     }
     this.handleScroll = this.handleScroll.bind(this)
   }
@@ -50,120 +47,95 @@ export default class IndexPage extends Component {
     const heightFeet = Math.round(scrollBottom)
     this.setState({ heightPosition: heightFeet })
     
-    const monumentHeight = scrollTop > 2137;
+    const scrollJackFirstStart = scrollTop > 0 && scrollTop < 619
+    const scrollJackSecondStart = scrollTop > 620 && scrollTop < 1209
+    const scrollJackThirdStart = scrollTop > 1210 && scrollTop < 1799
+    const scrollJackThirdEnd = scrollTop > 1800 
+
+    if (scrollJackFirstStart) {
+      this.setState({ 
+        firstFixed: true,
+        secondFixed: false,
+        thirdFixed: false
+      })
+    } 
+
+    if (scrollJackSecondStart) {
+      this.setState({ 
+        firstFixed: false,
+        secondFixed: true,
+        thirdFixed: false,
+      })
+    } 
+    
+    if (scrollJackThirdStart) {
+      this.setState({ 
+        firstFixed: false,
+        secondFixed: false,
+        thirdFixed: true, 
+      })
+    } 
+
+    if (scrollJackThirdEnd) {
+      this.setState({ 
+        firstFixed: false,
+        secondFixed: false,
+        thirdFixed: false
+      })
+    } 
+
+    const monumentHeight = scrollTop > 2137
     
     if (monumentHeight) {
       this.setState({ isFixed: true })
-      console.log('STICKY YO')
     } else {
       this.setState({ isFixed: false })
     }
   }
-  
-  // constructor(props) {
-  //   super(props)
-  //   this.state = false
-  // }
 
-  // componentDidMount() {
-  //   document.addEventListener('scroll'), () => {
-  //     const isTeal = window.scroll < 5000;
-  //     if (isTeal !== this.state.isTeal) {
-  //       this.setState({ isTeal })
-  //     }
-  //   }
-  // }
-  
   render() {
-
-    // const firstHeader = 
-    // new Scrollify('#firstHeading')
-    //   .addScene({
-    //     start: 0.2,         // start when the element reaches 20% of the viewport (also possible: '20%', or '200px', e.g.)
-    //     duration: '300px',  // do something for 300 pixels (also possible: '30%', or 0.3, e.g.)
-    //     effects: [{
-    //       fn: Scrollify.fx.stick,
-    //       options: {
-    //         from: 1.0,
-    //         to: 1.2
-    //       }
-    //     }]
-    //   });
-
     return(
       
       <div id='home-page'>
       
       <section className="topbar">
       </section>
-      <div className='height-feet-labels'>
 
-        <p className='first-number'>3119'</p>
-        <p className='second-number'>2328'</p>
-        <p className='third-number'>1539'</p>
-        <p className='fourth-number'>555'</p>
-      </div>
-      <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}>{this.state.heightPosition}'</p>
+      <div className='skip-icon'>
+        <a href='#fourthHeading'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
+        <div className='skip-label'>{this.state.isFixed ? 'Up' : 'Skip'}</div>
+      </div>    
+
+      <div className={this.state.firstFixed ? 'scroll-icon' : 'scroll-icon hidden'}>
+        <a href=''><img className='scroll-icon-image' src={icon_scroll} /></a>
+      </div>  
+
+      <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}><span>{this.state.heightPosition}</span><span>FT</span></p>
       <section id='top-scroll' className="top">
         <Container>
-            <Col id='firstHeading' className="heading first-heading text-left" md={{size: 8, offset: 0}}>
-              <Fade right>
-                <h4>Heading</h4>
-              </Fade>
-              <Fade right delay={50}>
-                <h1>Elius et</h1>
-              </Fade>
-              <Fade right delay={100}>
-                <h1>prorundicid to</h1>
-              </Fade>
-              <Fade right delay={150}>
-                <h1>es moditio ratintet</h1>
-              </Fade>
-              <Fade right delay={200}>
-                <h1>ipsum molupta ssimillec.</h1>
-              </Fade>
+            <Col id='firstHeading' className={this.state.firstFixed ? "scroll-jack-active heading first-heading text-left" : "scroll-jack-inactive heading first-heading text-left"} md={{size: 10, offset: 0}}>    
+                <h4>Analysis</h4>              
+                <h1>Close scrutiny of regulatory,</h1>          
+                <h1>macroeconomic, and geopolitical risk</h1>            
+                <h1>made actionable.</h1>
             </Col>
-          <Col className="heading second-heading text-right" md={{size: 8, offset: 4}}>
-            <Fade left>
-                <h4>Heading</h4>
-            </Fade>
-            <Fade left delay={50}>
-                <h1>Elius et</h1>
-            </Fade>
-            <Fade left delay={150}>
-                <h1>prorundicid to</h1>
-            </Fade>
-            <Fade left delay={200}>
-                <h1>es moditio ratintet</h1>
-            </Fade>
-            <Fade left delay={250}>
-                <h1>ipsum molupta ssimillec.</h1>
-            </Fade>
+          <Col id='secondHeading' className={this.state.secondFixed ? "scroll-jack-active heading second-heading text-right" : "scroll-jack-inactive heading second-heading text-right"} md={{size: 10, offset: 2}}>     
+                <h4>Investment</h4>        
+                <h1>Capital markets services</h1>
+                <h1>and assessments catapulted from </h1>
+                <h1>Washington to Beyond</h1>
           </Col>
-          <Col className="heading third-heading text-left" md={{size: 8, offset: 0}}>
-            <Fade right>
-              <h4>Heading</h4>
-            </Fade>
-            <Fade right delay={50}>
-              <h1>Elius et</h1>
-            </Fade>
-            <Fade right delay={100}>
-              <h1>prorundicid to</h1>
-            </Fade>
-            <Fade right delay={150}>
-              <h1>es moditio ratintet</h1>
-            </Fade>
-            <Fade right delay={200}>
-              <h1>ipsum molupta ssimillec.</h1>
-            </Fade>
+          <Col id='thirdHeading' className={this.state.thirdFixed ? "scroll-jack-active heading third-heading text-left" : "scroll-jack-inactive heading third-heading text-left"} md={{size: 10, offset: 0}}> 
+              <h4>Insights</h4>
+              <h1>Differentiated research opinions</h1>          
+              <h1>from experienced, high-caliber traders</h1>
+              <h1>and analysts.</h1>
           </Col>
-
-
-          <Col className="monument-height" md={{size: 8, offset: 0}}>
+          <Col id='fourthHeading' className="monument-height" md={{size: 10, offset: 0}}>
             <h4>Height of The Washington Monument</h4>
           </Col>
           
-            <Col className="heading circular-heading text-right">
+            <Col className="circular-heading text-right">
               <div className='branding-color'>
                 <img className="logo-color" src={logocolor} />
               </div>
@@ -178,38 +150,36 @@ export default class IndexPage extends Component {
               <ul className="cta-links">
                   <Fade left>
                     <li>
-                      <a href='#'>Research</a>
+                      Research
                     </li>
                   </Fade>
                   <Fade left delay={50}>
                     <li>
-                        <a href='#'>Investment Banking</a>  
+                      Investment Banking
                     </li>
                   </Fade>
                 
                   <Fade left delay={100}>
                     <li>
-                      <a href='#'>Sales + Trading</a>
+                      Sales + Trading
                     </li>
                   </Fade>
 
                   <Fade left delay={150}>
                     <li className='last-type'>
-                      <a href='#'>Advisory</a> 
+                      Advisory
                     </li>
                   </Fade>
               </ul>
               <Fade left delay={200}>
-                <a className='cta-link'>Expertise ></a>
+                <a className='cta-link' href='/expertise'>Expertise &rsaquo;</a>
               </Fade>
             </Col>
             <Col className='cta-right' md={{size: 8}}>
-              <Fade right>
                 
                   <h1>Insights, Elevated.</h1>  
-                  <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt est, custrumque alibero modi aliquas nusa dunt sunt eossitas et repudi eossitas et repudi ipsandam nis modis alit, to eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, dolor acid ut vel mi hendrerit eu sapien.</p>
+                  <p>At Height Capital Markets, we understand policy risk. Investment banking and research traverses deep into the most heavily-regulated sectors of the economy to capture insights with an unmatched expertise. We know our clients need a firm that knows how regulatory, legal, policy and other non-financial risks impact their portfolio and operations. We are that firm.</p>
               
-              </Fade>
             </Col>
           </Row>
         </Container>
@@ -223,9 +193,9 @@ export default class IndexPage extends Component {
                 <Col className='team-feed-profile' md={{size: 4}}>
                   <img className='team-feed-image' src={team1} />
                   <h3>Stefanie <br/> Miller</h3>
-                  <a href='#'>View Profile</a>
+                  <a href='#'>Profile</a>
                 </Col>
-                <Col md={{size: 8}}>
+                <Col md={{size: 7, offset: 1}}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>01 November 2017</header>
                     <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
@@ -242,10 +212,10 @@ export default class IndexPage extends Component {
               <Row>
                 <Col className='team-feed-profile' md={{size: 4}}>
                   <img className='team-feed-image' src={team1} />
-                  <h3>Bob <br/> Miller</h3>
-                  <a href='#'>View Profile</a>
+                  <h3>Stefanie <br/> Miller</h3>
+                  <a href='#'>Profile</a>
                 </Col>
-                <Col md={{size: 8}}>
+                <Col md={{size: 7, offset: 1}}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>01 November 2017</header>
                     <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
@@ -263,9 +233,9 @@ export default class IndexPage extends Component {
                 <Col className='team-feed-profile' md={{size: 4}}>
                   <img className='team-feed-image' src={team1} />
                   <h3>Katie <br/> Bays</h3>
-                  <a href='#'>View Profile</a>
+                  <a href='#'>Profile</a>
                 </Col>
-                <Col md={{size: 8}}>
+                <Col md={{size: 7, offset: 1}}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>01 November 2017</header>
                     <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
@@ -315,12 +285,13 @@ export default class IndexPage extends Component {
                 <Col className='team-feed-profile' md={{size: 4}}>
                   <img className='team-feed-image' src={team1} />
                   <h3>Stefanie <br/> Miller</h3>
-                  <a href='#'>View Profile</a>
+                  <a href='#'>Profile</a>
                 </Col>
-                <Col md={{size: 8}}>
+                <Col md={{size: 7, offset: 1}}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>01 November 2017</header>
                     <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
+                    
                     <div className='team-feed-nav'>
                     </div>
                   </div>

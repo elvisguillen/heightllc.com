@@ -24,10 +24,11 @@ import './header.scss'
 // custom burger icon
 
 import burger_icon from '../images/icon_burger.png'
-import logo from '../images/logo-white.png'
+import logo from '../images/logo-outline.png'
 import twitter from '../images/social_twitter.png'
 import linkedin from '../images/social_linkedin.png'
 import icon_skip from '../images/icon_skip.png'
+import IndexPage from '../pages/index';
 
 const typography = new Typography({
   baseFontSize: '18px',
@@ -52,9 +53,7 @@ const TemplateWrapper = ({ children, data }) => {
 
       
       <div className='wrapper'>
-          <div className='skip-icon'>
-            <a href='#cta'><img src={icon_skip} /></a>
-          </div>
+          
           <div className='social-icons'>
             <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter} /></a>
             <a href='https://www.linkedin.com/company/height-securities?trk=company_logo' target='_blank' ><img src={linkedin} /></a>
@@ -66,14 +65,15 @@ const TemplateWrapper = ({ children, data }) => {
         <Menu right width={ '100%' } customBurgerIcon={ <img src={burger_icon} /> } customCrossIcon={ false } >
           <Container>
           <Row>
-            <Col md='3' className='branding'>
-              <img src={logo} />
+            <Col md='4' className='branding'>
+              <a href='/'><img src={logo} /></a>
             </Col>
-            <Col md={{ size: 4, offset: 5 }}>
-              <a className='menu-item' href='#'>Our Services</a>
-              <a className='menu-item' href='#'>Expertise</a>
-              <a className='menu-item' href='#'>The Team</a>
-              <a className='menu-item' href='#'>News</a>
+            <Col md={{ size: 4, offset: 4 }}>
+              <h4>Menu</h4>
+              <a className='menu-item' href='/expertise'>Expertise</a>
+              <a className='menu-item' href='#'>Team</a>
+              <a className='sub-menu-item' href='#'>› Careers</a>
+              <a className='menu-item' href='#'>Research</a>
               <a className='menu-item' href='#'>Contact</a>
             </Col>
           </Row>

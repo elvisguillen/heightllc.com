@@ -5,6 +5,7 @@ import { Parallax } from 'react-scroll-parallax'
 import image_exec from '../images/image-executive.jpg'
 import image_featured from '../images/image_feed_featured.jpg'
 import icon_play from '../images/icon_play.png'
+import image_player from '../images/image_player.png'
 
 export default class Press_Release extends Component {
 
@@ -27,13 +28,15 @@ export default class Press_Release extends Component {
                         
                         <Col className='height-press-executive' md={{size: 8}}>
                             <div className='executive-featured-image'>
-                            <img src={image_exec} className='img-responsive' />
-                            <span className='exec-title'>Executive Insight</span>
+                                <img src={image_exec} className='img-responsive' />
+                                <span className='exec-subtitle'>Height</span>
+                                <span className='exec-title'>Executive Insight</span>
                             </div>
             
                             <div className='executive-content'>
                                 <div className='exec-copy'>
                                     <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis.</p>
+                                    <img src={image_player} />
                                 </div>
                             </div>
                         </Col>

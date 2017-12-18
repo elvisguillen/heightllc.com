@@ -2,6 +2,7 @@
 
 section.height-feed {
 	height: auto;
+	background: linear-gradient(to right, $blue 20%, $teal 80%);
     background-color: $teal;
     z-index: 100;
     overflow-x: hidden;
@@ -11,7 +12,7 @@ section.height-feed {
 		height: auto;
 
 		.feed-sidebar {
-			padding: 60px 50px;
+			padding: 75px 60px;
 			
 			ul {
 				list-style: none;
@@ -25,6 +26,12 @@ section.height-feed {
 					font-size: 24px;
 					color: white;
 					cursor: pointer;
+					&:hover {
+						color: rgba(255,255,255,0.5)!important;
+					}
+					&.active {
+						color: $teal;
+					}
 				}
 			}
 			
@@ -36,7 +43,7 @@ section.height-feed {
 	}
 
 	.team-feed {
-		padding: 60px;
+		padding: 60px 75px 60px 60px;
 		position: absolute;
 
 		.team-feed-profile {
