@@ -124,7 +124,7 @@ export default class IndexPage extends Component {
                 <h4>Investment</h4>        
                 <h1>Capital markets services</h1>
                 <h1>and assessments catapulted from </h1>
-                <h1>Washington to Beyond</h1>
+                <h1>Washington to Beyond.</h1>
           </Col>
           <Col id='thirdHeading' className={this.state.thirdFixed ? "scroll-jack-active heading third-heading text-left" : "scroll-jack-inactive heading third-heading text-left"} md={{size: 10, offset: 0}}> 
               <h4>Insights</h4>
