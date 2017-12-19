@@ -122,11 +122,13 @@
 	margin-left: -36px;
 	position: fixed;
 	z-index: 3;
-	transition: all 1000ms ease-in-out;
+	transition: opacity 500ms ease-in-out;
 	animation: 1200ms ease-in-out 0s infinite normal both running spokeScrollBounce;
+	opacity: 0.5;
 
 	&:hover {
 		animation-play-state: paused;
+		opacity: 1;
 	}
 
 	&.hidden {
@@ -170,6 +172,7 @@ section.top {
 		padding: 146px 0px 200px 0px;
 		position: fixed!important;
 		top: 0!important;
+		z-index: 0;
 		
 		&.second-heading {
 			right: 180px;
@@ -195,7 +198,7 @@ section.top {
 }
 
 section.height-press-releases {
-	padding: 80px 0px;
+	padding: 146px 0px;
 	height: auto;
 
 	.height-press-featured {
@@ -203,6 +206,10 @@ section.height-press-releases {
 
 		.height-featured-image {
 			cursor: pointer;
+
+			img {
+				margin-bottom: 73px;
+			}
 		}
 
 		.icon-play {
@@ -215,6 +222,20 @@ section.height-press-releases {
 			font-size: 16px;
 			line-height: 28px!important;
 		}
+
+		.height-tags {
+			a {
+				font-family: $bebas;
+				font-size: 12px;
+				letter-spacing: 3px;
+				color: $blue;
+				background-color: $light-gray;
+				padding: 10px;
+				margin-right: 5px;
+				margin-bottom: 5px;
+				display: inline-block;
+			}
+		}
 	}
 
 	.height-press-executive {
@@ -223,12 +244,12 @@ section.height-press-releases {
 
 	header {
 		color: #2e3f8d;
-		border-color: #2e3f8d;
+		border-color:rgba(129,146,152, 0.3);
 	}
 
 	.executive-featured-image {
 		height: 253px;
-		margin-bottom: 30px;
+		margin-bottom: 73px;
 		overflow: hidden;
 
 		span {
@@ -288,7 +309,7 @@ section.cta {
 				color: $dark-blue;
 
 				padding: 25px 0px;
-				border-bottom: 1px solid $copy-color;
+				border-bottom: 1px solid rgba(129,146,152, 0.3);
 				margin: 0px;
 
 
@@ -343,7 +364,7 @@ section.cta {
 
 .height-number-fixed {
 	position: absolute;
-	top: 2318px!important;
+	top: 2300px!important;
 }
 
 .circular-heading {

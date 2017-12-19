@@ -76,6 +76,7 @@ $teal: #31aadf;
 $gray: #e7e7e8;
 $text-purple: #9493b0;
 $copy-color: #819298;
+$light-gray: #f5f5f5;
 
 /* FONTS */
 
@@ -166,6 +167,8 @@ footer {
 	height: 200px;
 	background-color: $blue;
 	padding: 50px;
+	z-index: 1;
+	
 	.footerlinks {
 		list-style: none;
 		margin: 0 auto;

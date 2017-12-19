@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import graphql from 'graphql'
 import { fadeInLeft, fadeInRight } from 'react-animations'
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax'
+import scrollToComponent from 'react-scroll-to-component';
 import Cloud from '../components/parallax/clouds.js'
 import Press_Release from '../components/press-release.js'
 import Height_Feed from '../components/height-feed'
@@ -19,6 +20,7 @@ import './home.scss'
 import logocolor from '../images/logo-color.png'
 import icon_skip from '../images/icon_skip.png'
 import icon_scroll from '../images/icon_scroll.png'
+import icon_back from '../images/icon_back.png'
 
 export default class IndexPage extends Component {
   constructor(props) {
@@ -102,15 +104,15 @@ export default class IndexPage extends Component {
       </section>
 
       <div className='skip-icon'>
-        <a href='#fourthHeading'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
-        <div className='skip-label'>{this.state.isFixed ? 'Up' : 'Skip'}</div>
+        <a onClick={() => scrollToComponent(this.Monument, { offset: 0, align: 'top', duration: 1500})} href='#fourthHeading'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
+        <div className='skip-label'>{this.state.isFixed ? 'Start' : 'Skip'}</div>
       </div>    
 
       <div className={this.state.firstFixed ? 'scroll-icon' : 'scroll-icon hidden'}>
         <a href=''><img className='scroll-icon-image' src={icon_scroll} /></a>
       </div>  
-
-      <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}><span>{this.state.heightPosition}</span><span>FT</span></p>
+      
+      <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}><span>{this.state.isFixed ? "555" : this.state.heightPosition}</span><span>FT</span></p>
       <section id='top-scroll' className="top">
         <Container>
             <Col id='firstHeading' className={this.state.firstFixed ? "scroll-jack-active heading first-heading text-left" : "scroll-jack-inactive heading first-heading text-left"} md={{size: 10, offset: 0}}>    
@@ -131,7 +133,7 @@ export default class IndexPage extends Component {
               <h1>from experienced, high-caliber traders</h1>
               <h1>and analysts.</h1>
           </Col>
-          <Col id='fourthHeading' className="monument-height" md={{size: 10, offset: 0}}>
+          <Col id='fourthHeading' className="monument-height" ref={(section) => { this.Monument = section; }} md={{size: 10, offset: 0}}>
             <h4>Height of The Washington Monument</h4>
           </Col>
           
@@ -200,6 +202,8 @@ export default class IndexPage extends Component {
                     <header className='bebas'>01 November 2017</header>
                     <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
                     <div className='team-feed-nav'>
+                      <a href='#'><img className='icon_back' src={icon_back} /></a>
+                      <a href='#'><img className='icon_forward' src={icon_back} /></a>
                     </div>
                   </div>
                 </Col>
@@ -220,6 +224,8 @@ export default class IndexPage extends Component {
                     <header className='bebas'>01 November 2017</header>
                     <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
                     <div className='team-feed-nav'>
+                      <a href='#'><img className='icon_back' src={icon_back} /></a>
+                      <a href='#'><img className='icon_forward' src={icon_back} /></a>
                     </div>
                   </div>
                 </Col>
@@ -240,7 +246,9 @@ export default class IndexPage extends Component {
                     <header className='bebas'>01 November 2017</header>
                     <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
                     <div className='team-feed-nav'>
-                    </div>
+                      <a href='#'><img className='icon_back' src={icon_back} /></a>
+                      <a href='#'><img className='icon_forward' src={icon_back} /></a>
+                  </div>
                   </div>
                 </Col>
               </Row>
@@ -251,14 +259,21 @@ export default class IndexPage extends Component {
             <div key={'Energy_Industrial'} className='team-feed'>
               <Row>
                 
-                <Col md={{size: 12}}>
-                  <div className='team-feed-copy'>
-                    <header className='bebas'>01 November 2017</header>
-                    <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt. Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
-                    <div className='team-feed-nav'>
-                    </div>
+              <Col className='team-feed-profile' md={{size: 4}}>
+                <img className='team-feed-image' src={team1} />
+                <h3>Stefanie <br/> Miller</h3>
+                <a href='#'>Profile</a>
+              </Col>
+              <Col md={{size: 7, offset: 1}}>
+                <div className='team-feed-copy'>
+                  <header className='bebas'>01 November 2017</header>
+                  <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
+                  <div className='team-feed-nav'>
+                    <a href='#'><img className='icon_back' src={icon_back} /></a>
+                    <a href='#'><img className='icon_forward' src={icon_back} /></a>
                   </div>
-                </Col>
+                </div>
+              </Col>
               </Row>
             </div>  
           </FeedContent>
@@ -267,14 +282,21 @@ export default class IndexPage extends Component {
             <div key={'Tax_Budget'} className='team-feed'>
               <Row>
                 
-                <Col md={{size: 12}}>
-                  <div className='team-feed-copy'>
-                    <header className='bebas'>01 November 2017</header>
-                    <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt. Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
-                    <div className='team-feed-nav'>
-                    </div>
+              <Col className='team-feed-profile' md={{size: 4}}>
+                <img className='team-feed-image' src={team1} />
+                <h3>Stefanie <br/> Miller</h3>
+                <a href='#'>Profile</a>
+              </Col>
+              <Col md={{size: 7, offset: 1}}>
+                <div className='team-feed-copy'>
+                  <header className='bebas'>01 November 2017</header>
+                  <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
+                  <div className='team-feed-nav'>
+                    <a href='#'><img className='icon_back' src={icon_back} /></a>
+                    <a href='#'><img className='icon_forward' src={icon_back} /></a>
                   </div>
-                </Col>
+                </div>
+              </Col>
               </Row>
             </div>  
           </FeedContent>
@@ -282,20 +304,21 @@ export default class IndexPage extends Component {
           <FeedContent linkClassName={'Technology'}>
             <div key={'Technology'} className='team-feed'>
               <Row>
-                <Col className='team-feed-profile' md={{size: 4}}>
-                  <img className='team-feed-image' src={team1} />
-                  <h3>Stefanie <br/> Miller</h3>
-                  <a href='#'>Profile</a>
-                </Col>
-                <Col md={{size: 7, offset: 1}}>
-                  <div className='team-feed-copy'>
-                    <header className='bebas'>01 November 2017</header>
-                    <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
-                    
-                    <div className='team-feed-nav'>
-                    </div>
+              <Col className='team-feed-profile' md={{size: 4}}>
+                <img className='team-feed-image' src={team1} />
+                <h3>Stefanie <br/> Miller</h3>
+                <a href='#'>Profile</a>
+              </Col>
+              <Col md={{size: 7, offset: 1}}>
+                <div className='team-feed-copy'>
+                  <header className='bebas'>01 November 2017</header>
+                  <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
+                  <div className='team-feed-nav'>
+                    <a href='#'><img className='icon_back' src={icon_back} /></a>
+                    <a href='#'><img className='icon_forward' src={icon_back} /></a>
                   </div>
-                </Col>
+                </div>
+              </Col>
               </Row>
             </div>  
           </FeedContent>

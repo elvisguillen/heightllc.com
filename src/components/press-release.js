@@ -21,8 +21,13 @@ export default class Press_Release extends Component {
                             </div>
                             <header className='bebas'>Height Featured</header>
                             <div>
-                            <h3>Height Analyst Katie Bays Talks Keystone XL</h3>
-                            <p>Katie Bays modi aliquas nusa dunt ius quo diatipsandam nis modis alit, to unt nusa dunt sunt eossitas et repudi.</p>
+                                <h3>Height Analyst Katie Bays Talks Keystone XL</h3>
+                                <p>Katie Bays modi aliquas nusa dunt ius quo diatipsandam nis modis alit, to unt nusa dunt sunt eossitas et repudi.</p>
+                            </div>
+                            <div className='height-tags'>
+                                <a className='height-tag' href='#'>Katie Bays</a>
+                                <a className='height-tag' href='#'>Keystone XL</a>
+                                <a className='height-tag' href='#'>ITV</a>
                             </div>
                         </Col> 
                         
