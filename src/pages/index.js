@@ -103,7 +103,7 @@ export default class IndexPage extends Component {
       </section>
 
       <div className='skip-icon'>
-        <a href='#'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
+        <a href='#fourthHeading'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
         <div className='skip-label'>{this.state.isFixed ? 'Start' : 'Skip'}</div>
       </div>    
 
