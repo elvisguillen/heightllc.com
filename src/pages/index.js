@@ -4,7 +4,6 @@ import Link from 'gatsby-link'
 import graphql from 'graphql'
 import { fadeInLeft, fadeInRight } from 'react-animations'
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax'
-import scrollToComponent from 'react-scroll-to-component';
 import Cloud from '../components/parallax/clouds.js'
 import Press_Release from '../components/press-release.js'
 import Height_Feed from '../components/height-feed'
@@ -104,7 +103,7 @@ export default class IndexPage extends Component {
       </section>
 
       <div className='skip-icon'>
-        <a onClick={() => scrollToComponent(this.Monument, { offset: 0, align: 'top', duration: 1500})} href='#fourthHeading'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
+        <a href='#'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
         <div className='skip-label'>{this.state.isFixed ? 'Start' : 'Skip'}</div>
       </div>    
 
