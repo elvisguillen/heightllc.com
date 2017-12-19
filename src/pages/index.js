@@ -48,10 +48,10 @@ export default class IndexPage extends Component {
     const heightFeet = Math.round(scrollBottom)
     this.setState({ heightPosition: heightFeet })
     
-    const scrollJackFirstStart = scrollTop > 0 && scrollTop < 619
-    const scrollJackSecondStart = scrollTop > 620 && scrollTop < 1209
-    const scrollJackThirdStart = scrollTop > 1210 && scrollTop < 1799
-    const scrollJackThirdEnd = scrollTop > 1800 
+    const scrollJackFirstStart = scrollTop > 0 && scrollTop < 420
+    const scrollJackSecondStart = scrollTop > 421 && scrollTop < 940
+    const scrollJackThirdStart = scrollTop > 941 && scrollTop < 1260
+    const scrollJackThirdEnd = scrollTop > 1300 
 
     if (scrollJackFirstStart) {
       this.setState({ 

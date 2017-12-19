@@ -6,7 +6,7 @@ import cloud2 from '../../images/par-clouds2-nobg.png'
 import cloud3 from '../../images/par-clouds3-nobg.png'
 import cloud4 from '../../images/par-clouds4-nobg.png'
 import moon from '../../images/par-moon-nobg.png'
-import bridge from '../../images/par-bridge.png'
+import bridge from '../../images/par_bridge.png'
 import monument from '../../images/par-monument.png'
 
 import './clouds.scss'
@@ -85,15 +85,6 @@ export default class Cloud extends Component {
 				        <img className="bridge" src={bridge} /> 
 				      </Parallax>
 							
-					  <Parallax
-				          className="par-monument"
-				          offsetYMax={140}
-				          offsetYMin={-20}
-				          slowerScrollRate
-				          tag="figure1"
-				      >
-				        <img className="monument" src={monument} /> 
-				      </Parallax>
 					
 		      	</div>
 	    );
