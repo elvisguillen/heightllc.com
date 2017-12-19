@@ -17,13 +17,13 @@ export default class expertiseTemplate extends Component {
             <section className='page-header'>
               <Container>
                 <Row>
-                <Col md={{size: 9}}>
+                <Col className='page-header-text' md={{size: 9}}>
                   <header className='bebas'>Expertise</header>
                   <h1>From analysis to investments, our expertise goes beyond insights.</h1>
                 </Col>
 
                 <div className='page-circular-header'>
-                  <img src={logoIcon} />
+                  <a href='/'><img src={logoIcon} /></a>
                 </div>
                 
                 </Row>
