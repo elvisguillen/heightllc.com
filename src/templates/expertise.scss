@@ -12,6 +12,11 @@
 //     height: 50%!important;
 // }
 
+
+.navbar .navbar-teal {
+    height: 88%!important;
+}
+
 .page-header {
     background-color: $blue;
     height: 436px;
@@ -25,7 +30,7 @@
     }
 
     .page-header-text {
-        padding-left: 73px;
+        padding-left: $gutter;
     }
     
     .bebas {
@@ -49,7 +54,7 @@
         z-index: 3;
         top: 436px;
         right: 0px;
-        border-right: 72px solid $teal;
+        border-right: $gutter solid $teal;
 
         img {
             width: 50px;
@@ -60,12 +65,36 @@
 }
 
 .page-content {
-    padding: 60px;
+    padding: $gutter * 2 0px;
     z-index: 4;
     position: relative;
+    
+    .page-link-container {
+        padding: 0px $gutter 0px $gutter;
+        .page-accordion-link {
+            border-bottom: 1px solid $borderonwhite;
+            padding-bottom: 17px;
+            margin-top: 20px;
+
+            a {
+                font-family: $bebas;
+                color: $blue;
+                letter-spacing: 2px;
+            }
+
+            button {
+                float: right;
+                background-color: #f2f4f4;
+                color: $copy-color;
+                font-size: 16px;
+                border: 1px solid #e5e5e5; 
+                padding: 9px 20px;
+            }
+        }
+    }
 
     .page-sidebar {
-        padding: 75px;
+        padding: $gutter;
 
         header {
             color: $blue;
@@ -92,6 +121,7 @@
         padding: 60px;
 
         h1 {
+            font-size: 50px;
             color: $teal;
         }
 

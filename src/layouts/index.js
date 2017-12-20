@@ -27,7 +27,6 @@ import burger_icon from '../images/icon_burger.png'
 import logo from '../images/logo-outline.png'
 import twitter from '../images/social_twitter.png'
 import linkedin from '../images/social_linkedin.png'
-import icon_skip from '../images/icon_skip.png'
 import IndexPage from '../pages/index';
 
 const typography = new Typography({
@@ -71,7 +70,7 @@ const TemplateWrapper = ({ children, data }) => {
             <Col md={{ size: 4, offset: 4 }}>
               <h4>Menu</h4>
               <a className='menu-item' href='/expertise'>Expertise</a>
-              <a className='menu-item' href='#'>Team</a>
+              <a className='menu-item' href='/team'>Team</a>
               <a className='sub-menu-item' href='#'>› Careers</a>
               <a className='menu-item' href='#'>Research</a>
               <a className='menu-item' href='#'>Contact</a>

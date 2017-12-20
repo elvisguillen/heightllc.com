@@ -17,7 +17,7 @@
 @import "node_modules/bootstrap/scss/tables";
 // @import "node_modules/bootstrap/scss/forms";
 @import "node_modules/bootstrap/scss/buttons";
-// @import "node_modules/bootstrap/scss/transitions";
+@import "node_modules/bootstrap/scss/transitions";
 // @import "node_modules/bootstrap/scss/dropdown";
 // @import "node_modules/bootstrap/scss/button-group";
 // @import "node_modules/bootstrap/scss/input-group";
@@ -83,6 +83,10 @@ $light-gray: #f5f5f5;
 $bebas: 'BebasNeueBook';
 $museo: 'MuseoSans';
 
+/* LAYOUT */
+
+$gutter: 73px;
+$borderonwhite: rgba(129,146,152, 0.3);
 
 body {
   margin-top: 80px;
@@ -154,6 +158,7 @@ header.bebas {
 	margin-bottom: 20px;
 }
 
+
 .date {
 	@extend header.bebas;
 	font-size: 18px;
@@ -208,6 +213,20 @@ footer {
 			font-size: 15px;
 			color: white;
 		}
+	}
+}
+
+.height-tags {
+	a {
+		font-family: $bebas;
+		font-size: 12px;
+		letter-spacing: 3px;
+		color: $blue;
+		background-color: $light-gray;
+		padding: 10px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		display: inline-block;
 	}
 }
 
