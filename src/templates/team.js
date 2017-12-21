@@ -35,6 +35,16 @@ export default class teamTemplate extends Component {
 
             <section className='page-content'>
               <Container>
+
+              <Row>
+                <Col className='page-link-container' md={{size: 12}}>
+                  <div className='page-accordion-link'>
+                    <a className='bebas' href='#'>Leadership</a>
+                    <button>Contact | <span>first.last@heightcapital.com</span></button>
+                  </div>
+                </Col>
+              </Row>
+
                 <Row>
                   <Col className='page-sidebar' md={{size: 4}}>
                     <div className='page-sidebar-image'>
@@ -79,6 +89,46 @@ export default class teamTemplate extends Component {
                        sit amet aliquet neque sem vitae augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
                      
                   </Col>
+                </Row>
+                <Row>
+                  <Col className='page-link-container' md={{size: 12}}>
+                    <div className='page-accordion-link'>
+                      <a className='bebas' href='#'>Leadership</a>
+                      <button>View All</button>
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col className='page-related-profiles' md={{size: 4}}>
+                    <div className='page-sidebar-image'>
+                      <img src={image_team_john} />
+                    </div>
+                    <div className='page-team-name'>
+                      <h3>FirstName<br/>LastName</h3>
+                      <h4>CEO</h4>  
+                    </div>
+                  </Col>
+
+                  <Col className='page-related-profiles' md={{size: 4}}>
+                    <div className='page-sidebar-image'>
+                      <img src={image_team_john} />
+                    </div>
+                    <div className='page-team-name'>
+                      <h3>FirstName<br/>LastName</h3>
+                      <h4>CEO</h4>  
+                    </div>
+                  </Col>
+
+                  <Col className='page-related-profiles' md={{size: 4}}>
+                    <div className='page-sidebar-image'>
+                      <img src={image_team_john} />
+                    </div>
+                    <div className='page-team-name'>
+                    <h3>FirstName<br/>LastName</h3>
+                      <h4>CEO</h4>  
+                    </div>
+                  </Col>
+                  
                 </Row>
               </Container>
             </section>

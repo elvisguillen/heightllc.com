@@ -223,19 +223,7 @@ section.height-press-releases {
 			line-height: 28px!important;
 		}
 
-		.height-tags {
-			a {
-				font-family: $bebas;
-				font-size: 12px;
-				letter-spacing: 3px;
-				color: $blue;
-				background-color: $light-gray;
-				padding: 10px;
-				margin-right: 5px;
-				margin-bottom: 5px;
-				display: inline-block;
-			}
-		}
+		
 	}
 
 	.height-press-executive {
@@ -359,12 +347,12 @@ section.cta {
 .monument-height {
 	z-index: 2;
     position: absolute!important;
-    top: 2328px;
+    top: 2284px;
 }
 
 .height-number-fixed {
 	position: absolute;
-	top: 2300px!important;
+	top: 2254px!important;
 }
 
 .circular-heading {
@@ -384,7 +372,7 @@ section.cta {
 	z-index: 3;
 	bottom: 0px;
 	top: 2840px;
-	border-right: 75px solid $teal;
+	border-right: $gutter solid $teal;
 }
 
 @keyframes spokeslideinRight {

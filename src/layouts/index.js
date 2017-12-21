@@ -71,7 +71,6 @@ const TemplateWrapper = ({ children, data }) => {
               <h4>Menu</h4>
               <a className='menu-item' href='/expertise'>Expertise</a>
               <a className='menu-item' href='/team'>Team</a>
-              <a className='sub-menu-item' href='#'>› Careers</a>
               <a className='menu-item' href='#'>Research</a>
               <a className='menu-item' href='#'>Contact</a>
             </Col>
