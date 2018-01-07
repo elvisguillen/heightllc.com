@@ -14,10 +14,10 @@ collections:
         name: "expertise"
         slug: "{{slug}}"
         fields:
-        - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "home"}
+        - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "expertise"}
         - {label: "Path", required: false, name: "path", widget: "hidden", default: "/"}
         - {label: Title, required: false, name: title, widget: "string"}
-        - {label: Type, required: false, name: type, widget: "hidden", default: home}
+        - {label: Type, required: false, name: type, widget: "hidden", default: expertise}
         - {label: Page, required: false, name: page, widget: "hidden", default: "/"}
         - {label: First Heading, required: false, name: heading1, widget: "markdown"}
         - {label: Second Heading, required: false, name: heading2, widget: "markdown"}
