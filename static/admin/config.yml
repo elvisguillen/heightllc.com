@@ -9,25 +9,9 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/home"
-        label: "Home Page"
-        name: "home"
-        slug: "{{slug}}"
-        fields:
-        - {label: "Content Type", name: "contentType", widget: "hidden", default: "home"}
-        - {label: "Path", name: "path", widget: "hidden", default: "/"}
-        - {label: Title, name: title, widget: "string"}
-        - {label: Type, name: type, widget: "hidden", default: home}
-        - {label: Page, name: page, widget: "hidden", default: "/"}
-        - {label: First Heading, name: heading1, widget: "markdown"}
-        - {label: Second Heading, name: heading2, widget: "markdown"}
-        - {label: Third Heading, name: heading3, widget: "markdown"}
-        - {label: CTA Title, name: cta-title, widget: "string"}
-        - {label: CTA Copy, name: cta-copy, widget: "string"}
-        - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
-      - label: "Expertise Page"
+      - file: "src/pages/expertise"
+        label: "Expertise Page"
         name: "expertise"
-        file: "src/pages/expertise"
         slug: "{{slug}}"
         fields:
         - {label: "Content Type", name: "contentType", widget: "hidden", default: "home"}
