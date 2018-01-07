@@ -25,10 +25,9 @@ collections:
         - {label: CTA Title, name: cta-title, widget: "string"}
         - {label: CTA Copy, name: cta-copy, widget: "string"}
         - {label: CTA Link, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
-
-        - file: "src/pages/expertise"
-        label: "Expertise Page"
+      - label: "Expertise Page"
         name: "expertise"
+        file: "src/pages/expertise"
         slug: "{{slug}}"
         fields:
         - {label: "Content Type", name: "contentType", widget: "hidden", default: "home"}
