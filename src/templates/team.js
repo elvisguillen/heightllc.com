@@ -12,6 +12,7 @@ import linkedin_dark from '../images/social_linkedin_dark.png'
 
 export default class teamTemplate extends Component {
   render() {
+    const { markdownRemark: page } = data
     return (
       <div>
         {/* <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} /> */}
@@ -22,7 +23,7 @@ export default class teamTemplate extends Component {
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
                   <header className='bebas'>Team</header>
-                  <h1>We are talented people at a research- driven firm that puts clients first.</h1>
+                  <h1>{page.frontmatter.page_header}</h1>
                 </Col>
 
                 <div className='page-circular-header'>
@@ -137,3 +138,16 @@ export default class teamTemplate extends Component {
     )
   }
 }
+
+export const teamPageQuery = graphql`
+  query TeamPage($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html 
+      frontmatter {
+        path
+        title
+        page-header
+      }
+    }
+  }
+`

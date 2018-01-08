@@ -29,7 +29,7 @@ collections:
         - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "team"}
         - {label: "Path", required: false, name: "path", widget: "hidden", default: "/team"}
         - {label: Title, required: false, name: title, widget: "string"}
-        - {label: Page Header, required: false, name: page-header, widget: "markdown"}
+        - {label: Page Header, required: false, name: page_header, widget: "markdown"}
 
   - name: "news"
     label: "News"
