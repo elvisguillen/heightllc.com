@@ -2,12 +2,6 @@
 contentType: expertise
 path: /expertise
 title: Expertise
-heading1:
-cta-title:
-cta-copy:
-cta-link:
+heading1: Expertise test post
 ---
-This is a placeholder page. Test entry
-
-Be sure to update your `.md` files in `src/pages`, or use [admin](/admin).
 
