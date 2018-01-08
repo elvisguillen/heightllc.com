@@ -3,8 +3,6 @@ contentType: expertise
 path: /expertise
 title: Expertise
 heading1:
-heading2:
-heading3:
 cta-title:
 cta-copy:
 cta-link:

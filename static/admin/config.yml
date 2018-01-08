@@ -9,20 +9,18 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/expertise"
-        label: "Expertise Page"
+      - label: "Expertise Page"
         name: "expertise"
+        file: "src/pages/expertise"
         slug: "{{slug}}"
         fields:
         - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "expertise"}
         - {label: "Path", required: false, name: "path", widget: "hidden", default: "/expertise"}
         - {label: Title, required: false, name: title, widget: "string"}
         - {label: First Heading, required: false, name: heading1, widget: "markdown"}
-        - {label: Second Heading, required: false, name: heading2, widget: "markdown"}
-        - {label: Third Heading, required: false, name: heading3, widget: "markdown"}
         - {label: CTA Title, required: false, name: cta-title, widget: "string"}
         - {label: CTA Copy, required: false, name: cta-copy, widget: "string"}
-        - {label: CTA Link, required: false, name: cta-link, widget: "string", fields: [{name: "page", label: "Page", widget: "relation", collection: "pages", searchFields: [name, path, title], valueField: path}] }
+        - {label: CTA Link, required: false, name: cta-link, widget: "string",}
 
   - name: "news"
     label: "News"
