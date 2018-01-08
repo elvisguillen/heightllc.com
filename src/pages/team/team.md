@@ -2,6 +2,7 @@
 contentType: team
 path: /team
 title: Team
+
 ---
 This is a placeholder page. Test entry
 
