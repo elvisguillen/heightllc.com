@@ -34,19 +34,19 @@ export default class expertiseTemplate extends Component {
       {id: 3, title: 'Sales + Trading'},
       {id: 4, title: 'Advisory Services'},
     ];
+    const page = this.props.data.markdownRemark;
 
-    
 
     return (
       <div>
-        {/* <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} /> */}
+        <Helmet title={`${page.frontmatter.title} | ${this.props.data.site.siteMetadata.title}`} />
       
             <section className='page-header'>
               <Container>
                 <Row>
                   <Col className='page-header-text' md={{size: 9}}>
                     <header className='bebas'>Expertise</header>
-                    <h1>From analysis to investments, our expertise goes beyond insights.</h1>
+                    <h1>{page.frontmatter.page_header}</h1>
                   </Col>
 
                   <div className='page-circular-header'>
