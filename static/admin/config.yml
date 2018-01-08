@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Expertise Page"
         name: "expertise"
-        file: "src/pages/expertise"
+        file: "src/pages/expertise/expertise.md"
         slug: "{{slug}}"
         fields:
         - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "expertise"}
@@ -20,7 +20,7 @@ collections:
         - {label: First Heading, required: false, name: heading1, widget: "markdown"}
         - {label: CTA Title, required: false, name: cta-title, widget: "string"}
         - {label: CTA Copy, required: false, name: cta-copy, widget: "string"}
-        - {label: CTA Link, required: false, name: cta-link, widget: "string",}
+        - {label: CTA Link, required: false, name: cta-link, widget: "string"}
 
   - name: "news"
     label: "News"
