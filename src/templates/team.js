@@ -146,7 +146,7 @@ export const teamPageQuery = graphql`
       frontmatter {
         path
         title
-        page-header
+        page_header
       }
     }
   }
