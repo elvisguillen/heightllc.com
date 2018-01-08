@@ -12,7 +12,7 @@ import linkedin_dark from '../images/social_linkedin_dark.png'
 
 export default class teamTemplate extends Component {
   render() {
-    const { markdownRemark: page } = data
+    const page = this.props.data.markdownRemark;
     return (
       <div>
         {/* <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} /> */}
