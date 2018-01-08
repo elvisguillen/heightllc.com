@@ -17,10 +17,7 @@ collections:
         - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "expertise"}
         - {label: "Path", required: false, name: "path", widget: "hidden", default: "/expertise"}
         - {label: Title, required: false, name: title, widget: "string"}
-        - {label: First Heading, required: false, name: heading1, widget: "markdown"}
-        - {label: CTA Title, required: false, name: cta-title, widget: "string"}
-        - {label: CTA Copy, required: false, name: cta-copy, widget: "string"}
-        - {label: CTA Link, required: false, name: cta-link, widget: "string"}   
+        - {label: Page Header, required: false, name: page_header, widget: "markdown"} 
       - label: "The Team Page"
         name: "team"
         file: "src/pages/team/team.md"

@@ -117,3 +117,20 @@ export default class expertiseTemplate extends Component {
   }
 }
 
+export const expertisePageQuery = graphql`
+  query ExpertisePage($path: String!) {
+    markdownRemark(frontmatter: {path: { eq: $path } }) {
+      html
+      frontmatter {
+        path
+        title
+        page_header
+      }      
+    }
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`

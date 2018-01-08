@@ -13,9 +13,10 @@ import linkedin_dark from '../images/social_linkedin_dark.png'
 export default class teamTemplate extends Component {
   render() {
     const page = this.props.data.markdownRemark;
+    
     return (
       <div>
-        {/* <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} /> */}
+         <Helmet title={`${page.frontmatter.title} | ${this.props.data.site.siteMetadata.title}`} />
         
 
             <section className='page-header'>
@@ -147,6 +148,11 @@ export const teamPageQuery = graphql`
         path
         title
         page_header
+      }
+    }
+    site {
+      siteMetadata {
+        title
       }
     }
   }
