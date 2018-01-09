@@ -2,6 +2,6 @@
 contentType: home
 path: /
 title: Home
-header1:
+cta_copy:
 ---
 

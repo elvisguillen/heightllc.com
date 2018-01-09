@@ -17,7 +17,7 @@ collections:
         - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "home"}
         - {label: "Path", required: false, name: "path", widget: "hidden", default: "/"}
         - {label: Title, required: false, name: title, widget: "string"}
-        - {label: Page Header, required: false, name: header1, widget: "markdown"}
+        - {label: Cta Copy, required: false, name: cta_copy, widget: "markdown"}
       - label: "Expertise Page"
         name: "expertise"
         file: "src/pages/expertise/expertise.md"

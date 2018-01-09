@@ -95,6 +95,8 @@ export default class HomePage extends Component {
   }
 
   render() {
+    const page = this.props.data.markdownRemark;
+  
     return(
       
       <div id='home-page'>
@@ -179,7 +181,7 @@ export default class HomePage extends Component {
             <Col className='cta-right' md={{size: 8}}>
                 
                   <h1>Insights, Elevated.</h1>  
-                  <p>At Height Capital Markets, we understand policy risk. Investment banking and research traverses deep into the most heavily-regulated sectors of the economy to capture insights with an unmatched expertise. We know our clients need a firm that knows how regulatory, legal, policy and other non-financial risks impact their portfolio and operations. We are that firm.</p>
+                  <p>{page.frontmatter.header1}</p>
               
             </Col>
           </Row>
@@ -344,21 +346,20 @@ export default class HomePage extends Component {
 
 // export default IndexPage
 
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          frontmatter {
-            title
-            contentType
-            date(formatString: "MMMM DD, YYYY")
-            path
-          }
+export const homePageQuery = graphql`
+    query HomePage($path: String!) {
+        markdownRemark(frontmatter: { path: {eq: $path} }) {
+            html
+            frontmatter {
+                path
+                title
+                cta_copy
+            }
         }
-      }
+        site {
+            siteMetadata {
+                title
+            }
+        }
     }
-  }
 `

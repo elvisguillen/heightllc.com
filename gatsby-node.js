@@ -17,6 +17,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               date
               title
               page_header
+              cta_copy
             }
           }
         }
