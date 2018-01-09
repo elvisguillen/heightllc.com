@@ -353,7 +353,6 @@ export const homePageQuery = graphql`
             frontmatter {
                 path
                 title
-                cta_copy
             }
         }
         site {
