@@ -36,11 +36,10 @@ export default class expertiseTemplate extends Component {
     ];
     const page = this.props.data.markdownRemark;
 
-
     return (
       <div>
         <Helmet title={`${page.frontmatter.title} | ${this.props.data.site.siteMetadata.title}`} />
-      
+  
             <section className='page-header'>
               <Container>
                 <Row>

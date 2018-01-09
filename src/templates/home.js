@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 import { Container, Row, Col, Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
 import Link from 'gatsby-link'
 import graphql from 'graphql'
@@ -96,7 +96,6 @@ export default class HomePage extends Component {
 
   render() {
     const page = this.props.data.markdownRemark;
-  
     return(
       
       <div id='home-page'>
@@ -181,7 +180,7 @@ export default class HomePage extends Component {
             <Col className='cta-right' md={{size: 8}}>
                 
                   <h1>Insights, Elevated.</h1>  
-                  <p>{page.frontmatter.header1}</p>
+                  <p>{page.frontmatter.cta_copy}</p>
               
             </Col>
           </Row>
@@ -347,18 +346,19 @@ export default class HomePage extends Component {
 // export default IndexPage
 
 export const homePageQuery = graphql`
-    query HomePage($path: String!) {
-        markdownRemark(frontmatter: { path: {eq: $path} }) {
-            html
-            frontmatter {
-                path
-                title
-            }
-        }
-        site {
-            siteMetadata {
-                title
-            }
-        }
+  query HomePage($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html 
+      frontmatter {
+        path
+        title
+        cta_copy
+      }
     }
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
 `
