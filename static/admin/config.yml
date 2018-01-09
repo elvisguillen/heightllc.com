@@ -9,6 +9,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+
       - label: "Expertise Page"
         name: "expertise"
         file: "src/pages/expertise/expertise.md"
