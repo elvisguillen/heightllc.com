@@ -95,7 +95,6 @@ export default class HomePage extends Component {
   }
 
   render() {
-    const page = this.props.data.markdownRemark;
     return(
       
       <div id='home-page'>
@@ -180,7 +179,7 @@ export default class HomePage extends Component {
             <Col className='cta-right' md={{size: 8}}>
                 
                   <h1>Insights, Elevated.</h1>  
-                  <p>{page.frontmatter.cta_copy}</p>
+                  <p>{this.props.data.markdownRemark.frontmatter.cta_copy}</p>
               
             </Col>
           </Row>
