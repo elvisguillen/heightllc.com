@@ -9,7 +9,15 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-
+      - label: "Home Page"
+        name: "home"
+        file: "src/pages/home/index.md"
+        slug: "{{slug}}"
+        fields:
+        - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "home"}
+        - {label: "Path", required: false, name: "path", widget: "hidden", default: "/"}
+        - {label: Title, required: false, name: title, widget: "string"}
+        - {label: Page Header, required: false, name: header1, widget: "markdown"}
       - label: "Expertise Page"
         name: "expertise"
         file: "src/pages/expertise/expertise.md"
