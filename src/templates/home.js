@@ -10,7 +10,6 @@ import Height_Feed from '../components/height-feed'
 import FeedContent from '../components/FeedContent'
 import heightScroll from '../components/height-scroll'
 import Fade from 'react-reveal/Fade'
-import scrollTo from 'scroll-to'
 
 import team1 from '../images/team_stefanie.png'
 
@@ -20,6 +19,8 @@ import logocolor from '../images/logo-color.png'
 import icon_skip from '../images/icon_skip.png'
 import icon_scroll from '../images/icon_scroll.png'
 import icon_back from '../images/icon_back.png'
+
+let scrollTo;
 
 export default class HomePage extends Component {
   constructor(props) {
@@ -58,6 +59,8 @@ export default class HomePage extends Component {
 
   componentDidMount() {
     document.addEventListener('scroll', this.handleScroll)
+
+    scrollTo = require('scroll-to')
   }
   
   componentWillUnmount() {
