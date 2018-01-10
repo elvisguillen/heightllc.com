@@ -10,7 +10,7 @@ import Height_Feed from '../components/height-feed'
 import FeedContent from '../components/FeedContent'
 import heightScroll from '../components/height-scroll'
 import Fade from 'react-reveal/Fade'
-
+import scrollTo from 'scroll-to'
 
 import team1 from '../images/team_stefanie.png'
 
@@ -32,6 +32,28 @@ export default class HomePage extends Component {
       thirdFixed: false
     }
     this.handleScroll = this.handleScroll.bind(this)
+    this.handleScrollClick = this.handleScrollClick.bind(this)
+  }
+
+  handleScrollClick(e) {
+    scrollTo(500, 880, {
+      ease: 'out-cube',
+      duration: 1500
+    });
+  }
+  
+  handleSkipClick(e) {
+    scrollTo(500, 2350, {
+      ease: 'out-cube',
+      duration: 1500
+    });
+  }
+
+  handleStartClick(e) {
+    scrollTo(500, 0, {
+      ease: 'out-cube',
+      duration: 1500
+    });
   }
 
   componentDidMount() {
@@ -103,12 +125,12 @@ export default class HomePage extends Component {
       </section>
 
       <div className='skip-icon'>
-        <a href='#fourthHeading'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
+        <a onClick={this.state.isFixed ? this.handleStartClick : this.handleSkipClick} href='#'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
         <div className='skip-label'>{this.state.isFixed ? 'Start' : 'Skip'}</div>
       </div>    
 
       <div className={this.state.firstFixed ? 'scroll-icon' : 'scroll-icon hidden'}>
-        <a href=''><img className='scroll-icon-image' src={icon_scroll} /></a>
+        <a onClick={this.handleScrollClick} href='#'><img className='scroll-icon-image' src={icon_scroll} /></a>
       </div>  
       
       <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}><span>{this.state.isFixed ? "555" : this.state.heightPosition}</span><span>FT</span></p>
@@ -179,7 +201,8 @@ export default class HomePage extends Component {
             <Col className='cta-right' md={{size: 8}}>
                 
                   <h1>Insights, Elevated.</h1>  
-                  <p>{this.props.data.markdownRemark.frontmatter.cta_copy}</p>
+                  <p>At Height Capital Markets, we understand policy risk. Investment banking and research traverses deep into the most heavily-regulated sectors of the economy to capture insights with an unmatched expertise. We know our clients need a firm that knows how regulatory, legal, policy and other non-financial risks impact their portfolio and operations. We are that firm.</p>
+                  {/* <p>{this.props.data.markdownRemark.frontmatter.cta_copy}</p> */}
               
             </Col>
           </Row>

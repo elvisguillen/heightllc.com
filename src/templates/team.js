@@ -1,4 +1,4 @@
-import React, { Component, PropTypes }from 'react'
+import React, { Component, PropTypes } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
