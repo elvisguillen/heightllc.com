@@ -27,6 +27,7 @@
     "react-scroll-to-component": "^1.0.2",
     "react-transition-group": "^1.2.1",
     "reactstrap": "^5.0.0-alpha.3",
+    "tween-component": "^1.0.0",
     "typography": "^0.16.6",
     "wowjs": "^1.1.3"
   },
