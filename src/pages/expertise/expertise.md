@@ -3,7 +3,7 @@ contentType: expertise
 path: /expertise
 title: Expertise
 page_header: 'From analysis to investments, our expertise goes beyond insights.'
-expertise-single:
+expertise:
   - copy: >-
       Through collaboration, we are able to experience the dynamic nature of the
       world and absorb its abundant data. Free from traditional constraints of

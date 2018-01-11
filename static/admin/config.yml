@@ -28,7 +28,7 @@ collections:
         - {label: Title, required: false, name: title, widget: "string"}
         - {label: Page Header, required: false, name: page_header, widget: "markdown"}
         - label: Expertise
-          name: expertise-single
+          name: expertise
           widget: list
           fields:
           - {label: Title, name: title, widget: string}
