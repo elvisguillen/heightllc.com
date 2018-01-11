@@ -26,7 +26,16 @@ collections:
         - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "expertise"}
         - {label: "Path", required: false, name: "path", widget: "hidden", default: "/expertise"}
         - {label: Title, required: false, name: title, widget: "string"}
-        - {label: Page Header, required: false, name: page_header, widget: "markdown"} 
+        - {label: Page Header, required: false, name: page_header, widget: "markdown"}
+        - label: Expertise
+          name: expertise-single
+          widget: list
+          fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Header Copy, name: header, widget: markdown}
+          - {label: Body Copy, name: copy, widget: markdown}
+          - {label: Sidebar Photo, name: photo, widget: photo}
+
       - label: "The Team Page"
         name: "team"
         file: "src/pages/team/team.md"
