@@ -18,6 +18,11 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               title
               page_header
               cta_copy
+              expertises {
+                title
+                header
+                copy
+              }
             }
           }
         }

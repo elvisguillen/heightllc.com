@@ -35,6 +35,7 @@ export default class expertiseTemplate extends Component {
       {id: 4, title: 'Advisory Services'},
     ];
     const page = this.props.data.markdownRemark;
+    const expertises = this.props.data.markdownRemark.frontmatter.expertises;
 
     return (
       <div>
@@ -58,19 +59,20 @@ export default class expertiseTemplate extends Component {
             <section className='page-content'>
               <Container>
                 <div className='page-accordion'>
-                {posts.map((post) => {
+                {expertises.map((expertise, index) => {
+                  expertise.id = index
                   return (
-                    <div className='page-accordion-container' key={post.id}>
+                    <div className='page-accordion-container' key={expertise.id}>
                       <Row>
                         <Col className='page-link-container' md={{size: 12}}>
                           <div className='page-accordion-link'>
-                            <a className='bebas' href='#'>{post.title}</a>
-                            <button onClick={this.toggle} data-event={post.id}>{this.state.collapse === post.id ? 'Close -' : 'Open +'}</button>
+                            <a className='bebas' href='#'>{expertise.title}</a>
+                            <button onClick={this.toggle} data-event={expertise.id}>{this.state.collapse === expertise.id ? 'Close -' : 'Open +'}</button>
                           </div>
                         </Col>
                       </Row>
 
-                        <Collapse isOpen={collapse === post.id}>
+                        <Collapse isOpen={collapse === expertise.id}>
                           <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
                               <div className='page-sidebar-image'>
@@ -124,6 +126,11 @@ export const expertisePageQuery = graphql`
         path
         title
         page_header
+        expertises {
+          title
+          header
+          copy
+        }
       }      
     }
     site {
