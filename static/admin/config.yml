@@ -34,7 +34,7 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Header Copy, name: header, widget: markdown}
           - {label: Body Copy, name: copy, widget: markdown}
-          - {label: Sidebar Photo, name: photo, widget: photo}
+          - {label: Sidebar Photo, name: photo, widget: image}
 
       - label: "The Team Page"
         name: "team"
