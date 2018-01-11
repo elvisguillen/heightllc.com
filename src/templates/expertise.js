@@ -11,7 +11,7 @@ export default class expertiseTemplate extends Component {
   constructor(props) {
     super(props)
     this.toggle = this.toggle.bind(this)
-    this.state = { collapse: 1 }
+    this.state = { collapse: 0 }
   }
   
   toggle(e) {
@@ -28,12 +28,6 @@ export default class expertiseTemplate extends Component {
 
   render() {
     const {cards, collapse, title} = this.state;
-    const posts = [
-      {id: 1, title: 'Research'},
-      {id: 2, title: 'Investment Banking'},
-      {id: 3, title: 'Sales + Trading'},
-      {id: 4, title: 'Advisory Services'},
-    ];
     const page = this.props.data.markdownRemark;
     const expertises = this.props.data.markdownRemark.frontmatter.expertises;
 
@@ -88,13 +82,8 @@ export default class expertiseTemplate extends Component {
                               </div>
                             </Col>
                             <Col className='page-copy' md={{size: 8}}>
-                              <h1>Capture comprehensive research from the capital’s leading financiers and advisors.</h1>
-                              <p>Through collaboration, we are able to experience the dynamic nature of the world and absorb 
-                                its abundant data. Free from traditional constraints of covering narrowed companies, issuing ratings, 
-                                or publishing on earnings results, our research fits perfectly into two distinctions. Foundation Research 
-                                identifies investment themes with 6-12 months duration based on secular changes in a regulatory landscape. 
-                                Special Situations Research is supported by in-depth primary source research honed in on a particular market. 
-                                Comprehensively, they map out the entire financial landscape.</p>
+                              <h1>{expertise.header}</h1>
+                              <p>{expertise.copy}</p>
                                 <ul>
                                   <li>›	Financial Services</li>
                                   <li>› Healthcare</li>
