@@ -38,15 +38,24 @@ export default class HomePage extends Component {
   }
 
   handleScrollClick(e) {
-    scroll.scrollTo(880);
+    scroll.scrollTo(880, {
+      duration: 1500,
+      smooth: "easeOutCubic",
+    });
   }
   
   handleSkipClick(e) {
-    scroll.scrollTo(2350);
+    scroll.scrollTo(2350, {
+      duration: 1500,
+      smooth: "easeOutCubic"
+    });
   }
 
   handleStartClick(e) {
-    scroll.scrollTo(0);
+    scroll.scrollTo(0, {
+      duration: 1500,
+      smooth: "easeOutCubic"
+    });
   }
 
   componentDidMount() {
