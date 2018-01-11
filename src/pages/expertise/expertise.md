@@ -56,9 +56,7 @@ expertises:
       * › Special Situations
 
       * › Politics & Elections
-    header: >-
-      Capture comprehensive research from the capital’s leading financiers and
-      advisors.
+    header: Capture comprehensive research from the capital’s leading advisors.
     title: Investment Banking
   - copy: >-
       Through collaboration, we are able to experience the dynamic nature of the
