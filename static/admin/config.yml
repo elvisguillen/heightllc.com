@@ -78,13 +78,23 @@ collections:
       - {label: "Attachment", name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
       - {label: "Related Post", name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "blog", searchFields: [name, path, title], valueField: path}] }
 
-  - name: "about"
-    label: "About"  
-    folder: "src/pages/about" 
-    create: false
+  - name: "teamMembers"
+    label: "Team Members"
+    folder: "src/pages/team"
+    create: true
     slug: "{{slug}}"
-    fields:
-      - {label: "Content Type", name: "contentType", widget: "hidden", default: "about"}
-      - {label: "Path", name: "path", widget: "hidden", default: "/about"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: 
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "team_member"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: Name, name: name, widget: string}
+      - {label: Title, name: title, widget: string}
+      - {label: Portrait, name: portrait, widget: image}
+      - {label: Email, name: email, widget: string}
+      - {label: Twitter, name: twitter, widget: string}
+      - {label: LinkedIn, name: linkedin, widget: string}
+      - {label: Intro, name: intro, widget: markdown}
+      - {label: Details, name: details, widget: markdown}
+      - label: "Team Category"
+        name: "category_team"
+        widget: "select"
+        options: ["Leadership", "Research", "Sales"]

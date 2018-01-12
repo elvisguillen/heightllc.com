@@ -23,6 +23,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 header
                 copy
               }
+              team_member {
+                name
+                title
+              }
             }
           }
         }
