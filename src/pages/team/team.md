@@ -4,7 +4,8 @@ path: /team
 title: Team
 page_header: We are talented people at a research- driven firm that puts clients first.
 team_member:
-  - details: >-
+  - category_team: Leadership
+    details: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis
       urna quis neque eleifend auctor. Integer id semper risus. Morbi posuere
       diam mattis, rhoncus augue ac, pretium lectus. Pellentesque pretium sapien
