@@ -56,8 +56,8 @@ collections:
           - {label: Email, name: email, widget: string}
           - {label: Twitter, name: twitter, widget: string}
           - {label: LinkedIn, name: linkedin, widget: string}
-          - {label: Intro, name: intro, widget: string}
-          - {label: Details, name: details, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - {label: Details, name: details, widget: markdown}
           
   - name: "news"
     label: "News"
