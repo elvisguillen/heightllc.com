@@ -36,6 +36,7 @@ collections:
           - {label: Header Copy, name: header, widget: markdown}
           - {label: Body Copy, name: copy, widget: markdown}
           - {label: Sidebar Photo, name: photo, widget: image}
+          
 
       - label: "The Team Page"
         name: "team"
@@ -58,6 +59,10 @@ collections:
           - {label: LinkedIn, name: linkedin, widget: string}
           - {label: Intro, name: intro, widget: markdown}
           - {label: Details, name: details, widget: markdown}
+          - label: "Team Category"
+            name: "category_team"
+            widget: "select"
+            options: ["Leadership", "Research", "Sales"]
           
   - name: "news"
     label: "News"
