@@ -13,21 +13,6 @@ expertises:
       secular changes in a regulatory landscape. Special Situations Research is
       supported by in-depth primary source research honed in on a particular
       market. Comprehensively, they map out the entire financial landscape.
-
-
-
-
-      * › Financial Services
-
-      * › Healthcare
-
-      * › Energy & Industrials
-
-      * › Tax, Trade & Budget
-
-      * › Special Situations
-
-      * › Politics & Elections
     header: >-
       Capture comprehensive research from the capital’s leading financiers and
       advisors.
@@ -41,21 +26,6 @@ expertises:
       secular changes in a regulatory landscape. Special Situations Research is
       supported by in-depth primary source research honed in on a particular
       market. Comprehensively, they map out the entire financial landscape.
-
-
-
-
-      * › Financial Services
-
-      * › Healthcare
-
-      * › Energy & Industrials
-
-      * › Tax, Trade & Budget
-
-      * › Special Situations
-
-      * › Politics & Elections
     header: Capture comprehensive research from the capital’s leading advisors.
     title: Investment Banking
   - copy: >-
@@ -67,21 +37,6 @@ expertises:
       secular changes in a regulatory landscape. Special Situations Research is
       supported by in-depth primary source research honed in on a particular
       market. Comprehensively, they map out the entire financial landscape.
-
-
-
-
-      * › Financial Services
-
-      * › Healthcare
-
-      * › Energy & Industrials
-
-      * › Tax, Trade & Budget
-
-      * › Special Situations
-
-      * › Politics & Elections
     header: >-
       Capture comprehensive research from the capital’s leading financiers and
       advisors.
@@ -95,21 +50,6 @@ expertises:
       secular changes in a regulatory landscape. Special Situations Research is
       supported by in-depth primary source research honed in on a particular
       market. Comprehensively, they map out the entire financial landscape.
-
-
-
-
-      * › Financial Services
-
-      * › Healthcare
-
-      * › Energy & Industrials
-
-      * › Tax, Trade & Budget
-
-      * › Special Situations
-
-      * › Politics & Elections
     header: >-
       Capture comprehensive research from the capital’s leading financiers and
       advisors.
