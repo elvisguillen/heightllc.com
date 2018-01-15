@@ -80,7 +80,7 @@ collections:
 
   - name: "teamMembers"
     label: "Team Members"
-    folder: "src/pages/team"
+    folder: "src/pages/team_member"
     create: true
     slug: "{{slug}}"
     fields: 
