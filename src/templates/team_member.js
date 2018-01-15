@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Helmet from 'react-helmet'
+import { basename } from 'path'
 import graphql from 'graphql'
 
 import logoIcon from '../images/logo-icon.png'
@@ -10,13 +11,17 @@ import image_team_john from '../images/team_john.png'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'
 
+// const findNode = (path, data) => data.allMarkdownRemark.edges
+//   .map(edge => edge.node.frontmatter)
+//   .filter(r => r.path === path)
+//   .pop()
+
 export default class teamMemberTemplate extends Component {
   render() {
-    const page = this.props.data.markdownRemark;
-    const team = this.props.data.markdownRemark.frontmatter.team_member
+    const post = this.props.data.markdownRemark;
     return (
       <div>
-         <Helmet title={`${page.frontmatter.title} | ${this.props.data.site.siteMetadata.title}`} />
+         <Helmet title={`${post.frontmatter.title}`} />
         
 
             <section className='page-header'>
@@ -24,7 +29,7 @@ export default class teamMemberTemplate extends Component {
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
                   <header className='bebas'>Team</header>
-                  <h1>{page.frontmatter.page_header}</h1>
+                  {/* <h1>{post.frontmatter.page_header}</h1> */}
                 </Col>
 
                 <div className='page-circular-header'>
@@ -37,12 +42,8 @@ export default class teamMemberTemplate extends Component {
 
             <section className='page-content'>
               <Container>
-
-                {team.map((team_member, index) => {
-                    team_member.id = index;
-                    return (
                       
-                      <div className="team-member-container" key={team_member.id}>
+                      <div className="team-member-container">
                         <Row>
                           <Col className='page-link-container' md={{size: 12}}>
                             <div className='page-accordion-link'>
@@ -59,7 +60,7 @@ export default class teamMemberTemplate extends Component {
                             </div>
                             <div className='page-sidebar-content'>
                               <div className='page-team-name'>
-                                <h3>{team_member.name}</h3>
+                                <h3>{post.frontmatter.name}</h3>
                                 <h4>CEO</h4>  
                               </div>
                               <div className='page-team-social-icons'>
@@ -138,9 +139,7 @@ export default class teamMemberTemplate extends Component {
                           </Col>  
                         </Row>
                       </div>
-                    )
-                  }
-                )}
+                    
 
               </Container>
             </section>
@@ -150,29 +149,26 @@ export default class teamMemberTemplate extends Component {
   }
 }
 
-export const teamPageQuery = graphql`
+export const teamMemberPageQuery = graphql`
   query TeamMemberPage($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html 
       frontmatter {
         path
         title
-        page_header
-        team_member {
-          name
-          title
-          portrait
-          email
-          intro
-          details
-          category_team
+        name
+      }
+    } 
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            title
+            path
+          }
         }
       }
     }
-    site {
-      siteMetadata {
-        title
-      }
-    }
+
   }
 `

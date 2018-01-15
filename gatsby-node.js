@@ -15,6 +15,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               contentType
               path
               date
+              name
               title
               page_header
               cta_copy
@@ -22,10 +23,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 title
                 header
                 copy
-              }
-              team_member {
-                name
-                title
               }
             }
           }

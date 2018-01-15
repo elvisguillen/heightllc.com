@@ -37,12 +37,8 @@ export default class teamTemplate extends Component {
 
             <section className='page-content'>
               <Container>
-
-                {team.map((team_member, index) => {
-                    team_member.id = index;
-                    return (
                       
-                      <div className="team-member-container" key={team_member.id}>
+                      <div className="team-member-container">
                         <Row>
                           <Col className='page-link-container' md={{size: 12}}>
                             <div className='page-accordion-link'>
@@ -59,7 +55,7 @@ export default class teamTemplate extends Component {
                             </div>
                             <div className='page-sidebar-content'>
                               <div className='page-team-name'>
-                                <h3>{team_member.name}</h3>
+                                <h3></h3>
                                 <h4>CEO</h4>  
                               </div>
                               <div className='page-team-social-icons'>
@@ -139,8 +135,6 @@ export default class teamTemplate extends Component {
                         </Row>
                       </div>
                     )
-                  }
-                )}
 
               </Container>
             </section>
@@ -158,15 +152,6 @@ export const teamPageQuery = graphql`
         path
         title
         page_header
-        team_member {
-          name
-          title
-          portrait
-          email
-          intro
-          details
-          category_team
-        }
       }
     }
     site {
