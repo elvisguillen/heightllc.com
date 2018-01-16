@@ -38,5 +38,8 @@ details: >-
   arcu, sit amet aliquet neque sem vitae augue. Vestibulum ante ipsum primis in
   faucibus orci luctus et ultrices posuere cubilia Curae;
 category_team: Leadership
+tags:
+  - tagName: John Akridge
+  - tagName: Audio
 ---
 
