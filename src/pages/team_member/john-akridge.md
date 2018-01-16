@@ -39,7 +39,8 @@ details: >-
   faucibus orci luctus et ultrices posuere cubilia Curae;
 category_team: Leadership
 tags:
-  - tagName: John Akridge
-  - tagName: Audio
+  - undefined: John Akridge
+  - undefined: Audio
+  - undefined: Insights
 ---
 
