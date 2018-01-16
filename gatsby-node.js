@@ -25,6 +25,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               linkedin
               intro
               details
+              tags {
+                tagName
+              }
               expertises {
                 title
                 header
