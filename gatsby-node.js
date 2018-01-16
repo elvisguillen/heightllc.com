@@ -19,6 +19,12 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               title
               page_header
               cta_copy
+              portrait
+              email
+              twitter
+              linkedin
+              intro
+              details
               expertises {
                 title
                 header

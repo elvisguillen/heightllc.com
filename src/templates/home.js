@@ -122,7 +122,7 @@ export default class HomePage extends Component {
   render() {
     return(
       
-      <div id='home-page'>
+      <div id='home-page' style={this.props.transition && this.props.transition.style}>
       
       <section className="topbar">
       </section>
