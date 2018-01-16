@@ -98,3 +98,8 @@ collections:
         name: "category_team"
         widget: "select"
         options: ["Leadership", "Research", "Sales"]
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        fields: 
+        - {label: Tag Name, name: "tagName", widget: string}
