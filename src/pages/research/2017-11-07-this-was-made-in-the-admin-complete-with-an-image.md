@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /madeinadmin
+path: /research/madeinadmin
 title: Admin Test
 date: 2017-11-08T06:15:05.907Z
 attachments:

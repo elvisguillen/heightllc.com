@@ -5,8 +5,14 @@
 	width: 100%;
 	background-color: $blue;
 	position: absolute;
-	z-index: 3;
+	z-index: 6;
 
+}
+
+#home-page {
+	section {
+		border-right: 73px solid $teal;
+	}
 }
 
 .height-position {
@@ -125,6 +131,7 @@
 	transition: opacity 500ms ease-in-out;
 	animation: 1200ms ease-in-out 0s infinite normal both running spokeScrollBounce;
 	opacity: 0.5;
+	cursor: pointer;
 
 	&:hover {
 		animation-play-state: paused;
@@ -370,7 +377,7 @@ section.cta {
     position: absolute!important;
     right: 0px;
 	margin-top: -420px;
-	z-index: 3;
+	z-index: 4;
 	bottom: 0px;
 	top: 2840px;
 	border-right: $gutter solid $teal;
@@ -389,6 +396,11 @@ section.cta {
 @keyframes spokeLeave{
 	0% {opacity: 1;}
 	100% {opacity: 0;}
+}
+
+@keyframes spokeEnter{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
 
 @keyframes spokeScrollBounce{

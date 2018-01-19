@@ -63,10 +63,20 @@ collections:
             name: "category_team"
             widget: "select"
             options: ["Leadership", "Research", "Sales"]
+
+      - label: "Contact Page"
+        name: "contact"
+        file: "src/pages/contact/contact.md"
+        slug: "{slug}"
+        fields:
+        - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "contact"}
+        - {label: "Path", required: false, name: "path", widget: "hidden", default: "/contact"}
+        - {label: Title, required: false, name: title, widget: "string"}
+        - {label: Page Header, required: false, name: page_header, widget: "markdown"}
           
-  - name: "news"
-    label: "News"
-    folder: "src/pages/blog"
+  - name: "research"
+    label: "Research"
+    folder: "src/pages/research"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:

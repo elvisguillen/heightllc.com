@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { Collapse, Button, Container, Row, Col } from 'reactstrap'
 import Helmet from 'react-helmet'
+import Link from 'gatsby-link'
 import graphql from 'graphql'
 
 import logoIcon from '../images/logo-icon.png'
@@ -32,19 +33,24 @@ export default class expertiseTemplate extends Component {
     const expertises = this.props.data.markdownRemark.frontmatter.expertises;
 
     return (
-      <div>
+      <div style={this.props.transition && this.props.transition.style}>
         <Helmet title={`${page.frontmatter.title} | ${this.props.data.site.siteMetadata.title}`} />
-  
+
+        <div className='navbar navbar-expand-lg navbar-dark'>
+          <div className='navbar-blue'></div>
+          <div className='navbar-teal'></div>
+        </div>
+
             <section className='page-header'>
               <Container>
                 <Row>
                   <Col className='page-header-text' md={{size: 9}}>
-                    <header className='bebas'>Expertise</header>
+                    <header className='bebas'>{page.frontmatter.title}</header>
                     <h1>{page.frontmatter.page_header}</h1>
                   </Col>
 
                   <div className='page-circular-header'>
-                    <a href='/'><img src={logoIcon} /></a>
+                    <Link to='/'><img src={logoIcon} /></Link>
                   </div>
                 </Row>
               </Container>

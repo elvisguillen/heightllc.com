@@ -2,14 +2,16 @@ const getTransitionStyles = timeout => {
     return {
       entering: {
         opacity: 0,
+        transform: `translateY(100px)`
       },
       entered: {
-        transition: `opacity ${timeout}ms ease-in-out`,
-        opacity: 1,
+        transition: `all ${timeout}ms cubic-bezier(.58,.02,.45,1)`,
+        opacity: 1
       },
       exiting: {
-        transition: `opacity ${timeout}ms ease-in-out`,
+        transition: `all ${timeout}ms cubic-bezier(.58,.02,.45,1)`,
         opacity: 0,
+        transform: `translateY(100px)`
       },
     }
   }

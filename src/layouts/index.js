@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Col, Container, Row, NavbarToggler, Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap'
 import PropTypes from 'prop-types'
 import graphql from 'graphql'
@@ -40,74 +40,97 @@ const typography = new Typography({
 
 typography.injectStyles()
 
-const TemplateWrapper = ({ children, data }) => {
-  let user
-  if (typeof window !== 'undefined') {
-    user = window.netlifyIdentity && window.netlifyIdentity.currentUser()
+import logoIcon from '../images/logo-icon.png'
+
+export default class TemplateWrapper extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      menuOpen: false
+    }
+  }
+
+  handleStateChange(state) {
+    this.setState({menuOpen: state.isOpen})
+  }
+
+  closeMenu() {
+    this.setState({menuOpen: false})
+  }
+
+  toggleMenu() {
+    this.setState({menuOpen: !this.state.menuOpen})
   }
   
-  return (
-    <div className='site-layout'>
-      <Helmet title={`Home | ${data.site.siteMetadata.title}`} />
+  render() {
+    let user
+    if (typeof window !== 'undefined') {
+      user = window.netlifyIdentity && window.netlifyIdentity.currentUser()
+    }
+    return (
+      <div className='site-layout'>
+        <Helmet title={`Home | ${this.props.data.site.siteMetadata.title}`} />
 
-      
-      <div className='wrapper'>
-          
+        
+        <div className='wrapper'>
+            
           <div className='social-icons'>
             <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter} /></a>
             <a href='https://www.linkedin.com/company/height-securities?trk=company_logo' target='_blank' ><img src={linkedin} /></a>
           </div>
-        <div className='navbar navbar-expand-lg navbar-dark'>
-          <div className='navbar-blue'></div>
-          <div className='navbar-teal'></div>
-        </div>
-        <Menu right width={ '100%' } customBurgerIcon={ <img src={burger_icon} /> } customCrossIcon={ false } >
-          <Container>
-          <Row>
-            <Col md='4' className='branding'>
-              <a href='/'><img src={logo} /></a>
-            </Col>
-            <Col md={{ size: 4, offset: 4 }}>
-              <h4>Menu</h4>
-              <a className='menu-item' href='/expertise'>Expertise</a>
-              <a className='menu-item' href='/team'>Team</a>
-              <a className='menu-item' href='#'>Research</a>
-              <a className='menu-item' href='#'>Contact</a>
-            </Col>
-          </Row>
-          </Container>
-         </Menu>
-        <div className="content">{children()}</div>
-      </div>
-        <footer className="footer">
-          <Row>      
-            <ul className="footerlinks">
-              <li>
-                <a href="#">REGULATORY DISCLOSURES</a>
-              </li>
-              <li>
-                <a href="#">RULE 606 REPORTS</a>
-              </li>
-              <li>
-                <a href="#">TERMS OF USE</a>
-              </li>
-              <li>
-                <a href="#">PRIVACY POLICY</a>
-              </li>
-              <li>
-                <a href="#">BROKER CHECK</a>
-              </li>
-            </ul>
-          </Row>
+        
+          <section className="topbar">
+          </section>
 
-          <Row>
-            <div className="copyright">
-              <p>© 2017 Height Securities, LLC. To learn more, contact us at 202-629-0000.</p>
-            </div>
-          </Row>
-        </footer>
-      </div>
-  )
+          
+          <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} right width={ '100%' } customBurgerIcon={ <img src={burger_icon} /> } customCrossIcon={ false } >
+            <Container>
+            <Row>
+              <Col md='4' className='branding'>
+                <a href='/'><img src={logo} /></a>
+              </Col>
+              <Col md={{ size: 4, offset: 4 }}>
+                <h4>Menu</h4>
+                <Link onClick={() => this.closeMenu()} className='menu-item' to='/expertise'>Expertise</Link>
+                <Link onClick={() => this.closeMenu()} className='menu-item' to='/team'>Team</Link>
+                <Link onClick={() => this.closeMenu()} className='menu-item' to='/research'>Research</Link>
+                <Link onClick={() => this.closeMenu()} className='menu-item' to='/contact'>Contact</Link>
+              </Col>
+            </Row>
+            </Container>
+          </Menu>
+          <div className="content">{this.props.children()}</div>
+        </div>
+          <footer className="footer">
+            <Row>      
+              <ul className="footerlinks">
+                <li>
+                  <a href="#">REGULATORY DISCLOSURES</a>
+                </li>
+                <li>
+                  <a href="#">RULE 606 REPORTS</a>
+                </li>
+                <li>
+                  <a href="#">TERMS OF USE</a>
+                </li>
+                <li>
+                  <a href="#">PRIVACY POLICY</a>
+                </li>
+                <li>
+                  <a href="#">BROKER CHECK</a>
+                </li>
+              </ul>
+            </Row>
+
+            <Row>
+              <div className="copyright">
+                <p>© 2017 Height Securities, LLC. To learn more, contact us at 202-629-0000.</p>
+              </div>
+            </Row>
+          </footer>
+        </div>
+      )
+    }
 }
 
 TemplateWrapper.propTypes = {
@@ -124,5 +147,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-export default TemplateWrapper

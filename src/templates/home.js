@@ -124,16 +124,18 @@ export default class HomePage extends Component {
       
       <div id='home-page' style={this.props.transition && this.props.transition.style}>
       
-      <section className="topbar">
-      </section>
+      <div className='navbar navbar-expand-lg navbar-dark'>
+          <div className='navbar-blue'></div>
+          <div className='navbar-teal'></div>
+        </div>
 
       <div className='skip-icon'>
-        <a onClick={this.state.isFixed ? this.handleStartClick : this.handleSkipClick} href='#'><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
+        <a onClick={this.state.isFixed ? this.handleStartClick : this.handleSkipClick}><img className={this.state.isFixed ? 'point-up' : ''} src={icon_skip} /></a>
         <div className='skip-label'>{this.state.isFixed ? 'Start' : 'Skip'}</div>
       </div>    
 
       <div className={this.state.firstFixed ? 'scroll-icon' : 'scroll-icon hidden'}>
-        <a onClick={this.handleScrollClick} href='#'><img className='scroll-icon-image' src={icon_scroll} /></a>
+        <a onClick={this.handleScrollClick} ><img className='scroll-icon-image' src={icon_scroll} /></a>
       </div>  
       
       <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}><span>{this.state.isFixed ? "555" : this.state.heightPosition}</span><span>FT</span></p>
@@ -198,7 +200,7 @@ export default class HomePage extends Component {
                   </Fade>
               </ul>
               <Fade left delay={200}>
-                <a className='cta-link' href='/expertise'>Expertise &rsaquo;</a>
+                <Link className='cta-link' to='/expertise'>Expertise &rsaquo;</Link>
               </Fade>
             </Col>
             <Col className='cta-right' md={{size: 8}}>

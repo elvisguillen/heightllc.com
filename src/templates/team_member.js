@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import Helmet from 'react-helmet'
 import { basename } from 'path'
+import Link from 'gatsby-link'
 import graphql from 'graphql'
 
 import logoIcon from '../images/logo-icon.png'
@@ -16,24 +17,29 @@ import linkedin_dark from '../images/social_linkedin_dark.png'
 //   .filter(r => r.path === path)
 //   .pop()
 
-export default class teamMemberTemplate extends Component {
-  render() {
-    const post = this.props.data.markdownRemark;
+export default function teamMemberTemplate ({transition, data}) {
+
+    const post = data.markdownRemark;
     return (
-      <div style={this.props.transition && this.props.transition.style}>
+      <div style={transition && transition.style}>
          <Helmet title={`${post.frontmatter.title}`} />
         
+         <div className='navbar navbar-expand-lg navbar-dark'>
+          <div className='navbar-blue'></div>
+          <div className='navbar-teal'></div>
+        </div>
 
             <section className='page-header'>
               <Container>
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
                   <header className='bebas'>Team</header>
+                  <h1>We are talented people at a research- driven firm that puts clients first.</h1>
                   {/* <h1>{post.frontmatter.page_header}</h1> */}
                 </Col>
 
                 <div className='page-circular-header'>
-                  <a href='/'><img src={logoIcon} /></a>
+                  <Link to='/'><img src={logoIcon} /></Link>
                 </div>
                 
                 </Row>
@@ -131,7 +137,7 @@ export default class teamMemberTemplate extends Component {
       </div>
     )
   }
-}
+
 
 export const teamMemberPageQuery = graphql`
   query TeamMemberPage($path: String!) {

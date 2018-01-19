@@ -1,6 +1,6 @@
 import React, { Component, PropTypes} from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import { CSSTransitionGroup } from 'react-transition-group'
+import { CSSTransition } from 'react-transition-group'
 
 import '../layouts/index.scss'
 import './height-feed.scss'
@@ -55,12 +55,12 @@ export default class Height_Feed extends Component {
                   </Col> 
       
                   <Col className='feed-right' md={{size: 8}}>
-                  <CSSTransitionGroup
+                  <CSSTransition
                     transitionName="background"
                     transitionEnterTimeout={1000}
                     transitionLeaveTimeout={1000}>
                     {this.renderActiveTabContent()}
-                  </CSSTransitionGroup>
+                  </CSSTransition>
                   </Col>
               </Row>
             </Container>
