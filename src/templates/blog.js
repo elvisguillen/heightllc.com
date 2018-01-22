@@ -80,7 +80,7 @@ export default function Template ({ data, transition }) {
 
                     
 
-                    {post.frontmatter.related && (<Container><h4>Related</h4><CardGroup>
+                    {/* {post.frontmatter.related && (<Container><h4>Related</h4><CardGroup>
                       {related.map((r, i) => (
                         <Card key={i}>
                           <CardBody>
@@ -91,7 +91,7 @@ export default function Template ({ data, transition }) {
                         </Card>
                       ))}
                     </CardGroup></Container>)}
-                  
+                   */}
                 
               </Container>
 
