@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /intro-to-graphql
+path: /research/intro-to-graphql
 title: Introduction to GraphQL
 date: 2017-08-08T17:12:33.962Z
 ---

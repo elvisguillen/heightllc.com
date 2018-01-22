@@ -144,6 +144,20 @@
             font-family: $museo;
             font-size: 24px;
             color: $blue;
+
+            li {
+                margin-left: 14px;
+                &:before {
+                    content: '›';
+                    position: absolute;
+                    height: 24px;
+                    margin-left: -14px;
+                }
+            }
         }
+    }
+
+    &.research {
+        padding: 73px 0px!important;
     }
 }

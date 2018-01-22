@@ -55,7 +55,20 @@ export default class researchTemplate extends Component {
 
                         <Row>
 
-
+                          {this.props.data.allMarkdownRemark.edges.map((post, index) => {
+                              post = post.node.frontmatter
+                              post.id = index
+                              return (
+                                <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                                  <Link to={post.path}><div className='page-team-sidebar-image'>
+                                  {/* <img src={post.attachments.filename} />  */}
+                                  </div></Link>
+                                  <div className='page-team-name'>
+                                    <h3>{post.title}</h3>
+                                  </div>
+                                </Col>
+                              )
+                            })}
                           
                         </Row>
                       </div>
@@ -68,21 +81,37 @@ export default class researchTemplate extends Component {
   }
 }
 
-// export const researchPageQuery = graphql`
-//   query ResearchPage($path: String!) {
-//     markdownRemark(frontmatter: { path: { eq: $path } }) {
-//       html 
-//       frontmatter {
-//         path
-//         title
-//         page_header
-//       }
-//     }
+export const researchPageQuery = graphql`
+  query ResearchPage($path: String!) {
+    allMarkdownRemark(filter: { frontmatter: { contentType: { eq: "blog" } } } ) {
+      edges {
+        node{
+          html 
+          frontmatter {
+            path
+            title
+            name
+            attachments {
+              filename
+            }
+          }    
+        }
+      }
+    }
 
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//   }
-// `
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html 
+      frontmatter {
+        path
+        title
+        page_header
+      }
+    }
+
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`

@@ -1,9 +1,11 @@
 import React from 'react'
-import { Container, Card, CardTitle, CardGroup, CardBody } from 'reactstrap'
+import { Container, Card, CardTitle, CardGroup, CardBody, Row, Col } from 'reactstrap'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 import { basename } from 'path'
 import Link from 'gatsby-link'
+
+import logoIcon from '../images/logo-icon.png'
 
 // find a post title by path
 const findNode = (path, data) => data.allMarkdownRemark.edges
@@ -11,56 +13,89 @@ const findNode = (path, data) => data.allMarkdownRemark.edges
   .filter(r => r.path === path)
   .pop()
 
-export default function Template ({ data }) {
+export default function Template ({ data, transition }) {
   const { markdownRemark: post } = data
   const related = post.frontmatter.related ? post.frontmatter.related.map(r => findNode(r.post, data)) : []
   return (
-    <div>
-      <Helmet title={`Blog | ${post.frontmatter.title}`}>
-        {data.site.siteMetadata.disqus && (
-          <script id='dsq-count-scr' src='//gatsby-starter-blog.disqus.com/count.js' async />
-        )}
-        {data.site.siteMetadata.disqus && (
-          <script>{`(function() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://${data.site.siteMetadata.disqus}.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-          })();`}</script>
-        )}
-      </Helmet>
-      <Container>
-        <h1 className='display-3'>{post.frontmatter.title}</h1>
-      </Container>
+    <div style={transition && transition.style}>
+         <Helmet title={`Research | ${post.frontmatter.title}`} />
+        
+         <div className='navbar navbar-expand-lg navbar-dark'>
+          <div className='navbar-blue'></div>
+          <div className='navbar-teal'></div>
+        </div>
 
-      <Container dangerouslySetInnerHTML={{ __html: post.html }} />
+            <section className='page-header'>
+              <Container>
+                <Row>
+                <Col className='page-header-text' md={{size: 9}}>
+                  <header className='bebas'>Research</header>
+                  <h1>{post.frontmatter.title}</h1>
+                </Col>
 
-      {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
-        {post.frontmatter.attachments.map((attachment, i) => (
-          <Card key={i}>
-            <CardBody>
-              <CardTitle><a href={attachment.filename}>{basename(attachment.filename)}</a></CardTitle>
-            </CardBody>
-          </Card>
-        ))}
-      </CardGroup></Container>)}
+                <div className='page-circular-header'>
+                  <Link to='/'><img src={logoIcon} /></Link>
+                </div>
+                
+                </Row>
+              </Container>
+            </section>
 
-      {post.frontmatter.related && (<Container><h4>Related</h4><CardGroup>
-        {related.map((r, i) => (
-          <Card key={i}>
-            <CardBody>
-              <CardTitle>
-                <Link to={r.path}>{r.title}</Link>
-              </CardTitle>
-            </CardBody>
-          </Card>
-        ))}
-      </CardGroup></Container>)}
+            <section className='page-content research'>
+              
+              <Container>
 
-      {data.site.siteMetadata.disqus && (<Container>
-        <hr />
-        <div id='disqus_thread' />
-      </Container>)}
+
+                    
+                    <Row>
+
+                      <Col className='page-copy' md={{size: 8}}>
+                        <div dangerouslySetInnerHTML={{ __html: post.html }}/>
+
+                        {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
+                          {post.frontmatter.attachments.map((attachment, i) => (
+                            <Card key={i}>
+                              <CardBody>
+                                <CardTitle><a href={attachment.filename}>{basename(attachment.filename)}</a></CardTitle>
+                              </CardBody>
+                            </Card>
+                          ))}
+                        </CardGroup></Container>)}
+                      </Col>
+
+                      <Col className='page-sidebar' md={{size: 4}}>
+                        {/* <div className='page-sidebar-image'>
+                          <img src={image_sidebar} />
+                        </div> */}
+                        <div className='page-sidebar-content'>
+                          <header className='bebas'>Contact</header>
+                            <h3>Give us a call to learn more about our expertise.</h3>  
+                          <div className='phone-numbers'>
+                            <p><span>Sales:</span>(202) 629-0030</p>
+                            <p><span>Trading:</span>(202) 629-0015</p>
+                          </div>
+                        </div>
+                      </Col>
+                    </Row>
+
+                    
+
+                    {post.frontmatter.related && (<Container><h4>Related</h4><CardGroup>
+                      {related.map((r, i) => (
+                        <Card key={i}>
+                          <CardBody>
+                            <CardTitle>
+                              <Link to={r.path}>{r.title}</Link>
+                            </CardTitle>
+                          </CardBody>
+                        </Card>
+                      ))}
+                    </CardGroup></Container>)}
+                  
+                
+              </Container>
+
+            </section>  
     </div>
   )
 }

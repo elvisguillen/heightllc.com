@@ -16,6 +16,35 @@
     }
 }
 
+.page-team-sidebar-image {
+
+        border-radius: 1000px;
+        
+        width: 235px;
+        height: 235px;
+        transition: all 500ms ease-in-out;
+        margin-bottom: 24px; 
+
+        &:before {
+            content: '';
+            background: $teal url('../images/icon_team.png') no-repeat center;
+            background-size: $gutter;
+            padding: 73px;
+            position: absolute;
+            width: 235px;
+            height: 236px;
+            background-color: $teal;
+            border-radius: 1000px;
+            transition: all 400ms ease-in-out;
+            opacity: 0;
+        }
+
+            &:hover:before {
+                opacity: 1;
+            }
+    
+}
+
 .page-team-social-icons {
     width: 82;
     text-align: center;

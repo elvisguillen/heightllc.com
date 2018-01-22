@@ -109,13 +109,13 @@ section.height-feed {
 		opacity: 1;
 	}
 
-	.background-leave {
+	.background-exit {
 		transform: translate(0%);
 		opacity: 1;
 		transition: all 400ms ease-in-out 400ms;
 	}
 
-	.background-leave.background-leave-active {
+	.background-exit.background-exit-active {
 		transform: translate(100%);
 		opacity: 0;
 		transition: all 400ms ease-in-out;

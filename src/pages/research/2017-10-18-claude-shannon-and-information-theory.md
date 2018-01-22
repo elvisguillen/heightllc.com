@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /claude
+path: /research/claude
 title: Claude Shannon and Information Theory
 date: 2017-10-14T12:00:02.000Z
 ---

@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import { Container, Row, Col, Form, FormGroup, Input} from 'reactstrap'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
@@ -39,26 +39,66 @@ export default class contactTemplate extends Component {
               </Container>
             </section>
 
-            <section className='page-content'>
+            <section className='page-content research'>
               <Container>
                       
                       <div className="team-member-container">
                       
-                        <Row>
+                        {/* <Row>
                           <Col className='page-link-container' md={{size: 12}}>
                             <div className='page-accordion-link'>
                               <a className='bebas' href='#'>Contact Us</a>
                               <button>View All</button>
                             </div>
                           </Col>
-                        </Row>
+                        </Row> */}
 
 
                         <Row>
+                            <Col className='page-sidebar' md={{size: 4}}>
+                              {/* <div className='page-sidebar-image'>
+                                <img src={image_sidebar} />
+                              </div> */}
+                              <div className='page-sidebar-content'>
+                                <header className='bebas'>Contact</header>
+                                <h3>Give us a call to learn more about our expertise or fill out our form.</h3>  
+                                <div className='phone-numbers'>
+                                  <p><span>Sales:</span>(202) 629-0030</p>
+                                  <p><span>Trading:</span>(202) 629-0015</p>
+                                </div>
+                              </div>
+                            </Col>
+                            <Col className='page-copy' md={{size: 8}}>
+                              
+                              <Form name='contact' classname='form' netlify>
+                                
+                                <FormGroup>
+                                  <Input type='text' name='name' id='inputName' placeholder='Full Name' />
+                                </FormGroup>
 
+                                <FormGroup>
+                                  <Input type='email' name='email' id='inputEmail' placeholder='Email' />
+                                </FormGroup>
 
-                          
-                        </Row>
+                                <FormGroup>
+                                  <Input type='number' name='phone' id='inputPhone' placeholder='Phone Number' />
+                                </FormGroup>
+
+                                <FormGroup>
+                                  <Input type='text' name='subject' id='inputSubject' placeholder='Subject' />
+                                </FormGroup>
+
+                                <FormGroup>
+                                  <Input type='textarea' name='text' id='inputComment' placeholder='How can we help?' />
+                                </FormGroup>
+
+                                <FormGroup>
+                                  <button type='submit'>Submit</button>
+                                </FormGroup>
+                              </Form>
+
+                            </Col>
+                          </Row>
                       </div>
 
               </Container>

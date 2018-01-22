@@ -1,6 +1,6 @@
 ---
 contentType: blog
-path: /einstein
+path: /research/einstein
 title: Einstein Discovers Relativity
 date: 2017-10-18T17:12:33.962Z
 ---

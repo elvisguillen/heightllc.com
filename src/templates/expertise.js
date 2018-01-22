@@ -66,7 +66,7 @@ export default class expertiseTemplate extends Component {
                       <Row>
                         <Col className='page-link-container' md={{size: 12}}>
                           <div className='page-accordion-link'>
-                            <a className='bebas' href='#'>{expertise.title}</a>
+                            <a onClick={this.toggle} data-event={expertise.id} className='bebas'>{expertise.title}</a>
                             <button onClick={this.toggle} data-event={expertise.id}>{this.state.collapse === expertise.id ? 'Close -' : 'Open +'}</button>
                           </div>
                         </Col>
@@ -91,12 +91,12 @@ export default class expertiseTemplate extends Component {
                               <h1>{expertise.header}</h1>
                               <p>{expertise.copy}</p>
                                 <ul>
-                                  <li>›	Financial Services</li>
-                                  <li>› Healthcare</li>
-                                  <li>›	Energy & Industrials</li>
-                                  <li>›	Tax, Trade & Budget</li>
-                                  <li>›	Special Situations</li>
-                                  <li>›	Politics & Elections</li>
+                                  <li>Financial Services</li>
+                                  <li>Healthcare</li>
+                                  <li>Energy & Industrials</li>
+                                  <li>Tax, Trade & Budget</li>
+                                  <li>Special Situations</li>
+                                  <li>Politics & Elections</li>
                                 </ul>
                             </Col>
                           </Row>

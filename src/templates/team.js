@@ -59,9 +59,9 @@ export default function teamTemplate ({ transition, data }) {
                             team_member.id = index
                             return (
                               <Col className='page-related-profiles' md={{size: 4}} key={team_member.id}>
-                                <div className='page-sidebar-image'>
-                                 <Link to={team_member.path}><img src={image_team_john} /> </Link>
-                                </div>
+                                <Link to={team_member.path}><div className='page-team-sidebar-image'>
+                                 <img src={image_team_john} /> 
+                                </div></Link>
                                 <div className='page-team-name'>
                                   <h3>{team_member.name}</h3>
                                   <h4>{team_member.title}</h4>  
