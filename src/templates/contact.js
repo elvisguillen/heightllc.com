@@ -70,18 +70,18 @@ export default class contactTemplate extends Component {
                             </Col>
                             <Col className='page-copy' md={{size: 8}}>
                               
-                              <Form name='contact' classname='form' data-netlify="true" action='thank-you'>
+                              <form name='contact' method='post' className='form' data-netlify="true">
                                 
                                 <FormGroup>
-                                  <Input type='text' name='name' id='inputName' placeholder='Full Name' />
+                                  <Input type='text' name='name' id='inputName' value='name' placeholder='Full Name' />
                                 </FormGroup>
 
                                 <FormGroup>
-                                  <Input type='email' name='email' id='inputEmail' placeholder='Email' />
+                                  <Input type='email' name='email' id='inputEmail' value='email' placeholder='Email' />
                                 </FormGroup>
 
                                 <FormGroup>
-                                  <Input type='number' name='phone' id='inputPhone' placeholder='Phone Number' />
+                                  <Input type='number' name='phone' id='inputPhone' value='phone' placeholder='Phone Number' />
                                 </FormGroup>
 
                                 <FormGroup>
@@ -95,7 +95,7 @@ export default class contactTemplate extends Component {
                                 <FormGroup>
                                   <button type='submit'>Submit</button>
                                 </FormGroup>
-                              </Form>
+                              </form>
 
                             </Col>
                           </Row>
