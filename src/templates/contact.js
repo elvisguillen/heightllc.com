@@ -70,7 +70,7 @@ export default class contactTemplate extends Component {
                             </Col>
                             <Col className='page-copy' md={{size: 8}}>
                               
-                              <Form name='contact' classname='form' netlify>
+                              <Form name='contact' classname='form' data-netlify="true">
                                 
                                 <FormGroup>
                                   <Input type='text' name='name' id='inputName' placeholder='Full Name' />
