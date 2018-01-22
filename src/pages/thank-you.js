@@ -5,8 +5,8 @@ import Helmet from 'react-helmet'
 import graphql from 'graphql'
 
 import logoIcon from '../images/logo-icon.png'
-import './expertise.scss'
-import './team.scss'
+import '../templates/expertise.scss'
+import '../templates/team.scss'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'
 
@@ -16,7 +16,7 @@ export default class contactTemplate extends Component {
     
     return (
       <div style={this.props.transition && this.props.transition.style}>
-         <Helmet title={`${page.frontmatter.title} | ${this.props.data.site.siteMetadata.title}`} />
+         <Helmet title={`Thank You | ${this.props.data.site.siteMetadata.title}`} />
         
          <div className='navbar navbar-expand-lg navbar-dark'>
           <div className='navbar-blue'></div>
@@ -27,8 +27,8 @@ export default class contactTemplate extends Component {
               <Container>
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
-                  <header className='bebas'>{page.frontmatter.title}</header>
-                  <h1>{page.frontmatter.page_header}</h1>
+                  <header className='bebas'>Contact Us</header>
+                  <h1>Thanks for filling out the form!</h1>
                 </Col>
 
                 <div className='page-circular-header'>
@@ -56,48 +56,25 @@ export default class contactTemplate extends Component {
 
                         <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
-                              {/* <div className='page-sidebar-image'>
-                                <img src={image_sidebar} />
-                              </div> */}
+                              
                               <div className='page-sidebar-content'>
                                 <header className='bebas'>Contact</header>
-                                <h3>Give us a call to learn more about our expertise or fill out our form.</h3>  
+                                <h3>Give us a call to learn more about our expertise.</h3>  
                                 <div className='phone-numbers'>
                                   <p><span>Sales:</span>(202) 629-0030</p>
                                   <p><span>Trading:</span>(202) 629-0015</p>
                                 </div>
                               </div>
                             </Col>
+
                             <Col className='page-copy' md={{size: 8}}>
                               
-                              <form name='contact' method='post' className='form' data-netlify='true' action='thank-you'>
-                                <input type="hidden" name="form-name" value="contact" />
-                                <FormGroup>
-                                  <Input type='text' name='name' id='inputName' placeholder='Full Name' />
-                                </FormGroup>
-
-                                <FormGroup>
-                                  <Input type='email' name='email' id='inputEmail' placeholder='Email' />
-                                </FormGroup>
-
-                                <FormGroup>
-                                  <Input type='number' name='phone' id='inputPhone' placeholder='Phone Number' />
-                                </FormGroup>
-
-                                <FormGroup>
-                                  <Input type='text' name='subject' id='inputSubject' placeholder='Subject' />
-                                </FormGroup>
-
-                                <FormGroup>
-                                  <Input type='textarea' name='text' id='inputComment' placeholder='How can we help?' />
-                                </FormGroup>
-
-                                <FormGroup>
-                                  <button type='submit'>Submit</button>
-                                </FormGroup>
-                              </form>
-
+                              <p> Thanks for contacting us, one of our associates will be in touch shortly. </p>
+                               
                             </Col>
+
+                            
+                            
                           </Row>
                       </div>
 
@@ -109,8 +86,8 @@ export default class contactTemplate extends Component {
   }
 }
 
-export const contactPageQuery = graphql`
-  query ContactPage($path: String!) {
+export const thankyouPageQuery = graphql`
+  query ThankYouPage($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html 
       frontmatter {
