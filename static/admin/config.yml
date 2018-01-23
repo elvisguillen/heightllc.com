@@ -87,14 +87,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Attachment", required: false, name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
       - {label: "Related Post", required: false, name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "blog", searchFields: [name, path, title], valueField: path}] }
-      - label: "Categories"
-        name: "categories"
-        widget: "list"
-        fields:
-        - label: "Category"
-          name: "category"
-          widget: "select"
-          options: ["Height In The News", "News Feed", "Press Release", "Energy & Environment", "Financial Services", "Healthcare", "Macroeconomics & Sovereign Events", "Special Situations", "Tax & Budget", "Technology, Media & Telecom"]
+      - {label: "Categories", name: "categories", widget: "list", fields: [{label: "Category", name: "category", widget: "select", options: ["Height In The News", "News Feed", "Press Release", "Energy & Environment", "Financial Services", "Healthcare", "Macroeconomics & Sovereign Events", "Special Situations", "Tax & Budget", "Technology, Media & Telecom"]} ] }
 
             
   - name: "teamMembers"
