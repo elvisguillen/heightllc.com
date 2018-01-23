@@ -81,13 +81,21 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "blog"}
-      - {label: "Path", name: "path", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Attachment", name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
-      - {label: "Related Post", name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "blog", searchFields: [name, path, title], valueField: path}] }
-
+      - {label: "Attachment", required: false, name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
+      - {label: "Related Post", required: false, name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "blog", searchFields: [name, path, title], valueField: path}] }
+      - label: "News Category"
+            name: "category_news"
+            widget: "select"
+            options: ["Height In The News", "News Feed", "Press Release"]
+      - label: "Research Category"
+            name: "category_research"
+            widget: "select"
+            options: ["Energy & Environment", "Financial Services", "Healthcare", "Macroeconomics & Sovereign Events", "Special Situations", "Tax & Budget", "Technology, Media & Telecom"]
+            
   - name: "teamMembers"
     label: "Team Members"
     folder: "src/pages/team_member"
