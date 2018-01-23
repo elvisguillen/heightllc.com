@@ -1,8 +1,14 @@
 ---
 contentType: blog
-path: /research/intro-to-graphql
 title: Introduction to GraphQL
+path: /research/intro-to-graphql
 date: 2017-08-08T17:12:33.962Z
+author: /team/john-akridge
+attachments: []
+categories:
+  - category: Height In The News
+  - category: News Feed
+  - category: Energy & Environment
 ---
 Modern apps are interdependent and dynamic. For example, you probably sign in to various web apps using your GitHub account. These apps may be grabbing your avatar directly from GitHub, or some information about your projects. The data about your project is always changing so, as an added bonus, these connections are constantly updating the information that is displayed.
 
