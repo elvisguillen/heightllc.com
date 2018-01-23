@@ -219,21 +219,25 @@ export default class HomePage extends Component {
           <FeedContent linkClassName={'Health Care'}>
             <div key={'Health_Care'} className='team-feed'>
               <Row>
-                <Col className='team-feed-profile' md={{size: 4}}>
-                  <img className='team-feed-image' src={team1} />
-                  <h3>Stefanie <br/> Miller</h3>
-                  <a href='#'>Profile</a>
-                </Col>
-                <Col md={{size: 7, offset: 1}}>
+                
+                <Col md={{size: 12}}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>01 November 2017</header>
-                    <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis modis alit, to dolor acid ut vel mi, officae dolor rerum unt.</p>
-                    <div className='team-feed-nav'>
-                      <a href='#'><img className='icon_back' src={icon_back} /></a>
-                      <a href='#'><img className='icon_forward' src={icon_back} /></a>
-                    </div>
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit ></h1>
+                    <Row>
+                      <Col md={{size: 8}} className='height-tags'>
+                        <a className='height-tag' href='#'>Stefanie Miller</a>
+                        <a className='height-tag' href='#'>Bloomberg</a>
+                        <a className='height-tag' href='#'>Tax & Budget</a>
+                      </Col>
+                      <Col md={{size: 4}} className='team-feed-nav'>
+                        <a href='#'><img className='icon_back' src={icon_back} /></a>
+                        <a href='#'><img className='icon_forward' src={icon_back} /></a>
+                      </Col>
+                    </Row>
                   </div>
                 </Col>
+
               </Row>
             </div>
           </FeedContent>

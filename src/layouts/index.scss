@@ -77,6 +77,7 @@ $gray: #e7e7e8;
 $text-purple: #9493b0;
 $copy-color: #819298;
 $light-gray: #f5f5f5;
+$form-gray: #f2f4f4;
 
 /* FONTS */
 
@@ -112,6 +113,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   font-size: 18px;
+  font-weight: 100;
   line-height: 1.5;
   background-color: $blue;
 }

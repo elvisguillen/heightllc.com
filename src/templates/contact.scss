@@ -1,0 +1,43 @@
+@import "../layouts/index.scss";
+
+.form {
+    input, #inputComment {
+        background-color: $form-gray;
+        padding: 23px;
+        border: #e5e5e5;
+        color: $copy-color;
+    }
+
+    #inputComment {
+        min-height: 200px;
+    }
+
+    button {
+        font-family: $museo;
+        font-size: 20px;
+        background: none;
+        border: none;
+        margin-top: $gutter - 30px;
+        padding: 0px;
+        color: $blue;
+    }
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: $teal;
+}

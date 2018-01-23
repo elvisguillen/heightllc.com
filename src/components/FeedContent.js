@@ -8,7 +8,7 @@ const FeedContent = (props) => {
                     event.preventDefault();
                     props.onClick(props.tabIndex);
                 }}>
-                {props.linkClassName}
+                {props.linkClassName} ›
             </a>
         </li>
     )

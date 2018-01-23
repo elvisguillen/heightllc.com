@@ -73,6 +73,8 @@ collections:
         - {label: "Path", required: false, name: "path", widget: "hidden", default: "/contact"}
         - {label: Title, required: false, name: title, widget: "string"}
         - {label: Page Header, required: false, name: page_header, widget: "markdown"}
+        - {label: Intro Copy, name: intro_copy, widget: "string"}
+        - {label: Body Copy, name: body_copy, widget: "markdown"}
           
   - name: "research"
     label: "Research"

@@ -7,8 +7,10 @@ import graphql from 'graphql'
 import logoIcon from '../images/logo-icon.png'
 import './expertise.scss'
 import './team.scss'
+import './contact.scss'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'
+import image_sidebar from '../images/image_page_sidebar.jpg'
 
 export default class contactTemplate extends Component {
   render() {
@@ -56,9 +58,9 @@ export default class contactTemplate extends Component {
 
                         <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
-                              {/* <div className='page-sidebar-image'>
+                              <div className='page-sidebar-image'>
                                 <img src={image_sidebar} />
-                              </div> */}
+                              </div>
                               <div className='page-sidebar-content'>
                                 <header className='bebas'>Contact</header>
                                 <h3>Give us a call to learn more about our expertise or fill out our form.</h3>  
@@ -68,10 +70,13 @@ export default class contactTemplate extends Component {
                                 </div>
                               </div>
                             </Col>
+
                             <Col className='page-copy' md={{size: 8}}>
                               
                               <form name='contact' method='post' className='form' data-netlify='true' action='thank-you'>
+
                                 <input type="hidden" name="form-name" value="contact" />
+
                                 <FormGroup>
                                   <Input type='text' name='name' id='inputName' placeholder='Full Name' />
                                 </FormGroup>
@@ -93,7 +98,7 @@ export default class contactTemplate extends Component {
                                 </FormGroup>
 
                                 <FormGroup>
-                                  <button type='submit'>Submit</button>
+                                  <button type='submit'>Submit ›</button>
                                 </FormGroup>
                               </form>
 
