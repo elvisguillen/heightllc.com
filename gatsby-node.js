@@ -20,6 +20,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               page_header
               cta_copy
               portrait
+              intro_copy
+              body_copy
               email
               twitter
               linkedin

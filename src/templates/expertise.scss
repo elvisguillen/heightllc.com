@@ -110,9 +110,15 @@
     .page-sidebar {
         padding: $gutter;
 
+        .page-sidebar-image {
+            height: 240px;
+            width: 100%;
+        }
+
         header {
             color: $blue;
             border-bottom: 1px solid $copy-color;
+            margin-top: $gutter - 30px;
         }
 
         h3 {
@@ -127,6 +133,19 @@
                 span {
                     color: $copy-color;
                 }
+            }
+
+            .phone-department {
+                margin-bottom: 20px;
+                p {
+                    line-height: 32px;
+                }
+            }
+        }
+
+        &.contact {
+            h3 {
+                font-size: 24px;
             }
         }
     }

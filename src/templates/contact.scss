@@ -1,6 +1,8 @@
 @import "../layouts/index.scss";
 
 .form {
+    margin-top: $gutter - 20px;
+
     input, #inputComment {
         background-color: $form-gray;
         padding: 23px;
@@ -21,6 +23,31 @@
         padding: 0px;
         color: $blue;
     }
+}
+
+.marker {
+    background-image: url('../images/logo-icon.png');
+    background-size: cover;
+    width: 18px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.icon-map {
+    width: 75px;
+    position: absolute;
+    top: $gutter;
+    left: $gutter;
+    z-index: 1;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+  
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 textarea:focus,

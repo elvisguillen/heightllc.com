@@ -21,6 +21,7 @@
     "gatsby-transformer-remark": "^1.7.17",
     "react-animations": "^1.0.0",
     "react-burger-menu": "^2.1.11",
+    "react-map-gl": "^3.2.0",
     "react-parallax-component": "^1.0.6",
     "react-reveal": "^0.7.3",
     "react-scroll": "^1.7.5",
