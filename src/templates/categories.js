@@ -14,7 +14,7 @@ import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'
 import image_sidebar from '../images/image_page_sidebar.jpg'
 
-const researchTemplate = ({data, pathContext, transition}) => {
+const categoriesTemplate = ({data, pathContext, transition}) => {
   
   // const page = this.props.data.markdownRemark
   const { group, index, first, last } = pathContext
@@ -123,7 +123,7 @@ const researchTemplate = ({data, pathContext, transition}) => {
   )
 }
 
-export default researchTemplate
+export default categoriesTemplate
 
 export const categoriesPageQuery = graphql`
   query CategoriesPage($path: String!) {

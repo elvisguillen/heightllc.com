@@ -11,12 +11,12 @@ const pagination = require('gatsby-paginate');
 //   // Loop through all nodes (our markdown posts) and add the tags to our post object.
 
 //   edges.forEach(({ node }) => {
-//     if (node.frontmatter.categories) {
-//       node.frontmatter.categories.forEach(category => {
-//         if (!posts[category]) {
-//           posts[category] = [];
+//     if (node.frontmatter.tags) {
+//       node.frontmatter.tags.forEach(tag => {
+//         if (!posts[tag]) {
+//           posts[tag] = [];
 //         }
-//         posts[category].push(node);
+//         posts[tag].push(node);
 //       });
 //     }
 //   });
@@ -32,15 +32,29 @@ const pagination = require('gatsby-paginate');
 
 //   // For each of the tags in the post object, create a tag page.
 
-//   Object.keys(posts).forEach(categoryName => {
-//     const post = posts[categoryName];
+//   Object.keys(posts).forEach(tagName => {
+//     const post = posts[tagName];
 //     pagination({
-//       edges: posts,
+//       edges: post,
 //       createPage: createPage,
 //       pageTemplate: categoryTemplate,
-//       pathPrefix: `/research/categories/${categoryName}`,
-//       pageLength: 2
+//       pathPrefix: `tags/${tagName}`,
+//       pageLength: 2,
+//       context: {
+//         posts,
+//         post,
+//         tag: tagName,
+//       },
 //     });
+//     // createPage({
+//     //   path: `/tags/${tagName}`,
+//     //   component: categoryTemplate,
+//     //   context: {
+//     //     posts,
+//     //     post,
+//     //     tag: tagName,
+//     //   },
+//     // });
 //   });
 // };
 
@@ -61,9 +75,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               date(formatString: "DD MMMM, YYYY")
               author
               title
-              categories {
-                category
-              }
+              tags
             }
           }
         }
@@ -73,6 +85,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
+    const categoryTemplate = path.resolve(`src/templates/categories.js`);
     const posts = result.data.allMarkdownRemark.edges;
     const blogposts = posts.filter(post => post.node.frontmatter.contentType === 'blog');
     pagination({
@@ -89,6 +102,69 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     // });
 
     // createCategoryPages(createPage, posts);
+
+
+    // Create Paginated Tag Pages 
+
+    const tagSet = new Set();
+    const tagMap = new Map();
+
+    result.data.allMarkdownRemark.edges.forEach(edge => {
+      if (edge.node.frontmatter.tags) {
+        edge.node.frontmatter.tags.forEach(tag => {
+          tagSet.add(tag);
+
+          const array = tagMap.has(tag) ? tagMap.get(tag) : [];
+          array.push(edge);
+          tagMap.set(tag, array);
+        });
+      }
+    });
+
+    const tagList = Array.from(tagSet);
+    tagList.forEach(tag => {
+      // Creates tag pages
+      pagination({
+        edges: tagMap.get(tag),
+        createPage: createPage,
+        pageTemplate: categoryTemplate,
+        pathPrefix: `tags/${(tag).replace(/\s+/g, '-').toLowerCase()}`,
+        context: {
+          tag
+        }
+      });
+    });
+
+    // Create Paginated Category Pages
+
+    // const categorySet = new Set();
+    // const categoryMap = new Map();
+
+    // result.data.allMarkdownRemark.edges.forEach(edge => {
+    //   if (edge.node.frontmatter.categories.category) {
+    //     edge.node.frontmatter.categories.category.forEach(category => {
+    //       tagSet.add(category);
+
+    //       const array = tagMap.has(category) ? tagMap.get(category) : [];
+    //       array.push(edge);
+    //       categoryMap.set(category, array);
+    //     });
+    //   }
+    // });
+
+    // const categoryList = Array.from(categorySet);
+    // categoryList.forEach(tag => {
+    //   // Creates tag pages
+    //   pagination({
+    //     edges: categoryMap.get(category),
+    //     createPage: createPage,
+    //     pageTemplate: categoryTemplate,
+    //     pathPrefix: `categories/${(category).replace(/\s+/g, '-').toLowerCase()}`,
+    //     context: {
+    //       category
+    //     }
+    //   });
+    // });
 
         
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
