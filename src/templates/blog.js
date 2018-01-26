@@ -29,7 +29,7 @@ export default function Template ({ data, transition }) {
               <Container>
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
-                  <header className='bebas'>Research</header>
+                  <header className='bebas'>{post.frontmatter.date}</header>
                   <h1>{post.frontmatter.title}</h1>
                 </Col>
 
@@ -52,7 +52,7 @@ export default function Template ({ data, transition }) {
                       <Col className='page-copy' md={{size: 8}}>
                         <div dangerouslySetInnerHTML={{ __html: post.html }}/>
 
-                        {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
+                        {/* {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
                           {post.frontmatter.attachments.map((attachment, i) => (
                             <Card key={i}>
                               <CardBody>
@@ -60,7 +60,7 @@ export default function Template ({ data, transition }) {
                               </CardBody>
                             </Card>
                           ))}
-                        </CardGroup></Container>)}
+                        </CardGroup></Container>)} */}
                       </Col>
 
                       <Col className='page-sidebar' md={{size: 4}}>
@@ -112,14 +112,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         path
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM, YYYY")
         title
-        attachments {
-          filename
-        }
-        related {
-          post
-        }
       }
     }
 

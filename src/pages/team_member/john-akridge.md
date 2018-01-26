@@ -37,7 +37,7 @@ details: >-
   Curabitur viverra, purus in luctus sollicitudin, massa tellus sollicitudin
   arcu, sit amet aliquet neque sem vitae augue. Vestibulum ante ipsum primis in
   faucibus orci luctus et ultrices posuere cubilia Curae;
-category_team: Leadership
+team_category: Leadership
 tags:
   - tagName: John Akridge
   - tagName: Audio
