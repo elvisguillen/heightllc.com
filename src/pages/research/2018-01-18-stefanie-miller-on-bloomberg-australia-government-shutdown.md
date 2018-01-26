@@ -4,8 +4,7 @@ title: 'Stefanie Miller on Bloomberg Australia: Government Shutdown'
 path: /research/stefanie-miller-on-bloomberg-australia-government-shutdown/
 date: 2018-01-18T09:13:12.000Z
 author: Stefanie Miller
-categories:
-  - Height in the News
+category: Height In The News
 tags:
   - Stefanie Miller
   - Tax &amp; Budget
