@@ -90,8 +90,8 @@ collections:
       - {label: "Author", required: false, name: "author", widget: "relation",  collection: "teamMembers", searchFields: [name], valueField: path }
       - {label: "Attachment", required: false, name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
       - {label: "Related Post", required: false, name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "research", searchFields: [name, path, title], valueField: path}] }
-      - {label: "Categories", name: "categories", widget: "list", fields: [{label: "Category", name: "category", widget: "select", options: ["Height In The News", "News Feed", "Press Release", "Energy & Environment", "Financial Services", "Healthcare", "Macroeconomics & Sovereign Events", "Special Situations", "Tax & Budget", "Technology, Media & Telecom"]} ] }
-      - {label: Tags, description: Add Tags to each post, name: tags, widget: list, default: ['term_1', 'term_2']}
+      - {label: "Category", name: "category", widget: "select", options: ["Research", "Height In The News", "Press Release"]} 
+      - {label: Tags, name: tags, widget: list, default: ['term_1', 'term_2']}
 
   - name: "teamMembers"
     label: "Team Members"

@@ -6,6 +6,8 @@ import { basename } from 'path'
 import Link from 'gatsby-link'
 
 import logoIcon from '../images/logo-icon.png'
+import thumbnail from '../images/image_thumbnail.jpg'
+import './research.scss'
 
 // find a post title by path
 const findNode = (path, data) => data.allMarkdownRemark.edges
@@ -29,8 +31,8 @@ export default function Template ({ data, transition }) {
               <Container>
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
-                  <header className='bebas'>{post.frontmatter.date}</header>
-                  <h1>{post.frontmatter.title}</h1>
+                  <header className='bebas'>Research</header>
+                  <h1>Research that resonates and goes beyond insights.</h1>
                 </Col>
 
                 <div className='page-circular-header'>
@@ -45,12 +47,40 @@ export default function Template ({ data, transition }) {
               
               <Container>
 
-
+              <Row>
+                <Col className='page-link-container' md={{size: 12}}>
+                  <div className='page-accordion-link'>
+                    <a className='bebas'>Research</a>
+                    <button>Back To Research</button>
+                  </div>
+                </Col>
+              </Row>
                     
                     <Row>
 
+                    <Col className='page-sidebar' md={{size: 4}}>
+                        <div className='page-sidebar-image'>
+                          <img src={thumbnail} />
+                        </div>
+                        <div className='page-sidebar-content'>
+                          <header className='bebas'>Contact</header>
+                            <h3>Give us a call to learn more about our expertise.</h3>  
+                          <div className='phone-numbers'>
+                            <p><span>Sales:</span>(202) 629-0030</p>
+                            <p><span>Trading:</span>(202) 629-0015</p>
+                          </div>
+                        </div>
+                      </Col>
+
                       <Col className='page-copy' md={{size: 8}}>
-                        <div dangerouslySetInnerHTML={{ __html: post.html }}/>
+                        <header className='bebas white-bg'>{post.frontmatter.date}</header>
+                        <h1>{post.frontmatter.title}</h1>
+                        <div className='height-tags'>
+                          <a className='height-tag' href='#'>Katie Bays</a>
+                          <a className='height-tag' href='#'>Keystone XL</a>
+                          <a className='height-tag' href='#'>ITV</a>
+                        </div>
+                        <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
 
                         {/* {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
                           {post.frontmatter.attachments.map((attachment, i) => (
@@ -62,24 +92,12 @@ export default function Template ({ data, transition }) {
                           ))}
                         </CardGroup></Container>)} */}
                       </Col>
-
-                      <Col className='page-sidebar' md={{size: 4}}>
-                        {/* <div className='page-sidebar-image'>
-                          <img src={image_sidebar} />
-                        </div> */}
-                        <div className='page-sidebar-content'>
-                          <header className='bebas'>Contact</header>
-                            <h3>Give us a call to learn more about our expertise.</h3>  
-                          <div className='phone-numbers'>
-                            <p><span>Sales:</span>(202) 629-0030</p>
-                            <p><span>Trading:</span>(202) 629-0015</p>
-                          </div>
-                        </div>
-                      </Col>
+                    
                     </Row>
 
-                    
+                      
 
+      
                     {/* {post.frontmatter.related && (<Container><h4>Related</h4><CardGroup>
                       {related.map((r, i) => (
                         <Card key={i}>

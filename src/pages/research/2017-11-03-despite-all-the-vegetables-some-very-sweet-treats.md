@@ -4,14 +4,15 @@ title: Despite All the Vegetables, Some Very Sweet Treats
 date: 2017-11-03T13:02:50+00:00
 author: Height Securities
 path: /research/despite-all-the-vegetables-some-very-sweet-treats/
-categories:
-  - category: 'Energy &amp; Industrials'
-  - category: Financial Services
-  - category: Healthcare
-  - category: News Feed
-  - category: Special Situations
-  - category: 'Tax &amp; Budget'
-  - category: Technology
+category:
+  - Research
+tags:
+  - 'Energy &amp; Industrials'
+  - Financial Services
+  - Healthcare
+  - Special Situations
+  - 'Tax &amp; Budget'
+  - Technology
 ---
 _**The Takeaway:**_
 
