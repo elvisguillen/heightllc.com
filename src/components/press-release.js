@@ -25,7 +25,7 @@ export default class Press_Release extends Component {
                             <div>
                                 <Link to='/research/stefanie-miller-on-bloomberg-australia-government-shutdown/'><h3>Stefanie Miller on Bloomberg Australia: Government Shutdown</h3></Link>
                             </div>
-                            <div class="height-tags">
+                            <div className="height-tags">
                                 <Link className="height-tag" to="/tags/stefanie-miller">Stefanie Miller</Link>
                                 <Link className="height-tag" to="/tags/tax-budget">Tax + Budget</Link>
                                 <Link className="height-tag" to="/tags/australia">Australia</Link>
