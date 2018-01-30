@@ -133,6 +133,8 @@ img {
 }
 
 a {
+	font-family: $museo;
+	color: $blue;
 	transition: all 0.5s;
 	&:hover {
 		color: $teal!important;

@@ -6,12 +6,8 @@ author: Height Securities
 path: /research/despite-all-the-vegetables-some-very-sweet-treats/
 category: Research
 tags:
-  - 'Energy &amp; Industrials'
-  - Financial Services
-  - Healthcare
-  - Special Situations
-  - 'Tax &amp; Budget'
-  - Technology
+  - Energy + Industrials
+  - Tax + Budget
 ---
 _**The Takeaway:**_
 

@@ -8,20 +8,16 @@ import PaginateLink from '../components/PaginateLink'
 import logoIcon from '../images/logo-icon.png'
 import '../templates/expertise.scss'
 import '../templates/team.scss'
-import './research.scss'
+import '../pages/research.scss'
 import thumbnail from '../images/image_thumbnail.jpg'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'
 import image_sidebar from '../images/image_page_sidebar.jpg'
 
-const researchTemplate = ({data, pathContext, transition}) => {
+const tagsTemplate = ({data, pathContext, transition}) => {
   
-  // const page = this.props.data.markdownRemark
-  const { group, index, first, last } = pathContext
-  const previousUrl = 'research/' + (index - 1 == 1 ? "" : (index - 1)).toString()
-  const nextUrl = 'research/' + (index + 1).toString()
-  const total = data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.contentType === 'blog').length;
-  
+  const { nodes, page, prev, next, pages, total, limit, tag } = pathContext
+
   return (
     <div style={transition && transition.style}>
         {/* <Helmet title={`${page.frontmatter.title} | ${this.props.data.site.siteMetadata.title}`} /> */}
@@ -52,7 +48,7 @@ const researchTemplate = ({data, pathContext, transition}) => {
             <Row>
               <Col className='page-link-container' md={{size: 12}}>
                 <div className='page-accordion-link'>
-                  <a className='bebas' href='#'>Research</a>
+                  <a className='bebas' href='#'>{tag}</a>
                   <button>View All</button>
                 </div>
               </Col>
@@ -61,7 +57,7 @@ const researchTemplate = ({data, pathContext, transition}) => {
             {/* This is where we render the queried posts */}
 
             <Row>
-              {group.map((post, index) => {
+              {nodes.map((post, index) => {
                 post = post.node.frontmatter
                 post.id = index
                 return (
@@ -81,9 +77,13 @@ const researchTemplate = ({data, pathContext, transition}) => {
                             <Link to={post.path}><h1>{post.title}</h1></Link>
                           </div>
                           <div className='height-tags'>
-                            <a className='height-tag' href='#'>Katie Bays</a>
-                            <a className='height-tag' href='#'>Keystone XL</a>
-                            <a className='height-tag' href='#'>ITV</a>
+                            <Link className='height-tag' to={'/tags/' + post.author.replace(/\s+/g, '-').toLowerCase()}>{post.author}</Link>
+                            <Link className='height-tag' to={'/categories/' + post.category.replace('+', '').replace(/\s+/g, '-').toLowerCase()}>{post.category}</Link>
+                            {post.tags.map((tag, index) => {
+                              return (
+                              <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                              )
+                            })}
                           </div>
                         </div>
                       </Col>
@@ -96,17 +96,17 @@ const researchTemplate = ({data, pathContext, transition}) => {
                   <Col md={{size: 6}}>
                     <div className="pagination">
                       <div className="previousLink">
-                          <PaginateLink tag={ first } url={ previousUrl } text=" " />
+                          <PaginateLink url={ prev } text=" " />
                       </div>
                       <div className="nextLink">
-                          <PaginateLink tag={ last } url={ nextUrl } text=" " />
+                          <PaginateLink url={ next } text=" " />
                       </div>
                     </div>
                   </Col>
 
                   <Col className='bebas pagination-counter' md={{size: 6}}>
 
-                    <p>{index} / { total / 2 }</p>
+                    <p>{page} / { pages }</p>
 
                   </Col>
                 </Row> 
@@ -123,10 +123,10 @@ const researchTemplate = ({data, pathContext, transition}) => {
   )
 }
 
-export default researchTemplate
+export default tagsTemplate
 
-export const researchPageQuery = graphql`
-  query ResearchPage($path: String!) {
+export const tagsPageQuery = graphql`
+  query TagsPage($path: String!) {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, filter: { frontmatter: { contentType: { eq: "blog" } } } ) {
       totalCount
       edges {
@@ -138,6 +138,9 @@ export const researchPageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             name
+            author
+            category
+            tags
           }    
         }
       }

@@ -7,6 +7,14 @@
     }
 }
 
+.category-nav {
+    padding-left: 60px!important;
+    padding-bottom: $gutter * 2;
+    a {
+        font-size: 24px;
+    }
+}
+
 .research-post-copy {
     margin-top: $gutter - 20;
 }

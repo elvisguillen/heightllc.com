@@ -10,10 +10,9 @@ enclosure:
     12605710
     video/mp4
     
-category:
-  - Height in the News
+category: Height In The News
 tags:
-  - 'Tax &amp; Budget'
+  - Tax + Budget
 ---
 <div style="width: 640px;" class="wp-video">
   <!--[if lt IE 9]><![endif]--><video class="wp-video-shortcode" id="video-944-1" width="640" height="361" preload="metadata" controls="controls"><source type="video/mp4" src="https://heightllc.com/wp-content/uploads/2017/11/Stefanie_Miller_I24_11_02_17-2.mp4?_=1" />

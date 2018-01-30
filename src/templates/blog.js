@@ -7,7 +7,7 @@ import Link from 'gatsby-link'
 
 import logoIcon from '../images/logo-icon.png'
 import thumbnail from '../images/image_thumbnail.jpg'
-import './research.scss'
+import '../pages/research.scss'
 
 // find a post title by path
 const findNode = (path, data) => data.allMarkdownRemark.edges
@@ -17,7 +17,7 @@ const findNode = (path, data) => data.allMarkdownRemark.edges
 
 export default function Template ({ data, transition }) {
   const { markdownRemark: post } = data
-  const related = post.frontmatter.related ? post.frontmatter.related.map(r => findNode(r.post, data)) : []
+  // const related = post.frontmatter.related ? post.frontmatter.related.map(r => findNode(r.post, data)) : []
   return (
     <div style={transition && transition.style}>
          <Helmet title={`Research | ${post.frontmatter.title}`} />
@@ -76,9 +76,13 @@ export default function Template ({ data, transition }) {
                         <header className='bebas white-bg'>{post.frontmatter.date}</header>
                         <h1>{post.frontmatter.title}</h1>
                         <div className='height-tags'>
-                          <a className='height-tag' href='#'>Katie Bays</a>
-                          <a className='height-tag' href='#'>Keystone XL</a>
-                          <a className='height-tag' href='#'>ITV</a>
+                          <Link className='height-tag' to={'/tags/' + post.frontmatter.author.replace(/\s+/g, '-').toLowerCase()}>{post.frontmatter.author}</Link>
+                          <Link className='height-tag' to={'/categories/' + post.frontmatter.category.replace('+', '').replace(/\s+/g, '-').toLowerCase()}>{post.frontmatter.category}</Link>
+                          {post.frontmatter.tags.map((tag, index) => {
+                            return (
+                            <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                            )
+                          })}
                         </div>
                         <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
 
@@ -132,6 +136,9 @@ export const pageQuery = graphql`
         path
         date(formatString: "DD MMMM, YYYY")
         title
+        author
+        category
+        tags
       }
     }
 
