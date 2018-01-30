@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
+import Link from 'gatsby-link'
 import { Parallax } from 'react-scroll-parallax'
 
 import image_exec from '../images/image-executive.jpg'
-import image_featured from '../images/image_feed_featured.jpg'
+import image_featured from '../images/image_feed_featured2.jpg'
 import icon_play from '../images/icon_play.png'
 import image_player from '../images/image_player.png'
+import thumbnail from '../images/image_thumbnail.jpg'
 
 export default class Press_Release extends Component {
 
@@ -16,18 +18,17 @@ export default class Press_Release extends Component {
                     <Row>
                         <Col className='height-press-featured' md={{size: 4}}>
                             <div className='height-featured-image'>
-                                <img className='img-responsive' src={image_featured} />
+                                <Link to='/research/stefanie-miller-on-bloomberg-australia-government-shutdown/'><img className='img-responsive' src={image_featured} /></Link>
                                 <img className='icon-play' src={icon_play} />
                             </div>
                             <header className='bebas'>Height Featured</header>
                             <div>
-                                <h3>Height Analyst Katie Bays Talks Keystone XL</h3>
-                                <p>Katie Bays modi aliquas nusa dunt ius quo diatipsandam nis modis alit, to unt nusa dunt sunt eossitas et repudi.</p>
+                                <Link to='/research/stefanie-miller-on-bloomberg-australia-government-shutdown/'><h3>Stefanie Miller on Bloomberg Australia: Government Shutdown</h3></Link>
                             </div>
-                            <div className='height-tags'>
-                                <a className='height-tag' href='#'>Katie Bays</a>
-                                <a className='height-tag' href='#'>Keystone XL</a>
-                                <a className='height-tag' href='#'>ITV</a>
+                            <div class="height-tags">
+                                <Link className="height-tag" to="/tags/stefanie-miller">Stefanie Miller</Link>
+                                <Link className="height-tag" to="/tags/tax-budget">Tax + Budget</Link>
+                                <Link className="height-tag" to="/tags/australia">Australia</Link>
                             </div>
                         </Col> 
                         
@@ -51,3 +52,4 @@ export default class Press_Release extends Component {
         )
     }
 }
+
