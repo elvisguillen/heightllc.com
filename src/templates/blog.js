@@ -75,7 +75,7 @@ export default function Template ({ data, transition }) {
                       <Col className='page-copy' md={{size: 8}}>
                         <header className='bebas white-bg'>{post.frontmatter.date}</header>
                         <h1>{post.frontmatter.title}</h1>
-                        <div className='height-tags'>
+                        {/* <div className='height-tags'>
                           <Link className='height-tag' to={'/tags/' + (post.frontmatter.author.replace(/\s+/g, '-').toLowerCase())}>{post.frontmatter.author}</Link>
                           <Link className='height-tag' to={'/categories/' + (post.frontmatter.category.replace(/\s+/g, '-').toLowerCase())}>{post.frontmatter.category}</Link>
                           {post.frontmatter.tags.map((tag, index) => {
@@ -83,7 +83,7 @@ export default function Template ({ data, transition }) {
                             <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/[+]|\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                             )
                           })}
-                        </div>
+                        </div> */}
                         <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
 
                         {/* {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
