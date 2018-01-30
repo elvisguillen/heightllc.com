@@ -77,6 +77,7 @@ export default function Template ({ data, transition }) {
                         <h1>{post.frontmatter.title}</h1>
                         <div className='height-tags'>
                           <Link className='height-tag' to={'/tags/' + (post.frontmatter.author.replace(/\s+/g, '-').toLowerCase())}>{post.frontmatter.author}</Link>
+                          <Link className='height-tag' to={'/tags/' + (post.frontmatter.category.replace(/\s+/g, '-').toLowerCase())}>{post.frontmatter.category}</Link>
                           {post.frontmatter.tags.map((tag, index) => {
                             return (
                             <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/[+]|\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
@@ -132,10 +133,10 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        path
-        date(formatString: "DD MMMM, YYYY")
         title
+        date(formatString: "DD MMMM, YYYY")
         author
+        path
         category
         tags
       }
