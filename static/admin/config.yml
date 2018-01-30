@@ -104,9 +104,9 @@ collections:
       - {label: Name, name: name, widget: string}
       - {label: Title, name: title, widget: string}
       - {label: Portrait, name: portrait, widget: image}
-      - {label: Email, name: email, widget: string}
-      - {label: Twitter, name: twitter, widget: string}
-      - {label: LinkedIn, name: linkedin, widget: string}
+      - {label: Email, required: false, name: email, widget: string}
+      - {label: Twitter, required: false, name: twitter, widget: string}
+      - {label: LinkedIn, required: false, name: linkedin, widget: string}
       - {label: Intro, name: intro, widget: markdown}
       - {label: Details, name: details, widget: markdown}
       - label: "Team Category"
