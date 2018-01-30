@@ -76,11 +76,11 @@ export default function Template ({ data, transition }) {
                         <header className='bebas white-bg'>{post.frontmatter.date}</header>
                         <h1>{post.frontmatter.title}</h1>
                         <div className='height-tags'>
-                          <Link className='height-tag' to={'/tags/' + post.frontmatter.author.replace(/\s+/g, '-').toLowerCase()}>{post.frontmatter.author}</Link>
-                          <Link className='height-tag' to={'/categories/' + post.frontmatter.category.replace(/\s+/g, '-').toLowerCase()}>{post.frontmatter.category}</Link>
+                          <Link className='height-tag' to={'/tags/' + (post.frontmatter.author.replace(/\s+/g, '-').toLowerCase())}>{post.frontmatter.author}</Link>
+                          <Link className='height-tag' to={'/categories/' + (post.frontmatter.category.replace(/\s+/g, '-').toLowerCase())}>{post.frontmatter.category}</Link>
                           {post.frontmatter.tags.map((tag, index) => {
                             return (
-                            <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                            <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/[+]|\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                             )
                           })}
                         </div>
