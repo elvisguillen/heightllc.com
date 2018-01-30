@@ -71,7 +71,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         pathFormatter: prefixPathFormatter(`tags/${(tag).replace('+', '').replace(/\s+/g, '-').toLowerCase()}`),
         limit: 2,
         context: {
-          tag
+          tag,
+          author,
+          category
         }
       });
     });
