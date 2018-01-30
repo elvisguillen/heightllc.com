@@ -133,10 +133,10 @@ export const tagsPageQuery = graphql`
           html 
           frontmatter {
             contentType
-            path
-            date(formatString: "DD MMMM, YYYY")
             title
+            date(formatString: "DD MMMM, YYYY")
             author
+            path
             category
             tags
           }    
