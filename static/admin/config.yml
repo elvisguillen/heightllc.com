@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "src/pages/home/index.md"
+        file: "src/components/home/index.md"
         slug: "{{slug}}"
         fields:
         - {label: "Content Type", required: false, name: "contentType", widget: "hidden", default: "home"}
