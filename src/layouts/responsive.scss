@@ -44,6 +44,10 @@
         width: 35px!important;
         right: 12px!important;
     }
+
+    #home-page section {
+        border-right: 60px solid $teal;
+    }
     
     #top-scroll {
         border-right: 60px!important;
@@ -61,10 +65,42 @@
             &.second-heading {
                 right: 100px!important
             }
+            
         }
+
+        .circular-heading {
+            width: 800px!important;
+            max-width: 800px!important;
+            border-right: 60px solid $teal !important;
+        }
+
+        .branding-color {
+            width: 250px;
+            margin: 150px 25px 0px 0px;
+            float: right;
+        }
+
+        #fourthHeading {
+            width: 252px;
+            left: 43px;
+        }
+
+        
 
     }
 
+    
+    .par-bridge {
+        width: 920px !important;
+        top: 1920px!important;
+        left: -190px;
+    }
+
+    .monument-height {
+        z-index: 2;
+        position: absolute !important;
+        top: 2090px;
+    }
 
     .height-position {  
         top: 11px!important;
