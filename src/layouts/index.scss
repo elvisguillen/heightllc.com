@@ -43,6 +43,7 @@
 // bootswatch theme overrides
 @import "node_modules/bootswatch/dist/cosmo/bootswatch";
 
+
 // Animate.css Animation Library
 // @import "node_modules/animate.css/animate";
 
@@ -328,3 +329,5 @@ footer {
 		margin: 354px 215px 0px 0px!important;
 	}
 }
+
+@import "./responsive.scss";

@@ -144,10 +144,16 @@ export default class IndexPage extends Component {
       <section id='top-scroll' className="top">
         <Container>
             <Col id='firstHeading' className={this.state.firstFixed ? "scroll-jack-active heading first-heading text-left" : "scroll-jack-inactive heading first-heading text-left"} md={{size: 10, offset: 0}}>    
-                <h4>Analysis</h4>              
-                <h1>Close scrutiny of regulatory,</h1>          
-                <h1>macroeconomic, and geopolitical risk</h1>            
-                <h1>made actionable.</h1>
+                <div className='d-none d-sm-block'>
+                  <h4>Analysis</h4>              
+                  <h1>Close scrutiny of regulatory,</h1>          
+                  <h1>macroeconomic, and geopolitical risk</h1>            
+                  <h1>made actionable.</h1>
+                </div>
+                <div className='d-block d-sm-none'>
+                  <h4>Analysis</h4>              
+                  <h1>Close scrutiny of regulatory, macroeconomic, and geopolitical risk made actionable.</h1>
+                </div>
             </Col>
           <Col id='secondHeading' className={this.state.secondFixed ? "scroll-jack-active heading second-heading text-right" : "scroll-jack-inactive heading second-heading text-right"} md={{size: 10, offset: 2}}>     
                 <h4>Investment</h4>        
