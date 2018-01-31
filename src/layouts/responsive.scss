@@ -55,14 +55,17 @@
         }
 
         .heading {
-            padding: 220px 0px 200px 0px!important;
+            padding: 146px 0px 200px 0px !important;
             width: 300px!important;
         }
 
     }
 
 
-    .height-position {
-        top: 50px!important;
+    .height-position {  
+        top: 11px!important;
+        span {    
+            padding: 10px 0px!important;
+        }  
     }
 }
