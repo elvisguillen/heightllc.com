@@ -156,16 +156,30 @@ export default class IndexPage extends Component {
                 </div>
             </Col>
           <Col id='secondHeading' className={this.state.secondFixed ? "scroll-jack-active heading second-heading text-right" : "scroll-jack-inactive heading second-heading text-right"} md={{size: 10, offset: 2}}>     
-                <h4>Investment</h4>        
-                <h1>Capital markets services</h1>
-                <h1>and assessments catapulted from </h1>
-                <h1>Washington to Beyond.</h1>
+                <div className='d-none d-sm-block'>
+                  <h4>Investment</h4>        
+                  <h1>Capital markets services</h1>
+                  <h1>and assessments catapulted from </h1>
+                  <h1>Washington to Beyond.</h1>
+                </div>
+                
+                <div className='d-block d-sm-none'>
+                  <h4>Investment</h4>        
+                  <h1>Capital markets services and assessments catapulted from Washington to Beyond.</h1>
+                </div>
           </Col>
           <Col id='thirdHeading' className={this.state.thirdFixed ? "scroll-jack-active heading third-heading text-left" : "scroll-jack-inactive heading third-heading text-left"} md={{size: 10, offset: 0}}> 
-              <h4>Insights</h4>
-              <h1>Differentiated research opinions</h1>          
-              <h1>from experienced, high-caliber traders</h1>
-              <h1>and analysts.</h1>
+              <div className='d-none d-sm-block'>
+                <h4>Insights</h4>
+                <h1>Differentiated research opinions</h1>          
+                <h1>from experienced, high-caliber traders</h1>
+                <h1>and analysts.</h1>
+              </div>
+              
+              <div className='d-block d-sm-none'>
+                <h4>Insights</h4>
+                <h1>Differentiated research opinions from experienced, high-caliber traders and analysts.</h1>
+              </div>
           </Col>
           <Col id='fourthHeading' className="monument-height" ref={(section) => { this.Monument = section; }} md={{size: 10, offset: 0}}>
             <h4>Height of The Washington Monument</h4>
