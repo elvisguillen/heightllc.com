@@ -28,6 +28,7 @@ expertises:
       supported by in-depth primary source research honed in on a particular
       market. Comprehensively, they map out the entire financial landscape.
     header: Capture comprehensive research from the capital’s leading advisors.
+    photo: /files/image_page_sidebar.0b34c9f1.jpg
     title: Investment Banking
   - copy: >-
       Through collaboration, we are able to experience the dynamic nature of the
@@ -41,6 +42,7 @@ expertises:
     header: >-
       Capture comprehensive research from the capital’s leading financiers and
       advisors.
+    photo: /files/image_page_sidebar.0b34c9f1.jpg
     title: Sales + Trading
   - copy: >-
       Through collaboration, we are able to experience the dynamic nature of the
@@ -54,6 +56,7 @@ expertises:
     header: >-
       Capture comprehensive research from the capital’s leading financiers and
       advisors.
+    photo: /files/image_page_sidebar.0b34c9f1.jpg
     title: Advisory Services
 ---
 
