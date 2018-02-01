@@ -9,6 +9,8 @@ public_folder: "/files/"
 collections:
   - name: "pages"
     label: "Pages"
+    description: >
+    This is where you manage content on individual pages for Height Capital Markets.     
     files:
       - label: "Home Page"
         name: "home"
@@ -60,7 +62,7 @@ collections:
           - {label: LinkedIn, name: linkedin, widget: string}
           - {label: Intro, name: intro, widget: markdown}
           - {label: Details, name: details, widget: markdown}
-          - label: "Team Category"
+          - label: "Department"
             name: "category_team"
             widget: "select"
             options: ["Leadership", "Research", "Sales"]
@@ -96,6 +98,8 @@ collections:
 
   - name: "teamMembers"
     label: "Team Members"
+    description: >
+    This is where you can add and manage team members of Height Capital Markets. Each employee has a place for content, contacts and departmentalization. 
     folder: "src/pages/team_member"
     create: true
     slug: "{{slug}}"
@@ -127,7 +131,7 @@ collections:
       - {label: Name, name: name, widget: string}
       - {label: Title, name: title, widget: string}
 
-    - name: "settings"
+  - name: "settings"
     label: "Settings"
     folder: "src/pages/settings"
     create: true
