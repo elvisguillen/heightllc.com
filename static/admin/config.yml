@@ -9,8 +9,7 @@ public_folder: "/files/"
 collections:
   - name: "pages"
     label: "Pages"
-    description: >
-    This is where you manage content on individual pages for Height Capital Markets.     
+    description: This is where you manage content on individual pages for Height Capital Markets.     
     files:
       - label: "Home Page"
         name: "home"
@@ -98,8 +97,7 @@ collections:
 
   - name: "teamMembers"
     label: "Team Members"
-    description: >
-    This is where you can add and manage team members of Height Capital Markets. Each employee has a place for content, contacts and departmentalization. 
+    description: This is where you can add and manage team members of Height Capital Markets. Each employee has a place for content, contacts and departmentalization. 
     folder: "src/pages/team_member"
     create: true
     slug: "{{slug}}"
