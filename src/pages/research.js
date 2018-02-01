@@ -65,18 +65,18 @@ export default class researchTemplate extends Component {
               
               {/* ACCORDION 1 */}
 
-              <div className="page-accordion-container" key={1}>
+              <div className="page-accordion-container" key={0}>
                 <Row>
                   <Col className='page-link-container' md={{size: 12}}>
                     <div className='page-accordion-link'>
-                      <a onClick={this.toggle} data-event={1} className='bebas'>Research</a>
-                      <button onClick={this.toggle} data-event={1}>{this.state.collapse === 1 ? 'Close -' : 'Open +'}</button>
+                      <a onClick={this.toggle} data-event={0} className='bebas'>Research</a>
+                      <button onClick={this.toggle} data-event={0}>{this.state.collapse === 0 ? 'Close -' : 'Open +'}</button>
                     </div>
                   </Col>
                 </Row>
               
               {/* This is where we render the queried posts */}
-                <Collapse isOpen={collapse === 1}>
+                <Collapse isOpen={collapse === 0}>
                   <Row>
                   {posts.edges.filter(post => post.node.frontmatter.category === 'Research').slice(0, 2).map(({ node: post, index }) => {
                       post = post.frontmatter
@@ -123,18 +123,18 @@ export default class researchTemplate extends Component {
 
               {/* ACCORDION 2 */}
               
-              <div className="page-accordion-container" key={0}>
+              <div className="page-accordion-container" key={1}>
                 <Row>
                   <Col className='page-link-container' md={{size: 12}}>
                     <div className='page-accordion-link'>
-                      <a onClick={this.toggle} data-event={0} className='bebas'>Height In The News</a>
-                      <button onClick={this.toggle} data-event={0}>{this.state.collapse === 0 ? 'Close -' : 'Open +'}</button>
+                      <a onClick={this.toggle} data-event={1} className='bebas'>Height In The News</a>
+                      <button onClick={this.toggle} data-event={1}>{this.state.collapse === 1 ? 'Close -' : 'Open +'}</button>
                     </div>
                   </Col>
                 </Row>
               
               {/* This is where we render the queried posts */}
-                <Collapse isOpen={collapse === 0}>
+                <Collapse isOpen={collapse === 1}>
                   <Row>
                   {posts.edges.filter(post => post.node.frontmatter.category === 'Height In The News').slice(0, 2).map(({ node: post, index }) => {
                       post = post.frontmatter

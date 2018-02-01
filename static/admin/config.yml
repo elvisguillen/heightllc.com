@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
+display_url: http://height-llc.netlify.com
 media_folder: "/static/files/"
 public_folder: "/files/"
 
@@ -114,3 +115,25 @@ collections:
         widget: "select"
         options: ["Leadership", "Research", "Sales"]
       - {label: Tags, name: tags, widget: list, default: ['term_1', 'term_2']}
+
+  - name: "regulatory"
+    label: "Regulatory Pages"
+    folder: "src/pages/regulatory"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "regulatory"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: Name, name: name, widget: string}
+      - {label: Title, name: title, widget: string}
+
+    - name: "settings"
+    label: "Settings"
+    folder: "src/pages/settings"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Content Type", name: "contentType", widget: "hidden", default: "settings"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: Name, name: name, widget: string}
+      - {label: Title, name: title, widget: string}
