@@ -78,7 +78,7 @@ export default class researchTemplate extends Component {
               {/* This is where we render the queried posts */}
                 <Collapse isOpen={collapse === 0}>
                   <Row>
-                  {posts.edges.filter(post => post.node.frontmatter.category === 'Research').slice(0, 2).map(({ node: post, index }) => {
+                  {posts.edges.filter(post => post.node.frontmatter.category === 'Research').slice(0, 5).map(({ node: post, index }) => {
                       post = post.frontmatter
                       post.id = index
                       return (
@@ -136,7 +136,7 @@ export default class researchTemplate extends Component {
               {/* This is where we render the queried posts */}
                 <Collapse isOpen={collapse === 1}>
                   <Row>
-                  {posts.edges.filter(post => post.node.frontmatter.category === 'Height In The News').slice(0, 2).map(({ node: post, index }) => {
+                  {posts.edges.filter(post => post.node.frontmatter.category === 'Height In The News').slice(0, 5).map(({ node: post, index }) => {
                       post = post.frontmatter
                       post.id = index
                       return (
@@ -197,7 +197,7 @@ export default class researchTemplate extends Component {
               {/* This is where we render the queried posts */}
                 <Collapse isOpen={collapse === 2}>
                   <Row>
-                  {posts.edges.filter(post => post.node.frontmatter.category === 'Press Release').slice(0, 2).map(({ node: post, index }) => {
+                  {posts.edges.filter(post => post.node.frontmatter.category === 'Press Release').slice(0, 5).map(({ node: post, index }) => {
                       post = post.frontmatter
                       post.id = index
                       return (
