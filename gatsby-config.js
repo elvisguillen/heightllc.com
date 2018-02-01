@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Height Capital Markets',
     author: 'Spoke-Dev',
-    authorLink: 'https://github.com/Spoke-Dev'
+    authorLink: 'https://github.com/Spoke-Dev',
+    disqus: 'gatsby-starter-blog'// put your disqus ID here
   },
   plugins: [
     {
