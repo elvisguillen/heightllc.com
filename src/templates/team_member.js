@@ -67,7 +67,7 @@ export default function teamMemberTemplate ({transition, data}) {
                             <div className='page-sidebar-content'>
                               <div className='page-team-name'>
                                 <h3>{post.frontmatter.name}</h3>
-                                <h4>CEO</h4>  
+                                <h4>{post.frontmatter.title}</h4>  
                               </div>
                               <div className='page-team-social-icons'>
                                 <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter_dark} /></a>
@@ -100,7 +100,7 @@ export default function teamMemberTemplate ({transition, data}) {
                         <Row>
                           <Col className='page-related-profiles' md={{size: 4}}>
                             <div className='page-sidebar-image'>
-                              <img src={image_team_john} />
+                              <img src={post.frontmatter.portrait} />
                             </div>
                             <div className='page-team-name'>
                               <h3>FirstName<br/>LastName</h3>

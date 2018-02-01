@@ -76,7 +76,7 @@ export default class expertiseTemplate extends Component {
                           <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
                               <div className='page-sidebar-image'>
-                                <img src={image_sidebar} />
+                                <img src={expertise.photo} />
                               </div>
                               <div className='page-sidebar-content'>
                                 <header className='bebas'>Contact</header>
@@ -125,6 +125,7 @@ export const expertisePageQuery = graphql`
           title
           header
           copy
+          photo
         }
       }      
     }

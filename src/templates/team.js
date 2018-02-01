@@ -60,7 +60,7 @@ export default function teamTemplate ({ transition, data }) {
                             return (
                               <Col className='page-related-profiles' md={{size: 4}} key={team_member.id}>
                                 <Link to={team_member.path}><div className='page-team-sidebar-image'>
-                                 <img src={image_team_john} /> 
+                                 <img src={team_member.portrait} /> 
                                 </div></Link>
                                 <div className='page-team-name'>
                                   <h3>{team_member.name}</h3>
@@ -92,6 +92,7 @@ export const teamPageQuery = graphql`
             path
             title
             name
+            portrait
           }    
         }
       }
