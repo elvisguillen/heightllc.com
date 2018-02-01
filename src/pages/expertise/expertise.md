@@ -16,6 +16,7 @@ expertises:
     header: >-
       Capture comprehensive research from the capital’s leading financiers and
       advisors.
+    photo: /files/image_page_sidebar.0b34c9f1.jpg
     title: Research
   - copy: >-
       Through collaboration, we are able to experience the dynamic nature of the
