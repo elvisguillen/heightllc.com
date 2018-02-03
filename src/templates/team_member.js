@@ -54,7 +54,7 @@ export default function teamMemberTemplate ({transition, data}) {
                           <Col className='page-link-container' md={{size: 12}}>
                             <div className='page-accordion-link'>
                               <a className='bebas' href='#'>Leadership</a>
-                              <button>Contact | <span>first.last@heightcapital.com</span></button>
+                              <button>Contact | <span>{post.frontmatter.email}</span></button>
                             </div>
                           </Col>
                         </Row>

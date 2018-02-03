@@ -104,14 +104,14 @@ collections:
     fields: 
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "team_member"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: Name, name: name, widget: string}
-      - {label: Title, name: title, widget: string}
-      - {label: Portrait, name: portrait, widget: image}
+      - {label: Name, required: false, name: name, widget: string}
+      - {label: Title, required: false, name: title, widget: string}
+      - {label: Portrait, required: false, name: portrait, widget: image}
       - {label: Email, required: false, name: email, widget: string}
       - {label: Twitter, required: false, name: twitter, widget: string}
       - {label: LinkedIn, required: false, name: linkedin, widget: string}
-      - {label: Intro, name: intro, widget: markdown}
-      - {label: Details, name: details, widget: markdown}
+      - {label: Intro, required: false, name: intro, widget: markdown}
+      - {label: Details, required: false, name: details, widget: markdown}
       - label: "Team Category"
         name: "category_team"
         widget: "select"
