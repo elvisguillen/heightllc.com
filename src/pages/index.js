@@ -143,7 +143,7 @@ export default class IndexPage extends Component {
       <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}><span>{this.state.isFixed ? "555" : this.state.heightPosition}</span><span>FT</span></p>
       <section id='top-scroll' className="top">
         <Container>
-            <Col id='firstHeading' className={this.state.firstFixed ? "scroll-jack-active heading first-heading text-left" : "scroll-jack-inactive heading first-heading text-left"} md={{size: 10, offset: 0}}>    
+            <Col id='firstHeading' className={this.state.firstFixed ? "scroll-jack-active heading first-heading text-left" : "scroll-jack-inactive heading first-heading text-left"} xs={{size: 12}} md={{size: 10, offset: 0}}>    
                 <div className='d-none d-sm-block'>
                   <h4>Analysis</h4>              
                   <h1>Close scrutiny of regulatory,</h1>          
@@ -155,7 +155,7 @@ export default class IndexPage extends Component {
                   <h1>Close scrutiny of regulatory, macroeconomic, and geopolitical risk made actionable.</h1>
                 </div>
             </Col>
-          <Col id='secondHeading' className={this.state.secondFixed ? "scroll-jack-active heading second-heading text-right" : "scroll-jack-inactive heading second-heading text-right"} md={{size: 10, offset: 2}}>     
+          <Col id='secondHeading' className={this.state.secondFixed ? "scroll-jack-active heading second-heading text-right" : "scroll-jack-inactive heading second-heading text-right"} xs={{size: 12}} md={{size: 10, offset: 2}}>     
                 <div className='d-none d-sm-block'>
                   <h4>Investment</h4>        
                   <h1>Capital markets services</h1>
@@ -168,7 +168,7 @@ export default class IndexPage extends Component {
                   <h1>Capital markets services and assessments catapulted from Washington to Beyond.</h1>
                 </div>
           </Col>
-          <Col id='thirdHeading' className={this.state.thirdFixed ? "scroll-jack-active heading third-heading text-left" : "scroll-jack-inactive heading third-heading text-left"} md={{size: 10, offset: 0}}> 
+          <Col id='thirdHeading' className={this.state.thirdFixed ? "scroll-jack-active heading third-heading text-left" : "scroll-jack-inactive heading third-heading text-left"} xs={{size: 12}} md={{size: 10, offset: 0}}> 
               <div className='d-none d-sm-block'>
                 <h4>Insights</h4>
                 <h1>Differentiated research opinions</h1>          
@@ -181,7 +181,7 @@ export default class IndexPage extends Component {
                 <h1>Differentiated research opinions from experienced, high-caliber traders and analysts.</h1>
               </div>
           </Col>
-          <Col id='fourthHeading' className="monument-height" ref={(section) => { this.Monument = section; }} md={{size: 10, offset: 0}}>
+          <Col id='fourthHeading' className="monument-height" ref={(section) => { this.Monument = section; }} xs={{size: 12}} md={{size: 10, offset: 0}}>
             <h4>Height of The Washington Monument</h4>
           </Col>
           
@@ -196,7 +196,7 @@ export default class IndexPage extends Component {
       <section id='cta' className="cta">
         <Container>
           <Row>
-            <Col className='cta-left' md={{size: 4}}>
+            <Col className='cta-left' xs={{size: 12}} md={{size: 4}}>
               <ul className="cta-links">
                   <Fade left>
                     <li>
@@ -225,7 +225,7 @@ export default class IndexPage extends Component {
                 <Link className='cta-link' to='/expertise'>Expertise &rsaquo;</Link>
               </Fade>
             </Col>
-            <Col className='cta-right' md={{size: 8}}>
+            <Col className='cta-right' xs={{size: 12}} md={{size: 8}}>
                 
                   <h1>Insights, Elevated.</h1>  
                   <p>At Height Capital Markets, we understand policy risk. Investment banking and research traverses deep into the most heavily-regulated sectors of the economy to capture insights with an unmatched expertise. We know our clients need a firm that knows how regulatory, legal, policy and other non-financial risks impact their portfolio and operations. We are that firm.</p>
@@ -246,7 +246,7 @@ export default class IndexPage extends Component {
                 post = post.frontmatter
                 post.id = index
                 return (
-                <Col md={{size: 12}} key={post.id}>
+                <Col xs={{size: 12}} md={{size: 12}} key={post.id}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
@@ -283,7 +283,7 @@ export default class IndexPage extends Component {
                 post = post.frontmatter
                 post.id = index
                 return (
-                <Col md={{size: 12}} key={post.id}>
+                <Col xs={{size: 12}} md={{size: 12}} key={post.id}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
@@ -319,7 +319,7 @@ export default class IndexPage extends Component {
                 post = post.frontmatter
                 post.id = index
                 return (
-                <Col md={{size: 12}} key={post.id}>
+                <Col xs={{size: 12}} md={{size: 12}} key={post.id}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
@@ -355,7 +355,7 @@ export default class IndexPage extends Component {
                 post = post.frontmatter
                 post.id = index
                 return (
-                <Col md={{size: 12}} key={post.id}>
+                <Col xs={{size: 12}} md={{size: 12}} key={post.id}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
@@ -391,7 +391,7 @@ export default class IndexPage extends Component {
                 post = post.frontmatter
                 post.id = index
                 return (
-                <Col md={{size: 12}} key={post.id}>
+                <Col xs={{size: 12}} md={{size: 12}} key={post.id}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
@@ -427,7 +427,7 @@ export default class IndexPage extends Component {
                 post = post.frontmatter
                 post.id = index
                 return (
-                <Col md={{size: 12}} key={post.id}>
+                <Col xs={{size: 12}} md={{size: 12}} key={post.id}>
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>

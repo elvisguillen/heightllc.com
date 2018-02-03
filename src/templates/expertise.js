@@ -44,7 +44,7 @@ export default class expertiseTemplate extends Component {
             <section className='page-header'>
               <Container>
                 <Row>
-                  <Col className='page-header-text' md={{size: 9}}>
+                  <Col className='page-header-text' xs={{size: 12}} md={{size: 9}}>
                     <header className='bebas'>{page.frontmatter.title}</header>
                     <h1>{page.frontmatter.page_header}</h1>
                   </Col>
@@ -64,7 +64,7 @@ export default class expertiseTemplate extends Component {
                   return (
                     <div className='page-accordion-container' key={expertise.id}>
                       <Row>
-                        <Col className='page-link-container' md={{size: 12}}>
+                        <Col className='page-link-container' xs={{size: 12}} md={{size: 12}}>
                           <div className='page-accordion-link'>
                             <a onClick={this.toggle} data-event={expertise.id} className='bebas'>{expertise.title}</a>
                             <button onClick={this.toggle} data-event={expertise.id}>{this.state.collapse === expertise.id ? 'Close -' : 'Open +'}</button>
@@ -74,7 +74,7 @@ export default class expertiseTemplate extends Component {
 
                         <Collapse isOpen={collapse === expertise.id}>
                           <Row>
-                            <Col className='page-sidebar' md={{size: 4}}>
+                            <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                               <div className='page-sidebar-image'>
                                 <img src={expertise.photo} />
                               </div>
@@ -87,7 +87,7 @@ export default class expertiseTemplate extends Component {
                                 </div>
                               </div>
                             </Col>
-                            <Col className='page-copy' md={{size: 8}}>
+                            <Col className='page-copy' xs={{size: 12}} md={{size: 8}}>
                               <h1>{expertise.header}</h1>
                               <p>{expertise.copy}</p>
                                 <ul>
