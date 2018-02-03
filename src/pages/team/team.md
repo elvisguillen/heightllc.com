@@ -40,5 +40,56 @@ team_member:
     name: John Akridge
     portrait: /files/team_john.png
     title: CEO
+  - category_team: Research
+    name: Clayton Allen
+    title: Vice President
+  - category_team: Research
+    name: Katie Bays
+    title: 'Senior Vice President, Energy & Industrials'
+  - category_team: Sales
+    name: Madhavi Botla
+    title: Vice President
+  - category_team: Leadership
+    name: Sabrina Cassagnol
+    title: Chief Compliance Officer
+  - category_team: Research
+    name: Alex Cynamon
+    title: Director
+  - category_team: Sales
+    name: Adam Daney
+    title: Vice President
+  - category_team: Research
+    name: Michael Gleeson
+    title: Vice President
+  - category_team: Research
+    name: Edwin Groshans
+    title: Director
+  - category_team: Leadership
+    name: Trevor Hanger
+    title: President & Chief Operating Officer
+  - category_team: Research
+    name: Andrea Harris
+    title: 'Senior Vice President, Healthcare'
+  - category_team: Sales
+    name: Timothy Kelly
+    title: Vice President
+  - category_team: Sales
+    name: John Kemp
+    title: Vice President
+  - category_team: Sales
+    name: Joseph Kemp
+    title: Director
+  - category_team: Research
+    name: Stefanie Miller
+    title: 'Senior Vice President, Special Situations'
+  - category_team: Sales
+    name: Matthew Rogers
+    title: Director
+  - category_team: Sales
+    name: Brian Scanlon
+    title: Vice President
+  - category_team: Research
+    name: Shrey Verma
+    title: Vice President
 ---
 
