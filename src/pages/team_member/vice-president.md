@@ -1,6 +1,6 @@
 ---
 contentType: team_member
-path: clayton-allen
+path: /clayton-allen
 name: Clayton Allen
 title: Vice President
 portrait: /files/clayton allen_research.jpg
