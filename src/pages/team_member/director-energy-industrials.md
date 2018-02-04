@@ -1,6 +1,6 @@
 ---
 contentType: team_member
-path: katie-bays
+path: /team/katie-bays
 name: Katie Bays
 title: Director of Energy & Industrials
 portrait: /files/katie bays_research.jpg
