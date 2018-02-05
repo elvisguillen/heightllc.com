@@ -73,7 +73,7 @@ team_member:
       environment.
     linkedin: 'https://www.linkedin.com/in/katiemarvin/'
     name: Katie Bays
-    title: 'Director, Energy & Industrials'
+    title: 'Senior Vice President, Energy & Industrials'
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/madhavi-botla-532b881/'
     name: Madhavi Botla
@@ -134,8 +134,26 @@ team_member:
       Floral Park.
     linkedin: 'https://www.linkedin.com/in/ed-groshans-31212b1/'
     name: Edwin Groshans
-    title: 'Director, Financial Services'
+    title: 'Senior Vice President & Director, Financial Services'
   - category_team: Leadership
+    details: >-
+      As Height’s President & COO, Trevor Hanger oversees daily operations
+      across all of Height’s business lines, and works closely with other
+      members of senior leadership to help direct strategy and development for
+      the firm. Prior to becoming President and COO, Trevor was Height’s
+      Director of Research beginning in 2013. He joined the firm in 2010 to help
+      launch Height’s equity trading desk. 
+
+
+      Before coming to Height, Trevor was the Head of Trading at Brookline
+      Avenue Partners, a hedge fund in Dallas, TX, from 2007-2009. He began his
+      career at Carlson Capital, where he was a merger arbitrage trader for five
+      years. In addition, Trevor spent 2005 and 2006 staffing various US
+      Congressional campaigns as part of the Campaign Corps program for EMILY’s
+      List. 
+
+
+      He holds a B.A. in Political Science from Yale University.
     linkedin: 'https://www.linkedin.com/in/trevorhanger/'
     name: Trevor Hanger
     title: President & Chief Operating Officer
@@ -161,7 +179,7 @@ team_member:
       London School of Economics and Political Science.
     intro: ''
     name: Andrea Harris
-    title: 'Director, Healthcare'
+    title: 'Senior Vice President, Healthcare'
   - category_team: Sales
     name: Timothy Kelly
     title: Vice President
@@ -172,7 +190,7 @@ team_member:
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/joeykemp/'
     name: Joseph Kemp
-    title: Director
+    title: 'Director, Sales'
   - category_team: Research
     details: >-
       Stefanie Miller is a Director of Height's Special Situations team. As part
@@ -199,34 +217,14 @@ team_member:
     intro: ''
     linkedin: 'https://www.linkedin.com/in/stefanie-miller-22806a67/'
     name: Stefanie Miller
-    title: 'Director, Special Situations'
+    title: 'Senior Vice President, Special Situations'
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/matthew-rogers-0a073121/'
     name: Matthew Rogers
-    title: Director
+    title: 'Director, Sales & Trading'
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/brian-scanlon-522b8767/'
     name: Brian Scanlon
-    title: Vice President
-  - category_team: Research
-    details: >-
-      Shrey Verma joined Height's special situations team in July 2015. He works
-      on distressed-debt themes across the globe with a particular focus on the
-      healthcare sector. Shrey has written on business, macroeconomic and
-      geopolitical issues related to China, India and Japan and has published
-      opinion pieces for such publications as Foreign Policy, Forbes and the
-      Nikkei Asian Review. Prior to Height, Shrey worked on sovereign credit
-      issues at GE Capital focusing on emerging markets across Asia Pacific. He
-      also worked with Washington-based Hudson Institute on subjects related to
-      pan-Asian security, trade and economics. 
-
-
-      Shrey graduated with a MSc. in Mathematics and Scientific Computing from
-      the Indian Institute of Technology Kanpur and received his MA in
-      International Economics and South Asia Studies from the Johns Hopkins
-      School of Advanced International Studies.
-    linkedin: 'https://www.linkedin.com/in/shrey-verma-56315815/'
-    name: Shrey Verma
     title: Vice President
 ---
 
