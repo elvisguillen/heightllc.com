@@ -3,6 +3,7 @@ contentType: team_member
 path: /team/edwin-groshans
 title: Edwin Groshans
 job_title: 'Senior Vice President & Director, Financial Services'
+portrait: /files/ed groshans_research.png
 linkedin: 'https://www.linkedin.com/in/ed-groshans-31212b1/'
 intro: >-
   Edwin is a Director at Height Analytics focusing on the financial services
