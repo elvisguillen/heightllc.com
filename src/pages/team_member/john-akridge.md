@@ -2,7 +2,7 @@
 contentType: team_member
 path: /team/john-akridge
 name: John Akridge
-title: CEO
+title: Chief Executive Officer
 portrait: /files/team_john.png
 email: ''
 twitter: ''
