@@ -4,13 +4,14 @@ path: /team/trevor-hanger
 title: Trevor Hanger
 job_title: President & Chief Operating Officer
 linkedin: 'https://www.linkedin.com/in/trevorhanger/'
-details: >-
+intro: >-
   As Height’s President & COO, Trevor Hanger oversees daily operations across
   all of Height’s business lines, and works closely with other members of senior
-  leadership to help direct strategy and development for the firm. Prior to
-  becoming President and COO, Trevor was Height’s Director of Research beginning
-  in 2013. He joined the firm in 2010 to help launch Height’s equity trading
-  desk.
+  leadership to help direct strategy and development for the firm.
+details: >-
+  Prior to becoming President and COO, Trevor was Height’s Director of Research
+  beginning in 2013. He joined the firm in 2010 to help launch Height’s equity
+  trading desk.
 
 
   Before coming to Height, Trevor was the Head of Trading at Brookline Avenue

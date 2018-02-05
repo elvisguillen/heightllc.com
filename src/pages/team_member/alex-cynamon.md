@@ -4,12 +4,13 @@ path: /team/alex-cynamon
 title: Alex Cynamon
 job_title: Director
 linkedin: ' https://www.linkedin.com/in/alexcynamon/'
-details: >-
+intro: >-
   Alex Cynamon, Director, is responsible for research as well as Height's
-  external relations. He joined the firm in 2009 soon after its launch,
-  developing the business while establishing and covering many of Height's
-  institutional clients, and then took on research oversight and additional
-  responsibilities in 2013.
+  external relations.
+details: >-
+  He joined the firm in 2009 soon after its launch, developing the business
+  while establishing and covering many of Height's institutional clients, and
+  then took on research oversight and additional responsibilities in 2013.
 
 
   Prior to Height, Alex worked in institutional equity sales at Credit Suisse
