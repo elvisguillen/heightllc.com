@@ -1,9 +1,9 @@
 ---
 contentType: team_member
-path: /team/brian-scanlon
-name: Brian Scanlon
-title: 'Vice President, Sales'
-linkedin: 'https://www.linkedin.com/in/brian-scanlon-522b8767/'
+path: /team/ madhavi-botla
+name: ' Madhavi Botla'
+title: ' Vice President, Sales'
+linkedin: 'https://www.linkedin.com/in/madhavi-botla-532b881/'
 category_team: Sales
 tags:
   - term_1
