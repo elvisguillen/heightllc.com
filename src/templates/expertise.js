@@ -90,14 +90,6 @@ export default class expertiseTemplate extends Component {
                             <Col className='page-copy' xs={{size: 12}} md={{size: 8}}>
                               <h1>{expertise.header}</h1>
                               <p>{expertise.copy}</p>
-                                <ul>
-                                  <li>Financial Services</li>
-                                  <li>Healthcare</li>
-                                  <li>Energy & Industrials</li>
-                                  <li>Tax, Trade & Budget</li>
-                                  <li>Special Situations</li>
-                                  <li>Politics & Elections</li>
-                                </ul>
                             </Col>
                           </Row>
                         </Collapse>
