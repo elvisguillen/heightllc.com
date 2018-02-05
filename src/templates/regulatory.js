@@ -64,10 +64,8 @@ export default function Template ({ data, transition }) {
                       </Col>
 
                       <Col className='page-copy' md={{size: 8}}>
-                        <header className='bebas white-bg'>{post.frontmatter.date}</header>
                         <h1>{post.frontmatter.title}</h1>
-                        
-                        <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
+                        <p>{post.frontmatter.body_copy}</p>
 
                         {/* {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
                           {post.frontmatter.attachments.map((attachment, i) => (
@@ -122,6 +120,8 @@ export const regulatoryQuery = graphql`
         path
         category
         tags
+        intro_copy
+        body_copy
       }
     }
 
