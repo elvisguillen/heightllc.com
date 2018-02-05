@@ -104,8 +104,8 @@ collections:
     fields: 
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "team_member"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: Name, required: false, name: name, widget: string}
-      - {label: Title, required: false, name: title, widget: string}
+      - {label: Name, required: false, name: title, widget: string}
+      - {label: Title, required: false, name: job_title, widget: string}
       - {label: Portrait, required: false, name: portrait, widget: image}
       - {label: Email, required: false, name: email, widget: string}
       - {label: Twitter, required: false, name: twitter, widget: string}
