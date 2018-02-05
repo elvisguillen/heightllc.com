@@ -15,17 +15,28 @@ expertises:
       market. Comprehensively, they map out the entire financial landscape.
 
 
-      * Financial Services
+      <ul>
 
-      * Healthcare
 
-      * Energy & Industrials
+      <li>Financial Services<li>
 
-      * Tax, Trade & Budget
 
-      * Special Situations
+      <li>Healthcare</li>
 
-      * Politics & Elections
+
+      <li>Energy & Industrials</li>
+
+
+      <li>Tax, Trade & Budget</li>
+
+
+      <li>Special Situations</li>
+
+
+      <li>Politics & Elections</li>
+
+
+      </ul>
     header: >-
       Capture comprehensive research from the capital’s leading financiers and
       advisors.
