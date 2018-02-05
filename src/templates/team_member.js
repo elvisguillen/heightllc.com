@@ -61,7 +61,7 @@ export default function teamMemberTemplate ({transition, data}) {
 
                         <Row>
                           <Col className='page-sidebar' md={{size: 4}}>
-                            <div className='page-sidebar-image'>
+                            <div className='page-team-sidebar-image'>
                               <img src={post.frontmatter.portrait} />
                             </div>
                             <div className='page-sidebar-content'>
