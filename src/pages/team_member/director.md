@@ -20,7 +20,7 @@ details: >-
 
   He graduated from Brown University in 2001 with an A.B. in International
   Relations and Russian Studies.
-category_team: Leadership
+category_team: Research
 tags:
   - term_1
   - term_2
