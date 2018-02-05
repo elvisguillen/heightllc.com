@@ -15,7 +15,7 @@ details: >-
   supervisory capacities. She received her Certified Regulatory and Compliance
   Professional (CRCP) designation from the FINRA Institute at The Wharton School
   in December 2010, and holds the Series 7, 63, 65, 24, and 79 licenses.
-category_team: Sales
+category_team: Leadership
 tags:
   - term_1
   - term_2
