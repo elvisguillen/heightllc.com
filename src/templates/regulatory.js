@@ -31,7 +31,7 @@ export default function Template ({ data, transition }) {
               <Container>
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
-                  <header className='bebas'>Research</header>
+                  <header className='bebas'>Regulatory</header>
                   <h1>Research that resonates and goes beyond insights.</h1>
                 </Col>
 
@@ -46,15 +46,6 @@ export default function Template ({ data, transition }) {
             <section className='page-content research'>
               
               <Container>
-
-              <Row>
-                <Col className='page-link-container' md={{size: 12}}>
-                  <div className='page-accordion-link'>
-                    <a className='bebas'>Research</a>
-                    <button>Back To Research</button>
-                  </div>
-                </Col>
-              </Row>
                     
                     <Row>
 
@@ -75,14 +66,7 @@ export default function Template ({ data, transition }) {
                       <Col className='page-copy' md={{size: 8}}>
                         <header className='bebas white-bg'>{post.frontmatter.date}</header>
                         <h1>{post.frontmatter.title}</h1>
-                        <div className='height-tags'>
-                          <Link className='height-tag' to={'/tags/' + (post.frontmatter.author.replace(/\s+/g, '-').toLowerCase())}>{post.frontmatter.author}</Link>
-                          {post.frontmatter.tags.map((tag, index) => {
-                            return (
-                            <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/[+]|\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
-                            )
-                          })}
-                        </div>
+                        
                         <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
 
                         {/* {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
