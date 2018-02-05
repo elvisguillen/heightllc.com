@@ -146,7 +146,7 @@ export const teamMemberPageQuery = graphql`
       frontmatter {
         path
         title
-        name
+        job_title
         portrait
         email
         twitter

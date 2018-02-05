@@ -262,7 +262,6 @@ export const researchPageQuery = graphql`
             author
             date(formatString: "DD MMMM, YYYY")
             title
-            name
             category
             tags
           }    

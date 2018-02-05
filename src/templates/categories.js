@@ -138,7 +138,6 @@ export const categoriesPageQuery = graphql`
             path
             date(formatString: "DD MMMM, YYYY")
             title
-            name
             author
             category
             tags

@@ -91,7 +91,7 @@ export const teamPageQuery = graphql`
           frontmatter {
             path
             title
-            name
+            job_title
             portrait
           }    
         }
