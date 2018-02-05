@@ -126,7 +126,6 @@ collections:
     fields: 
       - {label: "Content Type", name: "contentType", widget: "hidden", default: "regulatory"}
       - {label: "Path", name: "path", widget: "string"}
-      - {label: Name, name: name, widget: string}
       - {label: Title, name: title, widget: string}
       - {label: Intro Copy, name: intro_copy, widget: "string"}
       - {label: Body Copy, name: body_copy, widget: "markdown"}
