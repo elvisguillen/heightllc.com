@@ -17,24 +17,17 @@ expertises:
 
       <ul>
 
-
       <li>Financial Services<li>
-
 
       <li>Healthcare</li>
 
-
       <li>Energy & Industrials</li>
-
 
       <li>Tax, Trade & Budget</li>
 
-
       <li>Special Situations</li>
 
-
       <li>Politics & Elections</li>
-
 
       </ul>
     header: >-
