@@ -2,7 +2,7 @@
 contentType: team_member
 path: /team/clayton-allen
 name: Clayton Allen
-title: Vice President
+title: 'Vice President, Special Situations'
 portrait: /files/clayton allen_research.jpg
 linkedin: 'https://www.linkedin.com/in/claytonlallen/'
 intro: >-
