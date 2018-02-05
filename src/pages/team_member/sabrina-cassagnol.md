@@ -1,8 +1,8 @@
 ---
 contentType: team_member
-path: /team/sabrina-cassagno
-name: Sabrina Cassagnol
-title: Chief Compliance Officer
+path: /team/sabrina-cassagnol
+title: Sabrina Cassagnol
+job_title: Chief Compliance Officer
 linkedin: 'https://www.linkedin.com/in/sabrina-cassagnol-443a1720/'
 details: >-
   Sabrina Cassagnol serves as Chief Compliance Officer for the Firm. Ms.

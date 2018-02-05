@@ -1,8 +1,8 @@
 ---
 contentType: team_member
 path: /team/trevor-hanger
-name: Trevor Hanger
-title: President & Chief Operating Officer
+title: Trevor Hanger
+job_title: President & Chief Operating Officer
 linkedin: 'https://www.linkedin.com/in/trevorhanger/'
 details: >-
   As Height’s President & COO, Trevor Hanger oversees daily operations across

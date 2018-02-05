@@ -1,8 +1,8 @@
 ---
 contentType: team_member
 path: /team/alex-cynamon
-name: Alex Cynamon
-title: Director
+title: Alex Cynamon
+job_title: Director
 linkedin: ' https://www.linkedin.com/in/alexcynamon/'
 details: >-
   Alex Cynamon, Director, is responsible for research as well as Height's

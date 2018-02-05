@@ -63,8 +63,8 @@ export default function teamTemplate ({ transition, data }) {
                                  <img src={team_member.portrait} /> 
                                 </div></Link>
                                 <div className='page-team-name'>
-                                  <h3>{team_member.name}</h3>
-                                  <h4>{team_member.title}</h4>  
+                                  <h3>{team_member.title}</h3>
+                                  <h4>{team_member.job_title}</h4>  
                                 </div>
                               </Col>
                             )

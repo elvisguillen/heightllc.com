@@ -66,8 +66,8 @@ export default function teamMemberTemplate ({transition, data}) {
                             </div>
                             <div className='page-sidebar-content'>
                               <div className='page-team-name'>
-                                <h3>{post.frontmatter.name}</h3>
-                                <h4>{post.frontmatter.title}</h4>  
+                                <h3>{post.frontmatter.title}</h3>
+                                <h4>{post.frontmatter.job_title}</h4>  
                               </div>
                               <div className='page-team-social-icons'>
                                 <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter_dark} /></a>

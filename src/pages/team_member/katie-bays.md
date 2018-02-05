@@ -1,8 +1,8 @@
 ---
 contentType: team_member
 path: /team/katie-bays
-name: Katie Bays
-title: 'Senior Vice President, Energy & Industrials'
+title: Katie Bays
+job_title: 'Senior Vice President, Energy & Industrials'
 portrait: /files/katie bays_research.jpg
 linkedin: 'https://www.linkedin.com/in/katiemarvin/'
 intro: >-
