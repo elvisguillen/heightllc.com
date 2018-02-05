@@ -2,12 +2,18 @@
 contentType: regulatory
 path: /regulatory-disclosures
 title: Regulatory Disclosures
-page_header: "Our headquarters is in the heart \x03of DC's financial district."
-intro_copy: Let’s Talk.
+intro_copy: ' '
 body_copy: >-
-  Anchored by the International Monetary Fund, World Bank, White House and U.S.
-  Treasury, Height is in the heart of some of the most powerful financial
-  institutions in the world. Let’s talk and learn more about our distinct
-  insights, expertise and experience.
+  Nothing on this website should be construed as rendering personalized
+  investment advice or making a recommendation for the purchase or sale of a
+  security. Please be advised that Height Securities LLC transacts business only
+  in those states in which it is registered or otherwise permitted to do so. 
+  While reasonable efforts have been taken to ensure that all information
+  provided on this website is accurate, Height Securities LLC does not guarantee
+  the accuracy, completeness or timeliness of any information or analysis
+  contained in this website.  Users assume the entire cost and risk of any
+  investment decisions they choose to make.  Height Securities LLC shall not be
+  liable for any loss or damages resulting from the use of the information
+  contained in this website.
 ---
 
