@@ -22,7 +22,7 @@ team_member:
     linkedin: 'https://www.linkedin.com/in/john-akridge-3a102012/'
     name: John Akridge
     portrait: /files/team_john.png
-    title: CEO
+    title: Chief Executive Officer
   - category_team: Research
     details: >-
       Clayton Allen joined Height in May 2017, bringing experience on energy and
@@ -49,7 +49,7 @@ team_member:
       Georgetown.
     linkedin: 'https://www.linkedin.com/in/claytonlallen/'
     name: Clayton Allen
-    title: Vice President
+    title: 'Vice President, Special Situations'
   - category_team: Research
     details: >-
       Her team provides investment research driven by in-depth knowledge of
@@ -77,7 +77,7 @@ team_member:
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/madhavi-botla-532b881/'
     name: Madhavi Botla
-    title: Vice President
+    title: 'Vice President, Sales'
   - category_team: Leadership
     details: >-
       Sabrina Cassagnol serves as Chief Compliance Officer for the Firm. Ms.
@@ -119,7 +119,7 @@ team_member:
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/adamdaney/'
     name: Adam Daney
-    title: Vice President
+    title: 'Vice President, Sales'
   - category_team: Research
     details: >-
       Edwin is a Director at Height Analytics focusing on the financial services
@@ -182,11 +182,11 @@ team_member:
     title: 'Senior Vice President, Healthcare'
   - category_team: Sales
     name: Timothy Kelly
-    title: Vice President
+    title: 'Vice President, Sales'
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/john-kemp-a358583a/'
     name: John Kemp
-    title: Vice President
+    title: 'Vice President, Sales'
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/joeykemp/'
     name: Joseph Kemp
@@ -225,6 +225,6 @@ team_member:
   - category_team: Sales
     linkedin: 'https://www.linkedin.com/in/brian-scanlon-522b8767/'
     name: Brian Scanlon
-    title: Vice President
+    title: 'Vice President, Sales'
 ---
 
