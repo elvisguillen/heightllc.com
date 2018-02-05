@@ -1,8 +1,9 @@
 ---
 contentType: team_member
-path: /team/timothy-kelly
-name: Timothy Kelly
-title: ' Vice President, Sales'
+path: /team/john-kemp
+name: John Kemp
+title: 'Vice President, Sales'
+linkedin: 'https://www.linkedin.com/in/john-kemp-a358583a/'
 category_team: Sales
 tags:
   - term_1
