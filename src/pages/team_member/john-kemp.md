@@ -3,6 +3,7 @@ contentType: team_member
 path: /team/john-kemp
 title: John Kemp
 job_title: 'Vice President, Sales'
+portrait: /files/john kemp_sales and trading.png
 linkedin: 'https://www.linkedin.com/in/john-kemp-a358583a/'
 category_team: Sales
 tags:
