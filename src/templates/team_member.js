@@ -22,7 +22,7 @@ export default function teamMemberTemplate ({transition, data}) {
     const post = data.markdownRemark;
     return (
       <div style={transition && transition.style}>
-         <Helmet title={`${post.frontmatter.title}`} />
+         <Helmet title={`${post.frontmatter.name}`} />
         
          <div className='navbar navbar-expand-lg navbar-dark'>
           <div className='navbar-blue'></div>
