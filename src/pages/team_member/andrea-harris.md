@@ -3,6 +3,7 @@ contentType: team_member
 path: /team/andrea-harris
 title: Andrea Harris
 job_title: 'Senior Vice President, Healthcare'
+portrait: /files/andrea harris_research.png
 intro: >-
   Andrea Harris joined the firm In June 2017 as Director of Height's Healthcare
   team. Andrea has a decade of experience in federal health policy.
