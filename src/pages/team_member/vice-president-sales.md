@@ -1,9 +1,9 @@
 ---
 contentType: team_member
-path: /team/madhavi-botla
-name: Madhavi Botla
+path: /team/adam-daney
+name: Adam Daney
 title: 'Vice President, Sales'
-linkedin: 'https://www.linkedin.com/in/madhavi-botla-532b881/'
+linkedin: 'https://www.linkedin.com/in/adamdaney/'
 category_team: Sales
 tags:
   - term_1
