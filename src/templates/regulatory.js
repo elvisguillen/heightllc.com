@@ -105,8 +105,8 @@ export default function Template ({ data, transition }) {
   )
 }
 
-export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
+export const regulatoryQuery = graphql`
+  query RegulatoryPagebyPath($path: String!) {
     site {
       siteMetadata {
         disqus
