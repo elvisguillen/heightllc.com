@@ -3,6 +3,7 @@ contentType: team_member
 path: /team/stefanie-miller
 title: Stefanie Miller
 job_title: 'Senior Vice President, Special Situations'
+portrait: /files/stefanie miller_research.png
 linkedin: 'https://www.linkedin.com/in/stefanie-miller-22806a67/'
 details: >-
   Stefanie Miller is a Director of Height's Special Situations team. As part of
