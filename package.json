@@ -12,7 +12,7 @@
     "gatsby": "^1.9.157",
     "gatsby-link": "^1.6.21",
     "gatsby-pagination": "^1.1.0",
-    "gatsby-plugin-netlify": "^1.0.7",
+    "gatsby-plugin-netlify": "^1.0.17",
     "gatsby-plugin-offline": "^1.0.10",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "gatsby-plugin-sass": "^1.0.12",
