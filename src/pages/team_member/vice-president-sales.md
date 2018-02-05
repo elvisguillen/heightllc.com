@@ -1,9 +1,9 @@
 ---
 contentType: team_member
-path: /team/adam-daney
-name: Adam Daney
+path: /team/timothy-kelly
+name: Timothy Kelly
 title: 'Vice President, Sales'
-linkedin: 'https://www.linkedin.com/in/adamdaney/'
+details: ''
 category_team: Sales
 tags:
   - term_1
