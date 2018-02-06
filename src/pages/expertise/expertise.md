@@ -13,23 +13,6 @@ expertises:
       secular changes in a regulatory landscape. Special Situations Research is
       supported by in-depth primary source research honed in on a particular
       market. Comprehensively, they map out the entire financial landscape.
-
-
-      <ul>
-
-      <li>Financial Services<li>
-
-      <li>Healthcare</li>
-
-      <li>Energy & Industrials</li>
-
-      <li>Tax, Trade & Budget</li>
-
-      <li>Special Situations</li>
-
-      <li>Politics & Elections</li>
-
-      </ul>
     header: >-
       Capture comprehensive research from the capital’s leading financiers and
       advisors.
