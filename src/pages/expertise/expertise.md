@@ -29,7 +29,7 @@ expertises:
     header: >-
       Distribution team credibility creates opportunities to develop and market
       transactions.
-    photo: /files/image_page_sidebar.0b34c9f1.jpg
+    photo: /files/investment banking hero.png
     title: Investment Banking
   - copy: >-
       Our highly specialized sales team is immersed in the nuances of research.
@@ -42,7 +42,7 @@ expertises:
     header: >-
       Nuanced research and differentiation shines when applied to effective
       execution.
-    photo: /files/image_page_sidebar.0b34c9f1.jpg
+    photo: /files/sales and trading hero.png
     title: Sales + Trading
   - copy: >-
       Our core team has provided industry leading research since the turn of the
@@ -54,7 +54,7 @@ expertises:
       principles of market flow which becomes apparent through carefully
       executed consultation.
     header: Where identified investment themes and short time horizon ideas converge.
-    photo: /files/image_page_sidebar.0b34c9f1.jpg
+    photo: /files/advisory services hero.png
     title: Advisory Services
 ---
 

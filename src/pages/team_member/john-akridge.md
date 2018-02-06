@@ -3,11 +3,11 @@ contentType: team_member
 path: /team/john-akridge
 title: John Akridge
 job_title: Chief Executive Officer
-portrait: /files/team_john.png
+portrait: /files/john akridge_leadership.png
 email: ''
 twitter: ''
 linkedin: 'http://linkedin.com/john-akridge'
-intro: 'Mr. John Edward Akridge, IV is the CEO and Founder at Height.'
+intro: 'Mr. John Edward Akridge, IV is the CEO and Founder at Height Capital Markets.'
 details: >-
   Mr. Akridge provides investment analysis in key regulated sectors by
   integrating fundamental and policy research to better understand the financial
