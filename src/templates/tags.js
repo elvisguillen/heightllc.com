@@ -30,8 +30,8 @@ const tagsTemplate = ({data, pathContext, transition}) => {
         <Container>
           <Row>
             <Col className='page-header-text' md={{size: 9}}>
-              <header className='bebas'>Research</header>
-              <h1>Research that resonates and goes beyond insights.</h1>
+              <header className='bebas'>Height Capital Markets</header>
+              <h1>Insights, Elevated.</h1>
             </Col>
 
             <div className='page-circular-header'>

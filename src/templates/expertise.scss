@@ -175,6 +175,10 @@
                 }
             }
         }
+
+        &.regulatory {
+            padding-left: $gutter;
+        }
     }
 
     &.research {

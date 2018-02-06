@@ -31,8 +31,8 @@ export default function Template ({ data, transition }) {
               <Container>
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
-                  <header className='bebas'>Regulatory</header>
-                  <h1>Research that resonates and goes beyond insights.</h1>
+                  <header className='bebas'>Height Capital Markets</header>
+                  <h1>Insights, Elevated.</h1>
                 </Col>
 
                 <div className='page-circular-header'>
@@ -49,21 +49,7 @@ export default function Template ({ data, transition }) {
                     
                     <Row>
 
-                    <Col className='page-sidebar' md={{size: 4}}>
-                        <div className='page-sidebar-image'>
-                          <img src={thumbnail} />
-                        </div>
-                        <div className='page-sidebar-content'>
-                          <header className='bebas'>Contact</header>
-                            <h3>Give us a call to learn more about our expertise.</h3>  
-                          <div className='phone-numbers'>
-                            <p><span>Sales:</span>(202) 629-0030</p>
-                            <p><span>Trading:</span>(202) 629-0015</p>
-                          </div>
-                        </div>
-                      </Col>
-
-                      <Col className='page-copy' md={{size: 8}}>
+                      <Col className='page-copy regulatory' md={{size: 10}}>
                         <h1>{post.frontmatter.title}</h1>
                         
                         <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
