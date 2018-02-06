@@ -86,7 +86,11 @@ export default class researchTemplate extends Component {
                           <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
+                              {post.frontmatter.featured_image ? 
+                                <img src={post.frontmatter.featured_image} />
+                              : 
                                 <img src={thumbnail} />
+                              }
                               </div></Link>
                             </Col>
                             <Col className='page-copy' md={{size: 8}}> 
@@ -144,7 +148,11 @@ export default class researchTemplate extends Component {
                           <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
+                              {post.frontmatter.featured_image ? 
+                                <img src={post.frontmatter.featured_image} />
+                              : 
                                 <img src={thumbnail} />
+                              }
                               </div></Link>
                             </Col>
                             <Col className='page-copy' md={{size: 8}}> 
@@ -205,7 +213,11 @@ export default class researchTemplate extends Component {
                           <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
+                              {post.frontmatter.featured_image ? 
+                                <img src={post.frontmatter.featured_image} />
+                              : 
                                 <img src={thumbnail} />
+                              }
                               </div></Link>
                             </Col>
                             <Col className='page-copy' md={{size: 8}}> 
@@ -260,6 +272,7 @@ export const researchPageQuery = graphql`
             contentType
             path
             author
+            featured_image
             date(formatString: "DD MMMM, YYYY")
             title
             category
