@@ -29,6 +29,7 @@ body_copy: >-
   Some of the content on the site is the copyrighted work of third parties.
 
 
+
   2. **Copyright**
 
 
