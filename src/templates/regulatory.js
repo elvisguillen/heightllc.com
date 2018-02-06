@@ -65,7 +65,7 @@ export default function Template ({ data, transition }) {
 
                       <Col className='page-copy' md={{size: 8}}>
                         <h1>{post.frontmatter.title}</h1>
-                        <p>{post.frontmatter.body_copy}</p>
+                        {post.frontmatter.body_copy}
 
                         {/* {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
                           {post.frontmatter.attachments.map((attachment, i) => (
