@@ -89,7 +89,18 @@ export default class expertiseTemplate extends Component {
                             </Col>
                             <Col className='page-copy' xs={{size: 12}} md={{size: 8}}>
                               <h1>{expertise.header}</h1>
-                              <p>{expertise.copy}</p>
+                              <p className='page-details'>{expertise.copy}</p>
+                              {expertise.title === 'Research' ? 
+                                <div className='height-tags'>     
+                                  <Link className='height-tag' to='/tags/financial-services' >Financial Services</Link>
+                                  <Link className='height-tag' to='/tags/health-care' >Health Care</Link>
+                                  <Link className='height-tag' to='/tags/energy-industrials' >Energy & Industrials</Link>
+                                  <Link className='height-tag' to='/tags/tax-budget' >Tax, Trade & Budget</Link>
+                                  <Link className='height-tag' to='/tags/special-siuations' >Special Situations</Link>
+                                  <Link className='height-tag' to='/tags/tax-budget' >Political & Elections</Link>
+                                </div>
+                              : <div></div>
+                              }
                             </Col>
                           </Row>
                         </Collapse>
