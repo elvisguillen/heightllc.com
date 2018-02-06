@@ -10,6 +10,7 @@ category: Research
 tags:
   - Energy + Industrials
   - Tax + Budget
+  - Katie Bays
 ---
 _**The Takeaway:**_
 
