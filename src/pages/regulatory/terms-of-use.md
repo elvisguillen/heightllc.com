@@ -12,7 +12,7 @@ body_copy: >-
   “you” refers to the user or viewer of our Web Site.
 
 
-  1. Acceptance of Agreement
+  1. **Acceptance of Agreement**
 
 
   The content, organization, graphics, design, compilation, magnetic
@@ -27,7 +27,7 @@ body_copy: >-
   Some of the content on the site is the copyrighted work of third parties.
 
 
-  2. Copyright
+  2. **Copyright**
 
 
   You agree to the terms and conditions outlined in this Terms of Use Agreement
@@ -41,7 +41,7 @@ body_copy: >-
   you should review this Agreement prior to using the Site.
 
 
-  3. Service Marks
+  3. **Service Marks**
 
 
   heightllc.com, Height Securities, Height Securities LLC, the Height Securities
@@ -50,7 +50,7 @@ body_copy: >-
   trademarks of their respective owners.
 
 
-  04. Limited License; Permitted Uses.
+  4. **Limited License; Permitted Uses.**
 
 
   You are granted a non-exclusive, non-transferable, revocable license (a) to
@@ -63,7 +63,7 @@ body_copy: >-
   matter whatsoever under any circumstances.
 
 
-  05. Restrictions and Prohibitions on Use.
+  5. **Restrictions and Prohibitions on Use.**
 
 
   Your license for access and use of the Site and any information, materials or
@@ -99,7 +99,7 @@ body_copy: >-
   control laws or regulations of the United States.
 
 
-  06. Forms, Agreements & Documents
+  6. **Forms, Agreements & Documents**
 
 
   We may make available through the Site or through other Web sites research,
@@ -119,7 +119,7 @@ body_copy: >-
   as the Materials may not be applicable to a particular situation.
 
 
-  07. No Personalized Investment Advice
+  7. **No Personalized Investment Advice**
 
 
   Nothing on this website should be construed as rendering personalized
@@ -135,7 +135,7 @@ body_copy: >-
   contained in this website.
 
 
-  08. Linking to the Site.
+  8. **Linking to the Site.**
 
 
   You may provide links to the Site, provided (a) that you do not remove or
@@ -145,7 +145,7 @@ body_copy: >-
   immediately upon request by us.
 
 
-  09. Registration.
+  9. **Registration.**
 
 
   Certain sections of, or offerings from, the Site may require you to register.
@@ -158,7 +158,7 @@ body_copy: >-
   responsible for preventing such unauthorized use.
 
 
-  10. Acceptance of Agreement
+  10. **Acceptance of Agreement**
 
 
   We do not represent or warrant that the Site will be error-free, free of
@@ -170,7 +170,7 @@ body_copy: >-
   or other content appearing on the Site.
 
 
-  11. Third Party Content.
+  11. **Third Party Content.**
 
 
   Third party content may appear on the Site or may be accessible via links from
@@ -182,7 +182,7 @@ body_copy: >-
   endorsed by nor does it necessarily reflect our belief.
 
 
-  12. Unlawful Activity.
+  12. **Unlawful Activity.**
 
 
   We reserve the right to investigate complaints or reported violations of this
@@ -194,7 +194,7 @@ body_copy: >-
   information.
 
 
-  13. Indemnification.
+  13. **Indemnification.**
 
 
   You agree to indemnify, defend and hold us and our partners, agents, officers,
@@ -206,7 +206,7 @@ body_copy: >-
   Site.
 
 
-  14. Nontransferable.
+  14. **Nontransferable.**
 
 
   Your right to use the Site is not transferable or assignable. Any password or
@@ -214,7 +214,7 @@ body_copy: >-
   assignable.
 
 
-  15. Disclaimer.
+  15. **Disclaimer.**
 
 
   THE INFORMATION, CONTENT AND MATERIALS FROM OR THROUGH THE SITE ARE PROVIDED
@@ -241,7 +241,7 @@ body_copy: >-
   WITHIN THE ELECTRONIC FILE CONTAINING A FORM OR DOCUMENT IS DISCLAIMED.
 
 
-  16. Limitation of Liability
+  16. **Limitation of Liability**
 
 
   We and any Affiliated Party shall not be liable for any loss, injury, claim,
@@ -252,7 +252,7 @@ body_copy: >-
   delay or failure in performance beyond the control of a Covered Party.
 
 
-  17. Third-Party Services.
+  17. **Third-Party Services.**
 
 
   We may allow access to third-party product or service providers ("Merchants").
@@ -265,14 +265,14 @@ body_copy: >-
   INFORMATION APPEARING ON MERCHANT SITES OR ANY OTHER SITE LINKED TO OUR SITE.
 
 
-  18. Privacy Policy.
+  18. **Privacy Policy.**
 
 
   Our Privacy Policy, as it may change from time to time, is a part of this
   Agreement. You must review this Privacy Policy by clicking on this link.
 
 
-  19. Securities Laws.
+  19. **Securities Laws.**
 
 
   The Site and the information contained herein does not constitute an offer or
@@ -281,7 +281,7 @@ body_copy: >-
   incorporated into any of our securities-related filings or documents.
 
 
-  20. Links to other Web Sites.
+  20. **Links to other Web Sites.**
 
 
   The Site contains links to other Web sites. We are not responsible for the
@@ -292,7 +292,7 @@ body_copy: >-
   access these third-party sites, you do so at your own risk.
 
 
-  21. Copyrights and Copyright Agents.
+  21. **Copyrights and Copyright Agents.**
 
 
   We respect the intellectual property of others, and we ask you to do the same.
@@ -325,7 +325,7 @@ body_copy: >-
   info@heightsecurities.com.
 
 
-  22. Information and Press Releases.
+  22. **Information and Press Releases.**
 
 
   The Site may contain information and press releases about us. We disclaim any
@@ -334,7 +334,7 @@ body_copy: >-
   otherwise, should not be relied upon as being provided or endorsed by us.
 
 
-  23. Legal Compliance.
+  23. **Legal Compliance.**
 
 
   You agree to comply with all applicable domestic and international laws,
@@ -342,7 +342,7 @@ body_copy: >-
   Content and Materials provided therein.
 
 
-  24. Miscellaneous.
+  24. **Miscellaneous.**
 
 
   This Agreement and all incorporated agreements and your information may be
