@@ -20,7 +20,7 @@ details: >-
   across the capital structure. After five years of building its reputation
   through its research, Height launched an Investment Banking and Advisory (IBA)
   group, which has since raised hundreds of millions of dollars as growth equity
-  for investment banking clients.  
+  for investment banking clients.
 
 
   Prior to Height, Mr. Akridge served as Senior Vice President and Head of
