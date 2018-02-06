@@ -12,6 +12,8 @@ body_copy: >-
   “you” refers to the user or viewer of our Web Site.
 
 
+
+
   1. **Acceptance of Agreement**
 
 
