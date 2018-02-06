@@ -65,7 +65,8 @@ export default function Template ({ data, transition }) {
 
                       <Col className='page-copy' md={{size: 8}}>
                         <h1>{post.frontmatter.title}</h1>
-                        {post.frontmatter.body_copy}
+                        
+                        <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
 
                         {/* {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
                           {post.frontmatter.attachments.map((attachment, i) => (
@@ -121,7 +122,7 @@ export const regulatoryQuery = graphql`
         category
         tags
         intro_copy
-        body_copy
+        body
       }
     }
 
