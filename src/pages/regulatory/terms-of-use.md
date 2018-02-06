@@ -4,13 +4,6 @@ path: /terms-of-use
 title: Terms of Use
 intro_copy: ' '
 body_copy: >-
-  <div class="page" title="Page 1">
-
-  <div class="layoutArea">
-
-  <div class="column">
-
-
   Welcome to our Web site. By using our site, you are agreeing to comply with
   and be bound by the following terms of use. Please review the following terms
   carefully. If you do not agree to these terms, you should not use this site.
@@ -19,20 +12,7 @@ body_copy: >-
   “you” refers to the user or viewer of our Web Site.
 
 
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">01. </span>Acceptance of
-  Agreement<span class="toggle">+</span></div>
-
-  <div data-content="">
+  1. Acceptance of Agreement
 
 
   The content, organization, graphics, design, compilation, magnetic
@@ -47,21 +27,7 @@ body_copy: >-
   Some of the content on the site is the copyrighted work of third parties.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">02. </span>Copyright<span
-  class="toggle">+</span></div>
-
-  <div data-content="">
+  2. Copyright
 
 
   You agree to the terms and conditions outlined in this Terms of Use Agreement
@@ -75,21 +41,7 @@ body_copy: >-
   you should review this Agreement prior to using the Site.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">03. </span>Service Marks<span
-  class="toggle">+</span></div>
-
-  <div data-content="">
+  3. Service Marks
 
 
   heightllc.com, Height Securities, Height Securities LLC, the Height Securities
@@ -98,23 +50,7 @@ body_copy: >-
   trademarks of their respective owners.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">04. </span>Limited License;
-  Permitted Uses.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  04. Limited License; Permitted Uses.
 
 
   You are granted a non-exclusive, non-transferable, revocable license (a) to
@@ -127,23 +63,7 @@ body_copy: >-
   matter whatsoever under any circumstances.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">05. </span>Restrictions and
-  Prohibitions on Use.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  05. Restrictions and Prohibitions on Use.
 
 
   Your license for access and use of the Site and any information, materials or
@@ -179,23 +99,7 @@ body_copy: >-
   control laws or regulations of the United States.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">06. </span>Forms, Agreements
-  &amp; Documents<span class="toggle">+</span></div>
-
-  <div data-content="">
+  06. Forms, Agreements & Documents
 
 
   We may make available through the Site or through other Web sites research,
@@ -215,23 +119,7 @@ body_copy: >-
   as the Materials may not be applicable to a particular situation.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">07. </span>No Personalized
-  Investment Advice<span class="toggle">+</span></div>
-
-  <div data-content="">
+  07. No Personalized Investment Advice
 
 
   Nothing on this website should be construed as rendering personalized
@@ -247,23 +135,7 @@ body_copy: >-
   contained in this website.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">08. </span>Linking to the
-  Site.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  08. Linking to the Site.
 
 
   You may provide links to the Site, provided (a) that you do not remove or
@@ -273,23 +145,7 @@ body_copy: >-
   immediately upon request by us.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">09. </span>Registration.<span
-  class="toggle">+</span></div>
-
-  <div data-content="">
+  09. Registration.
 
 
   Certain sections of, or offerings from, the Site may require you to register.
@@ -302,23 +158,7 @@ body_copy: >-
   responsible for preventing such unauthorized use.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">10. </span>Acceptance of
-  Agreement<span class="toggle">+</span></div>
-
-  <div data-content="">
+  10. Acceptance of Agreement
 
 
   We do not represent or warrant that the Site will be error-free, free of
@@ -330,23 +170,7 @@ body_copy: >-
   or other content appearing on the Site.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">11. </span>Third Party
-  Content.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  11. Third Party Content.
 
 
   Third party content may appear on the Site or may be accessible via links from
@@ -358,23 +182,7 @@ body_copy: >-
   endorsed by nor does it necessarily reflect our belief.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">12. </span>Unlawful
-  Activity.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  12. Unlawful Activity.
 
 
   We reserve the right to investigate complaints or reported violations of this
@@ -386,23 +194,7 @@ body_copy: >-
   information.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">13.
-  </span>Indemnification.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  13. Indemnification.
 
 
   You agree to indemnify, defend and hold us and our partners, agents, officers,
@@ -414,23 +206,7 @@ body_copy: >-
   Site.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">14.
-  </span>Nontransferable.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  14. Nontransferable.
 
 
   Your right to use the Site is not transferable or assignable. Any password or
@@ -438,23 +214,7 @@ body_copy: >-
   assignable.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">15. </span>Disclaimer.<span
-  class="toggle">+</span></div>
-
-  <div data-content="">
+  15. Disclaimer.
 
 
   THE INFORMATION, CONTENT AND MATERIALS FROM OR THROUGH THE SITE ARE PROVIDED
@@ -481,23 +241,7 @@ body_copy: >-
   WITHIN THE ELECTRONIC FILE CONTAINING A FORM OR DOCUMENT IS DISCLAIMED.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">16. </span>Limitation of
-  Liability<span class="toggle">+</span></div>
-
-  <div data-content="">
+  16. Limitation of Liability
 
 
   We and any Affiliated Party shall not be liable for any loss, injury, claim,
@@ -508,24 +252,7 @@ body_copy: >-
   delay or failure in performance beyond the control of a Covered Party.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">17. </span>Third-Party
-  Services.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  17. Third-Party Services.
 
 
   We may allow access to third-party product or service providers ("Merchants").
@@ -538,46 +265,14 @@ body_copy: >-
   INFORMATION APPEARING ON MERCHANT SITES OR ANY OTHER SITE LINKED TO OUR SITE.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">18. </span>Privacy
-  Policy.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  18. Privacy Policy.
 
 
   Our Privacy Policy, as it may change from time to time, is a part of this
   Agreement. You must review this Privacy Policy by clicking on this link.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">19. </span>Securities
-  Laws.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  19. Securities Laws.
 
 
   The Site and the information contained herein does not constitute an offer or
@@ -586,23 +281,7 @@ body_copy: >-
   incorporated into any of our securities-related filings or documents.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">20. </span>Links to other Web
-  Sites.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  20. Links to other Web Sites.
 
 
   The Site contains links to other Web sites. We are not responsible for the
@@ -613,23 +292,7 @@ body_copy: >-
   access these third-party sites, you do so at your own risk.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">21. </span>Copyrights and
-  Copyright Agents.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  21. Copyrights and Copyright Agents.
 
 
   We respect the intellectual property of others, and we ask you to do the same.
@@ -662,23 +325,7 @@ body_copy: >-
   info@heightsecurities.com.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">22. </span>Information and
-  Press Releases.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  22. Information and Press Releases.
 
 
   The Site may contain information and press releases about us. We disclaim any
@@ -687,23 +334,7 @@ body_copy: >-
   otherwise, should not be relied upon as being provided or endorsed by us.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">23. </span>Legal
-  Compliance.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  23. Legal Compliance.
 
 
   You agree to comply with all applicable domestic and international laws,
@@ -711,23 +342,7 @@ body_copy: >-
   Content and Materials provided therein.
 
 
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <div data-accordion-group="">
-
-  <div class="accordion" data-accordion="">
-
-  <div data-control=""><span class="controlnumber">24.
-  </span>Miscellaneous.<span class="toggle">+</span></div>
-
-  <div data-content="">
+  24. Miscellaneous.
 
 
   This Agreement and all incorporated agreements and your information may be
@@ -741,15 +356,5 @@ body_copy: >-
   be deemed a waiver of such provision nor of the right to enforce such
   provision. Our rights under this Agreement shall survive any termination of
   this Agreement.
-
-
-  &nbsp;
-
-
-  </div>
-
-  </div>
-
-  </div>
 ---
 
