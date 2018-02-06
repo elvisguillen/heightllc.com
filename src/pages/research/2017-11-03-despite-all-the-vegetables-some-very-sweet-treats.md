@@ -1,9 +1,11 @@
 ---
 contentType: blog
-title: Despite All the Vegetables, Some Very Sweet Treats
-date: 2017-11-03T13:02:50+00:00
-author: Height Securities
+title: 'Despite All the Vegetables, Some Very Sweet Treats'
 path: /research/despite-all-the-vegetables-some-very-sweet-treats/
+date: 2017-11-03T13:02:50.000Z
+author: Height Securities
+attachments:
+  - filename: /files/taxreform1.png
 category: Research
 tags:
   - Energy + Industrials
