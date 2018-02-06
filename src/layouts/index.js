@@ -105,19 +105,22 @@ export default class TemplateWrapper extends Component {
             <Row>      
               <ul className="footerlinks">
                 <li>
-                  <a href="#">REGULATORY DISCLOSURES</a>
+                  <Link to='/regulatory-disclosures'>REGULATORY DISCLOSURES</Link>
                 </li>
                 <li>
-                  <a href="#">RULE 606 REPORTS</a>
+                  <a href='https://heightllc.com/rule-606-reports/' target='_blank'>RULE 606 REPORTS</a>
                 </li>
                 <li>
-                  <a href="#">TERMS OF USE</a>
+                  <Link to='/terms-of-use'>TERMS OF USE</Link>
                 </li>
                 <li>
-                  <a href="#">PRIVACY POLICY</a>
+                  <Link to='/privacy-policy'>PRIVACY POLICY</Link>
                 </li>
                 <li>
-                  <a href="#">BROKER CHECK</a>
+                  Members of <a href='http://www.sipc.org/' target='_blank'>SIPC</a> and <a href='http://www.finra.org/' target='_blank'>FINRA</a>
+                </li>
+                <li>
+                  <a href='http://brokercheck.finra.org/Firm/Summary/150659' target='_blank'>BROKER CHECK</a>
                 </li>
               </ul>
             </Row>
