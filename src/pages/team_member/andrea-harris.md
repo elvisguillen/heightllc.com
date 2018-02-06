@@ -5,13 +5,14 @@ title: Andrea Harris
 job_title: 'Senior Vice President, Healthcare'
 portrait: /files/andrea harris_research.png
 intro: >-
-  Andrea Harris joined the firm In June 2017 as Director of Height's Healthcare
-  team. Andrea has a decade of experience in federal health policy.
+  Andrea Harris joined the firm In June 2017 as Senior Vice President of the
+  Height Capital Market's Healthcare team.
 details: >-
-  She served as an aide to Senate HELP Committee Chairmen Ted Kennedy and Tom
-  Harkin during the development and passage of the Affordable Care Act, covering
-  physician and hospital reimbursement, private health insurance regulation, and
-  women's health. In 2013, Andrea joined the Obama Administration as a political
+  Andrea has a decade of experience in federal health policy. She served as an
+  aide to Senate HELP Committee Chairmen Ted Kennedy and Tom Harkin during the
+  development and passage of the Affordable Care Act, covering physician and
+  hospital reimbursement, private health insurance regulation, and women's
+  health. In 2013, Andrea joined the Obama Administration as a political
   appointee at the U.S. Department of Health and Human Services, where she held
   roles as Chief of Staff to the Assistant Secretary for Legislation and Chief
   of Staff to the Assistant Secretary for Health.
