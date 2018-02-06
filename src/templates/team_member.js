@@ -94,6 +94,8 @@ export default function teamMemberTemplate ({transition, data}) {
                           </Col>
                         </Row>
 
+                        {/*  Page Related Redacted for v1.5
+                        
                         <Row>
                           <Col className='page-link-container' md={{size: 12}}>
                             <div className='page-accordion-link'>
@@ -132,8 +134,8 @@ export default function teamMemberTemplate ({transition, data}) {
                               <h4>CEO</h4>  
                             </div>
                           </Col>  
-                        </Row>
-                      </div>
+                        </Row> */}
+                      </div> 
                     
 
               </Container>

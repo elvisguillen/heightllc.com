@@ -47,7 +47,7 @@ export default function teamTemplate ({ transition, data }) {
                             <Row>
                               <Col className='page-link-container' md={{size: 12}}>
                                 <div className='page-accordion-link team'>
-                                  <a className='bebas' href='#'>Leadership</a>
+                                  <a className='bebas'>Leadership</a>
                                 </div>
                               </Col>
                             </Row>
@@ -76,7 +76,7 @@ export default function teamTemplate ({ transition, data }) {
                             <Row>
                               <Col className='page-link-container' md={{size: 12}}>
                                 <div className='page-accordion-link team'>
-                                  <a className='bebas' href='#'>Research</a>
+                                  <a className='bebas'>Research</a>
                                 </div>
                               </Col>
                             </Row>
@@ -105,7 +105,7 @@ export default function teamTemplate ({ transition, data }) {
                             <Row>
                               <Col className='page-link-container' md={{size: 12}}>
                                 <div className='page-accordion-link team'>
-                                  <a className='bebas' href='#'>Sales</a>
+                                  <a className='bebas'>Sales</a>
                                 </div>
                               </Col>
                             </Row>

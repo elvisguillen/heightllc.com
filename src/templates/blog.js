@@ -51,7 +51,7 @@ export default function Template ({ data, transition }) {
                 <Col className='page-link-container' md={{size: 12}}>
                   <div className='page-accordion-link'>
                     <a className='bebas'>Research</a>
-                    <button>Back To Research</button>
+                    <Link to='/research' className='subheader-button'>Back To Research</Link>
                   </div>
                 </Col>
               </Row>
