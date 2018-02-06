@@ -263,7 +263,11 @@ footer {
 			border-right: 1px solid $text-purple;
 			padding: 0px 25px;
 			height: 20px;
-		
+			
+			p {
+				margin-top: -5px;
+			}
+
 			a {
 				color: $text-purple;
 				float: left;
@@ -271,11 +275,22 @@ footer {
 				font-size: 16px;
 				letter-spacing: 4px;
 				margin-bottom: 15px;
+				margin-right: 5px;
 
 				&:hover {
 					color: white!important;
 				}
 
+			}
+
+			p {
+				color: $text-purple;
+				float: left;
+				font-family: 'BebasNeueBook';
+				font-size: 16px;
+				letter-spacing: 4px;
+				margin-bottom: 15px;
+				margin-right: 5px;
 			}
 
 			&:last-of-type {

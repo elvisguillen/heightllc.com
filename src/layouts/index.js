@@ -117,7 +117,7 @@ export default class TemplateWrapper extends Component {
                   <Link to='/privacy-policy'>PRIVACY POLICY</Link>
                 </li>
                 <li>
-                  Members of <a href='http://www.sipc.org/' target='_blank'>SIPC</a> and <a href='http://www.finra.org/' target='_blank'>FINRA</a>
+                  <p>Members of </p><a href='http://www.sipc.org/' target='_blank'>SIPC</a> <p>and</p> <a href='http://www.finra.org/' target='_blank'>FINRA</a>
                 </li>
                 <li>
                   <a href='http://brokercheck.finra.org/Firm/Summary/150659' target='_blank'>BROKER CHECK</a>
