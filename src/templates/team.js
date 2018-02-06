@@ -120,7 +120,7 @@ export default function teamTemplate ({ transition, data }) {
                                 <div className='page-team-name'>
                                   <h3>{post.title}</h3>
                                   <h4>{post.job_title}</h4>  
-                                  <a href='mailto:{post.email}'>{post.email}</a>
+                                  <a href={'mailto:' + post.email}>{post.email}</a>
                                 </div>
                               </Col>
                               )

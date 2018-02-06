@@ -93,11 +93,10 @@ export default class expertiseTemplate extends Component {
                               {expertise.title === 'Research' ? 
                                 <div className='height-tags'>     
                                   <Link className='height-tag' to='/tags/financial-services' >Financial Services</Link>
-                                  <Link className='height-tag' to='/tags/health-care' >Health Care</Link>
+                                  <Link className='height-tag' to='/tags/healthcare' >Health Care</Link>
                                   <Link className='height-tag' to='/tags/energy-industrials' >Energy & Industrials</Link>
                                   <Link className='height-tag' to='/tags/tax-budget' >Tax, Trade & Budget</Link>
                                   <Link className='height-tag' to='/tags/special-siuations' >Special Situations</Link>
-                                  <Link className='height-tag' to='/tags/tax-budget' >Political & Elections</Link>
                                 </div>
                               : <div></div>
                               }

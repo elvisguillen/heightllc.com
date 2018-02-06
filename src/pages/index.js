@@ -418,42 +418,6 @@ export default class IndexPage extends Component {
               </Row>
             </div>  
           </FeedContent>
-  
-          <FeedContent linkClassName={'Technology'}>
-            <div key={'Technology'} className='team-feed'>
-              <Row>
-              
-              {posts.edges.filter(post => (post.tags = post.node.frontmatter.tags.filter(tag => tag === 'Technology')).length).slice(0, 1).map(({ node: post, index }) => {
-                post = post.frontmatter
-                post.id = index
-                return (
-                <Col xs={{size: 12}} md={{size: 12}} key={post.id}>
-                  <div className='team-feed-copy'>
-                    <header className='bebas'>{post.date}</header>
-                    <Link to={post.path}><h1>{post.title} ›</h1></Link>
-                    <Row>
-                      <div className='height-tags'>
-                        <Link className='height-tag' to={'/tags/' + post.author.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.author}</Link>
-                        <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
-                        {post.tags.map((tag, index) => {
-                          return (
-                          <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
-                          )
-                        })} 
-                      </div>
-                      {/* <Col md={{size: 4}} className='team-feed-nav'>
-                        <a href='#'><img className='icon_back' src={icon_back} /></a>
-                        <a href='#'><img className='icon_forward' src={icon_back} /></a>
-                      </Col> */}
-                    </Row>
-                  </div>
-                </Col>
-                )
-              })}
-
-              </Row>
-            </div>  
-          </FeedContent>
           
         </Height_Feed>
   
