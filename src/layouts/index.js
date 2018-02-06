@@ -116,6 +116,11 @@ export default class TemplateWrapper extends Component {
                 <li>
                   <Link to='/privacy-policy'>PRIVACY POLICY</Link>
                 </li>
+                
+              </ul>
+
+              <ul className="footerlinks">
+                
                 <li>
                   <p>Members of </p><a href='http://www.sipc.org/' target='_blank'>SIPC</a> <p>and</p> <a href='http://www.finra.org/' target='_blank'>FINRA</a>
                 </li>
