@@ -122,7 +122,6 @@ export const regulatoryQuery = graphql`
         category
         tags
         intro_copy
-        body
       }
     }
 
