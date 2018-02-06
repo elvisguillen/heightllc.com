@@ -4,6 +4,7 @@ path: /team/madhavi-botla
 title: Madhavi Botla
 job_title: 'Vice President, Sales'
 portrait: ''
+email: mbotla@heightllc.com
 linkedin: 'https://www.linkedin.com/in/madhavi-botla-532b881/'
 category_team: Sales
 tags:
