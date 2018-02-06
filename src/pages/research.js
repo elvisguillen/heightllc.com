@@ -70,7 +70,7 @@ export default class researchTemplate extends Component {
                   <Col className='page-link-container' md={{size: 12}}>
                     <div className='page-accordion-link'>
                       <a onClick={this.toggle} data-event={0} className='bebas'>Research</a>
-                      <button onClick={this.toggle} data-event={0}>{this.state.collapse === 0 ? 'Close -' : 'Open +'}</button>
+                      <button className='subheader-button' onClick={this.toggle} data-event={0}>{this.state.collapse === 0 ? 'Close -' : 'Open +'}</button>
                     </div>
                   </Col>
                 </Row>
@@ -78,7 +78,7 @@ export default class researchTemplate extends Component {
               {/* This is where we render the queried posts */}
                 <Collapse isOpen={collapse === 0}>
                   <Row>
-                  {posts.edges.filter(post => post.node.frontmatter.category === 'Research').slice(0, 5).map(({ node: post, index }) => {
+                  {posts.edges.filter(post => post.node.frontmatter.category === 'Research').slice(0, 3).map(({ node: post, index }) => {
                       post = post.frontmatter
                       post.id = index
                       return (
@@ -128,7 +128,7 @@ export default class researchTemplate extends Component {
                   <Col className='page-link-container' md={{size: 12}}>
                     <div className='page-accordion-link'>
                       <a onClick={this.toggle} data-event={1} className='bebas'>Height In The News</a>
-                      <button onClick={this.toggle} data-event={1}>{this.state.collapse === 1 ? 'Close -' : 'Open +'}</button>
+                      <button className='subheader-button' onClick={this.toggle} data-event={1}>{this.state.collapse === 1 ? 'Close -' : 'Open +'}</button>
                     </div>
                   </Col>
                 </Row>
@@ -136,7 +136,7 @@ export default class researchTemplate extends Component {
               {/* This is where we render the queried posts */}
                 <Collapse isOpen={collapse === 1}>
                   <Row>
-                  {posts.edges.filter(post => post.node.frontmatter.category === 'Height In The News').slice(0, 5).map(({ node: post, index }) => {
+                  {posts.edges.filter(post => post.node.frontmatter.category === 'Height In The News').slice(0, 3).map(({ node: post, index }) => {
                       post = post.frontmatter
                       post.id = index
                       return (
@@ -189,7 +189,7 @@ export default class researchTemplate extends Component {
                   <Col className='page-link-container' md={{size: 12}}>
                     <div className='page-accordion-link'>
                       <a onClick={this.toggle} data-event={2} className='bebas'>Press Release</a>
-                      <button onClick={this.toggle} data-event={2}>{this.state.collapse === 2 ? 'Close -' : 'Open +'}</button>
+                      <button className='subheader-button' onClick={this.toggle} data-event={2}>{this.state.collapse === 2 ? 'Close -' : 'Open +'}</button>
                     </div>
                   </Col>
                 </Row>
@@ -197,7 +197,7 @@ export default class researchTemplate extends Component {
               {/* This is where we render the queried posts */}
                 <Collapse isOpen={collapse === 2}>
                   <Row>
-                  {posts.edges.filter(post => post.node.frontmatter.category === 'Press Release').slice(0, 5).map(({ node: post, index }) => {
+                  {posts.edges.filter(post => post.node.frontmatter.category === 'Press Release').slice(0, 3).map(({ node: post, index }) => {
                       post = post.frontmatter
                       post.id = index
                       return (

@@ -41,37 +41,91 @@ export default function teamTemplate ({ transition, data }) {
               <Container>
                       
                       <div className="team-member-container">
+
                       
-                        <Row>
-                          <Col className='page-link-container' md={{size: 12}}>
-                            <div className='page-accordion-link'>
-                              <a className='bebas' href='#'>Leadership</a>
-                              <button>View All</button>
-                            </div>
-                          </Col>
-                        </Row>
-
-
-                        <Row>
-
-                          {data.allMarkdownRemark.edges.map((team_member, index) => {
-                            team_member = team_member.node.frontmatter
-                            team_member.id = index
-                            return (
-                              <Col className='page-related-profiles' md={{size: 4}} key={team_member.id}>
-                                <Link to={team_member.path}><div className='page-team-sidebar-image'>
-                                 <img src={team_member.portrait} /> 
-                                </div></Link>
-                                <div className='page-team-name'>
-                                  <h3>{team_member.title}</h3>
-                                  <h4>{team_member.job_title}</h4>  
+                          <div className='team-category'>
+                            <Row>
+                              <Col className='page-link-container' md={{size: 12}}>
+                                <div className='page-accordion-link team'>
+                                  <a className='bebas' href='#'>Leadership</a>
                                 </div>
                               </Col>
-                            )
-                          })}
+                            </Row>
 
-                          
-                        </Row>
+
+                            <Row>
+                            {data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.category_team === 'Leadership').map(({ node: post, index }) => {
+                              post = post.frontmatter
+                              post.id = index
+                              return (
+                              <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                                <Link to={post.path}><div className='page-team-sidebar-image'>
+                                  <img src={post.portrait} /> 
+                                </div></Link>
+                                <div className='page-team-name'>
+                                  <h3>{post.title}</h3>
+                                  <h4>{post.job_title}</h4>  
+                                </div>
+                              </Col>
+                              )
+                            })}
+                            </Row>
+                          </div>
+
+                          <div className='team-category'>
+                            <Row>
+                              <Col className='page-link-container' md={{size: 12}}>
+                                <div className='page-accordion-link team'>
+                                  <a className='bebas' href='#'>Research</a>
+                                </div>
+                              </Col>
+                            </Row>
+
+
+                            <Row>
+                            {data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.category_team === 'Research').map(({ node: post, index }) => {
+                              post = post.frontmatter
+                              post.id = index
+                              return (
+                              <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                                <Link to={post.path}><div className='page-team-sidebar-image'>
+                                  <img src={post.portrait} /> 
+                                </div></Link>
+                                <div className='page-team-name'>
+                                  <h3>{post.title}</h3>
+                                  <h4>{post.job_title}</h4>  
+                                </div>
+                              </Col>
+                              )
+                            })}
+                            </Row>
+                          </div>
+
+                          <div className='team-category'>
+                            <Row>
+                              <Col className='page-link-container' md={{size: 12}}>
+                                <div className='page-accordion-link team'>
+                                  <a className='bebas' href='#'>Sales</a>
+                                </div>
+                              </Col>
+                            </Row>
+
+
+                            <Row>
+                            {data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.category_team === 'Sales').map(({ node: post, index }) => {
+                              post = post.frontmatter
+                              post.id = index
+                              return (
+                              <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                                <div className='page-team-name'>
+                                  <h3>{post.title}</h3>
+                                  <h4>{post.job_title}</h4>  
+                                </div>
+                              </Col>
+                              )
+                            })}
+                            </Row>
+                          </div>
                       </div>
 
               </Container>
@@ -93,6 +147,7 @@ export const teamPageQuery = graphql`
             title
             job_title
             portrait
+            category_team
           }    
         }
       }

@@ -68,8 +68,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         createPage: createPage,
         edges: tagMap.get(tag),
         component: tagsTemplate,
-        pathFormatter: prefixPathFormatter(`tags/${(tag).replace('+', '').replace(/\s+/g, '-').toLowerCase()}`),
-        limit: 2,
+        pathFormatter: prefixPathFormatter(`/tags/${(tag).replace('+', '').replace(/\s+/g, '-').toLowerCase()}`),
+        limit: 10,
         context: {
           tag
         }
@@ -84,7 +84,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         edges: categoryEdges,
         component: categoryTemplate,
         pathFormatter: prefixPathFormatter(`/categories/${(category).replace(/\s+/g, '-').toLowerCase()}`),
-        limit: 2,
+        limit: 10,
         context: {
           category
         }
@@ -99,7 +99,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         edges: authorEdges,
         component: tagsTemplate,
         pathFormatter: prefixPathFormatter(`/tags/${(author).replace(/\s+/g, '-').toLowerCase()}`),
-        limit: 2,
+        limit: 10,
         context: {
           author
         }

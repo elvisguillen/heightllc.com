@@ -53,8 +53,8 @@ export default function teamMemberTemplate ({transition, data}) {
                         <Row>
                           <Col className='page-link-container' md={{size: 12}}>
                             <div className='page-accordion-link'>
-                              <a className='bebas' href='#'>Leadership</a>
-                              <button>Contact | <span>{post.frontmatter.email}</span></button>
+                              <a className='bebas' href='#'>{post.frontmatter.category_team}</a>
+                              <Link to='/team' className='subheader-button'>Back To Team</Link>
                             </div>
                           </Col>
                         </Row>
@@ -67,19 +67,24 @@ export default function teamMemberTemplate ({transition, data}) {
                             <div className='page-sidebar-content'>
                               <div className='page-team-name'>
                                 <h3>{post.frontmatter.title}</h3>
-                                <h4>{post.frontmatter.job_title}</h4>  
+                                <h4>{post.frontmatter.job_title}</h4>
+                                <h4>{post.frontmatter.email}</h4>
                               </div>
                               <div className='page-team-social-icons'>
-                                <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter_dark} /></a>
-                                <a href='https://www.linkedin.com/company/height-securities?trk=company_logo' target='_blank' ><img src={linkedin_dark} /></a>
+                                {/* Removed Twitter Functionality for v1.5 
+                                
+                                <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter_dark} /></a> */}
+                                <a href='{post.frontmatter.linkedin}' target='_blank' ><img src={linkedin_dark} /></a>
                               </div>
+                              {/* Removed Team Quote for v1.5
+                              
                               <div className='page-team-quote'>
                                 <h3>Vivamus pretium elementum elit tinciduntau emti.</h3>
                               </div>
                               <div className='height-tags'>
                                 <a className='height-tag' href='#'>John Akridge</a>
                                 <a className='height-tag' href='#'>Audio</a>
-                              </div>                      
+                              </div>                       */}
                             </div>
                           </Col>
                           <Col className='page-copy' md={{size: 8}}>
@@ -153,6 +158,7 @@ export const teamMemberPageQuery = graphql`
         linkedin
         intro
         details
+        category_team
       }
     } 
     allMarkdownRemark {

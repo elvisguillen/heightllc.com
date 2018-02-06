@@ -79,7 +79,7 @@
         padding: 0px $gutter 0px $gutter;
         .page-accordion-link {
             border-bottom: 1px solid $borderonwhite;
-            padding-bottom: 14px;
+            padding-bottom: 15px;
             margin-top: 20px;
 
             a {
@@ -92,18 +92,27 @@
                 }
             }
 
-            button {
-                float: right;
-                background-color: #f2f4f4;
+            .subheader-button {
+                font-family: $bebas;
+                letter-spacing: 2px;
+                font-size: 18px;
                 color: $copy-color;
-                font-size: 16px;
-                border: 1px solid #e5e5e5; 
-                padding: 9px 20px;
+
+                float: right;
+                background: none;
+                border: 0px solid #e5e5e5;
+                margin-top: 2px;
+                padding: 0px;
 
                 span {
                     color: $teal;
                 }
             }
+
+            &.team {
+                margin-bottom: $gutter/2;
+            }
+            
         }
     }
 

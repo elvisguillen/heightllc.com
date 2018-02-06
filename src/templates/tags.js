@@ -49,7 +49,7 @@ const tagsTemplate = ({data, pathContext, transition}) => {
               <Col className='page-link-container' md={{size: 12}}>
                 <div className='page-accordion-link'>
                   <a className='bebas' href='#'>{tag}</a>
-                  <button>View All</button>
+                  <Link to='/research' className='subheader-button'>Back To Research</Link>
                 </div>
               </Col>
             </Row>
