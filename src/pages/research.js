@@ -86,11 +86,11 @@ export default class researchTemplate extends Component {
                           <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
-                              {post.frontmatter.imageFeatured ? 
+                              {/* {post.frontmatter.imageFeatured ? 
                                 <img src={post.frontmatter.imageFeatured} />
-                              : 
+                              :  */}
                                 <img src={thumbnail} />
-                              }
+                              
                               </div></Link>
                             </Col>
                             <Col className='page-copy' md={{size: 8}}> 
@@ -213,11 +213,11 @@ export default class researchTemplate extends Component {
                           <Row>
                             <Col className='page-sidebar' md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
-                              {post.frontmatter.imageFeatured ? 
+                              {/* {post.frontmatter.imageFeatured ? 
                                 <img src={post.frontmatter.imageFeatured} />
-                              : 
+                              :  */}
                                 <img src={thumbnail} />
-                              }
+                              
                               </div></Link>
                             </Col>
                             <Col className='page-copy' md={{size: 8}}> 
