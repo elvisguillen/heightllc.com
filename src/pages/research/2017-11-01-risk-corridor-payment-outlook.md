@@ -4,8 +4,8 @@ title: Risk Corridor Payment Outlook
 path: /research/risk-corridor-payment-outlook/
 date: 2017-11-01T13:02:01.000Z
 author: Shrey Verma
-attachments:
-  - filename: /files/healthcare3.png
+image_featured: /files/healthcare3.png
+attachments: []
 category: Research
 tags:
   - Healthcare
