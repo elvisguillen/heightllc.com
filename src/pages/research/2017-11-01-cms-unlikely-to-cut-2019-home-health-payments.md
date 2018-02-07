@@ -1,9 +1,11 @@
 ---
 contentType: blog
 title: CMS Unlikely to Cut 2019 Home Health Payments
-date: 2017-11-01T13:02:23+00:00
-author: Shrey Verma
 path: /research/cms-unlikely-to-cut-2019-home-health-payments/
+date: 2017-11-01T13:02:23.000Z
+author: Shrey Verma
+attachments:
+  - filename: /files/healthcare2.png
 category: Research
 tags:
   - Healthcare

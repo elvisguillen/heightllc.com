@@ -1,7 +1,7 @@
 ---
 contentType: team_member
-path: /team/joeseph-kemp
-title: Joeseph Kemp
+path: /team/joseph-kemp
+title: Joseph Kemp
 job_title: 'Director, Sales'
 email: jkemp@heightllc.com
 linkedin: 'https://www.linkedin.com/in/joeykemp/'
