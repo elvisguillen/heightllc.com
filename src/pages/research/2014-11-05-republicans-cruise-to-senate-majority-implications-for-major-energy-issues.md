@@ -5,6 +5,7 @@ date: 2014-11-05T11:55:19+00:00
 author: Patrick Hughes
 path: /research/republicans-cruise-to-senate-majority-implications-for-major-energy-issues/
 category: Research
+imageFeatured: 
 tags:
   - Energy + Industrials
 ---

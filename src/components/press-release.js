@@ -41,8 +41,8 @@ export default class Press_Release extends Component {
             
                             <div className='executive-content'>
                                 <div className='exec-copy'>
-                                    <p>Nonet alibero modi aliquas nusa dunt ius quo diat eicitiunt expe a sunt eossitas et repudi ipsandam nis.</p>
-                                    <img src={image_player} />
+                                    <p>Mr. Akridge co-founded Height Capital Markets in 2008, and under his leadership, the firm has grown to one of DC’s top regulatory-focused investment banks for institutional investors and companies by bridging the gap between Wall Street and DC decision-makers. The firm provides investment analysis in key regulated sectors by integrating fundamental and policy research to better understand the financial impact across the capital structure. </p>
+                                    <Link to='/team/john-akridge'>Read More ›</Link>
                                 </div>
                             </div>
                         </Col>
