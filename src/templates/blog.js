@@ -60,11 +60,11 @@ export default function Template ({ data, transition }) {
 
                     <Col className='page-sidebar' md={{size: 4}}>
                         <div className='page-sidebar-image'>
-                          {/* {post.frontmatter.imageFeatured ? 
-                            <img src={post.frontmatter.imageFeatured} />
-                           :  */}
+                          {post.frontmatter.image_featured ? 
+                            <img src={post.frontmatter.image_featured} />
+                           : 
                             <img src={thumbnail} />
-                          
+                          }
                         </div>
                         <div className='page-sidebar-content'>
                           <header className='bebas'>Contact</header>
@@ -141,6 +141,7 @@ export const pageQuery = graphql`
         author
         path
         category
+        image_featured
         tags
       }
     }
