@@ -74,7 +74,7 @@ export default function teamMemberTemplate ({transition, data}) {
                                 {/* Removed Twitter Functionality for v1.5 
                                 
                                 <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter_dark} /></a> */}
-                                <a href='{post.frontmatter.linkedin}' target='_blank' ><img src={linkedin_dark} /></a>
+                                <a href={post.frontmatter.linkedin} target='_blank' ><img src={linkedin_dark} /></a>
                               </div>
                               {/* Removed Team Quote for v1.5
                               
