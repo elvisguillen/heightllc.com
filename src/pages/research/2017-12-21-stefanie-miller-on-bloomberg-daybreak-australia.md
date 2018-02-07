@@ -6,7 +6,7 @@ author: Stefanie Miller
 path: /research/stefanie-miller-on-bloomberg-daybreak-australia/
 category: Height In The News
 tags: 
-  - Tax + Budget
+  - Tax, Budget + Trade
 ---
 <iframe src="https://www.bloomberg.com/api/embed/iframe?id=41ef44c5-426d-40bc-8708-5d2dea8a3378" width="300" height="150" frameborder="0"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span>&nbsp;
 

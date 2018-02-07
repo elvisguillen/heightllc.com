@@ -6,7 +6,7 @@ author: Shrey Verma
 path: /research/shrey-verma-in-nikkei-asian-review-us-reciprocal-tax-concept-could-threaten-asian-exports/
 category: Height In The News
 tags:
-  - 'Tax + Budget'
+  - 'Tax, Budget + Trade'
 ---
 <div class="article-box">
   <div class="detail">

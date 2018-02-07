@@ -6,6 +6,6 @@ author: Stefanie Miller
 path: /research/stefanie-miller-on-fox-business-news-christmas-tax-cut/
 category: Height In The News
 tags:
-  - Tax + Budget
+  - Tax, Budget + Trade
 ---
 <script type="text/javascript" src="http://video.foxbusiness.com/v/embed.js?id=5657243955001&w=466&h=263"></script>

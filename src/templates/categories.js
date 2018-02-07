@@ -82,7 +82,7 @@ const categoriesTemplate = ({data, pathContext, transition}) => {
                             <Link className='height-tag' to={'/tags/' + post.author.replace(/\s+/g, '-').toLowerCase()}>{post.author}</Link>
                             {post.tags.map((tag, index) => {
                               return (
-                              <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                              <Link className='height-tag' to={'/tags/' + tag.replace(',', '').replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                               )
                             })}
                           </div>

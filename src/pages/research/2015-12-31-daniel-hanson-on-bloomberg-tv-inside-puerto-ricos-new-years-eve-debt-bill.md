@@ -7,6 +7,6 @@ path: /research/daniel-hanson-on-bloomberg-tv-inside-puerto-ricos-new-years-eve-
 category: Height In The News
 tags:
   - Bloomberg
-  - Tax + Budget
+  - Tax, Budget + Trade
 ---
 <iframe src="http://www.bloomberg.com/api/embed/iframe?id=mzY8lvuaRkeSiVeKMUO5HQ" width="682" height="341" frameborder="0"></iframe>

@@ -9,7 +9,7 @@ attachments:
 category: Research
 tags:
   - Energy + Industrials
-  - Tax + Budget
+  - Tax, Budget + Trade
   - Katie Bays
 ---
 _**The Takeaway:**_

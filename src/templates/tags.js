@@ -79,7 +79,7 @@ const tagsTemplate = ({data, pathContext, transition}) => {
                           <div className='height-tags'>
                             {post.tags.map((tag, index) => {
                               return (
-                              <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                              <Link className='height-tag' to={'/tags/' + tag.replace(',', '').replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                               )
                             })}
                           </div>

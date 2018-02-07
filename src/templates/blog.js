@@ -83,7 +83,7 @@ export default function Template ({ data, transition }) {
                           <Link className='height-tag' to={'/tags/' + (post.frontmatter.author.replace(/\s+/g, '-').toLowerCase())}>{post.frontmatter.author}</Link>
                           {post.frontmatter.tags.map((tag, index) => {
                             return (
-                            <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/[+]|\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                            <Link className='height-tag' to={'/tags/' + tag.replace(',', '').replace('+', '').replace(/[+]|\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                             )
                           })}
                         </div>

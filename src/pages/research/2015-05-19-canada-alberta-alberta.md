@@ -6,7 +6,7 @@ author: Henrietta Treyz
 path: /research/canada-alberta-alberta/
 category: Research
 tags:
-  - Tax + Budget
+  - Tax, Budget + Trade
 ---
 <div class="page" title="Page 1">
   <div class="layoutArea">

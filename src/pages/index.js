@@ -256,7 +256,7 @@ export default class IndexPage extends Component {
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
                         {post.tags.map((tag, index) => {
                           return (
-                          <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                          <Link className='height-tag' to={'/tags/' + tag.replace(',', '').replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                           )
                         })} 
                       </div>
@@ -293,7 +293,7 @@ export default class IndexPage extends Component {
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
                         {post.tags.map((tag, index) => {
                           return (
-                          <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                          <Link className='height-tag' to={'/tags/' + tag.replace(',', '').replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                           )
                         })} 
                       </div>
@@ -329,7 +329,7 @@ export default class IndexPage extends Component {
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
                         {post.tags.map((tag, index) => {
                           return (
-                          <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                          <Link className='height-tag' to={'/tags/' + tag.replace(',', '').replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                           )
                         })} 
                       </div>
@@ -365,7 +365,7 @@ export default class IndexPage extends Component {
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
                         {post.tags.map((tag, index) => {
                           return (
-                          <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                          <Link className='height-tag' to={'/tags/' + tag.replace(',', '').replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                           )
                         })} 
                       </div>
@@ -383,11 +383,11 @@ export default class IndexPage extends Component {
             </div>  
           </FeedContent>
   
-          <FeedContent linkClassName={'Tax + Budget'}>
+          <FeedContent linkClassName={'Tax, Budget + Trade'}>
             <div key={'Tax_Budget'} className='team-feed'>
               <Row>
                 
-              {posts.edges.filter(post => (post.tags = post.node.frontmatter.tags.filter(tag => tag === 'Tax + Budget')).length).slice(0, 1).map(({ node: post, index }) => {
+              {posts.edges.filter(post => (post.tags = post.node.frontmatter.tags.filter(tag => tag === 'Tax, Budget + Trade')).length).slice(0, 1).map(({ node: post, index }) => {
                 post = post.frontmatter
                 post.id = index
                 return (
@@ -401,7 +401,7 @@ export default class IndexPage extends Component {
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
                         {post.tags.map((tag, index) => {
                           return (
-                          <Link className='height-tag' to={'/tags/' + tag.replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
+                          <Link className='height-tag' to={'/tags/' + tag.replace(',', '').replace('+', '').replace(/\s+/g, '-').toLowerCase()} key={index}>{tag}</Link>
                           )
                         })} 
                       </div>

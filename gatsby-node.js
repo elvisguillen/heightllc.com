@@ -68,7 +68,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         createPage: createPage,
         edges: tagMap.get(tag),
         component: tagsTemplate,
-        pathFormatter: prefixPathFormatter(`/tags/${(tag).replace('+', '').replace(/\s+/g, '-').toLowerCase()}`),
+        pathFormatter: prefixPathFormatter(`/tags/${(tag).replace(',', '').replace('+', '').replace(/\s+/g, '-').toLowerCase()}`),
         limit: 10,
         context: {
           tag
