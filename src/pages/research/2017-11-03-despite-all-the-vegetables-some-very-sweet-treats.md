@@ -4,12 +4,12 @@ title: 'Despite All the Vegetables, Some Very Sweet Treats'
 path: /research/despite-all-the-vegetables-some-very-sweet-treats/
 date: 2017-11-03T13:02:50.000Z
 author: Height Securities
-attachments:
-  - filename: /files/taxreform1.png
+image_featured: /files/taxreform1.png
+attachments: []
 category: Research
 tags:
   - Energy + Industrials
-  - Tax, Budget + Trade
+  - 'Tax, Budget + Trade'
   - Katie Bays
 ---
 _**The Takeaway:**_
