@@ -2,7 +2,7 @@
 contentType: blog
 title: Height Securities Serves as Financial Advisor to Sprague Resources LP on its Acquisition of Coen Energy
 date: 2017-10-17T16:50:17+00:00
-author: Height Securities
+author: Height
 path: /research/height-securities-serves-as-financial-advisor-to-sprague-resources-lp-on-its-acquisition-of-coen-energy/
 category: Press Release
 tags:

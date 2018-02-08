@@ -3,7 +3,7 @@ contentType: blog
 title: 'Despite All the Vegetables, Some Very Sweet Treats'
 path: /research/despite-all-the-vegetables-some-very-sweet-treats/
 date: 2017-11-03T13:02:50.000Z
-author: Height Securities
+author: Height
 image_featured: /files/taxreform1.png
 attachments: []
 category: Research
