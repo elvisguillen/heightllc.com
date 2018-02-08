@@ -39,16 +39,19 @@
 
 
 .social-icons {
-	position: fixed;
-	width: 38px;
-	top: 520px;
-	margin-left: -3px;
-	z-index: 100;
-	right: 16px;
-	
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: $gutter/2;
+
+	a {
+		width: 38px;
+		height: 38px;
+		margin-right: 20px;
+	}
+
 	img {
+		width: 38px;
 		opacity: .5;
-		margin-bottom: 20px;
 		transition: all 200ms ease-in-out;
 
 		&:hover {

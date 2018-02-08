@@ -155,13 +155,14 @@ footer {
 	width: 100%;
 	height: 200px;
 	background-color: $blue;
-	padding: 50px;
+	padding: $gutter - 20;
 	z-index: 1;
 	
 	.footerlinks {
 		list-style: none;
 		margin: 0 auto;
-
+		padding-left: 100px;
+		padding-right: 100px;
 		li {
 			float: left;
 			border-right: 1px solid $text-purple;
@@ -211,6 +212,7 @@ footer {
 		p {
 			font-size: 15px;
 			color: white;
+			margin-top: 15px;
 		}
 	}
 }

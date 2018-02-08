@@ -70,11 +70,6 @@ export default class TemplateWrapper extends Component {
 
         
         <div className='wrapper'>
-            
-          <div className='social-icons'>
-            <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter} /></a>
-            <a href='https://www.linkedin.com/company/height-securities?trk=company_logo' target='_blank' ><img src={linkedin} /></a>
-          </div>
         
           <section className="topbar">
           </section>
@@ -130,6 +125,10 @@ export default class TemplateWrapper extends Component {
             <Row>
               <div className="copyright">
                 <p>© 2018 Height Capital Markets. To learn more, contact us at 202-629-0000.</p>
+              </div>
+              <div className='social-icons'>
+                <a href='https://twitter.com/heightllc' target='_blank'><img src={twitter} /></a>
+                <a href='https://www.linkedin.com/company/height-securities?trk=company_logo' target='_blank' ><img src={linkedin} /></a>
               </div>
             </Row>
           </footer>
