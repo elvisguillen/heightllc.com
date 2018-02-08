@@ -7,14 +7,14 @@ portrait: /files/katie bays_research.png
 linkedin: 'https://www.linkedin.com/in/katiemarvin/'
 intro: >-
   Katie Bays leads Height's Energy and Industrials team, focusing on the
-  interplay of domestic and global energy markets with the US regulatory
+  interplay of domestic and global energy markets with the U.S. regulatory
   environment.
 details: >-
   Her team provides investment research driven by in-depth knowledge of
   regulatory processes as well as the infrastructure, geology, and economics
   that make up the domestic energy sector. She comes to Height from
   Virginia-based energy consulting firm Energy Ventures Analysis, Inc. where she
-  specialized in modeling US energy commodity prices and domestic power
+  specialized in modeling U.S. energy commodity prices and domestic power
   markets. 
 
 
