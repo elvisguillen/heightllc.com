@@ -8,5 +8,6 @@ category: Height In The News
 tags:
   - Tax
   - Budget + Trade
+  - Fox Business
 ---
 <script type="text/javascript" src="http://video.foxbusiness.com/v/embed.js?id=5657243955001&w=466&h=263"></script>
