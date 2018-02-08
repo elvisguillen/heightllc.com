@@ -387,7 +387,7 @@ export default class IndexPage extends Component {
             <div key={'Tax_Budget'} className='team-feed'>
               <Row>
                 
-              {posts.edges.filter(post => (post.tags = post.node.frontmatter.tags.filter(tag => tag === 'Tax, Budget + Trade')).length).slice(0, 1).map(({ node: post, index }) => {
+              {posts.edges.filter(post => (post.tags = post.node.frontmatter.tags.filter(tag => tag === 'Tax + Budget')).length).slice(0, 1).map(({ node: post, index }) => {
                 post = post.frontmatter
                 post.id = index
                 return (
