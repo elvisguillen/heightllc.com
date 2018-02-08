@@ -88,7 +88,7 @@ export default class researchTemplate extends Component {
                             <Col className='page-sidebar' md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
                               {post.image_featured ? 
-                                <img src={post.image_featured.childImageSharp.sizes.src} />
+                                <img src={post.image_featured} />
                               : 
                                 <img src={thumbnail} />
                               }
