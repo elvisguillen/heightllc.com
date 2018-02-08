@@ -6,9 +6,6 @@ import graphql from 'graphql'
 import ReactMapGL, {Marker} from 'react-map-gl';
 
 import logoIcon from '../images/logo-icon.png'
-import './expertise.scss'
-import './team.scss'
-import './contact.scss'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'

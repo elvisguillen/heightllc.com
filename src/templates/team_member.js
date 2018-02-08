@@ -6,8 +6,6 @@ import Link from 'gatsby-link'
 import graphql from 'graphql'
 
 import logoIcon from '../images/logo-icon.png'
-import './expertise.scss'
-import './team.scss'
 import image_team_john from '../images/team_john.png'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'

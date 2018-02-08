@@ -5,7 +5,6 @@ import Link from 'gatsby-link'
 import graphql from 'graphql'
 
 import logoIcon from '../images/logo-icon.png'
-import './expertise.scss'
 import image_sidebar from '../images/image_page_sidebar.jpg'
 
 export default class expertiseTemplate extends Component {

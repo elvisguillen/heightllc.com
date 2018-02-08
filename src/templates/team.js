@@ -5,8 +5,6 @@ import Helmet from 'react-helmet'
 import graphql from 'graphql'
 
 import logoIcon from '../images/logo-icon.png'
-import './expertise.scss'
-import './team.scss'
 import image_team_john from '../images/team_john.png'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'
@@ -56,9 +54,8 @@ export default function teamTemplate ({ transition, data }) {
                             <Row>
                             {data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.category_team === 'Leadership').map(({ node: post, index }) => {
                               post = post.frontmatter
-                              post.id = index
                               return (
-                              <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                              <Col className='page-related-profiles' md={{size: 4}} key={index}>
                                 <Link to={post.path}><div className='page-team-sidebar-image'>
                                   <img src={post.portrait} /> 
                                 </div></Link>

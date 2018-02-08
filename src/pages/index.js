@@ -16,8 +16,6 @@ import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from '
 
 import team1 from '../images/team_stefanie.png'
 
-import '../templates/home.scss'
-
 import logocolor from '../images/logo-color.png'
 import icon_skip from '../images/icon_skip.png'
 import icon_scroll from '../images/icon_scroll.png'

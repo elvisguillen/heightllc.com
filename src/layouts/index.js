@@ -13,13 +13,10 @@ import { slide as Menu } from 'react-burger-menu'
 import 'prismjs/themes/prism-twilight.css'
 
 // main site style
-import './index.scss'
+import '../styles/index.scss'
 
 // AOS
 import 'aos/dist/aos.css'
-
-// header style
-import './header.scss'
 
 // custom burger icon
 

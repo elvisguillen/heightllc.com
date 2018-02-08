@@ -5,8 +5,6 @@ import Helmet from 'react-helmet'
 import graphql from 'graphql'
 
 import logoIcon from '../images/logo-icon.png'
-import '../templates/expertise.scss'
-import '../templates/team.scss'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'
 

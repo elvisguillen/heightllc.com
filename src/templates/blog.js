@@ -7,7 +7,6 @@ import Link from 'gatsby-link'
 
 import logoIcon from '../images/logo-icon.png'
 import thumbnail from '../images/image_thumbnail.jpg'
-import '../pages/research.scss'
 
 // find a post title by path
 const findNode = (path, data) => data.allMarkdownRemark.edges

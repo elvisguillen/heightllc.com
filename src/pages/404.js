@@ -7,7 +7,6 @@ import Link from 'gatsby-link'
 
 import logoIcon from '../images/logo-icon.png'
 import thumbnail from '../images/image_thumbnail.jpg'
-import '../pages/research.scss'
 
 export default function Template ({ transition }) {
   // const related = post.frontmatter.related ? post.frontmatter.related.map(r => findNode(r.post, data)) : []

@@ -2,9 +2,6 @@ import React, { Component, PropTypes} from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import { CSSTransition } from 'react-transition-group'
 
-import '../layouts/index.scss'
-import './height-feed.scss'
-
 export default class Height_Feed extends Component {
     constructor(props, context) {
       super(props, context)
