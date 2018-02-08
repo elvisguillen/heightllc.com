@@ -19,7 +19,6 @@ export default class Cloud extends Component {
 	componentDidMount() {
 		setTimeout(function() { //Start the timer
 			this.context.parallaxController.update();
-			console.log('UPDATE!!')
   	}.bind(this), 3000)
 	}
 	render() {

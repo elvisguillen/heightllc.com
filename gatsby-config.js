@@ -6,6 +6,8 @@ module.exports = {
     disqus: 'gatsby-starter-blog'// put your disqus ID here
   },
   plugins: [
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -32,12 +34,9 @@ module.exports = {
           },
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files'
-          
         ]
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
     'gatsby-plugin-react-helmet',

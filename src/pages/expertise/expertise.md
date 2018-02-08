@@ -28,7 +28,7 @@ expertises:
     header: >-
       Subject area expertise and our trusted distribution team create
       opportunities to excel in developing and marketing transactions.
-    photo: /files/investment banking hero.png
+    photo: /files/investment-banking-hero.jpg
     title: Investment Banking
   - copy: >-
       Treating our clients as partners starts with effective sales coverage. Our
@@ -38,7 +38,7 @@ expertises:
       research and differentiated investment perspectives with effective trade
       execution and diligent sales coverage.
     header: Serving clients well is our priority.
-    photo: /files/sales and trading hero.png
+    photo: /files/sales-and-trading-hero.jpg
     title: Sales + Trading
   - copy: >-
       We inform and advise a range of organizations on investment, regulatory,
@@ -49,7 +49,7 @@ expertises:
       analysis on the key events and policy debates that impact specific sectors
       and the broader economic picture.
     header: Where identified investment themes and timely ideas converge.
-    photo: /files/advisory services hero.png
+    photo: /files/advisory-services-hero.jpg
     title: Advisory Services
 ---
 

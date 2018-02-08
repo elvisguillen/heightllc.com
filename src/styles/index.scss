@@ -60,10 +60,6 @@
 
 @import "./global/global.scss";
 
-// RESPONSIVE //
-
-@import "./global/responsive.scss";
-
 // LAYOUT //
 
 @import "./layout/header.scss";
@@ -73,3 +69,7 @@
 @import "./layout/research.scss";
 @import "./layout/team.scss";
 @import "./layout/contact.scss";
+
+// RESPONSIVE //
+
+@import "./global/responsive.scss";

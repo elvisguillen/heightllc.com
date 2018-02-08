@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/john-akridge
 title: John Akridge
 job_title: Chief Executive Officer
-portrait: /files/john akridge_leadership.png
+portrait: /files/john-akridge_leadership.jpg
 email: ''
 twitter: ''
 linkedin: 'http://linkedin.com/john-akridge'

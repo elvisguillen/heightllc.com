@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/clayton-allen
 title: Clayton Allen
 job_title: 'Vice President, Special Situations'
-portrait: /files/clayton allen_research.png
+portrait: /files/clayton-allen_research.jpg
 linkedin: 'https://www.linkedin.com/in/claytonlallen/'
 intro: >-
   Clayton Allen joined Height in May 2017, bringing experience on energy and

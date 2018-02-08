@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/katie-bays
 title: Katie Bays
 job_title: 'Senior Vice President, Energy & Industrials'
-portrait: /files/katie bays_research.png
+portrait: /files/katie-bays_research.jpg
 linkedin: 'https://www.linkedin.com/in/katiemarvin/'
 intro: >-
   Katie Bays leads Height's Energy and Industrials team, focusing on the

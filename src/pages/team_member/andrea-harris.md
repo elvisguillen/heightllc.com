@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/andrea-harris
 title: Andrea Harris
 job_title: 'Senior Vice President, Healthcare'
-portrait: /files/andrea harris_research.png
+portrait: /files/andrea-harris_research.jpg
 intro: >-
   Andrea Harris joined the firm In June 2017 as Senior Vice President of the
   Height Capital Markets Healthcare team.
