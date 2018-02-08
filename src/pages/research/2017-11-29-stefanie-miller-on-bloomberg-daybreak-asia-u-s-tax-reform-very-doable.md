@@ -7,8 +7,7 @@ date: 2017-11-29T09:49:42.000Z
 author: Stefanie Miller
 category: Height In The News
 tags:
-  - Tax
-  - Budget + Trade
+  - Tax + Budget
   - Stefanie Miller
   - News
 ---

@@ -6,8 +6,7 @@ date: 2018-01-18T09:13:12.000Z
 author: Stefanie Miller
 category: Height In The News
 tags:
-  - Tax
-  - Budget + Trade
+  - Tax + Budget
   - Australia
   - Bloomberg
 ---

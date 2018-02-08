@@ -9,8 +9,7 @@ attachments: []
 category: Research
 tags:
   - Energy + Industrials
-  - Tax
-  - Budget + Trade
+  - Tax + Budget
   - Katie Bays
   - Ed Groshans
   - Stefanie Miller

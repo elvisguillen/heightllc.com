@@ -37,7 +37,7 @@ export default function Template ({ transition }) {
               <Col className='page-copy regulatory' md={{size: 10}}>
                 <h1>404 Page Not Found</h1>
                 <div className='research-post-copy'>
-                  Please use our navigation menu or contact us to find what you're looking for.
+                  <p>Please use our navigation menu or contact us to find what you're looking for.</p>
                 </div>
               </Col>
             </Row>

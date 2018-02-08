@@ -383,7 +383,7 @@ export default class IndexPage extends Component {
             </div>  
           </FeedContent>
   
-          <FeedContent linkClassName={'Tax, Budget + Trade'}>
+          <FeedContent linkClassName={'Tax + Budget'}>
             <div key={'Tax_Budget'} className='team-feed'>
               <Row>
                 

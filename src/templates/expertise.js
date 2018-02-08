@@ -96,7 +96,7 @@ export default class expertiseTemplate extends Component {
                                   <Link className='height-tag' to='/tags/financial-services' >Financial Services</Link>
                                   <Link className='height-tag' to='/tags/special-siuations' >Special Situations</Link>
                                   <Link className='height-tag' to='/tags/energy-industrials' >Energy & Industrials</Link>
-                                  <Link className='height-tag' to='/tags/tax-budget-trade' >Tax, Budget + Trade</Link>
+                                  <Link className='height-tag' to='/tags/tax-budget-trade' >Tax + Budget</Link>
                                 </div>
                               : <div></div>
                               }
