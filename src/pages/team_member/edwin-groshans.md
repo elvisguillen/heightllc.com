@@ -6,8 +6,8 @@ job_title: 'Senior Vice President & Director, Financial Services'
 portrait: /files/ed groshans_research.png
 linkedin: 'https://www.linkedin.com/in/ed-groshans-31212b1/'
 intro: >-
-  Edwin is a Senior Vice President at Height focusing on the financial services
-  sector with an emphasis on banks and specialty finance companies.
+  Edwin Groshans is a Senior Vice President at Height focusing on the financial
+  services sector with an emphasis on banks and specialty finance companies.
 details: >-
   Prior to joining Height Capital Markets, he was a Desk Analyst at Ladenburg
   Thalmann covering the financial services sector. Edwin had spent several years
