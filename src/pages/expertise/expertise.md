@@ -2,58 +2,53 @@
 contentType: expertise
 path: /expertise
 title: Expertise
-page_header: 'From analysis to investments, our expertise goes beyond insights.'
+page_header: 'From analysis to investments, our expertise goes beyond providing insights.'
 expertises:
   - copy: >-
-      Through collaboration, we are able to experience the dynamic nature of the
-      world and absorb its abundant data. Free from traditional constraints of
-      covering narrowed companies, issuing ratings, or publishing on earnings
-      results, our research fits perfectly into two distinctions. Foundation
-      Research identifies investment themes with 6-12 months duration based on
-      secular changes in a regulatory landscape. Special Situations Research is
-      supported by in-depth primary source research honed in on a particular
-      market. Comprehensively, they map out the entire financial landscape.
+      We think independently and work collaboratively. The dynamic nature of the
+      investment landscape and its abundant data require thoughtfulness and
+      agility. Free from traditional constraints of covering a static list of
+      companies, issuing ratings, or publishing on earnings results, our
+      research team identifies themes and generates ideas opportunistically. We
+      provide differentiated and comprehensive insights to help clients make key
+      investment and operational decisions.
     header: >-
-      Capture comprehensive research from the capital’s leading financiers and
-      advisors.
+      Multi-sector research from the capital's leading financial and policy
+      analysts.
     photo: /files/image_page_sidebar.0b34c9f1.jpg
     title: Research
   - copy: >-
-      Our highly specialized firm has worked with an array of global
+      Given our firm's specialization, we work with an array of global
       institutional investors, corporations, governments, financial sponsors,
-      and other financial institutions. In 2014, after 5 years of building our
-      brand through our research, we launched an Investment Banking and Advisory
-      (IBA) group. We aspire are to be the leading financier and advisor in
-      Washington, DC, heading investment strategy with eyes set on the future of
-      global markets.
+      and other financial institutions. In 2014, after five years of building
+      our reputation through our research, we launched our Investment Banking
+      and Advisory (IBA) group. Aspiring to be the leading financier and advisor
+      in Washington, we set our investment strategy toward the future of global
+      markets.
     header: >-
-      Distribution team credibility creates opportunities to develop and market
-      transactions.
+      Subject area expertise and our trusted distribution team create
+      opportunities to excel in developing and marketing transactions.
     photo: /files/investment banking hero.png
     title: Investment Banking
   - copy: >-
-      Our highly specialized sales team is immersed in the nuances of research.
-      Every human at Height prides themself for being scrupulously responsive,
-      treating our clients as partners starts through effective sales coverage.
-      Height's trade desk is composed of professionals with a wide range of buy
-      and sell-side experience. We strive to provide the highest caliber trade
-      execution services, while providing clients with a differentiated research
-      opinion.
-    header: >-
-      Nuanced research and differentiation shines when applied to effective
-      execution.
+      Treating our clients as partners starts with effective sales coverage. Our
+      sales & trading desk is composed of professionals with a wide range of
+      buy-side and sell-side experience. Our highly specialized sales team is
+      immersed in our firm's research. We prove our value by coupling nuanced
+      research and differentiated investment perspectives with effective trade
+      execution and diligent sales coverage.
+    header: Serving clients well is our priority.
     photo: /files/sales and trading hero.png
     title: Sales + Trading
   - copy: >-
-      Our core team has provided industry leading research since the turn of the
-      century. We are admired for going beyond conventional financial modeling
-      and sector coverage, and take this quality to heart.  The Height team has
-      an established reputation for assisting clients in effective navigation of
-      regulatory, macroeconomic and geopolitical risks that impact investments
-      and corporate operating environments. Every advisor has internalized the
-      principles of market flow which becomes apparent through carefully
-      executed consultation.
-    header: Where identified investment themes and short time horizon ideas converge.
+      We inform and advise a range of organizations on investment, regulatory,
+      legislative and political matters. We analyze key factors so clients can
+      effectively navigate various risks and opportunities that impact corporate
+      operating environments and capture investors' attention. We produce
+      in-depth, client-focused information as well as political and investment
+      analysis on the key events and policy debates that impact specific sectors
+      and the broader economic picture.
+    header: Where identified investment themes and timely ideas converge.
     photo: /files/advisory services hero.png
     title: Advisory Services
 ---
