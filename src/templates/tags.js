@@ -26,7 +26,7 @@ const tagsTemplate = ({data, pathContext, transition}) => {
       <section className='page-header'>
         <Container>
           <Row>
-            <Col className='page-header-text' md={{size: 9}}>
+            <Col className='page-header-text' xs={{size: 12}} md={{size: 9}}>
               <header className='bebas'>Height Capital Markets</header>
               <h1>Insights, Elevated.</h1>
             </Col>
@@ -43,7 +43,7 @@ const tagsTemplate = ({data, pathContext, transition}) => {
         <Container>      
           <div className="team-member-container">
             <Row>
-              <Col className='page-link-container' md={{size: 12}}>
+              <Col className='page-link-container' xs={{size: 12}}md={{size: 12}}>
                 <div className='page-accordion-link'>
                   <a className='bebas' href='#'>{tag}</a>
                   <Link to='/research' className='subheader-button'>Back To Research</Link>
@@ -60,12 +60,12 @@ const tagsTemplate = ({data, pathContext, transition}) => {
                 return (
                   <Col className='research-post' md={{size: 12}} key={post.id}>
                     <Row>
-                      <Col className='page-sidebar' md={{size: 4}}>
+                      <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                         <Link to={post.path}><div className='page-sidebar-image'>
                           <img src={thumbnail} />
                         </div></Link>
                       </Col>
-                      <Col className='page-copy' md={{size: 8}}> 
+                      <Col className='page-copy' xs={{size: 12}} md={{size: 8}}> 
                         <div className='page-copy-inner'>
                           <header className='bebas white-bg'>
                             {post.date}
@@ -86,7 +86,7 @@ const tagsTemplate = ({data, pathContext, transition}) => {
                   </Col>
                 )
               })}
-              <Col className='pagination-links' md={{size: 8, offset: 4}}>
+              <Col className='pagination-links' xs={{size: 12}} md={{size: 8, offset: 4}}>
                 <Row>
                   <Col md={{size: 6}}>
                     <div className="pagination">

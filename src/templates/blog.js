@@ -29,7 +29,7 @@ export default function Template ({ data, transition }) {
             <section className='page-header'>
               <Container>
                 <Row>
-                <Col className='page-header-text' md={{size: 9}}>
+                <Col className='page-header-text' xs={{size: 12}} md={{size: 9}}>
                   <header className='bebas'>Research</header>
                   <h1>Research that resonates and goes beyond insights.</h1>
                 </Col>
@@ -57,7 +57,7 @@ export default function Template ({ data, transition }) {
                     
                     <Row>
 
-                    <Col className='page-sidebar' md={{size: 4}}>
+                    <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                         <div className='page-sidebar-image'>
                           {post.frontmatter.image_featured ? 
                             <img src={post.frontmatter.image_featured} />
@@ -75,7 +75,7 @@ export default function Template ({ data, transition }) {
                         </div>
                       </Col>
 
-                      <Col className='page-copy' md={{size: 8}}>
+                      <Col className='page-copy' xs={{size: 12}} md={{size: 8}}>
                         <header className='bebas white-bg'>{post.frontmatter.date}</header>
                         <h1>{post.frontmatter.title}</h1>
                         <div className='height-tags'>

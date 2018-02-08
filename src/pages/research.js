@@ -44,7 +44,7 @@ export default class researchTemplate extends Component {
         <section className='page-header'>
           <Container>
             <Row>
-              <Col className='page-header-text' md={{size: 9}}>
+              <Col className='page-header-text' xs={{size: 12}} md={{size: 9}}>
                 <header className='bebas'>Research</header>
                 <h1>Research that resonates and goes beyond insights.</h1>
               </Col>
@@ -82,7 +82,7 @@ export default class researchTemplate extends Component {
                       return (
                         <Col className='research-post' md={{size: 12}} key={post.id}>
                           <Row>
-                            <Col className='page-sidebar' md={{size: 4}}>
+                            <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
                               {post.image_featured ? 
                                 <img src={post.image_featured} />
@@ -91,7 +91,7 @@ export default class researchTemplate extends Component {
                               }
                               </div></Link>
                             </Col>
-                            <Col className='page-copy' md={{size: 8}}> 
+                            <Col className='page-copy' xs={{size: 12}} md={{size: 8}}> 
                               <div className='page-copy-inner'>
                                 <header className='bebas white-bg'>
                                   {post.date}
@@ -116,7 +116,7 @@ export default class researchTemplate extends Component {
                         </Col>
                       )
                     })}
-                    <Col md={{size: 8, offset: 4}} className='category-nav'>
+                    <Col xs={{size: 12}} md={{size: 8, offset: 4}} className='category-nav'>
                       <Link to='/categories/research'>View All ›</Link>
                     </Col>
                   </Row>
@@ -144,7 +144,7 @@ export default class researchTemplate extends Component {
                       return (
                         <Col className='research-post' md={{size: 12}} key={post.id}>
                           <Row>
-                            <Col className='page-sidebar' md={{size: 4}}>
+                            <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
                               {post.image_featured ? 
                                 <img src={post.image_featured} />
@@ -153,7 +153,7 @@ export default class researchTemplate extends Component {
                               }
                               </div></Link>
                             </Col>
-                            <Col className='page-copy' md={{size: 8}}> 
+                            <Col className='page-copy' xs={{size: 12}} md={{size: 8}}> 
                               <div className='page-copy-inner'>
                                 <header className='bebas white-bg'>
                                   {post.date}
@@ -181,7 +181,7 @@ export default class researchTemplate extends Component {
                         </Col>
                       )
                     })}
-                    <Col md={{size: 8, offset: 4}} className='category-nav'>
+                    <Col xs={{size: 12}} md={{size: 8, offset: 4}} className='category-nav'>
                       <Link to='/categories/height-in-the-news'>View All ›</Link>
                     </Col>
                   </Row>
@@ -209,7 +209,7 @@ export default class researchTemplate extends Component {
                       return (
                         <Col className='research-post' md={{size: 12}} key={post.id}>
                           <Row>
-                            <Col className='page-sidebar' md={{size: 4}}>
+                            <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
                               {post.image_featured ? 
                                 <img src={post.image_featured} />
@@ -218,7 +218,7 @@ export default class researchTemplate extends Component {
                               }
                               </div></Link>
                             </Col>
-                            <Col className='page-copy' md={{size: 8}}> 
+                            <Col className='page-copy' xs={{size: 12}} md={{size: 8}}> 
                               <div className='page-copy-inner'>
                                 <header className='bebas white-bg'>
                                   {post.date}
@@ -243,7 +243,7 @@ export default class researchTemplate extends Component {
                         </Col>
                       )
                     })}
-                    <Col md={{size: 8, offset: 4}} className='category-nav'>
+                    <Col xs={{size: 12}} md={{size: 8, offset: 4}} className='category-nav'>
                       <Link to='/categories/press-release'>View All ›</Link>
                     </Col>
                   </Row>

@@ -29,7 +29,7 @@ export default function Template ({ data, transition }) {
             <section className='page-header'>
               <Container>
                 <Row>
-                <Col className='page-header-text' md={{size: 9}}>
+                <Col className='page-header-text' xs={{size: 12}} md={{size: 9}}>
                   <header className='bebas'>Height Capital Markets</header>
                   <h1>Insights, Elevated.</h1>
                 </Col>
@@ -48,7 +48,7 @@ export default function Template ({ data, transition }) {
                     
                     <Row>
 
-                      <Col className='page-copy regulatory' md={{size: 10}}>
+                      <Col className='page-copy regulatory' xs={{size: 12}} md={{size: 10}}>
                         <h1>{post.frontmatter.title}</h1>
                         
                         <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>

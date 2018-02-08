@@ -53,7 +53,7 @@ export default class contactTemplate extends Component {
 
 
                         <Row>
-                            <Col className='page-sidebar' md={{size: 4}}>
+                            <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                               
                               <div className='page-sidebar-content'>
                                 <header className='bebas'>Contact</header>
@@ -65,7 +65,7 @@ export default class contactTemplate extends Component {
                               </div>
                             </Col>
 
-                            <Col className='page-copy' md={{size: 8}}>
+                            <Col className='page-copy' xs={{size: 12}} md={{size: 8}}>
                               
                               <p> Thanks for contacting us, one of our associates will be in touch shortly. </p>
                                

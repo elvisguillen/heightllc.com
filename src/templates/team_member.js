@@ -30,7 +30,7 @@ export default function teamMemberTemplate ({transition, data}) {
             <section className='page-header'>
               <Container>
                 <Row>
-                <Col className='page-header-text' md={{size: 9}}>
+                <Col className='page-header-text' xs={{size: 12}} md={{size: 9}}>
                   <header className='bebas'>Team</header>
                   <h1>We are talented people at a research-driven firm that puts clients first.</h1>
                   {/* <h1>{post.frontmatter.page_header}</h1> */}
@@ -58,7 +58,7 @@ export default function teamMemberTemplate ({transition, data}) {
                         </Row>
 
                         <Row>
-                          <Col className='page-sidebar' md={{size: 4}}>
+                          <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                             <div className='page-team-sidebar-image'>
                               <img src={post.frontmatter.portrait} />
                             </div>
@@ -85,7 +85,7 @@ export default function teamMemberTemplate ({transition, data}) {
                               </div>                       */}
                             </div>
                           </Col>
-                          <Col className='page-copy' md={{size: 8}}>
+                          <Col className='page-copy' xs={{size: 12}} md={{size: 8}}>
                             <h1>{post.frontmatter.intro}</h1>
                             <p>{post.frontmatter.details}</p>
                             
