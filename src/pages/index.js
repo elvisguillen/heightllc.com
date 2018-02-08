@@ -146,39 +146,39 @@ export default class IndexPage extends Component {
             <Col id='firstHeading' className={this.state.firstFixed ? "scroll-jack-active heading first-heading text-left" : "scroll-jack-inactive heading first-heading text-left"} xs={{size: 12}} md={{size: 10, offset: 0}}>    
                 <div className='d-none d-sm-block'>
                   <h4>Analysis</h4>              
-                  <h1>Close scrutiny of regulatory,</h1>          
-                  <h1>macroeconomic, and geopolitical risk</h1>            
-                  <h1>made actionable.</h1>
+                  <h1>Scrutiny of regulatory,</h1>          
+                  <h1>legislative, and geopolitical risks</h1>            
+                  <h1>and opportunities made actionable.</h1>
                 </div>
                 <div className='d-block d-sm-none'>
                   <h4>Analysis</h4>              
-                  <h1>Close scrutiny of regulatory, macroeconomic, and geopolitical risk made actionable.</h1>
+                  <h1>Scrutiny of regulatory, legislative, and geopolitical risks and opportunities made actionable.</h1>
                 </div>
             </Col>
           <Col id='secondHeading' className={this.state.secondFixed ? "scroll-jack-active heading second-heading text-right" : "scroll-jack-inactive heading second-heading text-right"} xs={{size: 12}} md={{size: 10, offset: 2}}>     
                 <div className='d-none d-sm-block'>
                   <h4>Investment</h4>        
                   <h1>Capital markets services</h1>
-                  <h1>and assessments catapulted from </h1>
-                  <h1>Washington to Beyond.</h1>
+                  <h1>and assessments extending</h1>
+                  <h1>far beyond Washington.</h1>
                 </div>
                 
                 <div className='d-block d-sm-none'>
                   <h4>Investment</h4>        
-                  <h1>Capital markets services and assessments catapulted from Washington to Beyond.</h1>
+                  <h1>Capital markets services and assessments extending far beyond Washington.</h1>
                 </div>
           </Col>
           <Col id='thirdHeading' className={this.state.thirdFixed ? "scroll-jack-active heading third-heading text-left" : "scroll-jack-inactive heading third-heading text-left"} xs={{size: 12}} md={{size: 10, offset: 0}}> 
               <div className='d-none d-sm-block'>
                 <h4>Insights</h4>
-                <h1>Differentiated research opinions</h1>          
-                <h1>from experienced, high-caliber traders</h1>
-                <h1>and analysts.</h1>
+                <h1>Differentiated research, independent</h1>          
+                <h1>perspectives, and smart ideas from</h1>
+                <h1>experienced analysts and advisors.</h1>
               </div>
               
               <div className='d-block d-sm-none'>
                 <h4>Insights</h4>
-                <h1>Differentiated research opinions from experienced, high-caliber traders and analysts.</h1>
+                <h1>Differentiated research, independent perspectives, and smart ideas from experienced analysts and advisors.</h1>
               </div>
           </Col>
           <Col id='fourthHeading' className="monument-height" ref={(section) => { this.Monument = section; }} xs={{size: 12}} md={{size: 10, offset: 0}}>
@@ -238,7 +238,7 @@ export default class IndexPage extends Component {
   
       <Height_Feed>
   
-          <FeedContent linkClassName={'Health Care'}>
+          <FeedContent linkClassName={'Healthcare'}>
             <div key={'Health_Care'} className='team-feed'>
               <Row>
                 
@@ -347,7 +347,7 @@ export default class IndexPage extends Component {
             </div>  
           </FeedContent>
   
-          <FeedContent linkClassName={'Energy + Industrial'}>
+          <FeedContent linkClassName={'Energy + Industrials'}>
             <div key={'Energy_Industrial'} className='team-feed'>
               <Row>
                 

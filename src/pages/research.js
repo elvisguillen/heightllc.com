@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
 import PaginateLink from '../components/PaginateLink'
+import img from 'gatsby-image'
 
 import logoIcon from '../images/logo-icon.png'
 import '../templates/expertise.scss'
@@ -87,7 +88,7 @@ export default class researchTemplate extends Component {
                             <Col className='page-sidebar' md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
                               {post.image_featured ? 
-                                <img src={post.image_featured} />
+                                <img src={post.image_featured.childImageSharp.sizes.src} />
                               : 
                                 <img src={thumbnail} />
                               }
@@ -275,7 +276,7 @@ export const researchPageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             category
-            image_featured
+            image_featured 
             tags
           }    
         }

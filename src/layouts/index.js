@@ -132,7 +132,7 @@ export default class TemplateWrapper extends Component {
 
             <Row>
               <div className="copyright">
-                <p>© 2017 Height Securities, LLC. To learn more, contact us at 202-629-0000.</p>
+                <p>© 2018 Height Capital Markets. To learn more, contact us at 202-629-0000.</p>
               </div>
             </Row>
           </footer>

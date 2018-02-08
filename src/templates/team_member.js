@@ -34,7 +34,7 @@ export default function teamMemberTemplate ({transition, data}) {
                 <Row>
                 <Col className='page-header-text' md={{size: 9}}>
                   <header className='bebas'>Team</header>
-                  <h1>We are talented people at a research- driven firm that puts clients first.</h1>
+                  <h1>We are talented people at a research-driven firm that puts clients first.</h1>
                   {/* <h1>{post.frontmatter.page_header}</h1> */}
                 </Col>
 

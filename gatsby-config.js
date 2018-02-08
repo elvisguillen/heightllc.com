@@ -11,24 +11,33 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages'
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: "images",
+        path: `${__dirname}/static/files`
       }
     },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-plugin-sharp',
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 500,
             },
           },
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files'
+          
         ]
       }
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
     'gatsby-plugin-react-helmet',

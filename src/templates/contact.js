@@ -142,7 +142,7 @@ export default class contactTemplate extends Component {
                   </div>
 
                   <div className='page-sidebar-content'>
-                    <header className='bebas'>Height Securities LLC.</header>
+                    <header className='bebas'>Height Capital Markets</header>
                     <h3>1775 Pennsylvania Ave NW, 11th floor</h3>
                     <h3>Washington, DC 20006</h3>  
                     <div className='phone-numbers'>
