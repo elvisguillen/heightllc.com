@@ -6,7 +6,7 @@ job_title: 'Senior Vice President, Healthcare'
 portrait: /files/andrea harris_research.png
 intro: >-
   Andrea Harris joined the firm In June 2017 as Senior Vice President of the
-  Height Capital Market's Healthcare team.
+  Height Capital Markets Healthcare team.
 details: >-
   Andrea has a decade of experience in federal health policy. She served as an
   aide to Senate HELP Committee Chairmen Ted Kennedy and Tom Harkin during the
