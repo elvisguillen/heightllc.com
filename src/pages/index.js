@@ -228,7 +228,7 @@ export default class IndexPage extends Component {
             <Col className='cta-right' xs={{size: 12}} md={{size: 8}}>
                 
                   <h1>Insights, Elevated.</h1>  
-                  <p>At Height Capital Markets, we understand policy risk. Investment banking and research traverses deep into the most heavily-regulated sectors of the economy to capture insights with an unmatched expertise. We know our clients need a firm that knows how regulatory, legal, policy and other non-financial risks impact their portfolio and operations. We are that firm.</p>
+                  <p>At Height Capital Markets, our investment banking and research teams delve into the most heavily regulated sectors of the economy to capture insights with unmatched expertise. We understand that institutional investors and corporations need a firm that knows how regulatory, legal, policy and other non-financial developments impact their portfolios and operations. We are that firm.</p>
                   {/* <p>{this.props.data.markdownRemark.frontmatter.cta_copy}</p> */}
               
             </Col>
