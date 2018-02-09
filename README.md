@@ -1,4 +1,4 @@
-# heightllc.com - Height Capital Markets
+# Height Capital Markets - heightllc.com
 
 This repo contains the source code and documentation powering heightllc.com, based on the Axel Framework.
 
