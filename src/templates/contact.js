@@ -14,55 +14,6 @@ import icon_map from '../images/icon_map.jpg'
 
 export default class contactTemplate extends Component {
   componentDidMount() {
-    // const Map = ReactMapboxGl({
-    //   accessToken: 'pk.eyJ1IjoiZWx2aXNndWlsbGVuIiwiYSI6ImNqYTA1NGhpeTZkZTcycXBnZ3d1dWNpeXcifQ.n0kMRqsxDE7t89k4qGuLxg'
-    // });
-
-    // this.map = new mapboxgl.Map({
-    //   container: this.mapContainer,
-    //   style: 'mapbox://styles/mapbox/streets-v9',
-    //   center: [-77.041, 38.900],
-    //   zoom: 14.7,
-    //   minZoom: 14.7,
-    //   maxZoom: 14.7
-    // }) 
-
-    // const geojson = {
-    //   type: 'FeatureCollection',
-    //   features: [{
-    //     type: 'Feature',
-    //     geometry: {
-    //       type: 'Point',
-    //       coordinates: [-77.041, 38.900]
-    //     },
-    //     properties: {
-    //       title: 'Height LLC',
-    //       description: 'Washington, D.C.'
-    //     }
-    //   }]
-    // };
-
-    // // add markers to map
-    // geojson.features.forEach(function(marker) {
-
-    //   // create a HTML element for each feature
-    //   var el = document.createElement('div');
-    //   el.className = 'marker';
-
-    //   // make a marker for each feature and add to the map
-    //   new mapboxgl.Marker(el)
-    //   .setLngLat(marker.geometry.coordinates)
-    //   .addTo(map);
-    // });
-
-    // new mapboxgl.Marker(el)
-    //   .setLngLat(marker.geometry.coordinates)
-    //   .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    //   .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
-    //   .addTo(map);
-
-    
-  
   }
 
   state = {
@@ -186,6 +137,10 @@ export default class contactTemplate extends Component {
                   <form name='contact' method='post' className='form' data-netlify='true' action='thank-you'>
 
                     <input type="hidden" name="form-name" value="contact" />
+                    
+                    <FormGroup className='d-none'>
+                      <Input type='text' name='name' id='inputName' placeholder='Full Name' />
+                    </FormGroup>
 
                     <FormGroup>
                       <Input type='text' name='name' id='inputName' placeholder='Full Name' />

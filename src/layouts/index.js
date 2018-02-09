@@ -100,7 +100,7 @@ export default class TemplateWrapper extends Component {
                   <Link to='/regulatory-disclosures'>REGULATORY DISCLOSURES</Link>
                 </li>
                 <li>
-                  <a href='https://heightllc.com/rule-606-reports/' target='_blank'>RULE 606 REPORTS</a>
+                  <a href='https://private.tagaudit.com/do/display?page=Rule606%3A%3AReport%3A%3APublic&subpage=Rule606%3A%3AReport%3A%3Aguts&heading=Development&cat1=XH&cat2=XH2&topic=Rule606&stitle=Rule+606&mypage=nyse&tctrl%28usr%29=%5BPlease+Select%5D&%3A%3Av%28date%29=%5BPlease+Select%5D&cx=004078493878931294822%3Ayv8tqqc22os&cof=FORID%3A10%3BNB%3A1&ie=UTF-8' target='_blank'>RULE 606 REPORTS</a>
                 </li>
                 <li>
                   <Link to='/terms-of-use'>TERMS OF USE</Link>
