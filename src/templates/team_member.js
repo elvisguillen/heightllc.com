@@ -20,7 +20,7 @@ export default function teamMemberTemplate ({transition, data}) {
     const post = data.markdownRemark;
     return (
       <div style={transition && transition.style}>
-         <Helmet title={`${post.frontmatter.name}`} />
+         <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
         
          <div className='navbar navbar-expand-lg navbar-dark'>
           <div className='navbar-blue'></div>
@@ -169,6 +169,11 @@ export const teamMemberPageQuery = graphql`
             path
           }
         }
+      }
+    }
+    site {
+      siteMetadata {
+        title
       }
     }
 
