@@ -41,7 +41,7 @@
 .social-icons {
 	position: relative;
 	margin: 0 auto;
-	margin-bottom: $gutter/2;
+	margin-bottom: 0px;
 
 	a {
 		width: 38px;
@@ -53,7 +53,8 @@
 		width: 38px;
 		opacity: .5;
 		transition: all 200ms ease-in-out;
-
+		margin-bottom: 0px;
+		
 		&:hover {
 			opacity: 1;
 		}
