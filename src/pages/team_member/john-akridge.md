@@ -6,7 +6,7 @@ job_title: Chief Executive Officer
 portrait: /files/john-akridge_leadership.jpg
 email: ''
 twitter: ''
-linkedin: 'http://linkedin.com/john-akridge'
+linkedin: 'https://www.linkedin.com/in/john-akridge-3a102012/'
 intro: >-
   John Akridge is the Co-Founder, Managing Partner and, Chief Executive Officer
   of Height Capital Markets.
