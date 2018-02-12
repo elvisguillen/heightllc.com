@@ -9,4 +9,4 @@ tags:
   - Tax + Budget
   - Special Situations
 ---
-<script type="text/javascript" src="http://video.foxbusiness.com/v/embed.js?id=5690416658001&w=466&h=263">span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jOpp2SB8W5A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
