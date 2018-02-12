@@ -10,6 +10,7 @@ attachments:
 category: Research
 tags:
   - Healthcare
+  - Mergers + Acquisitions
 ---
 ## **The Takeaway**
 
