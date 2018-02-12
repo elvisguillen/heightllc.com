@@ -15,7 +15,7 @@ expertises:
     header: >-
       Multi-sector research from the capital's leading financial and policy
       analysts.
-    photo: /files/expertiseresearch.png
+    photo: /files/exptertiseresearch.png
     title: Research
   - copy: >-
       Given our firm's specialization, we work with an array of global
