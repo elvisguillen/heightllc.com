@@ -28,7 +28,7 @@ expertises:
     header: >-
       Subject area expertise and our trusted distribution team create
       opportunities to excel in developing and marketing transactions.
-    photo: /files/investment-banking-hero.jpg
+    photo: /files/expertiseresearch.png
     title: Investment Banking
   - copy: >-
       Treating our clients as partners starts with effective sales coverage. Our
