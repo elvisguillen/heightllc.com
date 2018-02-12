@@ -7,7 +7,6 @@ author: Ed Groshans
 category: Research
 tags:
   - Financial Services
-  - Ed Groshans
 ---
 _**The Takeaway:**_
 
