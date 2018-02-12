@@ -2,11 +2,13 @@
 contentType: blog
 title: '2018 Brings Opportunities, Minimal Risks for Branded Pharma'
 path: /research/2018-brings-opportunities-minimal-risks-for-branded-pharma/
-date: 2018-01-17T15:22:40-05:00
+date: 2018-01-17T20:22:40.000Z
 author: Andrea Harris
+attachments:
+  - filename: /files/andrea harris_research2.png
 category: Research
 tags:
-  - ''
+  - Healthcare
 ---
 The Takeaway:
 
