@@ -5,8 +5,8 @@ path: >-
   /research/healthcare-mergers-and-acquisitions-the-regulatory-forces-propelling-healthcare/
 date: 2017-12-21T20:03:11.000Z
 author: Andrea Harris
-attachments:
-  - filename: /files/andrea harris_research2.png
+image_featured: /files/andrea harris_research2.png
+attachments: []
 category: Research
 tags:
   - Healthcare
