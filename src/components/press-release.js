@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import { Parallax } from 'react-scroll-parallax'
 
 import image_exec from '../images/image-executive.jpg'
-import image_featured from '../images/image_feed_featured2.jpg'
+import image_featured from '../../static/files/johnakridgefbn.png'
 import icon_play from '../images/icon_play.png'
 import image_player from '../images/image_player.png'
 import thumbnail from '../images/image_thumbnail.jpg'
@@ -23,12 +23,12 @@ export default class Press_Release extends Component {
                             </div>
                             <header className='bebas'>Height Featured</header>
                             <div>
-                                <Link to='/research/stefanie-miller-on-bloomberg-australia-government-shutdown/'><h3>Stefanie Miller on Bloomberg Australia: Government Shutdown</h3></Link>
+                                <Link to='/research/john-akridge-on-fox-business-news-stock-market-selloff/'><h3>John Akridge on Fox Business News: Stock Market Selloff</h3></Link>
                             </div>
                             <div className="height-tags">
-                                <Link className="height-tag" to="/tags/stefanie-miller">Stefanie Miller</Link>
-                                <Link className="height-tag" to="/tags/tax-budget">Tax + Budget</Link>
-                                <Link className="height-tag" to="/tags/australia">Australia</Link>
+                                <Link className="height-tag" to="/tags/john-akridge">John Akridge</Link>
+                                <Link className="height-tag" to="/categories/height-in-the-news">Height In The News</Link>
+                                <Link className="height-tag" to="/tags/fox-business">Fox Business</Link>
                             </div>
                         </Col> 
                         
