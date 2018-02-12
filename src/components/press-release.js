@@ -18,7 +18,7 @@ export default class Press_Release extends Component {
                     <Row>
                         <Col className='height-press-featured' md={{size: 4}}>
                             <div className='height-featured-image'>
-                                <Link to='/research/stefanie-miller-on-bloomberg-australia-government-shutdown/'><img className='img-responsive' src={image_featured} /></Link>
+                                <Link to='/research/john-akridge-on-fox-business-news-stock-market-selloff/'><img className='img-responsive' src={image_featured} /></Link>
                                 <img className='icon-play' src={icon_play} />
                             </div>
                             <header className='bebas'>Height Featured</header>
