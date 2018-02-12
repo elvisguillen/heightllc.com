@@ -18,8 +18,8 @@ export default class Press_Release extends Component {
                     <Row>
                         <Col className='height-press-featured' md={{size: 4}}>
                             <div className='height-featured-image'>
-                                <Link to='/research/john-akridge-on-fox-business-news-stock-market-selloff/'><img className='img-responsive' src={image_featured} /></Link>
-                                <img className='icon-play' src={icon_play} />
+                                <Link to='/research/john-akridge-on-fox-business-news-stock-market-selloff/'><img className='icon-play' src={icon_play} /><img className='img-responsive' src={image_featured} /></Link>
+                                
                             </div>
                             <header className='bebas'>Height Featured</header>
                             <div>
@@ -41,7 +41,7 @@ export default class Press_Release extends Component {
             
                             <div className='executive-content'>
                                 <div className='exec-copy'>
-                                    <p>Mr. Akridge co-founded Height Capital Markets in 2008, and under his leadership, the firm has grown to one of DC’s top regulatory-focused investment banks for institutional investors and companies by bridging the gap between Wall Street and DC decision-makers. The firm provides investment analysis in key regulated sectors by integrating fundamental and policy research to better understand the financial impact across the capital structure. </p>
+                                    <p>John Akridge co-founded Height Capital Markets in 2008, and under his leadership, the firm has grown to one of DC’s top regulatory-focused investment banks for institutional investors and companies by bridging the gap between Wall Street and DC decision-makers. The firm provides investment analysis in key regulated sectors by integrating fundamental and policy research to better understand the financial impact across the capital structure. </p>
                                     <Link to='/team/john-akridge'>Read More ›</Link>
                                 </div>
                             </div>
