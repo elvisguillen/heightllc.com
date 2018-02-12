@@ -3,12 +3,13 @@ contentType: blog
 title: 'Healthcare Mergers & Acquisitions: The Regulatory Forces Propelling Healthcare'
 path: >-
   /research/healthcare-mergers-and-acquisitions-the-regulatory-forces-propelling-healthcare/
-date: 2017-12-21T15:03:11-05:00
+date: 2017-12-21T20:03:11.000Z
 author: Andrea Harris
+attachments:
+  - filename: /files/andrea harris_research2.png
 category: Research
 tags:
   - Healthcare
-  - Andrea Harris
 ---
 ## **The Takeaway**
 
