@@ -11,4 +11,4 @@ tags:
   - John Akridge
   - Fox Business
 ---
-<script type="text/javascript" src="http://video.foxbusiness.com/v/embed.js?id=5729436984001&w=466&h=263"></script><noscript>Watch the latest video at <a href="http://www.foxbusiness.com">foxbusiness.com</a></noscript>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OhZ_UauCUUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
