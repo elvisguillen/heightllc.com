@@ -102,6 +102,35 @@ export default function teamTemplate ({ transition, data }) {
                             <Row>
                               <Col className='page-link-container' md={{size: 12}}>
                                 <div className='page-accordion-link team'>
+                                  <a className='bebas'>Operations</a>
+                                </div>
+                              </Col>
+                            </Row>
+
+
+                            <Row>
+                            {data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.category_team === 'Operations').map(({ node: post, index }) => {
+                              post = post.frontmatter
+                              post.id = index
+                              return (
+                              <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                                <Link to={post.path}><div className='page-team-sidebar-image'>
+                                  <img src={post.portrait} /> 
+                                </div></Link>
+                                <div className='page-team-name'>
+                                  <h3>{post.title}</h3>
+                                  <h4>{post.job_title}</h4>  
+                                </div>
+                              </Col>
+                              )
+                            })}
+                            </Row>
+                          </div>
+
+                          <div className='team-category'>
+                            <Row>
+                              <Col className='page-link-container' md={{size: 12}}>
+                                <div className='page-accordion-link team'>
                                   <a className='bebas'>Sales</a>
                                 </div>
                               </Col>

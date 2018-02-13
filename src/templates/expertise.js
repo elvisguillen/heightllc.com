@@ -81,7 +81,7 @@ export default class expertiseTemplate extends Component {
                                 <header className='bebas'>Contact</header>
                                 <h3>Give us a call to learn more about our expertise.</h3>  
                                 <div className='phone-numbers'>
-                                  <p><span>Sales:</span>(202) 629-0030</p>
+                                  <p><span>Sales:</span>(202) 629-0030</p>
                                   <p><span>Trading:</span>(202) 629-0015</p>
                                 </div>
                               </div>

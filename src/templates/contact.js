@@ -97,7 +97,7 @@ export default class contactTemplate extends Component {
                       
                       <div className='phone-department'>
                         <p><span>Sales:</span></p>
-                        <p>(202) 629-0030</p>
+                        <p>(202) 629-0030</p>
                         <p>sales@heightllc.com</p>
                       </div>
 
