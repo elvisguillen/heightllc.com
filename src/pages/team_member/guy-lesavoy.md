@@ -2,6 +2,7 @@
 contentType: team_member
 path: /team/guy-lesavoy
 title: Guy Lesavoy
+job_title: 'Vice President, Operations'
 portrait: /files/guy lesavoy_operations.png
 email: ''
 linkedin: 'https://www.linkedin.com/in/guy-lesavoy-1980a956/'
