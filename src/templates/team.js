@@ -55,7 +55,7 @@ export default function teamTemplate ({ transition, data }) {
                             {data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.category_team === 'Leadership').map(({ node: post, index }) => {
                               post = post.frontmatter
                               return (
-                              <Col className='page-related-profiles' md={{size: 4}} key={index}>
+                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 6}} lg={{size: 4}} key={index}>
                                 <Link to={post.path}><div className='page-team-sidebar-image'>
                                   <img src={post.portrait} /> 
                                 </div></Link>
@@ -84,7 +84,7 @@ export default function teamTemplate ({ transition, data }) {
                               post = post.frontmatter
                               post.id = index
                               return (
-                              <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 6}} lg={{size: 4}} key={post.id}>
                                 <Link to={post.path}><div className='page-team-sidebar-image'>
                                   <img src={post.portrait} /> 
                                 </div></Link>
@@ -113,7 +113,7 @@ export default function teamTemplate ({ transition, data }) {
                               post = post.frontmatter
                               post.id = index
                               return (
-                              <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 6}} lg={{size: 4}} key={post.id}>
                                 <Link to={post.path}><div className='page-team-sidebar-image'>
                                   <img src={post.portrait} /> 
                                 </div></Link>
@@ -142,7 +142,7 @@ export default function teamTemplate ({ transition, data }) {
                               post = post.frontmatter
                               post.id = index
                               return (
-                              <Col className='page-related-profiles' md={{size: 4}} key={post.id}>
+                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 6}} lg={{size: 4}} key={post.id}>
                                 <div className='page-team-name'>
                                   <h3>{post.title}</h3>
                                   <h4>{post.job_title}</h4>  

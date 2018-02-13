@@ -42,7 +42,7 @@ export default class Height_Feed extends Component {
             <section className="height-feed">
             <Container>
               <Row>
-                  <Col className='feed-left' md={{size: 4}}>
+                  <Col className='feed-left' md={{size: 5}} lg={{size: 4}}>
                     <div className='feed-sidebar'>
                       <header className='bebas'>The Height Feed</header>
                       <ul>
@@ -51,7 +51,7 @@ export default class Height_Feed extends Component {
                     </div>
                   </Col> 
       
-                  <Col className='feed-right' md={{size: 8}}>
+                  <Col className='feed-right' md={{size: 7}} lg={{size: 8}}>
                   <CSSTransition
                     classNames="background"
                     timeout={1000}>

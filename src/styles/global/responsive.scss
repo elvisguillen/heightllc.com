@@ -16,6 +16,108 @@
 	}
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .bm-item-list {
+        padding: 90px;
+        
+        .menu-item {
+            font-size: 30px;
+        }
+    }
+
+    h1 {
+        font-size: 30px!important;
+        line-height: 42px!important;
+    }
+    section.top {
+        h1 {
+            font-size: 30px;
+            line-height: 42px;
+        }
+    }
+
+    #top-scroll {
+        height: 2674px!important;
+
+        .circular-heading {
+            width: 800px!important;
+            max-width: 800px!important;
+        }
+    }
+
+    .par-bridge {
+        width: 920px !important;
+        top: 2040px!important;
+    }
+
+    .height-feed {
+        .feed-left {
+            .feed-sidebar {
+                padding: 73px $mobile-gutter/2!important;
+            }
+        }
+
+        .team-feed {
+            padding: 73px $mobile-gutter 60px $mobile-gutter!important;
+        }
+        
+    }
+
+    .height-press-releases {
+        .height-press-executive, .height-press-featured {
+            padding: 0px $mobile-gutter/2 0px $mobile-gutter!important;
+        }
+
+        .height-press-executive {
+            .executive-featured-image {
+                height: auto;
+                margin-bottom: $mobile-gutter;
+
+                .exec-subtitle {
+                    top: 70px!important;
+                }
+                .exec-title {
+                    font-size: 30px!important;
+                    top: 100px!important;
+                }
+            }
+        }
+        .height-press-featured {
+            .icon-play {
+                left: $mobile-gutter!important;
+            }
+        }
+    }
+
+    #cta {
+        .cta-left {
+            ul {
+                padding-left: 15px;
+            }
+
+            .cta-link {
+                margin-left: 15px;
+            }
+        }
+
+        .cta-right {
+            padding: 15px 30px 30px 30px;
+        }
+    }
+
+    .page-content {
+        .page-link-container {
+            padding: 0px $mobile-gutter;
+        }
+
+        .page-sidebar {
+            padding: 73px 30px;
+            .page-sidebar-image {
+                height: auto;
+            }
+        }
+    }
+}
 /* Landscape phones and down */
 @media (max-width: 767px) { 
 
@@ -34,7 +136,7 @@
     /* Nav Sidebar */
 
     .bm-item-list {
-        padding: 90px;
+        padding: 60px;
         
         .menu-item {
             font-size: 30px;
