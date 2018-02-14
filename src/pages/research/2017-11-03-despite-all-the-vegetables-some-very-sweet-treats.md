@@ -4,15 +4,15 @@ title: 'Despite All the Vegetables, Some Very Sweet Treats'
 path: /research/despite-all-the-vegetables-some-very-sweet-treats/
 date: 2017-11-03T13:02:50.000Z
 author: Height
-image_featured: /files/taxreform1.jpg
+image_featured: /files/ed-groshans_research.jpg
 attachments: []
 category: Research
 tags:
   - Energy + Industrials
   - Tax + Budget
-  - Katie Bays
   - Ed Groshans
   - Stefanie Miller
+  - Katie Bays
 ---
 **_The Takeaway:_**
 
