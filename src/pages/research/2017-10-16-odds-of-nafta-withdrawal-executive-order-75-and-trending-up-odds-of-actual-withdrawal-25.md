@@ -1,9 +1,13 @@
 ---
 contentType: blog
-title: 'Odds of NAFTA Withdrawal Executive Order 75% and Trending Up & Odds of Actual Withdrawal 25%'
-date: 2017-10-16T12:19:22+00:00
+title: >-
+  Odds of NAFTA Withdrawal Executive Order 75% and Trending Up & Odds of Actual
+  Withdrawal 25%
+path: >-
+  /research/odds-of-nafta-withdrawal-executive-order-75-and-trending-up-odds-of-actual-withdrawal-25/
+date: 2017-10-16T12:19:22.000Z
 author: Stefanie Miller
-path: /research/odds-of-nafta-withdrawal-executive-order-75-and-trending-up-odds-of-actual-withdrawal-25/
+image_featured: /files/stefanie-miller_research.jpg
 category: Research
 tags:
   - Special Situations
