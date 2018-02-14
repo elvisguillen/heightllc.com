@@ -1,9 +1,10 @@
 ---
 contentType: blog
 title: Dangerous Regulatory Curves Ahead for Autos
-date: 2017-06-02T17:31:21+00:00
-author: Ed Groshans
 path: /research/dangerous-regulatory-curves-ahead-for-autos/
+date: 2017-06-02T17:31:21.000Z
+author: Ed Groshans
+image_featured: /files/ed-groshans_research.jpg
 category: Research
 tags:
   - Financial Services
