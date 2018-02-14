@@ -1,9 +1,11 @@
 ---
 contentType: blog
-title: 'Senate & House Remain on Track to Complete ACA Repeal by August Recess'
-date: 2017-06-12T16:38:54+00:00
+title: Senate & House Remain on Track to Complete ACA Repeal by August Recess
+path: >-
+  /research/senate-house-remain-on-track-to-complete-aca-repeal-by-august-recess/
+date: 2017-06-12T16:38:54.000Z
 author: Stefanie Miller
-path: /research/senate-house-remain-on-track-to-complete-aca-repeal-by-august-recess/
+image_featured: /files/stefanie-miller_research.jpg
 category: Research
 tags:
   - Healthcare
