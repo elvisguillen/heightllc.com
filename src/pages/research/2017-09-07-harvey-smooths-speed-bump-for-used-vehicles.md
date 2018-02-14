@@ -1,9 +1,10 @@
 ---
 contentType: blog
 title: Harvey Smooths Speed Bump for Used Vehicles
-date: 2017-09-07T16:23:26+00:00
-author: Ed Groshans
 path: /research/harvey-smooths-speed-bump-for-used-vehicles/
+date: 2017-09-07T16:23:26.000Z
+author: Ed Groshans
+image_featured: /files/ed-groshans_research.jpg
 category: Research
 tags:
   - Financial Services
