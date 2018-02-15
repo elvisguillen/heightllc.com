@@ -9,4 +9,4 @@ tags:
   - Special Situations
   - Technology
 ---
-<iframe src="https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=3000493039&size=530_298" width="530" height="298" type="application/x-shockwave-flash" allowFullScreen="true" bgcolor="#131313"></iframe><p><a href="https://www.cnbc.com/video/3000493039?__source=cnbcembedplayer">The analytics behind the election</a> from <a href="//www.cnbc.com/?__source=cnbcembedplayer">CNBC</a>.</p>
+<iframe src="https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=3000493039&size=530_298" width="530" height="298" type="application/x-shockwave-flash" allowFullScreen="true" bgcolor="#131313"></iframe>
