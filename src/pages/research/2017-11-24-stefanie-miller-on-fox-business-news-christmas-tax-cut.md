@@ -9,4 +9,4 @@ tags:
   - Tax + Budget
   - Fox Business
 ---
-<script type="text/javascript" src="http://video.foxbusiness.com/v/embed.js?id=5657243955001&w=466&h=263"></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WmChToFBYE0?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
