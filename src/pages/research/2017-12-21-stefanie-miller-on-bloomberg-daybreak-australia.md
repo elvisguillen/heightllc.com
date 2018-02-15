@@ -10,6 +10,4 @@ tags:
   - Australia
   - Bloomberg
 ---
-<iframe src="https://www.bloomberg.com/api/embed/iframe?id=41ef44c5-426d-40bc-8708-5d2dea8a3378" width="300" height="150" frameborder="0"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span>&nbsp;
-
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CB2QPSYaB6Q?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
