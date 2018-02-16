@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/andrew-schon
 title: Andrew Schon
 job_title: 'Vice President, Technology'
-portrait: /files/andrew schon_operations.png
+portrait: /files/andrew schon_operations2.png
 linkedin: 'https://www.linkedin.com/in/andrewpschon/'
 details: >-
   As Director of Technology, Andrew Schon oversees the firm’s digital strategy
