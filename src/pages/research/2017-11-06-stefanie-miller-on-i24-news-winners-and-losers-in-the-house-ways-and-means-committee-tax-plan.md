@@ -7,6 +7,7 @@ path: >-
   /research/stefanie-miller-on-i24-news-winners-and-losers-in-the-house-ways-and-means-committee-tax-plan/
 date: 2017-11-06T14:57:41.000Z
 author: Stefanie Miller
+image_featured: /files/screen shot 2018-02-16 at 4.10.09 pm.png
 category: Height In The News
 tags:
   - Tax + Budget
