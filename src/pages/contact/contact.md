@@ -7,7 +7,7 @@ intro_copy: Contact Us.
 body_copy: >-
   Our main office is adjacent to the International Monetary Fund, World Bank,
   White House, and U.S. Treasury. Height occupies a position at the crossroads
-  of fundamental analysis and policy risk. Let's talk and we'll share more about
-  our distinct insights, expertise and experience.
+  of fundamental analysis and policy risk. Contact us to learn more about our
+  distinct insights, expertise and experience.
 ---
 
