@@ -5,8 +5,9 @@ title: Stefanie Miller
 job_title: 'Senior Vice President, Special Situations'
 portrait: /files/stefanie-miller_research.jpg
 linkedin: 'https://www.linkedin.com/in/stefanie-miller-22806a67/'
-intro: Stefanie Miller is Senior Vice President of Height's Special Situations team.
+intro: ''
 details: >-
+  Stefanie Miller is Senior Vice President of Height's Special Situations team.
   As part of her Special Situations portfolio, Stefanie covers tax and budget
   issues; trade and infrastructure policy; politics; the tobacco, gaming, and
   steel industries; as well as regulatory topics surrounding antitrust issues
