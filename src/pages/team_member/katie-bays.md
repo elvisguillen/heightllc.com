@@ -5,14 +5,13 @@ title: Katie Bays
 job_title: 'Senior Vice President, Energy & Industrials'
 portrait: /files/katie-bays_research.jpg
 linkedin: 'https://www.linkedin.com/in/katiemarvin/'
-intro: >-
+intro: ''
+details: >-
   Katie Bays leads Height's Energy and Industrials team, focusing on the
   interplay of domestic and global energy markets with the U.S. regulatory
-  environment.
-details: >-
-  Her team provides investment research driven by in-depth knowledge of
-  regulatory processes as well as the infrastructure, geology, and economics
-  that make up the domestic energy sector. She comes to Height from
+  environment. Her team provides investment research driven by in-depth
+  knowledge of regulatory processes as well as the infrastructure, geology, and
+  economics that make up the domestic energy sector. She comes to Height from
   Virginia-based energy consulting firm Energy Ventures Analysis, Inc. where she
   specialized in modeling U.S. energy commodity prices and domestic power
   markets. 
