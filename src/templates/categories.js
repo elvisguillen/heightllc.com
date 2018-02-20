@@ -64,8 +64,8 @@ const categoriesTemplate = ({data, pathContext, transition}) => {
                     <Row>
                       <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                         <Link to={post.path}><div className='page-sidebar-image'>
-                        {post.frontmatter.image_featured ? 
-                            <img src={post.frontmatter.image_featured} />
+                        {post.image_featured ? 
+                            <img src={post.image_featured} />
                            : 
                             <img src={thumbnail} />
                           }
