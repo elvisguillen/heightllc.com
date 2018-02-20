@@ -62,7 +62,11 @@ const tagsTemplate = ({data, pathContext, transition}) => {
                     <Row>
                       <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                         <Link to={post.path}><div className='page-sidebar-image'>
-                          <img src={thumbnail} />
+                        {post.frontmatter.image_featured ? 
+                            <img src={post.frontmatter.image_featured} />
+                           : 
+                            <img src={thumbnail} />
+                          }
                         </div></Link>
                       </Col>
                       <Col className='page-copy' xs={{size: 12}} md={{size: 8}}> 
@@ -134,6 +138,7 @@ export const tagsPageQuery = graphql`
             author
             path
             category
+            image_featured
             tags
           }    
         }

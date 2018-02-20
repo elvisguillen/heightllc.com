@@ -8,6 +8,7 @@ import logoIcon from '../images/logo-icon.png'
 import image_team_john from '../images/team_john.png'
 import twitter_dark from '../images/social_twitter_dark.png'
 import linkedin_dark from '../images/social_linkedin_dark.png'
+import icon_team from '../images/icon_team.png'
 
 export default function teamTemplate ({ transition, data }) {
     return(
@@ -55,9 +56,10 @@ export default function teamTemplate ({ transition, data }) {
                             {data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.category_team === 'Leadership').map(({ node: post, index }) => {
                               post = post.frontmatter
                               return (
-                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 6}} lg={{size: 4}} key={index}>
+                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 12}} md={{size: 6}} lg={{size: 4}} key={index}>
                                 <Link to={post.path}><div className='page-team-sidebar-image'>
-                                  <img src={post.portrait} /> 
+                                  <img src={post.portrait} />
+                                  <div className='icon_team' />
                                 </div></Link>
                                 <div className='page-team-name'>
                                   <h3>{post.title}</h3>
@@ -84,9 +86,10 @@ export default function teamTemplate ({ transition, data }) {
                               post = post.frontmatter
                               post.id = index
                               return (
-                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 6}} lg={{size: 4}} key={post.id}>
+                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 12}} md={{size: 6}} lg={{size: 4}} key={post.id}>
                                 <Link to={post.path}><div className='page-team-sidebar-image'>
                                   <img src={post.portrait} /> 
+                                  <div className='icon_team' />
                                 </div></Link>
                                 <div className='page-team-name'>
                                   <h3>{post.title}</h3>
@@ -113,9 +116,10 @@ export default function teamTemplate ({ transition, data }) {
                               post = post.frontmatter
                               post.id = index
                               return (
-                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 6}} lg={{size: 4}} key={post.id}>
+                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 12}} md={{size: 6}} lg={{size: 4}} key={post.id}>
                                 <Link to={post.path}><div className='page-team-sidebar-image'>
                                   <img src={post.portrait} /> 
+                                  <div className='icon_team' />
                                 </div></Link>
                                 <div className='page-team-name'>
                                   <h3>{post.title}</h3>
@@ -142,7 +146,7 @@ export default function teamTemplate ({ transition, data }) {
                               post = post.frontmatter
                               post.id = index
                               return (
-                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 6}} lg={{size: 4}} key={post.id}>
+                              <Col className='page-related-profiles' xs={{size: 12}} sm={{size: 12}} md={{size: 6}} lg={{size: 4}} key={post.id}>
                                 <div className='page-team-name'>
                                   <h3>{post.title}</h3>
                                   <h4>{post.job_title}</h4>  

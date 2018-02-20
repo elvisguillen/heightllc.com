@@ -401,4 +401,22 @@
             }
         }
     }
+
+    .research-page {
+        .page-content {
+            .research-post {
+                margin-bottom: $mobile-gutter;
+                .page-sidebar {
+                    order: 1;
+                    margin-top: $mobile-gutter * 2;
+                    padding-bottom: 0px;
+                }
+
+                .page-content {
+                    order: 2;
+                }
+
+            }
+        }
+    }
 }

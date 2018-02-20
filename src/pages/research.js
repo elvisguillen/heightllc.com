@@ -34,7 +34,7 @@ export default class researchTemplate extends Component {
     const posts = this.props.data.allMarkdownRemark
 
     return (
-      <div style={this.props.transition && this.props.transition.style}>
+      <div style={this.props.transition && this.props.transition.style} className='research-page'>
           {/* <Helmet title={`${page.frontmatter.title} | ${this.props.data.site.siteMetadata.title}`} /> */}
         
         <div className='navbar navbar-expand-lg navbar-dark'>

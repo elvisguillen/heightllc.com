@@ -31,7 +31,7 @@ export default function Template ({ data, transition }) {
                 <Row>
                 <Col className='page-header-text' xs={{size: 12}} md={{size: 9}}>
                   <header className='bebas'>Research</header>
-                  <h1>Research that resonates and goes beyond insights.</h1>
+                  <h1>Research that resonates and goes beyond insights.</h1>
                 </Col>
 
                 <div className='page-circular-header'>
