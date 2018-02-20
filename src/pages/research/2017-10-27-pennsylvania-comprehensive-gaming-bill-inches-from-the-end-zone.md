@@ -1,9 +1,10 @@
 ---
 contentType: blog
-title: 'Pennsylvania Comprehensive Gaming Bill - Inches from the End Zone'
-date: 2017-10-27T13:01:25+00:00
-author: Stefanie Miller
+title: Pennsylvania Comprehensive Gaming Bill - Inches from the End Zone
 path: /research/pennsylvania-comprehensive-gaming-bill-inches-from-the-end-zone/
+date: 2017-10-27T13:01:25.000Z
+author: Stefanie Miller
+image_featured: /files/stefanie-miller_research.jpg
 category: Research
 tags:
   - Special Situations

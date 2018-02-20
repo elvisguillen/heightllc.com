@@ -1,9 +1,11 @@
 ---
 contentType: blog
 title: Canadian Lumber Trade Case is Trending Toward a Protectionist Policy Outcome
-date: 2017-09-13T16:18:11+00:00
+path: >-
+  /research/canadian-lumber-trade-case-is-trending-toward-a-protectionist-policy-outcome/
+date: 2017-09-13T16:18:11.000Z
 author: Stefanie Miller
-path: /research/canadian-lumber-trade-case-is-trending-toward-a-protectionist-policy-outcome/
+image_featured: /files/stefanie-miller_research.jpg
 category: Research
 tags:
   - Special Situations

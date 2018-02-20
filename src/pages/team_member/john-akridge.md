@@ -7,13 +7,12 @@ portrait: /files/john-akridge_leadership.jpg
 email: ''
 twitter: ''
 linkedin: 'https://www.linkedin.com/in/john-akridge-3a102012/'
-intro: >-
-  John Akridge is the Co-Founder, Managing Partner, and CEO of Height Capital
-  Markets.
+intro: ''
 details: >-
-  John Akridge co-founded Height in 2008. Under his leadership, the firm grew
-  into one of Washington, DC’s top regulatory-focused investment banks for
-  institutional investors and companies. 
+  John Akridge is the Co-Founder, Managing Partner, and CEO of Height Capital
+  Markets. John Akridge co-founded Height in 2008. Under his leadership, the
+  firm grew into one of Washington, DC’s top regulatory-focused investment banks
+  for institutional investors and companies. 
 
 
   Today, the firm provides investment analysis in key regulated sectors by

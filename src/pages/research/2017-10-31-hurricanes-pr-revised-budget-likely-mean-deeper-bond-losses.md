@@ -4,6 +4,7 @@ title: Hurricanes & PR Revised Budget Likely Mean Deeper Bond Losses
 path: /research/hurricanes-pr-revised-budget-likely-mean-deeper-bond-losses/
 date: 2017-10-31T12:59:51.000Z
 author: Ed Groshans
+image_featured: /files/ed-groshans_research.jpg
 category: Research
 tags:
   - Financial Services

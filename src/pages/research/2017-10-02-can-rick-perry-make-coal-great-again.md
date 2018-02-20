@@ -1,9 +1,10 @@
 ---
 contentType: blog
 title: Can Rick Perry Make Coal Great Again?
-date: 2017-10-02T15:53:51+00:00
-author: Katie Bays
 path: /research/can-rick-perry-make-coal-great-again/
+date: 2017-10-02T15:53:51.000Z
+author: Katie Bays
+image_featured: /files/katie-bays_research.jpg
 category: Research
 tags:
   - Energy + Industrials
