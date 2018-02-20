@@ -117,6 +117,10 @@
             }
         }
     }
+    
+    .page-related-profiles {
+        padding: 36px $mobile-gutter*2!important;
+    }
 }
 /* Landscape phones and down */
 @media (max-width: 767px) { 
@@ -419,4 +423,6 @@
             }
         }
     }
+
+    
 }

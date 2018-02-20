@@ -32,6 +32,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
     const categoryTemplate = path.resolve(`src/templates/categories.js`);
     const tagsTemplate = path.resolve(`src/templates/tags.js`);
+    const authorTemplate = path.resolve(`src/templates/author.js`);
     const posts = result.data.allMarkdownRemark.edges;
     const blogposts = posts.filter(post => post.node.frontmatter.contentType === 'blog');
 
@@ -98,7 +99,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       createPaginationPages({
         createPage,
         edges: authorEdges,
-        component: tagsTemplate,
+        component: authorTemplate,
         pathFormatter: prefixPathFormatter(`/tags/${(author).replace(/\s+/g, '-').toLowerCase()}`),
         limit: 10,
         context: {
