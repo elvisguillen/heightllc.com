@@ -1,6 +1,6 @@
 ---
 contentType: blog
-title: 'John Akridge on Fox Business News: Stock Market Selloff'
+title: 'John Akridge on Fox Business Network: Stock Market Selloff'
 path: /research/john-akridge-on-fox-business-news-stock-market-selloff/
 date: 2018-02-08T19:50:22.000Z
 author: John Akridge
