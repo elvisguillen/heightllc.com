@@ -28,3 +28,5 @@ Phillips 66 is a diversified energy manufacturing and logistics company. With a 
 **About PLOGIX, LLC**
 
 PLOGIX’s affiliate Pack Logix is a diversified contract packager, packaging distributor, fulfillment and logistics firm with an international client base. It offers tube filling, skin/blister/clamshell packaging and kitting for the industrial, household, automotive, health care, pharmaceutical and personal care markets. Its headquarters is at an 80,000-square-foot plant at 2501 W. Hampton Ave. in Milwaukee, and the company is owned by Bruce Moncrieff. It had 16 employees prior to the acquisition.
+
+[PR Newswire](https://www.prnewswire.com/news-releases/height-securities-advises-phillips-66-psx-on-its-lubricants-facility-divestiture-in-waukesha-wi-300602313.html?tc=eml_cleartime)
