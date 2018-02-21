@@ -1,12 +1,16 @@
 ---
 contentType: blog
-title: Height Securities Serves as Financial Advisor to Sprague Resources LP on its Acquisition of Coen Energy
-date: 2017-10-17T16:50:17+00:00
+title: >-
+  Height Securities Serves as Financial Advisor to Sprague Resources LP on its
+  Acquisition of Coen Energy
+path: >-
+  /research/height-securities-serves-as-financial-advisor-to-sprague-resources-lp-on-its-acquisition-of-coen-energy/
+date: 2017-10-17T16:50:17.000Z
 author: Height
-path: /research/height-securities-serves-as-financial-advisor-to-sprague-resources-lp-on-its-acquisition-of-coen-energy/
 category: Press Release
 tags:
   - Energy + Industrials
+  - Investment Banking
 ---
 WASHINGTON, Oct. 10, 2017 /PRNewswire/ &#8212; Height Securities, LLC (&#8220;Height&#8221;) served as sole financial advisor to Sprague Resources LP (&#8220;Sprague&#8221;) (NYSE: SRLP) during its acquisition of membership interests in Coen Energy, LLC and Coen Transport, LLC, as well as assets consisting of four bulk plants and underlying real estate (collectively, &#8220;Coen Energy&#8221;).
 
