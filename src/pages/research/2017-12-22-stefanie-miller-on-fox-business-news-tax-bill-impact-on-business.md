@@ -1,6 +1,6 @@
 ---
 contentType: blog
-title: 'Stefanie Miller on Fox Business News: Tax Bill Impact on Business'
+title: 'Stefanie Miller on Fox Business Network: Tax Bill Impact on Business'
 path: /research/stefanie-miller-on-fox-business-news-tax-bill-impact-on-business/
 date: 2017-12-22T08:04:50.000Z
 author: Stefanie Miller
