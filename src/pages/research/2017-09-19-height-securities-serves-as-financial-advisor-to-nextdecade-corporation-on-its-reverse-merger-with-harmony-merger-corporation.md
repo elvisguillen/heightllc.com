@@ -1,12 +1,16 @@
 ---
 contentType: blog
-title: Height Securities Serves as Financial Advisor to NextDecade Corporation on its Reverse Merger with Harmony Merger Corporation
-date: 2017-09-19T08:18:54+00:00
+title: >-
+  Height Securities Serves as Financial Advisor to NextDecade Corporation on its
+  Reverse Merger with Harmony Merger Corporation
+path: >-
+  /research/height-securities-serves-as-financial-advisor-to-nextdecade-corporation-on-its-reverse-merger-with-harmony-merger-corporation/
+date: 2017-09-19T08:18:54.000Z
 author: Height
-path: /research/height-securities-serves-as-financial-advisor-to-nextdecade-corporation-on-its-reverse-merger-with-harmony-merger-corporation/
 category: Press Release
 tags:
   - Energy + Industrials
+  - Investment Banking
 ---
 <div class="row">
   <div class="col-sm-10 col-sm-offset-1">
