@@ -1,7 +1,10 @@
 ---
 contentType: blog
-title: Height Securities Phillips 66 Waukesha Press Release
-path: /research/height-securities-phillips-66-waukesha-press-release/
+title: >-
+  Height Securities Advises Phillips 66 (PSX) on its Lubricants Facility
+  Divestiture in Waukesha, WI
+path: >-
+  /research/height-securities-advises-phillips-66-on-its-lubricants-facility-divestiture-in-waukesha-wI/
 date: 2018-02-21T19:06:05.511Z
 author: Height
 category: Press Release
