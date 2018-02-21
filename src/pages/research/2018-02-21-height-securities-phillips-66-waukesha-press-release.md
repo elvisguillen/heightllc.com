@@ -8,7 +8,7 @@ category: Press Release
 tags:
   - investment banking
 ---
-WASHINGTON, Feb. 21, 2018 
+WASHINGTON
 
 Height Securities, LLC (“Height”) served as sole financial advisor to Phillips 66 (NYSE: PSX) and its wholly-owned division Phillips 66 Spectrum Corporation, on the sale of its lubricants and packaging facility in Waukesha, WI. The transaction closed February 16th, 2018, and the assets were purchased by PLOGIX, LLC, based out of Milwaukee, WI for an undisclosed price.  
 
