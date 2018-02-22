@@ -200,6 +200,10 @@
     .page-content {
         .page-copy {
             padding: 60px 73px 20px 73px;
+
+            &.intro, .outro {
+                padding: 0px 73px 20px 73px;
+            }
         }
     }
 }

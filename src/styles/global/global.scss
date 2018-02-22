@@ -6,8 +6,31 @@ h1, h2, h3 {
 h1, h2, h3, h4, h5, h6 {
 	text-rendering: optimizeLegibility;
 	margin-bottom: $lineheight;
-	line-height: 1.1;
+	line-height: 1.6;
 }
+
+/* Color Classes */
+
+.blue {
+	color: $blue;
+}
+
+.dark-blue {
+	color: $dark-blue;
+}
+
+.teal {
+	color: $teal;
+}
+
+.copy-gray {
+	color: $gray;
+}
+
+.copy-purple {
+	color: $text-purple;
+}
+
 
 ul {
 	line-height: $lineheight;

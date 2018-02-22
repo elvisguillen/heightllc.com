@@ -35,7 +35,7 @@ export default class careersTemplate extends Component {
             <Row>
               <Col className='page-header-text' xs={{size: 12}} md={{size: 9}}>
                 <header className='bebas'>Careers</header>
-                <h1>We hire the most intelligent, creative people.</h1>
+                <h1>We're looking for creative, ambitous individuals to join our growing team.</h1>
               </Col>
 
               <div className='page-circular-header'>
@@ -51,6 +51,11 @@ export default class careersTemplate extends Component {
             <div className='page-accordion'>
               
               {/* ACCORDION 1 */}
+              <Row>
+                <Col className='page-copy intro' xs={{size: 12}} md={{size: 12}}>
+                  <p>Height Securities is an investment bank that specializes in regulatory and policy research for institutional and corporate clients. Please find our current job openings listed below.</p>
+                </Col>
+              </Row>
 
               <div className="page-accordion-container">
                 <Row>
@@ -105,7 +110,7 @@ export default class careersTemplate extends Component {
                                   {post.date}
                                 </header> */}
                                 <div className='post-title'>
-                                  <Link to='/files//files/Height_Job_Posting_Associate_M&A_Policy_Advisor.pdf' target='_blank'><h1>Associate M&A Policy Advisor</h1></Link>
+                                  <Link to='/files/Height_Job_Posting_Associate_M&A_Policy_Advisor.pdf' target='_blank'><h1>Associate M&A Policy Advisor</h1></Link>
                                 </div>
                               </div>
                             </Col>
@@ -117,6 +122,13 @@ export default class careersTemplate extends Component {
                   </Row>
               </div>              
             </div>
+
+            <Row>
+              <Col className='page-copy outro' xs={{size: 12}} md={{size: 12}}>                
+                <p>Height is committed to providing equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, ethnicity, gender, sexual orientation, gender identity, transgender status, marital or family status, veteran status, age, national origin, ancestry, religion, disability or medical condition, or any other basis protected by federal, state or local law.</p>
+                <h2 className='teal'>If you're interested in any of our positions, please <Link to='/contact'>contact us</Link> today.</h2>
+              </Col>
+            </Row>
           </Container>
         </section>
       </div>
