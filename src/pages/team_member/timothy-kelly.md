@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/timothy-kelly
 title: Timothy Kelly
 job_title: 'Vice President, Sales'
-portrait: ''
+portrait: /files/tim kelly_sales and trading.png
 email: tkelly@heightllc.com
 category_team: Sales
 tags:

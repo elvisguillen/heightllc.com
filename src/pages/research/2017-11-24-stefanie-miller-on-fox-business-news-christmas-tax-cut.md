@@ -1,6 +1,6 @@
 ---
 contentType: blog
-title: 'Stefanie Miller on Fox Business News: Christmas Tax Cut?'
+title: 'Stefanie Miller on Fox Business Network: Christmas Tax Cut?'
 path: /research/stefanie-miller-on-fox-business-news-christmas-tax-cut/
 date: 2017-11-24T16:46:10.000Z
 author: Stefanie Miller
