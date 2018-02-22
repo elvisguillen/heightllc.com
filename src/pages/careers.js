@@ -126,7 +126,7 @@ export default class careersTemplate extends Component {
             <Row>
               <Col className='page-copy outro' xs={{size: 12}} md={{size: 12}}>                
                 <p>Height is committed to providing equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, ethnicity, gender, sexual orientation, gender identity, transgender status, marital or family status, veteran status, age, national origin, ancestry, religion, disability or medical condition, or any other basis protected by federal, state or local law.</p>
-                <h2 className='teal'>If you're interested in any of our positions, please <Link to='/contact'>contact us</Link> today.</h2>
+                <h2 className='teal'>If you're interested in any of our positions, please <Link to='/contact'>Contact Us ›</Link></h2>
               </Col>
             </Row>
           </Container>
