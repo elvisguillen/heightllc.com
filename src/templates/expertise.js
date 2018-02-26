@@ -11,12 +11,12 @@ export default class expertiseTemplate extends Component {
   constructor(props) {
     super(props)
     this.toggle = this.toggle.bind(this)
-    this.state = { collapse: 0 }
+    this.state = { collapse: 5 }
   }
   
   toggle(e) {
     let event = e.target.dataset.event
-    this.setState({ collapse: this.state.collapse === Number(event) ? 0 : Number(event) })
+    this.setState({ collapse: this.state.collapse === Number(event) ? 5 : Number(event) })
   }
 
   componentDidMount() {
