@@ -161,8 +161,6 @@ export default class contactTemplate extends Component {
                       <Input type='textarea' name='text' id='inputComment' placeholder='How can we help?' />
                     </FormGroup>
 
-                    <div data-netlify-recaptcha></div>
-
                     <FormGroup>
                       <button type='submit'>Submit ›</button>
                     </FormGroup>
