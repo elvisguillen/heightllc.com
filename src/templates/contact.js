@@ -89,10 +89,10 @@ export default class contactTemplate extends Component {
                     </ReactMapGL>
                   </div>
 
-                  <div className='page-sidebar-content'>
+                  <div className='page-sidebar-content contact-sidebar'>
                     <header className='bebas'>Height Capital Markets</header>
                     <h3>1775 Pennsylvania Ave NW, 11th floor</h3>
-                    <h3>Washington, DC 20006</h3>  
+                    Washington, DC 20006</h3>  
                     <div className='phone-numbers'>
                       
                       <div className='phone-department'>
@@ -136,7 +136,11 @@ export default class contactTemplate extends Component {
                   
                   <form name='contact' method='post' className='form' data-netlify='true' data-netlify-honeypot="bot-field" action='thank-you'>
 
-                    <input type="hidden" name="form-name" value="contact" />
+                    
+                    
+                    <FormGroup className='d-none'>
+                      <input name="bot-field"/>
+                    </FormGroup>
 
                     <FormGroup>
                       <Input type='text' name='name' id='inputName' placeholder='Full Name' />

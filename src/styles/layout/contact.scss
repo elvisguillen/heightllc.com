@@ -23,6 +23,16 @@
     }
 }
 
+.contact-sidebar {
+    h3 {
+        margin-bottom: 0px;
+    }
+}
+
+.phone-numbers {
+    margin-top: $gutter / 2;
+}
+
 .marker {
     background-image: url('../images/logo-icon.png');
     background-size: cover;
