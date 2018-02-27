@@ -139,7 +139,7 @@ export default class contactTemplate extends Component {
                     <input type="hidden" name="form-name" value="contact" />
                     
                     <FormGroup className='d-none'>
-                      <input name="bot-field" />
+                      <Input name="bot-field" />
                     </FormGroup>
 
                     <FormGroup>
