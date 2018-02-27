@@ -92,7 +92,7 @@ export default class contactTemplate extends Component {
                   <div className='page-sidebar-content contact-sidebar'>
                     <header className='bebas'>Height Capital Markets</header>
                     <h3>1775 Pennsylvania Ave NW, 11th floor</h3>
-                    Washington, DC 20006</h3>  
+                    <h3>Washington, DC 20006</h3>  
                     <div className='phone-numbers'>
                       
                       <div className='phone-department'>
@@ -139,7 +139,7 @@ export default class contactTemplate extends Component {
                     
                     
                     <FormGroup className='d-none'>
-                      <input name="bot-field"/>
+                      <input name="bot-field" />
                     </FormGroup>
 
                     <FormGroup>
