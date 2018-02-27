@@ -5,7 +5,7 @@ title: Adam Daney
 job_title: 'Vice President, Sales'
 portrait: /files/adam daney_sales and trading.png
 email: adaney@heightllc.com
-phone: ''
+phone: (202) 629-0030
 linkedin: 'https://www.linkedin.com/in/adamdaney/'
 category_team: Sales
 tags:
