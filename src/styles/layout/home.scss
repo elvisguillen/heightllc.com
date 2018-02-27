@@ -13,6 +13,19 @@
 	}
 }
 
+.height-branding {
+	position: absolute;
+    top: 73px;
+	h4 {
+		color: $teal!important;
+		animation-delay: 500ms;
+		animation-name: spokeEnter;
+		animation-timing-function: cubic-bezier(.45,0,.47,1);
+		animation-duration: 1000ms;
+		animation-fill-mode: both;
+	}
+}
+
 .height-position {
 	font-family: $bebas;
 	font-size: 18px;
@@ -292,20 +305,25 @@ section.cta {
 	padding: 120px 0px;
 	z-index: 4;
 
+	header {
+		margin-left: 61px;
+	}
+
 	.cta-left {
 		.cta-links {
 			list-style: none;
 			margin-left: 0px; 
 			padding-left: 61px;
+			margin-top: 70px;
 			
 			li {
-				font-family: $bebas;
-				font-size: 18px;
-				letter-spacing: 4px;
-				color: $dark-blue;
+				// font-family: $bebas;
+				// font-size: 18px;
+				// letter-spacing: 4px;
+				// color: $dark-blue;
 
-				padding: 25px 0px;
-				border-bottom: 1px solid rgba(129,146,152, 0.3);
+				padding: 10px 0px;
+				// border-bottom: 1px solid rgba(129,146,152, 0.3);
 				margin: 0px;
 
 
@@ -318,9 +336,8 @@ section.cta {
 		
 		.cta-link {
 			font-family: $museo;
+			color: $copy-color;
 			font-size: 24px;
-			margin-left: 61px;
-			color: $teal!important;
 			transition: all 500ms ease-in-out;
 
 			&:hover {

@@ -141,6 +141,11 @@ export default class IndexPage extends Component {
       <p className={this.state.isFixed ? "height-number-fixed height-position" : "height-position"}><span>{this.state.isFixed ? "555" : this.state.heightPosition}</span><span>FT</span></p>
       <section id='top-scroll' className="top">
         <Container>
+            
+            <div className='height-branding'>
+              <h4 className='teal'>Height Capital Markets</h4>
+            </div>
+
             <Col id='firstHeading' className={this.state.firstFixed ? "scroll-jack-active heading first-heading text-left" : "scroll-jack-inactive heading first-heading text-left"} xs={{size: 12}} md={{size: 10, offset: 0}}>    
                 <div className='d-none d-sm-block'>
                   <h4>Analysis</h4>              
@@ -195,33 +200,33 @@ export default class IndexPage extends Component {
         <Container>
           <Row>
             <Col className='cta-left' xs={{size: 12}} md={{size: 4}}>
+              <Fade left>
+                <header className='bebas white-bg'>Expertise</header>
+              </Fade>
               <ul className="cta-links">
-                  <Fade left>
-                    <li>
-                      Research
-                    </li>
-                  </Fade>
                   <Fade left delay={50}>
                     <li>
-                      Investment Banking
+                      <Link className='cta-link' to='/expertise'>Research &rsaquo;</Link>
+                    </li>
+                  </Fade>
+                  <Fade left delay={100}>
+                    <li>
+                      <Link className='cta-link' to='/expertise'>Investment Banking &rsaquo;</Link>
                     </li>
                   </Fade>
                 
-                  <Fade left delay={100}>
+                  <Fade left delay={150}>
                     <li>
-                      Sales + Trading
+                      <Link className='cta-link' to='/expertise'>Sales + Trading &rsaquo;</Link>
                     </li>
                   </Fade>
 
-                  <Fade left delay={150}>
+                  <Fade left delay={200}>
                     <li className='last-type'>
-                      Advisory
+                      <Link className='cta-link' to='/expertise'>Advisory &rsaquo;</Link>
                     </li>
                   </Fade>
               </ul>
-              <Fade left delay={200}>
-                <Link className='cta-link' to='/expertise'>Expertise &rsaquo;</Link>
-              </Fade>
             </Col>
             <Col className='cta-right' xs={{size: 12}} md={{size: 8}}>
                 
