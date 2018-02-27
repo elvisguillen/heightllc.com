@@ -67,6 +67,7 @@ export default function teamMemberTemplate ({transition, data}) {
                                 <h3>{post.frontmatter.title}</h3>
                                 <h4>{post.frontmatter.job_title}</h4>
                                 <h4>{post.frontmatter.email}</h4>
+                                <h4>{post.frontmatter.phone}</h4>
                               </div>
                               <div className='page-team-social-icons'>
                                 {/* Removed Twitter Functionality for v1.5 
@@ -154,6 +155,7 @@ export const teamMemberPageQuery = graphql`
         job_title
         portrait
         email
+        phone
         twitter
         linkedin
         intro
