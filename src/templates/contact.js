@@ -134,7 +134,7 @@ export default class contactTemplate extends Component {
                   <h1>{page.frontmatter.intro_copy}</h1>
                   <p>{page.frontmatter.body_copy}</p>
                   
-                  <form name='contact' method='post' className='form' data-netlify='true' action='thank-you'>
+                  <form name='contact' method='post' className='form' data-netlify='true' data-netlify-honeypot="bot-field" action='thank-you'>
 
                     <input type="hidden" name="form-name" value="contact" />
                     
@@ -161,7 +161,7 @@ export default class contactTemplate extends Component {
                     <FormGroup>
                       <Input type='textarea' name='text' id='inputComment' placeholder='How can we help?' />
                     </FormGroup>
-              
+
                     <div data-netlify-recaptcha></div>
 
                     <FormGroup>
