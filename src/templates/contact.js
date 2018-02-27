@@ -136,10 +136,9 @@ export default class contactTemplate extends Component {
                   
                   <form name='contact' method='post' className='form' data-netlify='true' data-netlify-honeypot="bot-field" action='thank-you'>
 
-                    <input type="hidden" name="form-name" value="contact" />
                     
                     <FormGroup className='d-none'>
-                      <Input type='text' name='name' id='inputName' placeholder='Full Name' />
+                      <input type="hidden" name="bot-field" value="contact" />
                     </FormGroup>
 
                     <FormGroup>
