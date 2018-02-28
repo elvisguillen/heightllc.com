@@ -5,6 +5,7 @@ title: Timothy Kelly
 job_title: 'Vice President, Sales'
 portrait: /files/tim kelly_sales and trading.png
 email: tkelly@heightllc.com
+phone: 202-629-0014
 category_team: Sales
 tags:
   - term_1
