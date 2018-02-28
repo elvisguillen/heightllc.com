@@ -5,6 +5,7 @@ title: John Kemp
 job_title: 'Vice President, Sales'
 portrait: /files/john kemp_sales and trading.png
 email: johnkemp@heightlc.com
+phone: 202-629-0024
 linkedin: 'https://www.linkedin.com/in/john-kemp-a358583a/'
 category_team: Sales
 tags:
