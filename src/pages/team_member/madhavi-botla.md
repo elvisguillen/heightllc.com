@@ -6,7 +6,7 @@ job_title: 'Vice President, Sales'
 portrait: /files/madhavi botla_sales and trading.png
 email: mbotla@heightllc.com
 phone: 202-629-0011
-linkedin: 'https://www.linkedin.com/in/madhavi-botla-532b881/'
+linkedin: ''
 category_team: Sales
 tags:
   - term_1
