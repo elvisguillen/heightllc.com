@@ -6,7 +6,7 @@ job_title: 'Director, Sales'
 portrait: /files/joey kemp sales and trading.png
 email: jkemp@heightllc.com
 phone: 202-629-0035
-linkedin: 'https://www.linkedin.com/in/joeykemp/'
+linkedin: ''
 category_team: Sales
 tags:
   - term_1
