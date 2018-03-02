@@ -6,7 +6,7 @@ job_title: 'Vice President, Sales'
 portrait: /files/brian scanlon_sales and trading.png
 email: bscanlon@heightllc.com
 phone: 202-629-0012
-linkedin: 'https://www.linkedin.com/in/brian-scanlon-522b8767/'
+linkedin: ''
 category_team: Sales
 tags:
   - term_1
