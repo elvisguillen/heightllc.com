@@ -1,6 +1,6 @@
 ---
 contentType: blog
-title: 'Clayton Allen on Fox Business:  Steel & Aluminum Tariffs'
+title: 'Clayton Allen on Fox Business Network:  Steel & Aluminum Tariffs'
 path: /research/clayton-allen-on-fox-business-steel-aluminum-tariffs/
 date: '2018-03-06T08:41:56-05:00'
 author: Clayton Allen
