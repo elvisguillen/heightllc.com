@@ -25,6 +25,7 @@ Hess Infrastructure Partners LP is a midstream energy joint venture between Hess
 
 \###
 
-_If you would like more information about this topic, please contact Michael Grabenstein at 202-629-0013 or mgrabenstein@heightllc.com._
+_If you would like more information about this topic, please contact Michael Grabenstein at 202-629-0013 or mgrabenstein@heightllc.com.
+_
 
 [PR Newswire](https://www.prnewswire.com/news-releases/height-securities-advises-hess-infrastructure-partners-lp-on-divestment-of-cpc-1232-railcar-fleet-300613024.html?tc=eml_cleartime)
