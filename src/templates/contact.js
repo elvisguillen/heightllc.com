@@ -37,7 +37,7 @@ export default class contactTemplate extends Component {
 
     return (
       <Marker key={i} longitude={coordinates[0]} latitude={coordinates[1]} >
-        <div className="marker"></div>
+        <div className="brand-marker"></div>
       </Marker>
     );
   }
@@ -192,7 +192,6 @@ export const contactPageQuery = graphql`
         body_copy
       }
     }
-
     site {
       siteMetadata {
         title

@@ -60,9 +60,9 @@ export default function Template ({ data, transition }) {
                     <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                         <div className='page-sidebar-image'>
                           {post.frontmatter.image_featured ? 
-                            <img src={post.frontmatter.image_featured} />
+                            <img className='research-image' src={post.frontmatter.image_featured} />
                            : 
-                            <img src={thumbnail} />
+                            <img className='research-image' src={thumbnail} />
                           }
                         </div>
                         <div className='page-sidebar-content'>

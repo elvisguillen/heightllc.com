@@ -6,7 +6,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Typography from 'typography'
 import { slide as Menu } from 'react-burger-menu'
-
+import fitvids from 'fitvids'
 
 // code syntax-highlighting theme
 // feel free to change it to another one
@@ -57,6 +57,14 @@ export default class TemplateWrapper extends Component {
 
   toggleMenu() {
     this.setState({menuOpen: !this.state.menuOpen})
+  }
+
+  componentDidMount() {
+    fitvids();
+  }
+
+  componentDidUpdate() {
+    fitvids();
   }
   
   render() {

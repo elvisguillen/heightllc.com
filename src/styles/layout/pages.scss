@@ -114,13 +114,14 @@
         }
     }
 
+
+
     .page-sidebar {
         padding: $gutter;
 
         .page-sidebar-image {
             height: auto;
             width: 100%;
-
         }
 
         header {
@@ -193,6 +194,20 @@
 
     &.research {
         padding: 73px 0px!important;
+    }
+}
+
+.research-page, .research, .research-post {
+    .page-sidebar-image {
+        height: 260px;
+        width: 100%;
+        display: flex;
+
+        .research-image {
+            object-fit: cover;
+            height: 260px;
+            object-position: center;
+        }
     }
 }
 

@@ -3,6 +3,15 @@
         border-bottom: 1px solid rgba(129,146,152,0.5);
         padding-bottom: $gutter - 30;
     }
+    .bebas.white-bg {
+        border: 0px;
+    }
+}
+
+.research, .research-page, .research-post  {
+    .bebas.white-bg {
+        border: 0px;
+    }
 }
 
 .category-nav {
