@@ -5,7 +5,9 @@ path: /research/despite-all-the-vegetables-some-very-sweet-treats/
 date: 2017-11-03T13:02:50.000Z
 author: Height
 image_featured: /files/ed-groshans_research.jpg
-attachments: []
+attachments:
+  - filename: >-
+      /files/2017_11_03_tax_reform_despite_all_the_vegetables_some_very_sweet_treats.pdf
 category: Research
 tags:
   - Energy + Industrials
