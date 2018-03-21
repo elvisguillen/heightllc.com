@@ -7,8 +7,9 @@ path: >-
   /research/height-securities-serves-as-financial-advisor-to-sprague-resources-lp-on-its-acquisition-of-coen-energy/
 date: 2017-10-17T16:50:17.000Z
 author: Height
+image_featured: /files/white-01.png
 attachments:
-  - filename:
+  - {}
 category: Press Release
 tags:
   - Energy + Industrials
