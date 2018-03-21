@@ -8,6 +8,8 @@ path: >-
 date: 2017-10-16T12:19:22.000Z
 author: Stefanie Miller
 image_featured: /files/stefanie-miller_research.jpg
+attachments:
+  - filename:
 category: Research
 tags:
   - Special Situations

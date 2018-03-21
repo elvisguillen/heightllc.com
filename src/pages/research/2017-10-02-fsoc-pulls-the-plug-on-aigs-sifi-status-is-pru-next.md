@@ -5,6 +5,8 @@ path: /research/fsoc-pulls-the-plug-on-aigs-sifi-status-is-pru-next/
 date: 2017-10-02T15:55:12.000Z
 author: Ed Groshans
 image_featured: /files/ed-groshans_research.jpg
+attachments:
+  - filename:
 category: Research
 tags:
   - Financial Services

@@ -6,6 +6,8 @@ path: >-
 date: 2017-06-23T13:14:36.000Z
 author: Stefanie Miller
 image_featured: /files/screen shot 2018-02-23 at 11.16.39 am.png
+attachments:
+  - filename:
 category: Height In The News
 tags:
   - Healthcare

@@ -6,6 +6,8 @@ path: >-
 date: 2017-06-12T16:38:54.000Z
 author: Stefanie Miller
 image_featured: /files/stefanie-miller_research.jpg
+attachments:
+  - filename:
 category: Research
 tags:
   - Healthcare

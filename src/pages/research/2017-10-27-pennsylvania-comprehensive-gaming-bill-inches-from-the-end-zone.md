@@ -5,6 +5,8 @@ path: /research/pennsylvania-comprehensive-gaming-bill-inches-from-the-end-zone/
 date: 2017-10-27T13:01:25.000Z
 author: Stefanie Miller
 image_featured: /files/stefanie-miller_research.jpg
+attachments:
+  - filename:
 category: Research
 tags:
   - Special Situations

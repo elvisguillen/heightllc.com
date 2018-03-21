@@ -5,6 +5,8 @@ path: /research/clayton-allen-on-fox-business-steel-aluminum-tariffs/
 date: '2018-03-06T08:41:56-05:00'
 author: Clayton Allen
 image_featured: /files/clayton allen- fox business.png
+attachments:
+  - filename:
 category: Height In The News
 tags:
   - Tax + Budget

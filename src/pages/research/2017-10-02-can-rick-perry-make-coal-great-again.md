@@ -5,6 +5,8 @@ path: /research/can-rick-perry-make-coal-great-again/
 date: 2017-10-02T15:53:51.000Z
 author: Katie Bays
 image_featured: /files/katie-bays_research.jpg
+attachments:
+  - filename:
 category: Research
 tags:
   - Energy + Industrials

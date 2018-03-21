@@ -4,7 +4,9 @@ title: 'Qatari Catalyst: Uncertainty Rattles World’s Biggest LNG Shipper; Summ
 date: 2017-06-13T16:41:18+00:00
 author: Katie Bays
 path: /research/qatari-catalyst-uncertainty-rattles-worlds-biggest-lng-shipper-summer-demand-heating-up/
-category: Reserach
+category: Research
+attachments:
+  - filename:
 tags:
   - Energy + Industrials
 ---

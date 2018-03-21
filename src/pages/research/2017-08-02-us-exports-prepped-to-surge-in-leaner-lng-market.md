@@ -5,6 +5,8 @@ path: /research/us-exports-prepped-to-surge-in-leaner-lng-market/
 date: 2017-08-02T16:19:10.000Z
 author: Katie Bays
 image_featured: /files/katie-bays_research.jpg
+attachments:
+  - filename:
 category: Research
 tags:
   - Energy + Industrials
