@@ -7,8 +7,9 @@ path: >-
   /research/height-securities-serves-as-financial-advisor-to-nextdecade-corporation-on-its-reverse-merger-with-harmony-merger-corporation/
 date: 2017-09-19T08:18:54.000Z
 author: Height
+image_featured: /files/white-01.png
 attachments:
-  - filename:
+  - {}
 category: Press Release
 tags:
   - Energy + Industrials
