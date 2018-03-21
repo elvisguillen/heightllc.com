@@ -7,9 +7,10 @@ path: >-
   /research/height-securities-advises-hess-infrastructure-partners-lp-on-divestment-of-CPC-1232-railcar-fleet/
 date: '2018-03-13T12:34:40-04:00'
 author: Height
-category: Press Release
+image_featured: /files/white-01.png
 attachments:
-  - filename:
+  - {}
+category: Press Release
 tags:
   - investment banking
 ---
