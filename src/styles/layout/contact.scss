@@ -33,12 +33,20 @@
     margin-top: $gutter / 2;
 }
 
-.marker {
+.marker, .brand-marker {
     background-image: url('../images/logo-icon.png');
     background-size: cover;
     width: 18px;
     height: 28px;
     cursor: pointer;
+}
+
+.brand-marker {
+    background-image: url('../images/logo-icon.png');
+}
+
+.marker {
+    background-image: url('../images/map-icon.svg');
 }
 
 .icon-map {

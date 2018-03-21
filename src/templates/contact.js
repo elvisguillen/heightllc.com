@@ -37,7 +37,7 @@ export default class contactTemplate extends Component {
 
     return (
       <Marker key={i} longitude={coordinates[0]} latitude={coordinates[1]} >
-        <div className="marker"></div>
+        <div className="brand-marker"></div>
       </Marker>
     );
   }
@@ -109,20 +109,20 @@ export default class contactTemplate extends Component {
                       
                       <div className='phone-department'>
                         <p><span>Front Desk:</span></p>
-                        <p>(202) 629-0010</p>
+                        <p>(202) 629-0000</p>
                         <p>glesavoy@heightllc.com</p>
                       </div>
 
                       <div className='phone-department'>
                         <p><span>Media (Research):</span></p>
-                        <p>(202) 629-0000</p>
+                        <p>(202) 836-8957</p>
                         <p>media_research@heightllc.com</p>
                       </div>
                       
                       <div className='phone-department'>
-                        <p><span>Media (Banking):</span></p>
-                        <p>(202) 836-8960</p>
-                        <p>media_iba@heightllc.com</p>
+                        <p><span>Investment Banking:</span></p>
+                        <p>(202) 836-8956</p>
+                        <p>banking@heightllc.com</p>
                       </div>
 
                     </div>
@@ -192,7 +192,6 @@ export const contactPageQuery = graphql`
         body_copy
       }
     }
-
     site {
       siteMetadata {
         title

@@ -117,6 +117,8 @@
         }
     }
 
+
+
     .page-sidebar {
         padding: $gutter;
         padding: 65px 10px 10px 73px;
@@ -206,6 +208,20 @@
 
     &.research {
         padding: 73px 0px!important;
+    }
+}
+
+.research-page, .research, .research-post {
+    .page-sidebar-image {
+        height: 260px;
+        width: 100%;
+        display: flex;
+
+        .research-image {
+            object-fit: cover;
+            height: 260px;
+            object-position: center;
+        }
     }
 }
 
