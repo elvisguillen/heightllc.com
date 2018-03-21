@@ -66,7 +66,7 @@ export default class expertiseTemplate extends Component {
                         <Col className='page-link-container' xs={{size: 12}} md={{size: 12}}>
                           <div className='page-accordion-link'>
                             <a onClick={this.toggle} data-event={expertise.id} className='bebas'>{expertise.title}</a>
-                            <button className="subheader-button" onClick={this.toggle} data-event={expertise.id}>{this.state.collapse === expertise.id ? 'Close -' : 'Open +'}</button>
+                            <button className="subheader-button" onClick={this.toggle} data-event={expertise.id}>{this.state.collapse === expertise.id ? '⊖' : '⊕'}</button>
                           </div>
                         </Col>
                       </Row>

@@ -1,7 +1,12 @@
 .research-post {
     .page-copy-inner {
         border-bottom: 1px solid rgba(129,146,152,0.5);
+        border-bottom: 1px solid rgba(129,146,152,.3);
         padding-bottom: $gutter - 30;
+    }
+
+    header.bebas.white-bg {
+        border-bottom: none;
     }
 }
 

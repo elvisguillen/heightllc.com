@@ -5,7 +5,8 @@ import { Parallax } from 'react-scroll-parallax'
 
 import image_exec from '../images/image-executive.jpg'
 import image_featured from '../../static/files/johnakridgefbn.png'
-import icon_play from '../images/icon_play.png'
+// import icon_play from '../images/icon_play.png'
+import icon_play from '../images/icon_play_clearbgv2.png'
 import image_player from '../images/image_player.png'
 import thumbnail from '../images/image_thumbnail.jpg'
 
@@ -23,7 +24,7 @@ export default class Press_Release extends Component {
                             </div>
                             <header className='bebas'>Height Featured</header>
                             <div>
-                                <Link to='/research/john-akridge-on-fox-business-news-stock-market-selloff/'><h3>John Akridge on Fox Business News: Stock Market Selloff</h3></Link>
+                                <Link to='/research/john-akridge-on-fox-business-news-stock-market-selloff/'><h3 className="height-featured-h">John Akridge on Fox Business News: Stock Market Selloff</h3></Link>
                             </div>
                             <div className="height-tags">
                                 <Link className="height-tag" to="/tags/john-akridge">John Akridge</Link>
@@ -42,7 +43,7 @@ export default class Press_Release extends Component {
                             <div className='executive-content'>
                                 <div className='exec-copy'>
                                     <p>John Akridge co-founded Height Capital Markets in 2008, and under his leadership, the firm has grown to one of DC’s top regulatory-focused investment banks for institutional investors and companies by bridging the gap between Wall Street and DC decision-makers. The firm provides investment analysis in key regulated sectors by integrating fundamental and policy research to better understand the financial impact across the capital structure. </p>
-                                    <Link to='/team/john-akridge'>Read More ›</Link>
+                                    <Link to='/team/john-akridge' className="readmore-icon readmore-sm">Read More ›</Link>
                                 </div>
                             </div>
                         </Col>

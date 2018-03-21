@@ -57,7 +57,7 @@ export default function Template ({ data, transition }) {
                     
                     <Row>
 
-                    <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
+                    <Col className='page-sidebar authored-post' xs={{size: 12}} md={{size: 4}}>
                         <div className='page-sidebar-image'>
                           {post.frontmatter.image_featured ? 
                             <img src={post.frontmatter.image_featured} />
@@ -97,7 +97,33 @@ export default function Template ({ data, transition }) {
                             </Card>
                           ))}
                         </CardGroup></Container>)} */}
+
+
+
+
+                        
+                        {/* CODE FOR NEW READ MORE BUTTON BELOW */}
+
+                         {/* <Col xs={{size: 12}} className='category-nav'>
+                          {post.frontmatter.attachments.map((att) => {
+                            return (
+                              <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
+                            )
+                          })}
+                          </Col> */}
+
+                          {/* CODE FOR NEW READ MORE BUTTON ABOVE */}
+                          
+
+                    
+                       
+
+                          {/* <Link to={post.frontmatter.attachments.filename} className="readmore-icon readmore-lg">Read More ›</Link> */}
+                          {/* <Link to={post.frontmatter.path.substring(0, post.frontmatter.path.length-1).replace('/research/', '/files/').toLowerCase() + '.pdf'} className="readmore-icon readmore-lg">Read More ›</Link> */}
+                        
+
                       </Col>
+                      
                     
                     </Row>
 
@@ -121,6 +147,7 @@ export default function Template ({ data, transition }) {
 
             </section>  
     </div>
+    
   )
 }
 
@@ -142,6 +169,9 @@ export const pageQuery = graphql`
         category
         image_featured
         tags
+        attachments {
+          filename
+        }
       }
     }
 
@@ -151,6 +181,9 @@ export const pageQuery = graphql`
           frontmatter{
             title
             path
+            attachments {
+              filename
+            }
           }
         }
       }

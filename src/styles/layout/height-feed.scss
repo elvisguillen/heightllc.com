@@ -20,6 +20,10 @@ section.height-feed {
 
 				li {
 					margin-bottom: 18px;
+					transition: all 0.2s ease-in-out;
+					&:hover {
+						transform: translateX(4px);
+					}
 				}
 				a {
 					font-family: $museo;
@@ -31,6 +35,7 @@ section.height-feed {
 					}
 					&.active {
 						color: $teal;
+						transform: translateX(4px);
 					}
 				}
 			}
@@ -44,6 +49,7 @@ section.height-feed {
 
 	.team-feed {
 		padding: 73px 75px 60px 60px;
+		padding: 73px 75px 73px 60px;
 
 		.team-feed-profile {
 			text-align: center;
@@ -55,28 +61,38 @@ section.height-feed {
 				color: white;
 
 				&:hover {
-					color: $blue!important;
+					color: $blue !important;
 				}
 			}
 		}
 
 		.team-feed-copy {
-			max-height: 437px;
+			// max-height: 437px;
 			min-height: 437px;
+			height: 100%;
+			position: relative;
 			h1 {
 				font-size: 50px;
 				color: white;
 				margin-top: $gutter - 20px;
 				margin-bottom: $gutter;
 			}
-			
+			.height-tags-row {
+				position: absolute;
+				bottom: 0;
+			}
 			.height-tags {
 				float: left;
 				display: block;
+				padding-left: 15px;
 
 				.height-tag {
 					background-color: #62bee4;
 					color: $blue;
+					&:hover {
+						background-color: rgba($color: white, $alpha: .5);
+						color: $blue !important;
+					}
 				}
 			}
 
@@ -134,4 +150,10 @@ section.height-feed {
 		transform: translate(100%);
 		opacity: 0;
 		transition: all 400ms ease-in-out;
+	}
+
+
+	.height-feed-viewall {
+		color: white;
+		font-size: 24px;
 	}

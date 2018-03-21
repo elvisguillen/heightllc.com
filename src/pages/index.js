@@ -253,7 +253,7 @@ export default class IndexPage extends Component {
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
-                    <Row>
+                    <Row className="height-tags-row">
                       <div className='height-tags'>
                         <Link className='height-tag' to={'/tags/' + post.author.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.author}</Link>
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
@@ -290,7 +290,7 @@ export default class IndexPage extends Component {
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
-                    <Row>
+                    <Row className="height-tags-row">
                       <div className='height-tags'>
                         <Link className='height-tag' to={'/tags/' + post.author.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.author}</Link>
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
@@ -326,7 +326,7 @@ export default class IndexPage extends Component {
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
-                    <Row>
+                    <Row className="height-tags-row">
                       <div className='height-tags'>
                         <Link className='height-tag' to={'/tags/' + post.author.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.author}</Link>
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
@@ -362,7 +362,7 @@ export default class IndexPage extends Component {
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
-                    <Row>
+                    <Row className="height-tags-row">
                       <div className='height-tags'>
                         <Link className='height-tag' to={'/tags/' + post.author.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.author}</Link>
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
@@ -398,7 +398,7 @@ export default class IndexPage extends Component {
                   <div className='team-feed-copy'>
                     <header className='bebas'>{post.date}</header>
                     <Link to={post.path}><h1>{post.title} ›</h1></Link>
-                    <Row>
+                    <Row className="height-tags-row">
                       <div className='height-tags'>
                         <Link className='height-tag' to={'/tags/' + post.author.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.author}</Link>
                         <Link className='height-tag' to={'/categories/' + post.category.replace(/\s+/g, '-').toLowerCase()} key={index}>{post.category}</Link>
@@ -459,6 +459,9 @@ export const homePageQuery = graphql`
             title
             category
             tags
+            attachments {
+              filename
+            }
           }    
         }
       }

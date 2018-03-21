@@ -94,6 +94,10 @@ export default class TemplateWrapper extends Component {
           <div className="content">{this.props.children()}</div>
         </div>
           <footer className="footer">
+
+          <div className='footer-bluebar'></div>
+        
+          <div class="footer-lift">
             <Row>      
               <ul className="footerlinks">
                 <li>
@@ -109,12 +113,13 @@ export default class TemplateWrapper extends Component {
                   <Link to='/privacy-policy'>PRIVACY POLICY</Link>
                 </li>
                 
-              </ul>
+              {/* </ul>
 
-              <ul className="footerlinks">
+              <ul className="footerlinks"> */}
                 
                 <li>
-                  <p>Members of </p><a href='http://www.sipc.org/' target='_blank'>SIPC</a> <p>and</p> <a href='http://www.finra.org/' target='_blank'>FINRA</a>
+                  <p>Members of </p><a href='http://www.sipc.org/' target='_blank'>SIPC</a> <p> and</p> <a href='http://www.finra.org/' target='_blank'>FINRA</a>
+                  {/* <a>Members of <a href='http://www.sipc.org/' target='_blank'>SIPC</a> and <a href='http://www.finra.org/' target='_blank'>FINRA</a></a> */}
                 </li>
                 <li>
                   <a href='http://brokercheck.finra.org/Firm/Summary/150659' target='_blank'>BROKER CHECK</a>
@@ -131,6 +136,7 @@ export default class TemplateWrapper extends Component {
                 <a href='https://www.linkedin.com/company/height-securities?trk=company_logo' target='_blank' ><img src={linkedin} /></a>
               </div>
             </Row>
+            </div>
           </footer>
         </div>
       )

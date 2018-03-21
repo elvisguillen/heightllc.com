@@ -16,6 +16,25 @@
 	}
 }
 
+@media (max-width: 930px) {
+
+.page-header .page-circular-header {
+    img {
+        margin-left: 80%;
+    }
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .page-header .page-header-text {
+        padding-left: 0;
+    }
+
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .bm-item-list {
         padding: 90px;
@@ -121,7 +140,28 @@
     .page-related-profiles {
         padding: 36px $mobile-gutter*2!important;
     }
+
+    section.top {
+        .branding-color {
+            width: 230px;
+            margin: 175px 65px 0px 0px;
+        }
+    }
+    
+
+
+
 }
+
+@media (min-width: 508px) and (max-width: 767px) {
+    .height-tags-row {
+        position: relative !important;
+        bottom: auto !important;
+    }
+}
+
+
+
 /* Landscape phones and down */
 @media (max-width: 767px) { 
 
@@ -141,6 +181,7 @@
 
     .bm-item-list {
         padding: 60px;
+        padding: 30px 53px 30px 0px;
         
         .menu-item {
             font-size: 30px;
@@ -253,22 +294,32 @@
 
         .cta-left {
             order: 2;
+            padding: 0 40px;
             
             .cta-links {
                 padding-left: 30px;
                 margin-top: 30px;
+
+                padding-left: 0;
             }
 
             .cta-link {
                 margin-left: 30px;
+
+                margin-left: 0;
             }
         }
+    }
+
+    section.cta header {
+        margin-left: 0;
     }
 
     section.height-feed {
         .feed-left {
             .feed-sidebar {
                 padding: 73px 30px!important;
+                padding: 73px 25px!important;
             }
         } 
 

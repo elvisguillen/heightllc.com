@@ -79,7 +79,7 @@ export default class contactTemplate extends Component {
               <Row>
                 <Col className='page-sidebar contact' md={{size: 4}}>
                   <div id='page-map' className='page-sidebar-image'>
-                    <img className='icon-map' src={icon_map} />
+                    {/* <img className='icon-map' src={icon_map} /> */}
                     <ReactMapGL
                       {...this.state.viewport}
                       scrollZoom={false}

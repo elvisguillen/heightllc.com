@@ -4,6 +4,7 @@
 	background-color: $blue;
 	position: absolute;
 	z-index: 6;
+	z-index: 100;
 
 }
 
@@ -15,7 +16,8 @@
 
 .height-branding {
 	position: absolute;
-    top: 73px;
+	top: 73px;
+	top: 145px;
 	h4 {
 		color: $teal!important;
 		animation-delay: 500ms;
@@ -193,6 +195,7 @@ section.top {
 		padding: 146px 0px 200px 0px;
 		position: fixed!important;
 		top: 0!important;
+		top: 72px!important;
 		z-index: 0;
 		
 		&.second-heading {
@@ -214,6 +217,7 @@ section.top {
 	.branding-color {
 		width: 295px;
 		margin: 354px 160px 0px 0px;
+		margin: 354px 120px 0px 0px;
 		float: right;
 	}
 }
@@ -228,16 +232,35 @@ section.height-press-releases {
 		.height-featured-image {
 			cursor: pointer;
 
+			transition: all 0.2s ease-in-out;
+			&:hover {
+				filter: brightness(80%);
+			}
+
 			img {
 				margin-bottom: 73px;
+			}
+
+			a {
+				display: flex;
+				align-items: flex-start;
 			}
 		}
 
 		.icon-play {
-			width: 75px;
+			width: 100px;
 			position: absolute;
 			top: 0px;
 			left: 75px;
+
+			top: 143px;
+			left: 60px;
+
+			top: auto;
+			left: auto;
+			margin: auto;
+			align-self: center;
+			margin-bottom: 0 !important;
 		}
 		p {
 			font-size: 16px;
@@ -286,7 +309,7 @@ section.height-press-releases {
 	h3 {
 		line-height: 37px;
 		color: #31aadf;
-		margin-top: 30px;
+		// margin-top: 30px;
 	}
 	h4 {
 		font-family: 'BebasNeueBook';
@@ -315,6 +338,7 @@ section.cta {
 			margin-left: 0px; 
 			padding-left: 61px;
 			margin-top: 70px;
+			margin-top: 43px;
 			
 			li {
 				// font-family: $bebas;
@@ -329,6 +353,10 @@ section.cta {
 
 				&.last-type {
 					border-bottom: 0px!important;
+				}
+				transition: all 0.2s ease-in-out;
+				&:hover {
+					transform: translateX(4px);
 				}
 			}
 			

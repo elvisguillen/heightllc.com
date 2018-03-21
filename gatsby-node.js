@@ -21,6 +21,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               tags
               category
               image_featured
+              attachments {
+                filename
+              }
             }
           }
         }

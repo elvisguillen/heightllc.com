@@ -58,7 +58,7 @@ const authorTemplate = ({data, pathContext, transition}) => {
                 post = post.node.frontmatter
                 post.id = index
                 return (
-                  <Col className='research-post' md={{size: 12}} key={post.id}>
+                  <Col className={`research-post ${(post.category === 'Research' ? 'authored-post' : '')}`} md={{size: 12}} key={post.id}>
                     <Row>
                       <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                         <Link to={post.path}><div className='page-sidebar-image'>
@@ -140,6 +140,9 @@ export const authorPageQuery = graphql`
             category
             image_featured
             tags
+            attachments {
+              filename
+            }
           }    
         }
       }
@@ -151,6 +154,9 @@ export const authorPageQuery = graphql`
         path
         title
         page_header
+        attachments {
+          filename
+        }
       }
     }
 

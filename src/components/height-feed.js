@@ -1,6 +1,7 @@
 import React, { Component, PropTypes} from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import { CSSTransition } from 'react-transition-group'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
+import Link from 'gatsby-link'
 
 export default class Height_Feed extends Component {
     constructor(props, context) {
@@ -48,8 +49,9 @@ export default class Height_Feed extends Component {
                       <ul>
                         {this.renderChildrenWithTabsApiAsProps()}
                       </ul>
+                      <Link to="/expertise" className="height-feed-viewall">View All ›</Link>
                     </div>
-                  </Col> 
+                  </Col>
       
                   <Col className='feed-right' md={{size: 7}} lg={{size: 8}}>
                   <CSSTransition

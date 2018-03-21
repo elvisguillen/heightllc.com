@@ -68,7 +68,7 @@ export default class researchTemplate extends Component {
                   <Col className='page-link-container' md={{size: 12}}>
                     <div className='page-accordion-link'>
                       <a onClick={this.toggle} data-event={0} className='bebas'>Research</a>
-                      <button className='subheader-button' onClick={this.toggle} data-event={0}>{this.state.collapse === 0 ? 'Close -' : 'Open +'}</button>
+                      <button className='subheader-button' onClick={this.toggle} data-event={0}>{this.state.collapse === 0 ? '⊖' : '⊕'}</button>
                     </div>
                   </Col>
                 </Row>
@@ -80,7 +80,7 @@ export default class researchTemplate extends Component {
                       post = post.frontmatter
                       post.id = index
                       return (
-                        <Col className='research-post' md={{size: 12}} key={post.id}>
+                        <Col className='research-post authored-post' md={{size: 12}} key={post.id}>
                           <Row>
                             <Col className='page-sidebar' xs={{size: 12}} md={{size: 4}}>
                               <Link to={post.path}><div className='page-sidebar-image'>
@@ -117,7 +117,7 @@ export default class researchTemplate extends Component {
                       )
                     })}
                     <Col xs={{size: 12}} md={{size: 8, offset: 4}} className='category-nav'>
-                      <Link to='/categories/research'>View All ›</Link>
+                      <Link to='/categories/research' className="readmore-icon readmore-lg">View All ›</Link>
                     </Col>
                   </Row>
                 </Collapse>
@@ -130,7 +130,7 @@ export default class researchTemplate extends Component {
                   <Col className='page-link-container' md={{size: 12}}>
                     <div className='page-accordion-link'>
                       <a onClick={this.toggle} data-event={1} className='bebas'>Height In The News</a>
-                      <button className='subheader-button' onClick={this.toggle} data-event={1}>{this.state.collapse === 1 ? 'Close -' : 'Open +'}</button>
+                      <button className='subheader-button' onClick={this.toggle} data-event={1}>{this.state.collapse === 1 ? '⊖' : '⊕'}</button>
                     </div>
                   </Col>
                 </Row>
@@ -182,7 +182,7 @@ export default class researchTemplate extends Component {
                       )
                     })}
                     <Col xs={{size: 12}} md={{size: 8, offset: 4}} className='category-nav'>
-                      <Link to='/categories/height-in-the-news'>View All ›</Link>
+                      <Link to='/categories/height-in-the-news' className="readmore-icon readmore-lg">View All ›</Link>
                     </Col>
                   </Row>
                 </Collapse>
@@ -195,7 +195,7 @@ export default class researchTemplate extends Component {
                   <Col className='page-link-container' md={{size: 12}}>
                     <div className='page-accordion-link'>
                       <a onClick={this.toggle} data-event={2} className='bebas'>Press Release</a>
-                      <button className='subheader-button' onClick={this.toggle} data-event={2}>{this.state.collapse === 2 ? 'Close -' : 'Open +'}</button>
+                      <button className='subheader-button' onClick={this.toggle} data-event={2}>{this.state.collapse === 2 ? '⊖' : '⊕'}</button>
                     </div>
                   </Col>
                 </Row>
@@ -244,7 +244,7 @@ export default class researchTemplate extends Component {
                       )
                     })}
                     <Col xs={{size: 12}} md={{size: 8, offset: 4}} className='category-nav'>
-                      <Link to='/categories/press-release'>View All ›</Link>
+                      <Link to='/categories/press-release' className="readmore-icon readmore-lg">View All ›</Link>
                     </Col>
                   </Row>
                 </Collapse>
@@ -275,6 +275,9 @@ export const researchPageQuery = graphql`
             category
             image_featured 
             tags
+            attachments {
+              filename
+            }
           }    
         }
       }
@@ -286,6 +289,9 @@ export const researchPageQuery = graphql`
         path
         title
         page_header
+        attachments {
+          filename
+        }
       }
     }
 
