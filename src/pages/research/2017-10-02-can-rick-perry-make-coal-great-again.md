@@ -6,19 +6,11 @@ date: 2017-10-02T15:53:51.000Z
 author: Katie Bays
 image_featured: /files/katie-bays_research.jpg
 attachments:
-  - filename:
+  - filename: /files/2017_10_02_can_rick_perry_make_coal_great_again.pdf
 category: Research
 tags:
   - Energy + Industrials
 ---
-**_The Takeaway:_**
+_The Takeaway:_
 
 _On Friday, Energy Secretary Rick Perry sent heads spinning when his agency [<u>initiated a proceeding</u>](file:///C:/Users/ocostello/Downloads/20170929-5055(32427142).pdf) with the Federal Energy Regulatory Commission that appears designed to bail out struggling coal and nuclear plants in competitive markets. The question on everyone’s mind is whether this request could lead FERC to essentially re-regulate a class of power plants &#8211; an extreme action which would be unprecedented since the creation of the competitive markets in the 1990s. We think not; FERC has exclusive jurisdiction to establish tariffs in wholesale markets, and DOE can’t shove market reforms down FERC’s throat. However, the various stakeholders (DOE, FERC, many power markets) do have something in common – they all believe that the power markets do a poor job valuing inflexible units at times and that this overwhelmingly disadvantages coal and nuclear. FERC, along with independent system operators like ISO-NE, NYISO, PJM, and others, have been working to understand this problem and think about solutions for much of the year. Our take is that Perry might not get what he wants out of the DOE request, but the power markets might just get what they need._
-
-  * On Friday, Secretary Rick Perry’s Department of Energy submitted a letter and a “Notice of Proposed Rulemaking” (NOPR) to the Federal Energy Regulatory Commission (FERC) under the docket RM17-3 – a rulemaking docket which was previously dedicated to FERC’s effort to affect market pricing for “fast start” generators. FERC is using section 206 of the Federal Power Act (FPA) to require regulated wholesale markets (ISO-NE, NYISO, PJM, SPP, MISO, and CAISO) to establish new rules for price formation for “fast start” resources. Considering Perry filed his letter in the same docket, we would expect to see FERC use the “fast start” process as a guide for how to address price formation for inflexible units.
-  * Importantly, we doubt that FERC and most of the competitive markets were “surprised” by DOE’s move. To us, it clearly attempts to build off efforts earlier this year by the power markets to discuss price formation issues for inflexible units. DOE’s definition of the units in question (having 90 days of fuel supply, providing auxiliary support, etc.) may go out the window, but the central thrust of the request is likely an attempt to make room for FERC to open a 206 and demand input from the market regulators.
-  * The process isn’t smooth or easy – FERC has only 60 days to craft its own NOPR, after which point the competitive power markets must submit plans to comply with FERC’s notice. We expect every market will pursue something different that is customized to their particular structure.
-  * PJM may be the most interesting market to watch as its [June white paper](http://www.pjm.com/~/media/library/reports-notices/special-reports/20170615-energy-market-price-formation.ashx) on Energy Price Formation appears to most directly address the issues that DOE identifies. The impact of the changes to price formation could be a boon for inflexible coal and nuclear plants in the PJM footprint, including those owned by FirstEnergy’s **(FE)** unregulated subsidiary FirstEnergy Solutions, parts of Dynegy’s **(DYN)** and **NRG**’s fleets, and Exelon’s **(EXC)** Three Mile Island.
-  * While FERC could kick off the NOPR process by the end of this year, we would not expect to see market reforms finalized until 3Q2018 – 4Q2018, considering the amount of time FERC requires to review proposals and the controversy that the process will likely create among consumer groups and environmental organizations which support the continued retirement of coal and nuclear power.
-
-<img class="alignnone size-full wp-image-920" src="https://heightllc.com/wp-content/uploads/2017/10/risks-katie.png" alt="" width="741" height="576" />
