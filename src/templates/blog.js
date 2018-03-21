@@ -104,13 +104,13 @@ export default function Template ({ data, transition }) {
                         
                         {/* CODE FOR NEW READ MORE BUTTON BELOW */}
 
-                         {/* <Col xs={{size: 12}} className='category-nav'>
+                         <Col xs={{size: 12}} className='category-nav'>
                           {post.frontmatter.attachments.map((att) => {
                             return (
                               <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
                             )
                           })}
-                          </Col> */}
+                          </Col>
 
                           {/* CODE FOR NEW READ MORE BUTTON ABOVE */}
                           

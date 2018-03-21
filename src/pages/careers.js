@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react'
-import { Collapse, Button, Container, Row, Col } from 'reactstrap'
+import { Collapse, Button, Container, Row, Col, Form, FormGroup, Input, Label } from 'reactstrap'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import graphql from 'graphql'
@@ -115,6 +115,8 @@ export default class careersTemplate extends Component {
                               </div>
                             </Col>
 
+                            
+
                           </Row>
                         </Col>
 
@@ -125,8 +127,50 @@ export default class careersTemplate extends Component {
 
             <Row>
               <Col className='page-copy outro' xs={{size: 12}} md={{size: 12}}>                
+                <h2 className='teal'>If you're interested in any of our positions, please contact us below.</h2>
+
+                <form name='careers' method='post' className='form careers' data-netlify='true' data-netlify-honeypot="bot-field" action='thank-you'>
+
+                  <input type="hidden" name="form-name" value="contact" />
+
+                  <FormGroup className='d-none'>
+                    <Input name="bot-field" />
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input type='text' name='name' id='inputName' placeholder='Full Name' />
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input type='email' name='email' id='inputEmail' placeholder='Email' />
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input type='number' name='phone' id='inputPhone' placeholder='Phone Number' />
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input type='text' name='job-title' id='inputSubject' placeholder='Job Title' />
+                  </FormGroup>
+
+                  <FormGroup>
+                    <Input type='textarea' name='text' id='inputComment' placeholder='Tell us in a short statement what you are applying for and why you are a perfect fit for Height.' />
+                  </FormGroup>
+
+                  <FormGroup className='resumeButton'>
+                    <Label for="resume" className='resume-label' sm={6}><h3>Attach Your Resume</h3></Label>
+                    <Input type="file" name="resume" id="formFile" />
+                  </FormGroup>
+
+                  <FormGroup>
+                    <button type='submit'>Submit ›</button>
+                  </FormGroup>
+
+                </form>
+
                 <p>Height is committed to providing equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, ethnicity, gender, sexual orientation, gender identity, transgender status, marital or family status, veteran status, age, national origin, ancestry, religion, disability or medical condition, or any other basis protected by federal, state or local law.</p>
-                <h2 className='teal'>If you're interested in any of our positions, please <Link to='/contact'>Contact Us ›</Link></h2>
+                
+
               </Col>
             </Row>
           </Container>

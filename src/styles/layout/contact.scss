@@ -1,6 +1,6 @@
 .form {
     margin-top: $gutter - 20px;
-
+    margin-bottom: $gutter;
     input, #inputComment {
         background-color: $form-gray;
         padding: 23px;
@@ -20,6 +20,38 @@
         margin-top: $gutter - 30px;
         padding: 0px;
         color: $blue;
+    }
+
+    &.careers {
+        .form-control-file {
+            background-color: transparent;
+            padding: 0px;
+        }
+        .resume-label {
+            margin-top: 20px;
+            padding-left: 0px;
+        }
+        ::-webkit-file-upload-button {
+            background: $form-gray;
+            color: $copy-color;
+            padding: 1em;
+            border: 0px;
+            cursor: pointer;
+            margin-right: 30px;
+          }
+    }
+
+    .resume + label {
+        font-size: 1.25em;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        display: inline-block;
+    }
+    
+    .resume:focus + label,
+    .resume + label:hover {
+        background-color: $gray;
     }
 }
 
