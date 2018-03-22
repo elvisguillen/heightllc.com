@@ -8,8 +8,7 @@ path: >-
 date: '2018-03-13T12:34:40-04:00'
 author: Height
 image_featured: /files/white-01.png
-attachments:
-  - {}
+attachments: []
 category: Press Release
 tags:
   - investment banking

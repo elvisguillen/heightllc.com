@@ -8,8 +8,7 @@ path: >-
 date: 2017-09-19T08:18:54.000Z
 author: Height
 image_featured: /files/white-01.png
-attachments:
-  - {}
+attachments: []
 category: Press Release
 tags:
   - Energy + Industrials

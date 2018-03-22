@@ -8,8 +8,7 @@ path: >-
 date: 2017-11-06T14:57:41.000Z
 author: Stefanie Miller
 image_featured: /files/screen shot 2018-02-16 at 4.10.09 pm.png
-attachments:
-  - filename:
+attachments: []
 category: Height In The News
 tags:
   - Tax + Budget

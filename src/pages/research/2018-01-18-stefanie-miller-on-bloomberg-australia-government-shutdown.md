@@ -5,8 +5,7 @@ path: /research/stefanie-miller-on-bloomberg-australia-government-shutdown/
 date: 2018-01-18T09:13:12.000Z
 author: Stefanie Miller
 image_featured: /files/screen shot 2018-02-16 at 3.31.57 pm.png
-attachments:
-  - filename:
+attachments: []
 category: Height In The News
 tags:
   - Tax + Budget
