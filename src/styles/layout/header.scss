@@ -100,7 +100,8 @@
 	
  .branding {
 	 img {
-	 	width: 295px!important;
+		 width: 295px!important;
+		 width: 240px!important;
 	 }
  }
   /* Color/shape of burger icon bars */
@@ -175,7 +176,11 @@
 	padding: 98px;
 	text-align: right;
 
-	padding: 70px 110px 70px 40px;
+	padding: 95px 110px 70px 40px;
+  }
+
+  .branding {
+	  text-align: left;
   }
   
   /* Styling of overlay */

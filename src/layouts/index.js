@@ -85,11 +85,11 @@ export default class TemplateWrapper extends Component {
           
           <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} right width={ '100%' } customBurgerIcon={ <img src={burger_icon} /> } customCrossIcon={ false } >
             <Container>
-            <Row>
-              <Col xs={{size: 12}} md='4' className='branding'>
+            <Row className="menu-mobile-pad">
+              <Col xs={{size: 12}} md='6' className='branding text-left menu-mobile-nopad'>
                 <a href='/'><img src={logo} /></a>
               </Col>
-              <Col xs={{size: 12}} md={{ size: 4, offset: 4 }}>
+              <Col xs={{size: 12}} md={{ size: 6 }} className="menu-mobile-nopad">
                 <h4>Menu</h4>
                 <Link onClick={() => this.closeMenu()} className='menu-item' to='/expertise'>Expertise</Link>
                 <Link onClick={() => this.closeMenu()} className='menu-item' to='/team'>Team</Link>

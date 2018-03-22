@@ -30,17 +30,17 @@
 @media (min-width: 768px) and (max-width: 1023px) {
 
     .page-header .page-header-text {
-        padding-left: 0;
+        padding-left: 30px;
     }
 
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .bm-item-list {
-        padding: 90px;
+        padding: 100px 90px 90px 90px;
         
         .menu-item {
-            font-size: 30px;
+            font-size: 42px;
         }
     }
 
@@ -182,10 +182,10 @@
 
     .bm-item-list {
         padding: 60px;
-        padding: 30px 53px 30px 0px;
+        padding: 100px 53px 30px 0px;
         
         .menu-item {
-            font-size: 30px;
+            font-size: 42px;
         }
     }
 
@@ -477,4 +477,37 @@
     }
 
     
+}
+
+
+
+@media all and (max-width: 767px) {
+    .branding {
+
+        text-align: left;
+        padding: 0 0 10px 0;
+        // border-bottom: 1px solid rgba(255,255,255,0.2);
+        margin-bottom: 20px;
+ 
+        img {
+            width: auto !important;
+            max-width: 100% !important;
+            max-height: 90px;
+        }
+    }
+    .menu-mobile-nopad {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .menu-mobile-pad {
+        padding: 0 10px;
+    }
+}
+
+@media all and (max-width: 374px) {
+    .bm-item-list {
+        .menu-item {
+            font-size: 35px;
+        }
+    }
 }
