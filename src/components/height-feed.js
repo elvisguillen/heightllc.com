@@ -49,7 +49,7 @@ export default class Height_Feed extends Component {
                       <ul>
                         {this.renderChildrenWithTabsApiAsProps()}
                       </ul>
-                      <Link to="/expertise" className="height-feed-viewall">View All ›</Link>
+                      <Link to="/categories/research" className="height-feed-viewall">View All ›</Link>
                     </div>
                   </Col>
       

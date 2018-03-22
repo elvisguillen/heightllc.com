@@ -5,6 +5,7 @@ path: /research/trevor-hanger-on-fox-news-cutting-government-red-tape/
 date: 2018-01-01T08:04:04.000Z
 author: Trevor Hanger
 image_featured: /files/screen shot 2018-02-16 at 3.27.18 pm.png
+attachments: []
 category: Height In The News
 tags:
   - Tax + Budget

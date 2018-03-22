@@ -1,10 +1,15 @@
 ---
 contentType: blog
-title: 'Qatari Catalyst: Uncertainty Rattles World’s Biggest LNG Shipper; Summer Demand Heating Up'
-date: 2017-06-13T16:41:18+00:00
+title: >-
+  Qatari Catalyst: Uncertainty Rattles World’s Biggest LNG Shipper; Summer
+  Demand Heating Up
+path: >-
+  /research/qatari-catalyst-uncertainty-rattles-worlds-biggest-lng-shipper-summer-demand-heating-up/
+date: 2017-06-13T16:41:18.000Z
 author: Katie Bays
-path: /research/qatari-catalyst-uncertainty-rattles-worlds-biggest-lng-shipper-summer-demand-heating-up/
-category: Reserach
+image_featured: /files/katie-bays_research.jpg
+attachments: []
+category: Research
 tags:
   - Energy + Industrials
 ---

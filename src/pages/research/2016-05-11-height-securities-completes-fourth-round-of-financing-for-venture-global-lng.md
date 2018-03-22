@@ -5,6 +5,8 @@ path: >-
   /research/height-securities-completes-fourth-round-of-financing-for-venture-global-lng/
 date: 2016-05-11T12:59:12.000Z
 author: Height
+image_featured: /files/white-01.png
+attachments: []
 category: Press Release
 tags:
   - Energy + Industrials

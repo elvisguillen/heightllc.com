@@ -7,6 +7,8 @@ path: >-
   /research/height-securities-advises-phillips-66-on-its-lubricants-facility-divestiture-in-waukesha-wI/
 date: 2018-02-21T19:06:05.511Z
 author: Height
+image_featured: /files/white-01.png
+attachments: []
 category: Press Release
 tags:
   - investment banking
