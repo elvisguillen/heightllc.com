@@ -13,16 +13,17 @@
 
 	.branding-color {
 		margin: 354px 215px 0px 0px!important;
-	}
+    }
+    
 }
 
 @media (max-width: 930px) {
 
-.page-header .page-circular-header {
-    img {
-        margin-left: 80%;
+    .page-header .page-circular-header {
+        img {
+            margin-left: 80%;
+        }
     }
-}
 
 }
 
@@ -32,12 +33,12 @@
     .page-header .page-header-text {
         padding-left: 30px;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .bm-item-list {
         padding: 100px 90px 90px 90px;
+        padding: 100px 90px 90px 10px;
         
         .menu-item {
             font-size: 42px;
@@ -149,8 +150,9 @@
         }
     }
     
-
-
+    .branding {
+        padding-left: 5px;
+    }
 
 }
 
