@@ -12,4 +12,12 @@ tags:
   - Bloomberg
   - Radio
 ---
+<audio controls>
 
+  <source src="/files/andrea_harris_bloomberg_04_02_18.mp4" type="audio/ogg">
+
+  <source src="/files/andrea_harris_bloomberg_04_02_18.mp4" type="audio/mpeg">
+
+Your browser does not support the audio element.
+
+</audio>
