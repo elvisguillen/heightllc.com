@@ -112,6 +112,18 @@ export default function Template ({ data, transition }) {
                           })}
                           </Col>
 
+                          {post.frontmatter.audio.map((audio) => {
+                            return (
+                              <audio controls>
+                                <source src={audio.filename} type="audio/ogg" />
+                            
+                                Your browser does not support the audio element.
+                              </audio>
+                            )
+                          })}
+
+                          
+
                           {/* CODE FOR NEW READ MORE BUTTON ABOVE */}
                           
 
@@ -170,6 +182,9 @@ export const pageQuery = graphql`
         image_featured
         tags
         attachments {
+          filename
+        }
+        audio {
           filename
         }
       }
