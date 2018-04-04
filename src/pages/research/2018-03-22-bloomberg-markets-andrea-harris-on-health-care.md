@@ -14,12 +14,4 @@ tags:
   - Bloomberg
   - Radio
 ---
-<audio controls>
 
-  <source src="/files/andrea_harris_bloom_03_08_18.ogg" type="audio/ogg">
-
-  <source src="/files/andrea_harris_bloom_03_08_18.mp3" type="audio/mpeg">
-
-Your browser does not support the audio element.
-
-</audio>
