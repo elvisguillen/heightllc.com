@@ -9,6 +9,7 @@ image_featured: /files/andrea harris_research2.png
 attachments:
   - filename: >-
       /files/healthcare-mergers-and-acquisitions-the-regulatory-forces-propelling-healthcare.pdf
+audio: []
 category: Research
 tags:
   - Healthcare

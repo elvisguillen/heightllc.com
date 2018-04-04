@@ -6,6 +6,7 @@ date: 2017-11-20T14:30:57.000Z
 author: Katie Bays
 image_featured: /files/screen shot 2018-02-16 at 4.00.17 pm.png
 attachments: []
+audio: []
 category: Height In The News
 tags:
   - Energy + Industrials

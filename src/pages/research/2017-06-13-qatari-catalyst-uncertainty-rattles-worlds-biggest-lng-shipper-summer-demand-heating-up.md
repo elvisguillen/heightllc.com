@@ -9,6 +9,7 @@ date: 2017-06-13T16:41:18.000Z
 author: Katie Bays
 image_featured: /files/katie-bays_research.jpg
 attachments: []
+audio: []
 category: Research
 tags:
   - Energy + Industrials

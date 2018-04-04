@@ -7,6 +7,7 @@ author: Katie Bays
 image_featured: /files/katie-bays_research.jpg
 attachments:
   - filename: /files/2017_10_02_can_rick_perry_make_coal_great_again.pdf
+audio: []
 category: Research
 tags:
   - Energy + Industrials

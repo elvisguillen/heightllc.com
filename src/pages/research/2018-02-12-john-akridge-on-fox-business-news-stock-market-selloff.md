@@ -6,6 +6,7 @@ date: 2018-02-08T19:50:22.000Z
 author: John Akridge
 image_featured: /files/johnakridgefbn.png
 attachments: []
+audio: []
 category: Height In The News
 tags:
   - Fox Business

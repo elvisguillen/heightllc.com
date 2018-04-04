@@ -8,6 +8,7 @@ image_featured: /files/white-01.png
 attachments:
   - filename: >-
       /files/2017_11_03_tax_reform_despite_all_the_vegetables_some_very_sweet_treats.pdf
+audio: []
 category: Research
 tags:
   - Energy + Industrials

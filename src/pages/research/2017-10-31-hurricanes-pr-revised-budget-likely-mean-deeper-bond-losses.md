@@ -8,6 +8,7 @@ image_featured: /files/ed-groshans_research.jpg
 attachments:
   - filename: >-
       /files/2017_10_30_hurricanes_pr_revised_budget_likely_mean_deeper_bond_losses.pdf
+audio: []
 category: Research
 tags:
   - Financial Services

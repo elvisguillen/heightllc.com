@@ -7,6 +7,7 @@ author: Katie Bays
 image_featured: /files/katie-bays_research.jpg
 attachments:
   - filename: /files/2017_08_02_us_exports_prepped_to_surge_in_leaner_lng_market.pdf
+audio: []
 category: Research
 tags:
   - Energy + Industrials

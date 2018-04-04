@@ -7,6 +7,7 @@ author: Ed Groshans
 image_featured: /files/ed-groshans_research.jpg
 attachments:
   - filename: /files/2017_10_02_fsoc_pulls_the_plug_on_aig_s_sifi_status_is_pru_next.pdf
+audio: []
 category: Research
 tags:
   - Financial Services

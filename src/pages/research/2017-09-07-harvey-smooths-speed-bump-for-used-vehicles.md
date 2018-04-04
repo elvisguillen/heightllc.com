@@ -7,6 +7,7 @@ author: Ed Groshans
 image_featured: /files/ed-groshans_research.jpg
 attachments:
   - filename: /files/2017_09_07_harvey_smooths_speed_bump_for_used_vehicles.pdf
+audio: []
 category: Research
 tags:
   - Financial Services

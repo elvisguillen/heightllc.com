@@ -7,6 +7,7 @@ author: Andrea Harris
 image_featured: /files/andrea harris_research2.png
 attachments:
   - filename: /files/2018-brings-opportunities-for-big-pharma.pdf
+audio: []
 category: Research
 tags:
   - Healthcare

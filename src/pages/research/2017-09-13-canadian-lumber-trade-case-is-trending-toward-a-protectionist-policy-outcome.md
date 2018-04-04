@@ -8,6 +8,7 @@ author: Stefanie Miller
 image_featured: /files/stefanie-miller_research.jpg
 attachments:
   - filename: /files/2017_09_13_height_trade - canadian lumber.pdf
+audio: []
 category: Research
 tags:
   - Special Situations

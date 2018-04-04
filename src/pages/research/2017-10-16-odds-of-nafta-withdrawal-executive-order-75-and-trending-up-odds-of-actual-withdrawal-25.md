@@ -11,6 +11,7 @@ image_featured: /files/stefanie-miller_research.jpg
 attachments:
   - filename: >-
       /files/2017_10_16_trade_odds_of_nafta_withdrawal_executive_order_75_odds_of_actual_25.pdf
+audio: []
 category: Research
 tags:
   - Special Situations

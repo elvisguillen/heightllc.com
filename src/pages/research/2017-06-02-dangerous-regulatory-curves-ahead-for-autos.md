@@ -7,6 +7,7 @@ author: Ed Groshans
 image_featured: /files/ed-groshans_research.jpg
 attachments:
   - filename: /files/2017_06_02_dangerous_regulatory_curves_ahead_for_autos__1.pdf
+audio: []
 category: Research
 tags:
   - Financial Services
