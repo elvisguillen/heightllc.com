@@ -68,10 +68,7 @@ export default class TemplateWrapper extends Component {
   }
   
   render() {
-    let user
-    if (typeof window !== 'undefined') {
-      user = window.netlifyIdentity && window.netlifyIdentity.currentUser()
-    }
+    
     return (
       <div className='site-layout'>
         <Helmet title={`Home | ${this.props.data.site.siteMetadata.title}`} />

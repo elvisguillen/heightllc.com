@@ -37,9 +37,10 @@ module.exports = {
         ]
       }
     },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-offline',
+    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-netlify',
   ]
 }
