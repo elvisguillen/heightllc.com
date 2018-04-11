@@ -2,7 +2,7 @@
 contentType: blog
 title: 'Clayton Allen on Cheddar TV: Trade Tariffs'
 path: clayton-allen-on-cheddar-tv
-date: '2018-04-11T16:21:14-04:00'
+date: '2018-04-06T16:21:14-04:00'
 author: Clayton Allen
 category: Height In The News
 tags:
