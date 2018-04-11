@@ -1,8 +1,6 @@
 ---
 contentType: blog
-title: >-
-  Andrea Harris on Bloomberg Markets Radio: Attention Walmart Shoppers, Hospital
-  Care on Aisle 1 
+title: 'Andrea Harris on Bloomberg Markets Radio: Walmart-Humana Deal Discussion'
 path: /bloomberg-markets-andrea-harris-walmart
 date: '2018-04-02T15:29:22-04:00'
 image_featured: /files/andrea harris_research2.png
