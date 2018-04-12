@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/joseph-kemp
 title: Joseph Kemp
 job_title: 'Director, Sales'
-portrait: /files/joey kemp sales and trading.png
+portrait: /files/joey-kemp-sales-and-trading.jpg
 email: jkemp@heightllc.com
 phone: 202-629-0035
 linkedin: ''

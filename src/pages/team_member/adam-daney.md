@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/adam-daney
 title: Adam Daney
 job_title: 'Vice President, Sales'
-portrait: /files/adam daney_sales and trading.png
+portrait: /files/adam-daney_sales-and-trading.jpg
 email: adaney@heightllc.com
 phone: 202-629-0018
 linkedin: ''

@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/olivia-costello
 title: Olivia Costello
 job_title: Associate
-portrait: /files/olivia costello operations.png
+portrait: /files/olivia-costello-operations-copy.jpg
 linkedin: 'https://www.linkedin.com/in/olivia-costello-6b8274123/'
 details: >-
   Olivia Costello is an Associate at Height Capital Markets. Prior to joining

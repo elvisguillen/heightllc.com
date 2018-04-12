@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/matthew-rogers
 title: Matthew Rogers
 job_title: 'Director, Sales & Trading'
-portrait: /files/matthew rogers_sales and trading.png
+portrait: /files/matthew-rogers_sales-and-trading.jpg
 email: mrogers@heightllc.com
 phone: 202-629-0008
 linkedin: ''

@@ -3,7 +3,7 @@ contentType: team_member
 path: /team/brian-scanlon
 title: Brian Scanlon
 job_title: 'Vice President, Sales'
-portrait: /files/brian scanlon_sales and trading.png
+portrait: /files/brian-scanlon_sales-and-trading.jpg
 email: bscanlon@heightllc.com
 phone: 202-629-0012
 linkedin: ''
