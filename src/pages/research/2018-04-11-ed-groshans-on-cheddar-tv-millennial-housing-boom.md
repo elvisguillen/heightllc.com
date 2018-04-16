@@ -6,8 +6,7 @@ date: '2018-03-02T16:28:58-05:00'
 author: Ed Groshans
 category: Height In The News
 tags:
-  - Ed Groshans
   - Financial Services
-  - Housing
+  - Housing Boom
 ---
 <iframe width="640" height="360" src="https://www.youtube.com/embed/nmEe1Q4Qxws" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
