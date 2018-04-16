@@ -105,22 +105,26 @@ export default function Template ({ data, transition }) {
                         {/* CODE FOR NEW READ MORE BUTTON BELOW */}
 
                          <Col xs={{size: 12}} className='category-nav'>
-                          {post.frontmatter.attachments.map((att) => {
-                            return (
-                              <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
-                            )
-                          })}
+                          {post.frontmatter.attachment ? (
+                            post.frontmatter.attachments.map((att) => {
+                              return (
+                                <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
+                              )
+                            }
+                          )):('')}
                           </Col>
-
-                          {post.frontmatter.audio.map((audio) => {
-                            return (
-                              <audio controls>
-                                <source src={audio.filename} type="audio/ogg" />
-                            
-                                Your browser does not support the audio element.
-                              </audio>
-                            )
-                          })}
+                          
+                          {post.frontmatter.audio ? (
+                            post.frontmatter.audio.map((audio) => {
+                              return (
+                                <audio controls>
+                                  <source src={audio.filename} type="audio/ogg" />
+                              
+                                  Your browser does not support the audio element.
+                                </audio>
+                              )
+                            })
+                          ):('')}
 
                           
 
