@@ -7,7 +7,6 @@ author: Stefanie Miller
 image_featured: ''
 category: Height In The News
 tags:
-  - Stefanie Miller
   - CNBC
   - Special Situations
 ---
