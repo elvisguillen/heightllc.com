@@ -4,6 +4,8 @@ title: 'Ed Groshans on Cheddar TV: Millennial Housing Boom'
 path: ed-groshans-on-cheddar-tv
 date: '2018-03-02T16:28:58-05:00'
 author: Ed Groshans
+attachments: []
+audio: []
 category: Height In The News
 tags:
   - Financial Services

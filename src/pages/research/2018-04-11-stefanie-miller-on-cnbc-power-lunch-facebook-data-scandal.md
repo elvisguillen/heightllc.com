@@ -5,6 +5,8 @@ path: /stefanie-miller-on-cnbc-power-lunch
 date: '2018-04-10T16:15:02-04:00'
 author: Stefanie Miller
 image_featured: ''
+attachments: []
+audio: []
 category: Height In The News
 tags:
   - CNBC
