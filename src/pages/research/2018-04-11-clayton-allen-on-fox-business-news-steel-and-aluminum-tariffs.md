@@ -4,6 +4,7 @@ title: 'Clayton Allen on Fox Business News: Steel and Aluminum Tariffs'
 path: /clayton-allen-on-fox-business-news
 date: '2018-03-06T16:24:01-05:00'
 author: Clayton Allen
+image_featured: /files/clayton-allen_research.jpg
 attachments: []
 audio: []
 category: Height In The News
