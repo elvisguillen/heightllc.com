@@ -15,7 +15,7 @@ const findNode = (path, data) => data.allMarkdownRemark.edges
   .pop()
 
 export default function Template ({ data, transition }) {
-  const { markdownRemark: post } = data
+  const post = data.markdownRemark
   // const related = post.frontmatter.related ? post.frontmatter.related.map(r => findNode(r.post, data)) : []
   return (
     <div style={transition && transition.style}>
@@ -107,11 +107,12 @@ export default function Template ({ data, transition }) {
                          <Col xs={{size: 12}} className='category-nav'>
                           {post.frontmatter.attachments ? (
                             post.frontmatter.attachments.map((att) => {
-                              return (
-                                <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
-                              )
-                            }
-                          )):('')}
+                                return (
+                                  <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
+                                )
+                              }
+                            )
+                          ):('')}
                           </Col>
                           
                           {post.frontmatter.audio ? (
