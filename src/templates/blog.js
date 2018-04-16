@@ -105,7 +105,7 @@ export default function Template ({ data, transition }) {
                         {/* CODE FOR NEW READ MORE BUTTON BELOW */}
 
                          <Col xs={{size: 12}} className='category-nav'>
-                          {post.frontmatter.attachment ? (
+                          {post.frontmatter.attachments ? (
                             post.frontmatter.attachments.map((att) => {
                               return (
                                 <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
