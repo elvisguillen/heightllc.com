@@ -5,7 +5,7 @@ path: >-
   /research/stefanie-miller-on-bloomberg-tv-miller-says-healthcare-gets-passed-by-august/
 date: 2017-06-23T13:14:36.000Z
 author: Stefanie Miller
-image_featured: /files/screen shot 2018-02-23 at 11.16.39 am.png
+image_featured: /files/stefanie-miller_research.jpg
 attachments: []
 audio: []
 category: Height In The News
