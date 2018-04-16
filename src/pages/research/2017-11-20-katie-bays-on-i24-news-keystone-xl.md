@@ -4,7 +4,7 @@ title: 'Katie Bays on i24 News: Keystone XL'
 path: /research/katie-bays-on-i24-news-keystone-xl/
 date: 2017-11-20T14:30:57.000Z
 author: Katie Bays
-image_featured: /files/screen shot 2018-02-16 at 4.00.17 pm.png
+image_featured: /files/katie-bays_research.jpg
 attachments: []
 audio: []
 category: Height In The News
