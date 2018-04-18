@@ -94,6 +94,7 @@ collections:
       - {label: "Featured Image", required: false, name: "image_featured", widget: "image"}
       - {label: "Attachment", required: false, name: "attachments", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
       - {label: "Audio", required: false, name: "audio", widget: "list", fields: [{name: "filename", label: "Filename", widget: "file"}] }
+      - {label: "Video", required: false, name: "video", widget: "file"}
       - {label: "Related Post", required: false, name: "related", widget: "list", fields: [{name: "post", label: "Post", widget: "relation", collection: "research", searchFields: [name, path, title], valueField: path}] }
       - {label: "Category", name: "category", widget: "select", options: ["Research", "Height In The News", "Press Release"]} 
       - {label: Tags, name: tags, widget: list, default: ['term_1', 'term_2']}

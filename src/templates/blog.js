@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import graphql from 'graphql'
 import { basename } from 'path'
 import Link from 'gatsby-link'
+import { Player } from 'video-react'
 
 import logoIcon from '../images/logo-icon.png'
 import thumbnail from '../images/image_thumbnail.jpg'
@@ -105,15 +106,17 @@ export default function Template ({ data, transition }) {
                         {/* CODE FOR NEW READ MORE BUTTON BELOW */}
 
                          <Col xs={{size: 12}} className='category-nav'>
-                          {post.frontmatter.attachments ? (
-                            post.frontmatter.attachments.map((att) => {
-                                return (
-                                  <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
-                                )
-                              }
-                            )
-                          ):('')}
+                            {post.frontmatter.attachments ? (
+                              post.frontmatter.attachments.map((att) => {
+                                  return (
+                                    <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
+                                  )
+                                }
+                              )
+                            ):('')}
                           </Col>
+
+                          
                           
                           {post.frontmatter.audio ? (
                             post.frontmatter.audio.map((audio) => {
