@@ -4,7 +4,7 @@ title: 'Stefanie Miller on CNBC Power Lunch: Facebook Data Scandal'
 path: /stefanie-miller-on-cnbc-power-lunch
 date: '2018-04-10T16:15:02-04:00'
 author: Stefanie Miller
-image_featured: ''
+image_featured: /files/stefanie-miller_research.jpg
 attachments: []
 audio: []
 category: Height In The News

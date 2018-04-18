@@ -4,7 +4,7 @@ title: 'John Akridge on Fox Business Network: Stock Market Selloff'
 path: /research/john-akridge-on-fox-business-news-stock-market-selloff/
 date: 2018-02-08T19:50:22.000Z
 author: John Akridge
-image_featured: /files/johnakridgefbn.png
+image_featured: /files/john-akridge_leadership.jpg
 attachments: []
 audio: []
 category: Height In The News

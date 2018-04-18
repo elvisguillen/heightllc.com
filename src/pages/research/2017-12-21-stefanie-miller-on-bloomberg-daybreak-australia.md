@@ -4,7 +4,7 @@ title: 'Stefanie Miller on Bloomberg Daybreak: Australia'
 path: /research/stefanie-miller-on-bloomberg-daybreak-australia/
 date: 2017-12-21T08:04:15.000Z
 author: Stefanie Miller
-image_featured: /files/screen shot 2018-02-16 at 3.42.39 pm.png
+image_featured: /files/stefanie-miller_research.jpg
 attachments: []
 audio: []
 category: Height In The News
