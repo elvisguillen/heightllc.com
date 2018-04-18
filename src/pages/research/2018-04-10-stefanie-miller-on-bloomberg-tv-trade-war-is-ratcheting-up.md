@@ -12,4 +12,3 @@ category: Height In The News
 tags:
   - Stefanie Miller; Special Situations; Bloomberg; Trade
 ---
-<iframe src="https://www.bloomberg.com/multimedia/api/embed/iframe?id=9877a81b-4a57-42e0-8176-c0d8407eff1b" allowscriptaccess="always" frameborder="0"></iframe>

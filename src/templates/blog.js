@@ -5,6 +5,7 @@ import graphql from 'graphql'
 import { basename } from 'path'
 import Link from 'gatsby-link'
 import { Player } from 'video-react'
+import "video-react/dist/video-react.css";
 
 import logoIcon from '../images/logo-icon.png'
 import thumbnail from '../images/image_thumbnail.jpg'
@@ -87,8 +88,10 @@ export default function Template ({ data, transition }) {
                             )
                           })}
                         </div>
-                        <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
-
+                        {post.html ? (
+                          <div className='research-post-copy' dangerouslySetInnerHTML={{ __html: post.html }}/>
+                        ):('')}
+                        
                         {/* {post.frontmatter.attachments && (<Container><h4>Attachments</h4><CardGroup>
                           {post.frontmatter.attachments.map((attachment, i) => (
                             <Card key={i}>
@@ -105,19 +108,27 @@ export default function Template ({ data, transition }) {
                         
                         {/* CODE FOR NEW READ MORE BUTTON BELOW */}
 
-                         <Col xs={{size: 12}} className='category-nav'>
-                            {post.frontmatter.attachments ? (
-                              post.frontmatter.attachments.map((att) => {
-                                  return (
+                         
+                          {post.frontmatter.attachments ? (
+                            post.frontmatter.attachments.map((att) => {
+                                return (
+                                  <Col xs={{size: 12}} className='category-nav'>
                                     <Link to={att.filename} className="readmore-icon readmore-lg">Read More ›</Link>
-                                  )
-                                }
-                              )
-                            ):('')}
-                          </Col>
+                                  </Col>
+                                )
+                              }
+                            )
+                          ):('')}
 
-                          
-                          
+                          {post.frontmatter.video ? (
+                              <Player
+                                playsInline
+                                fluid='true'
+                                className='video-js-iframe'
+                                src={post.frontmatter.video}
+                              />
+                          ):('')}
+
                           {post.frontmatter.audio ? (
                             post.frontmatter.audio.map((audio) => {
                               return (
@@ -195,6 +206,7 @@ export const pageQuery = graphql`
         audio {
           filename
         }
+        video
       }
     }
 

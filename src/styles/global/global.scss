@@ -87,6 +87,17 @@ button {
     padding: 9px 20px;
 }
 
+.video-react {
+	margin-top: $gutter;
+	.video-react-big-play-button {
+		left: 50%!important;
+		margin-left: -1.5em!important;
+		top: 50%!important;
+		right: 0px!important;
+		margin-top: -.75em!important;
+	}
+}
+
 .wrapper {
 	position: relative;
 }
