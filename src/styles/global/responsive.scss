@@ -328,15 +328,19 @@
 
         .feed-right {
             .team-feed {
-                padding: 73px 30px 60px 30px;
+                padding: 73px 30px 20px 30px;
 
                 .team-feed-copy {
-                    max-height: 330px;
-                    min-height: 330px;
+                    height: auto;
+                    .height-tags-row {
+                        position: relative;
+                    }
                 }
+                
                 h1 {
                     font-size: 25px!important;
                     line-height: 32px!important;
+                    margin-bottom: 30px!important;
                 }
             }
         }
