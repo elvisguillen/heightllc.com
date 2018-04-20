@@ -4,7 +4,7 @@ title: >-
   Katie Bays in Bloomberg Markets:  Fate of $8 Billion Utility Takeover Hinges
   on South Carolina Governor
 path: /katie-bays-in-bloomberg-markets-fate-of-8-billion-utility-takeover
-date: '2018-04-20T12:06:05-04:00'
+date: '2018-04-19T12:06:05-04:00'
 author: Katie Bays
 image_featured: /files/katie-bays_research.jpg
 category: Height In The News
