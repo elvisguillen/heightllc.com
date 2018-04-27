@@ -4,7 +4,7 @@ title: >-
   Stefanie Miller on Fox Business Network: President Trump Sits Down With Apple
   CEO
 path: >-
-  Stefanie-Miller-on-Fox-Business-Network-president-trump-sits-down-with-apple-ceo
+  /Stefanie-Miller-on-Fox-Business-Network-president-trump-sits-down-with-apple-ceo
 date: '2018-04-25T10:02:43-04:00'
 author: Stefanie Miller
 image_featured: /files/stefanie-miller_research.jpg
