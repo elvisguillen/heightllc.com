@@ -11,6 +11,8 @@ image_featured: /files/stefanie-miller_research.jpg
 video: /files/stef1.mp4
 category: Height In The News
 tags:
-  - Stefanie Miller; Special Situations; Fox Business
+  - Stefanie Miller
+  - Special Situations
+  - Fox Business
 ---
 
