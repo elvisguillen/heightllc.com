@@ -7,6 +7,6 @@ image_featured: /files/trevor-hanger_leadership.jpg
 video: /files/trevor-fox.mp4
 category: Height In The News
 tags:
-  - Trevor Hanger; Fox Business
+  - Fox Business
 ---
 
