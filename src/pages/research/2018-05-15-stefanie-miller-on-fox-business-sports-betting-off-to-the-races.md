@@ -1,7 +1,7 @@
 ---
 contentType: blog
-title: 'Stefanie Miller on Fox Business: Sports betting off to the races'
-path: /stefanie-miller-on-fox-business-sports-betting-off-to-the-races
+title: 'Stefanie Miller on Fox Business: State Sports Betting Legislation Expectations'
+path: /stefanie-miller-on-fox-business-state-sports-betting-legislation-expectations
 date: '2018-05-14T10:12:28-04:00'
 author: Stefanie Miller
 image_featured: /files/stefanie-miller_research.jpg
