@@ -1,7 +1,7 @@
 ---
 contentType: blog
 title: >-
-  Pharmaceuticals & Drug Pricing: Trump To Pharma: We Can Do This The Easy Way,
+  Pharmaceuticals & Drug Pricing - Trump To Pharma: We Can Do This The Easy Way,
   Or We Can Do This The Hard Way
 path: >-
   /pharmaceuticals-&-drug-pricing-trump-to-pharma-we-can-do-this-the-easy-way-or-we-can-do-this-the-hard-way
